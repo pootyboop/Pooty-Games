@@ -1,0 +1,1 @@
+execute positioned 900 310 -900 run function pillars:cleanup_2

@@ -1,0 +1,1 @@
+item replace entity @s hotbar.1 with bow[unbreakable={show_in_tooltip:0b},custom_name='{"text":"TNT Bow","color":"red","italic":false}',custom_data={tntbow:1b}]

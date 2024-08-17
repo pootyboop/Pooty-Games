@@ -1,0 +1,1 @@
+execute positioned -301 62 -299 run function goldrush:setup

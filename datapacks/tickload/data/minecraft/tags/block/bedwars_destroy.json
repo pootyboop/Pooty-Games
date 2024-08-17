@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_wool",
+    "minecraft:yellow_wool",
+    "minecraft:blue_wool",
+    "minecraft:lime_wool",
+    "minecraft:red_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:blue_terracotta",
+    "minecraft:lime_terracotta",
+    "minecraft:red_stained_glass",
+    "minecraft:yellow_stained_glass",
+    "minecraft:blue_stained_glass",
+    "minecraft:lime_stained_glass",
+    "minecraft:oak_planks",
+    "minecraft:end_stone",
+    "minecraft:obsidian",
+    "minecraft:ladder",
+    "minecraft:red_bed",
+    "minecraft:yellow_bed",
+    "minecraft:blue_bed",
+    "minecraft:lime_bed",
+	"minecraft:water",
+	"minecraft:tnt"
+  ]
+}

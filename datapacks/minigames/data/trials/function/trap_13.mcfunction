@@ -1,0 +1,1 @@
+execute as @e[type=skeleton,tag=hauntedarmor] run data merge entity @s {NoAI:0b}

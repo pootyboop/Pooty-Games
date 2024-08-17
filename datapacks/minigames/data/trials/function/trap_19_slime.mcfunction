@@ -1,0 +1,1 @@
+summon slime ~ ~ ~ {Health:1f,Size:0,attributes:[{id:"minecraft:generic.max_health",base:1}]}

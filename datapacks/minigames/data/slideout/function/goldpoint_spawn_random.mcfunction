@@ -1,0 +1,1 @@
+execute as @e[limit=1,sort=random,type=marker,tag=goldpointspawn,tag=!used] at @s run function slideout:goldpoint_spawn

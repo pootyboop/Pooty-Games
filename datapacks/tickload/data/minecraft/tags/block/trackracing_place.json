@@ -1,0 +1,12 @@
+{
+  "values":[
+    "minecraft:grass_block",
+    "minecraft:coarse_dirt",
+    "minecraft:oak_planks",
+    "minecraft:sandstone",
+    "minecraft:nether_bricks",
+    "minecraft:redstone_block",
+    "minecraft:stone_brick_stairs",
+    "minecraft:stone_brick_slab"
+  ]
+}

@@ -1,0 +1,1 @@
+tellraw @p[gamemode=!spectator] {"text":"You have maxed out this upgrade!","color":"red"}

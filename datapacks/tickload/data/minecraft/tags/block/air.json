@@ -1,0 +1,32 @@
+{
+  "values":[
+  "minecraft:air",
+  "minecraft:barrier",
+  "minecraft:short_grass",
+  "minecraft:tall_grass",
+  "minecraft:fern",
+  "minecraft:large_fern",
+  "minecraft:crimson_roots",
+  "minecraft:warped_roots",
+  "minecraft:nether_sprouts",
+  "minecraft:red_mushroom",
+  "minecraft:brown_mushroom",
+  "minecraft:vine",
+  "minecraft:bamboo",
+  "minecraft:dead_bush",
+  "#minecraft:wool_carpets",
+  "#minecraft:signs",
+  "#minecraft:flowers",
+  "#minecraft:buttons",
+  "#minecraft:saplings",
+  "minecraft:torch",
+  "minecraft:wall_torch",
+  "minecraft:redstone_torch",
+  "minecraft:redstone_wall_torch",
+  "minecraft:soul_torch",
+  "minecraft:soul_wall_torch",
+  "minecraft:small_dripleaf",
+  "minecraft:big_dripleaf_stem",
+  "minecraft:moss_carpet"
+  ]
+}

@@ -1,0 +1,2 @@
+item replace entity @s weapon.offhand with air
+item replace entity @s weapon.offhand with tipped_arrow[custom_name='{"text":"TNT Arrow","color":"white","italic":false}',potion_contents={custom_color:16711680,custom_effects:[{id:"minecraft:luck",amplifier:1b,duration:10}]}]

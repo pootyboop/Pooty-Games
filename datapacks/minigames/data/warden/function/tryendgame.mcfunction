@@ -1,0 +1,1 @@
+execute unless entity @a[scores={lastDied=0},distance=0.1..] run function warden:endgame

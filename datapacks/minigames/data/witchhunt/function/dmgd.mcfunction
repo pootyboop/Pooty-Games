@@ -1,0 +1,2 @@
+execute as @a[tag=dmgd] if score @s uuid0 = @e[limit=1,sort=nearest,tag=witchchar] uuid0 run function witchhunt:dmgd_dead
+execute as @a[tag=!dmgd,tag=!witchdead] if score @s uuid0 = @e[limit=1,sort=nearest,tag=witchchar] uuid0 run function witchhunt:dmgd_hit

@@ -1,0 +1,1 @@
+particle minecraft:portal ~ ~ ~ 0.3 0.3 0.3 0 1 force

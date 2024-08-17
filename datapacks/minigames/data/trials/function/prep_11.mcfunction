@@ -1,0 +1,1 @@
+tp @a[tag=trialing] -608 60 600 -90 0

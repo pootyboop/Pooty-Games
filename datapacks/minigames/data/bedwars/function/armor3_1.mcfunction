@@ -1,0 +1,2 @@
+item replace entity @s armor.legs with diamond_leggings[unbreakable={},enchantments={"minecraft:protection":1},custom_data={armor3:1b}]
+item replace entity @s armor.feet with diamond_boots[unbreakable={},enchantments={"minecraft:protection":1},custom_data={armor3:1b}]

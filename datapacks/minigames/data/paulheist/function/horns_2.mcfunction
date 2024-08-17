@@ -1,0 +1,5 @@
+#item replace entity @s hotbar.2 with goat_horn{display:{Name:'[{"text":"Lock","color":"red","italic":false},{"text":" Foyer Doors","color":"white"}]'},foyer:1b,instrument:"minecraft:seek_goat_horn"}
+#item replace entity @s hotbar.2 with goat_horn{display:{Name:'[{"text":"Unlock","color":"green","italic":false},{"text":" Foyer Doors","color":"white"}]'},foyer:1b,instrument:"minecraft:sing_goat_horn"}
+
+#item replace entity @s hotbar.3 with goat_horn{display:{Name:'[{"text":"Lock","color":"red","italic":false},{"text":" Southeast Wing Doors","color":"white"}]'},sewing:1b,instrument:"minecraft:seek_goat_horn"}
+#item replace entity @s hotbar.3 with goat_horn{display:{Name:'[{"text":"Unlock","color":"green","italic":false},{"text":" Southeast Wing Doors","color":"white"}]'},sewing:1b,instrument:"minecraft:sing_goat_horn"}

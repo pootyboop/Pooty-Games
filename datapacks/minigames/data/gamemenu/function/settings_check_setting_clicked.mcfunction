@@ -1,0 +1,2 @@
+#$item replace block ~ ~ ~ container.$(slot) with $(item)[item_name='{"color":"gold","text":"$(name)"}',lore=['[{"color":"white","italic":false,"text":"Set to $(optionname)"},{"color":"gray","text":" (Click)"}]'],custom_data={menu:1b,$(value):1b}] 1
+$execute if score dummy gamemenuMenu matches 1 unless block ~ ~ ~ chest{Items:[{Slot:$(slot)b,components:{"minecraft:custom_data":{menu:1b,$(value):1b}}}]} run function gamemenu:setting_clicked with storage minigames:settings tempsetting

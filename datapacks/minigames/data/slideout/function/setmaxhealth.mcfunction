@@ -1,0 +1,1 @@
+item replace entity @s armor.feet with netherite_boots[unbreakable={},enchantments={"minecraft:binding_curse":1},attribute_modifiers=[{type:"generic.max_health",slot:"feet",id:"generic.max_health",amount:-18,operation:"add_value"},{type:"generic.armor",slot:"feet",id:"generic.armor",amount:0,operation:"add_value"}],trim={material:"minecraft:diamond",pattern:"minecraft:spire"}]

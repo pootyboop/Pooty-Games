@@ -1,0 +1,1 @@
+execute store result score @s gunAmmo run scoreboard players get @s maxAmmo

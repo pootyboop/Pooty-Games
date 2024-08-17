@@ -1,0 +1,1 @@
+$data modify storage minigames:settings if_setting.curr set value "$(value)"

@@ -1,0 +1,1 @@
+execute as @a[tag=trialing] run damage @s 18 minecraft:magic

@@ -1,0 +1,3 @@
+summon potion -603 67 597 {Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16776960,custom_effects:[{id:"minecraft:instant_damage",amplifier:3,duration:1,show_particles:0b}]}}}}
+summon potion -597 67 603 {Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:16776960,custom_effects:[{id:"minecraft:instant_damage",amplifier:3,duration:1,show_particles:0b}]}}}}
+schedule function trials:button 5s

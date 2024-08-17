@@ -1,0 +1,1 @@
+give @s stone_pickaxe[unbreakable={},can_break={predicates:[{blocks:"#bedwars_destroy"}],show_in_tooltip:0b},attribute_modifiers={modifiers:[],show_in_tooltip:false},custom_data={pick:1b,pick2:1b}]

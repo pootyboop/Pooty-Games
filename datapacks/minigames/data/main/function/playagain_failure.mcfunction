@@ -1,0 +1,1 @@
+tellraw @s {"text":"Already queued!","color":"red"}

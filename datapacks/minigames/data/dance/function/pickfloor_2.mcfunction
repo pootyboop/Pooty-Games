@@ -1,0 +1,1 @@
+$execute positioned -576 $(x) -608 run clone ~ ~ ~ ~15 ~ ~15 -608 59 -608

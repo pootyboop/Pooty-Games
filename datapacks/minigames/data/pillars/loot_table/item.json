@@ -1,0 +1,605 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_prismarine_stairs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purpur_slab"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diorite_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_fence"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_slab"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_brick_fence"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_boat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lava_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ladder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_fence_gate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grindstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crafting_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pointed_dripstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:anvil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_carpet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_chest_boat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_torch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stonecutter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_portal_frame"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_stained_glass_pane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_bars"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_diamond_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_door"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_door"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_trapdoor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo_trapdoor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:daylight_detector"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azalea_leaves"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polished_blackstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_wood"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stripped_mangrove_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxidized_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_horn_coral_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_shulker_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:panda_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:guardian_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:evoker_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:husk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warden_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo_hanging_sign"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:powder_snow_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_button"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt_minecart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:powered_rail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:activator_rail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:scaffolding"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:conduit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_concrete_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_concrete_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lightning_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lodestone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smithing_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_stained_glass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_stained_glass_pane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_stained_glass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cactus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:campfire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
+        }
+      ]
+    }
+  ]
+}

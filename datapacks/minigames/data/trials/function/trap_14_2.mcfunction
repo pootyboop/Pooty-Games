@@ -1,0 +1,1 @@
+execute positioned -599 56 600 run fill ~ ~ ~-3 ~ ~5 ~3 minecraft:air

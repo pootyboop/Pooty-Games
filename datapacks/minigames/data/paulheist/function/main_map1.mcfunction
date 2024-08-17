@@ -1,0 +1,1 @@
+particle minecraft:effect 304 71.5 -300 0 1 4 0 6 normal @a[tag=guardian]

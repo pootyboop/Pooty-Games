@@ -1,0 +1,1 @@
+execute as @a[scores={alarmTimer=1..}] at @s run function bedwars:alarm_ring

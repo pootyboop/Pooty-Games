@@ -1,0 +1,2 @@
+$execute as @s store result storage minigames:temp direction$(pnum).x double 1 run data get entity @s Rotation[0] 1
+$execute store result score @s direction_x run data get storage minigames:temp direction$(pnum).x 1

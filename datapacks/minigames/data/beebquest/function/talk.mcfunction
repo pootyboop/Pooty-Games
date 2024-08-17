@@ -1,0 +1,1 @@
+tellraw @a [{"text":"<","color":"white"},{"text":"Stavie Beeb","color":"aqua"},{"text":"> Greetings!","color":"white"}]

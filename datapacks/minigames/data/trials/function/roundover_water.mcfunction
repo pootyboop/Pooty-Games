@@ -1,0 +1,1 @@
+setblock -600 61 609 air

@@ -1,0 +1,13 @@
+execute if score dummy dancecolor matches 1 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:red_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 2 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:orange_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 3 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:yellow_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 4 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:lime_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 5 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:green_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 6 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:light_blue_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 7 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:blue_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 8 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:purple_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 9 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:pink_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 10 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:white_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 11 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:light_gray_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 12 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:gray_terracotta replace #dancefloor
+execute if score dummy dancecolor matches 13 run fill ~-2 59 ~-2 ~2 59 ~2 minecraft:black_terracotta replace #dancefloor

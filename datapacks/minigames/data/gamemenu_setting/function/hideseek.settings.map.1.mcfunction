@@ -1,0 +1,1 @@
+say selected random map for hide and seek (this message sent from gamemenu_setting:hideseek.settings.map.1)

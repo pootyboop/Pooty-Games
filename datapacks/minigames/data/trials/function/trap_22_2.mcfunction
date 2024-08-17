@@ -1,0 +1,1 @@
+tag @e[tag=fakeblock] remove boosted

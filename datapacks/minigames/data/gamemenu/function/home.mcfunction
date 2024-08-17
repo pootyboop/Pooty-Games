@@ -1,0 +1,1 @@
+execute positioned 0 59 7 run function gamemenu:home_2

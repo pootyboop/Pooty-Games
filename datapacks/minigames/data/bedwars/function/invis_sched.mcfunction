@@ -1,0 +1,1 @@
+execute as @a[tag=invis] at @s run function bedwars:invis
