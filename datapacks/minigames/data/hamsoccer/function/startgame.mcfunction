@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"hamsoccer"}
 
 scoreboard players set dummy gameID 5
 

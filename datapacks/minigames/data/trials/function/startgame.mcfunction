@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"trials"}
 
 execute positioned -600 60 600 run function trials:setup
 

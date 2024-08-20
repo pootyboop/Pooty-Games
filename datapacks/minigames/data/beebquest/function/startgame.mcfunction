@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"beebquest"}
 
 function beebquest:setup
 

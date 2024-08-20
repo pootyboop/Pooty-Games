@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"shopping"}
 
 execute positioned 614 64 14 run function shopping:setup
 

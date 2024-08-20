@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"build"}
 
 tag @a add build
 scoreboard players set dummy gameID 2

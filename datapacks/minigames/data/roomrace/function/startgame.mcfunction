@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"roomrace"}
 
 tag @a add roomrace
 scoreboard players set dummy gameID 14

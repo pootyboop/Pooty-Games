@@ -1,5 +1,6 @@
 function main:refresh
 
+$data modify storage minigames:settings currGame.tag set value $(tag)
 function map:set {"map":""}
 
 forceload add 0 0

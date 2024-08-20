@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"geo"}
 
 team add geo
 team modify geo nametagVisibility never

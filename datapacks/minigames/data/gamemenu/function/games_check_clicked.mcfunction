@@ -1,4 +1,21 @@
 #ADD GAMES HERE
-function gamemenu:game_check_clicked with storage minigames:settings mix
 function gamemenu:game_check_clicked with storage minigames:settings bedwars
+function gamemenu:game_check_clicked with storage minigames:settings pvp
+function gamemenu:game_check_clicked with storage minigames:settings mix
+function gamemenu:game_check_clicked with storage minigames:settings build
+function gamemenu:game_check_clicked with storage minigames:settings dance
+function gamemenu:game_check_clicked with storage minigames:settings fliptag
+function gamemenu:game_check_clicked with storage minigames:settings fps
+function gamemenu:game_check_clicked with storage minigames:settings geo
+function gamemenu:game_check_clicked with storage minigames:settings goldrush
+function gamemenu:game_check_clicked with storage minigames:settings hamsoccer
 function gamemenu:game_check_clicked with storage minigames:settings hideseek
+function gamemenu:game_check_clicked with storage minigames:settings kinghill
+function gamemenu:game_check_clicked with storage minigames:settings paulheist
+function gamemenu:game_check_clicked with storage minigames:settings pillars
+function gamemenu:game_check_clicked with storage minigames:settings shopping
+function gamemenu:game_check_clicked with storage minigames:settings slideout
+function gamemenu:game_check_clicked with storage minigames:settings trackracing
+function gamemenu:game_check_clicked with storage minigames:settings trials
+function gamemenu:game_check_clicked with storage minigames:settings warden
+function gamemenu:game_check_clicked with storage minigames:settings witchhunt

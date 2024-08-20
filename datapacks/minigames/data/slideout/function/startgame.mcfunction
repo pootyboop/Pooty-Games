@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"slideout"}
 
 tag @a remove sliding
 tag @a remove sinking

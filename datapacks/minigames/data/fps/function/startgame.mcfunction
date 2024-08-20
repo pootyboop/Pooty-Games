@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"fps"}
 
 #execute as @a run attribute @s minecraft:generic.max_health base set 10
 #effect give @a minecraft:regeneration 2 255 true
@@ -50,7 +52,6 @@ title @a subtitle {"text":"Kill other players!"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 tellraw @a {"text":"FPS","color":"gold","bold":true}
 tellraw @a {"text":"-Pick your favorite gun"}
-tellraw @a {"text":"-Watch out for grenades"}
 tellraw @a {"text":"-Get the most kills to win"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 

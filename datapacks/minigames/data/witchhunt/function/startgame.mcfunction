@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"witchhunt"}
 
 spreadplayers 593 -602 2 2 false @a
 execute as @a at @s run tp @s ~ ~-6 ~

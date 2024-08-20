@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"bedwars"}
 
 execute positioned 10000 60 0 run function bedwars:setup
 

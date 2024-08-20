@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"pillars"}
 
 scoreboard players set dummy gameID 17
 

@@ -1,0 +1,1 @@
+$function pvp:component/$(category)/$(component)/get

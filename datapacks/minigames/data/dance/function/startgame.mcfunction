@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"dance"}
 
 scoreboard players set dummy gameID 20
 

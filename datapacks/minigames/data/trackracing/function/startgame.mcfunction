@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"trackracing"}
 
 execute positioned 23 60 300 run function trackracing:setup
 scoreboard players set dummy gameID 10

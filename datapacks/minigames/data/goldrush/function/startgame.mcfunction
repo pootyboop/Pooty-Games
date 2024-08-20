@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"goldrush"}
 
 spreadplayers -300 -299 1 1.5 false @a
 execute as @a at @s run tp @s ~ 62 ~

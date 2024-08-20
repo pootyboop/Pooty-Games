@@ -1,4 +1,6 @@
-function main:gamesetup
+
+
+function main:gamesetup {"tag":"warden"}
 
 tag @a add warden
 scoreboard players set dummy gameID 11
