@@ -1,4 +1,4 @@
-$data modify storage pvp:storage loadout.$(uuid0).$(category) set value "$(component)"
+$data modify storage pvp:storage loadout.$(uuid0).curr.$(category) set value "$(component)"
 
 $execute as @n[type=armor_stand,tag=comp_get,tag=$(component)] at @s run function pvp:loadout/component/write_as
 
