@@ -10,4 +10,7 @@ kill @e[type=item_display,tag=pooty_boop_head]
 kill @e[type=item,tag=holyitem]
 kill @e[type=block_display,tag=fakewall]
 
+scoreboard objectives remove dummy
+scoreboard objectives add dummy dummy
+
 function main:startbell1

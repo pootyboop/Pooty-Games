@@ -1,0 +1,1 @@
+function pvp:map/loaddata2 {"1":"data modify storage pvp:storage","2":"set value"}

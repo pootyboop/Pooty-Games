@@ -4,12 +4,12 @@ clear @s
 
 function pvp:loadout/buttons
 
-function pvp:loadout/component/read {"category":"armor"}
-function pvp:loadout/component/read {"category":"weapon"}
-function pvp:loadout/component/read {"category":"weapon2"}
-function pvp:loadout/component/read {"category":"ability"}
-function pvp:loadout/component/read {"category":"ability2"}
-function pvp:loadout/component/read {"category":"item"}
-function pvp:loadout/component/read {"category":"item2"}
+function pvp:loadout/component/coc {"category":"armor","function":"get"}
+function pvp:loadout/component/coc {"category":"weapon","function":"get"}
+function pvp:loadout/component/coc {"category":"weapon2","function":"get"}
+function pvp:loadout/component/coc {"category":"ability","function":"get"}
+function pvp:loadout/component/coc {"category":"ability2","function":"get"}
+function pvp:loadout/component/coc {"category":"item","function":"get"}
+function pvp:loadout/component/coc {"category":"item2","function":"get"}
 
 function pvp:player/maxhealth

@@ -1,5 +1,3 @@
-
-
 function main:gamesetup {"tag":"pvp"}
 
 scoreboard players set dummy gameID 100
@@ -10,10 +8,17 @@ scoreboard objectives modify minigamescore displayname {"text":"Score","color":"
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 
+scoreboard objectives remove died
+scoreboard objectives add died deathCount
+
 tp @a -10000 60 -10000 0 0
 
 spawnpoint @a -10000 60 -10000
 setworldspawn -10000 60 -10000
+
+tag @a add spawn
+
+function pvp:map/set {"map":"cloudislands"}
 
 execute as @a run function pvp:loadout/equip
 execute as @e[type=armor_stand,tag=needsdata] run function pvp:loadout/component/write_asnew
