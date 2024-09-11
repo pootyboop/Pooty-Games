@@ -14,3 +14,5 @@ $data modify storage pvp:storage loadout.$(uuid).held.categorynew set from entit
 $execute unless entity @s[tag=handempty] if score empty dummy matches 0 run return run function pvp:player/mainhandswap_empty {"uuid":"$(uuid)"}
 $execute if score switch dummy matches 1 run return run function pvp:player/mainhandswap_switch {"uuid":"$(uuid)"}
 $execute if entity @s[tag=handempty] if score empty dummy matches 1 run return run function pvp:player/mainhandswap_switch {"uuid":"$(uuid)"}
+
+$execute unless entity @s[tag=handempty] run function pvp:player/mainhand_main with storage pvp:storage loadout.$(uuid).held

@@ -1,0 +1,1 @@
+summon armor_stand -10012 59 -10008 {Tags:["needsdata","ridge","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"ridge",category:"weapon",getter:1}}},{}]}

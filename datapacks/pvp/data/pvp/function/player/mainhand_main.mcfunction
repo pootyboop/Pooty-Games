@@ -1,0 +1,1 @@
+$function pvp:component/$(componentnew)/held/main

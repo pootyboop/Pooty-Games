@@ -16,12 +16,14 @@ tp @a -10000 60 -10000 0 0
 spawnpoint @a -10000 60 -10000
 setworldspawn -10000 60 -10000
 
-tag @a add spawn
+
+execute as @a run function pvp:player/spawn_enter
+
+execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write_asnew
 
 function pvp:map/set {"map":"cloudislands"}
 
-execute as @a run function pvp:loadout/equip
-execute as @e[type=armor_stand,tag=needsdata] run function pvp:loadout/component/write_asnew
+
 
 title @a title {"text":"PvP Playground","color":"gold"}
 title @a subtitle {"text":"Custom-loadout PvP"}

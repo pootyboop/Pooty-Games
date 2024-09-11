@@ -6,6 +6,7 @@ schedule clear shopping:count1
 schedule clear shopping:start
 
 scoreboard objectives remove recipeID
+tag @a remove boostpad
 
 function main:score_places
 function main:endgame {"gamename":"Shopping"}

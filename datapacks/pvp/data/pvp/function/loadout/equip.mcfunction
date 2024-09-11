@@ -1,4 +1,4 @@
-execute store result storage pvp:storage temp.uuid0 double 1 run scoreboard players get @s uuid0
+execute store result storage pvp:storage temp.uuid0 long 1 run scoreboard players get @s uuid0
 
 clear @s
 

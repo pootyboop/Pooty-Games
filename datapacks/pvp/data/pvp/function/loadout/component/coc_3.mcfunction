@@ -1,1 +1,1 @@
-$function pvp:component/$(category)/$(component)/$(function)
+$function pvp:component/$(component)/$(function)
