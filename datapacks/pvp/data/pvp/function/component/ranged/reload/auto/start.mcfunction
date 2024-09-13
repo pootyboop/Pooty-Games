@@ -1,0 +1,1 @@
+$scoreboard players set @s $(component).timer.autoreload 0

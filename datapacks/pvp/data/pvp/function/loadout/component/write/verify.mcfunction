@@ -9,4 +9,4 @@ execute if score dummy dummy matches 1 if score @s dummy matches 3 run data modi
 
 
 
-function pvp:loadout/component/write_verify2 with storage pvp:storage temp
+function pvp:loadout/component/write/verify2 with storage pvp:storage temp

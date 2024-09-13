@@ -1,0 +1,2 @@
+$execute unless score @s $(component).ammo >= $(component).maxammo weaponStats run return run function pvp:component/ranged/reload/auto/complete2 {"component":"$(component)"}
+$scoreboard players set @s $(component).timer.autoreload -1

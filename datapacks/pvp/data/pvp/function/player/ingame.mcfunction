@@ -1,0 +1,1 @@
+execute if entity @s[y=0,dy=-200] run kill @s

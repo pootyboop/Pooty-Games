@@ -1,0 +1,2 @@
+$scoreboard players add @s $(component).timer.autoreload 1
+$execute if score @s $(component).timer.autoreload >= $(component).autoreload weaponStats run function pvp:component/ranged/reload/auto/complete {"component":"$(component)"}

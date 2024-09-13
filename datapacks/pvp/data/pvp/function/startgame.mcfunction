@@ -2,6 +2,8 @@ function main:gamesetup {"tag":"pvp"}
 
 scoreboard players set dummy gameID 100
 
+
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"Score","color":"gold"}
@@ -10,6 +12,18 @@ scoreboard objectives setdisplay sidebar minigamescore
 
 scoreboard objectives remove died
 scoreboard objectives add died deathCount
+scoreboard players set @a died 0
+
+scoreboard objectives remove bow
+scoreboard objectives add bow minecraft.used:minecraft.bow
+scoreboard objectives remove crossbow
+scoreboard objectives add crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives remove sneak
+scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
+
+scoreboard objectives add weaponStats dummy
+
+
 
 tp @a -10000 60 -10000 0 0
 
@@ -19,7 +33,7 @@ setworldspawn -10000 60 -10000
 
 execute as @a run function pvp:player/spawn_enter
 
-execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write_asnew
+execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
 
 function pvp:map/set {"map":"cloudislands"}
 
