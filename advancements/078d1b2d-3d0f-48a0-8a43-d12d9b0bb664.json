@@ -7114,9 +7114,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crafter": {
+  "minecraft:adventure/totem_of_undying": {
     "criteria": {
-      "has_dropper": "2024-08-21 22:57:03 +0100"
+      "used_totem": "2024-08-21 22:51:50 +0100"
     },
     "done": true
   },
@@ -7126,33 +7126,9 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-08-21 22:54:40 +0100"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2024-08-21 22:52:52 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oxidized_copper_grate": {
     "criteria": {
       "has_oxidized_copper": "2024-08-21 22:51:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2024-08-21 22:51:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/axolotl_in_a_bucket": {
-    "criteria": {
-      "axolotl_bucket": "2024-08-21 23:12:23 +0100"
     },
     "done": true
   },
@@ -7162,15 +7138,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 22:51:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-08-21 22:52:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-08-21 22:54:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2024-08-21 22:57:03 +0100"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2024-08-21 23:09:01 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+  "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
-      "has_oxidized_copper": "2024-08-21 22:51:52 +0100"
+      "axolotl_bucket": "2024-08-21 23:12:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-09-14 00:45:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-09-14 00:45:46 +0100"
     },
     "done": true
   },

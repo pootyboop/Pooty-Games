@@ -1,0 +1,4 @@
+execute if score @s decapitator.chargelevel matches 0 run title @s actionbar [{"color":"white","text":"Hold "},{"color":"#40FF66","text":"Right Click"},{"color":"white","text":" to "},{"color":"gold","text":"Charge"},"!"]
+execute if score @s decapitator.chargelevel matches 1 run title @s actionbar [{"color":"white","obfuscated":true,"text":"1"},{"color":"#ffea00","obfuscated":false,"text":" 1/3 "},{"color":"white","obfuscated":true,"text":"1"}]
+execute if score @s decapitator.chargelevel matches 2 run title @s actionbar [{"color":"white","obfuscated":true,"text":"11"},{"color":"#ff8800","obfuscated":false,"text":" 2/3 "},{"color":"white","obfuscated":true,"text":"11"}]
+execute if score @s decapitator.chargelevel matches 3 run title @s actionbar [{"color":"white","obfuscated":true,"text":"111"},{"color":"#ff0400","obfuscated":false,"text":" 3/3 "},{"color":"white","obfuscated":true,"text":"111"}]

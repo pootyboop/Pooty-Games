@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -9992 {Tags:["needsdata","backstabknife"],HandItems:[{id:"minecraft:iron_sword",components:{"minecraft:custom_data":{component:"backstabknife",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -9992 {Tags:["needsdata","backstabknife","default"],HandItems:[{id:"minecraft:iron_sword",components:{"minecraft:custom_data":{component:"backstabknife",category:"weapon",getter:1}}},{}]}

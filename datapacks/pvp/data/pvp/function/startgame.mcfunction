@@ -23,6 +23,8 @@ scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add weaponStats dummy
 
+scoreboard players set @a rightclicking 0
+
 
 
 tp @a -10000 60 -10000 0 0
@@ -30,12 +32,15 @@ tp @a -10000 60 -10000 0 0
 spawnpoint @a -10000 60 -10000
 setworldspawn -10000 60 -10000
 
+advancement revoke @s only pvp:joingame
+advancement revoke @s only pvp:killplayer
 
-execute as @a run function pvp:player/spawn_enter
+
+execute as @a at @s run function pvp:player/spawn_enter
 
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
 
-function pvp:map/set {"map":"cloudislands"}
+function pvp:map/set {"map":"miniarena"}
 
 
 

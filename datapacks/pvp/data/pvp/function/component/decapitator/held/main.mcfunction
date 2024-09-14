@@ -1,1 +1,1 @@
-execute if entity @s[tag=decapnear] run title @s actionbar [{"color":"white","text":"Hold "},{"color":"#40FF66","text":"Right Click"},{"color":"white","text":" to "},{"color":"gold","text":"Charge"},"!"]
+execute if entity @s[tag=decapnear] run function pvp:component/decapitator/held/main_near

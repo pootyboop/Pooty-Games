@@ -1,4 +1,4 @@
-execute store result storage pvp:storage temp.uuid long 1 run scoreboard players get @s uuid0
+execute store result storage pvp:storage temp.uuid double 1 run scoreboard players get @s uuid0
 
 execute if score @s died matches 1.. run function pvp:player/died
 

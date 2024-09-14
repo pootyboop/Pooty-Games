@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -9992 {Tags:["needsdata","decapitator"],HandItems:[{id:"minecraft:mace",components:{"minecraft:custom_data":{component:"decapitator",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -9992 {Tags:["needsdata","decapitator","default"],HandItems:[{id:"minecraft:mace",components:{"minecraft:custom_data":{component:"decapitator",category:"weapon",getter:1}}},{}]}

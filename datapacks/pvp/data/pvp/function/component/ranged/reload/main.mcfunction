@@ -4,6 +4,9 @@ $execute if score @s $(component).ammo = $(component).maxammo weaponStats run re
 title @s actionbar {"color":"gold","text":"Reloading..."}
 
 playsound minecraft:block.note_block.hat master @s ~ ~ ~ .5 2
-
 $scoreboard players add @s $(component).timer.reload 1
-$execute if score @s $(component).timer.reload >= $(component).reloadspeed weaponStats run function pvp:component/ranged/reload/complete {"component":"$(component)"}
+#function pvp:component/ranged/rangerammo {"scoreboard":"reload"}
+
+$scoreboard players operation temp dummy = $(component).reloadspeed weaponStats
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"ranger"}] run function pvp:component/ranged/rangerammo_new
+$execute if score @s $(component).timer.reload >= temp dummy run function pvp:component/ranged/reload/complete {"component":"$(component)"}

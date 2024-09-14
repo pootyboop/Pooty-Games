@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9992 {Tags:["needsdata","enderpearl","item"],HandItems:[{id:"minecraft:ender_pearl",components:{"minecraft:custom_data":{component:"enderpearl",category:"item",getter:1}}},{}]}

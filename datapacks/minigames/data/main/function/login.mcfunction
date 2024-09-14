@@ -1,5 +1,3 @@
-#stops any currently running game
-
 tag @s add login
 function main:refresh
 function game:end

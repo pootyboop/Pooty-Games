@@ -1,0 +1,1 @@
+scoreboard players set @s decapitator.timer -1

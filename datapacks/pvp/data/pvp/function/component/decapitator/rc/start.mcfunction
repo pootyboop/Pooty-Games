@@ -1,0 +1,1 @@
+execute unless score @s decapitator.chargelevel matches 3 run scoreboard players set @s decapitator.timer 0

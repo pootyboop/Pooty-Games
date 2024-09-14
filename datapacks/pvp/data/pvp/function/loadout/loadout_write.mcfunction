@@ -1,4 +1,4 @@
-$data modify storage pvp:storage loadout.$(uuid0).$(id) set from storage pvp:storage loadout.$(uuid0).curr
+$data modify storage pvp:storage loadout.$(uuid).$(id) set from storage pvp:storage loadout.$(uuid).curr
 
 $title @s actionbar {"color":"white","text":"Saved to Loadout $(id)!"}
 

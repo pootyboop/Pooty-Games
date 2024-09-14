@@ -1,0 +1,1 @@
+$scoreboard players set $(component).maxcount weaponStats $(maxcount)

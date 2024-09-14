@@ -7930,5 +7930,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2024-09-14 00:52:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2024-09-14 04:38:30 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

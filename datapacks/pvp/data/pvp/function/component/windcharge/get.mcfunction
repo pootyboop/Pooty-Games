@@ -1,0 +1,1 @@
+give @s wind_charge[item_name='{"color":"#d3ecfb","text":"Wind Charge"}',lore=['{"color":"white","italic":false,"text":"• Pushes stuff."}','{"color":"dark_gray","italic":false,"text":"------------------------"}','[{"color":"aqua","italic":false,"text":"Max Number"},{"color":"white","text":": 4"}]'],custom_data={component:"windcharge",category:"item"}] 4
