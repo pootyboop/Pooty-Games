@@ -1,0 +1,1 @@
+function pvp:status/func_all {"function":"perstatus"}

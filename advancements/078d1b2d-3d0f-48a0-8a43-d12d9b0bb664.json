@@ -6280,9 +6280,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-08-21 23:36:07 +0100",
+      "minecraft:zoglin": "2024-09-14 20:45:31 +0100",
       "minecraft:silverfish": "2024-08-21 23:26:12 +0100",
       "minecraft:witch": "2023-11-01 18:46:45 +0000",
-      "minecraft:zombie": "2024-08-21 23:30:36 +0100"
+      "minecraft:zombie": "2024-08-21 23:30:36 +0100",
+      "minecraft:slime": "2024-09-15 00:39:49 +0100"
     },
     "done": false
   },
@@ -7086,13 +7088,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2024-07-21 20:09:00 +0100"
+      "requirement": "2024-09-14 21:09:35 +0100"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2024-07-21 20:09:05 +0100"
+      "requirement": "2024-09-14 21:24:19 +0100"
     },
     "done": true
   },
@@ -7183,6 +7185,24 @@
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2024-09-14 00:45:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2024-09-14 19:35:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2024-09-14 19:36:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_heavy_core": "2024-09-14 22:10:32 +0100"
     },
     "done": true
   },

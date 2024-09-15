@@ -18,6 +18,8 @@ scoreboard objectives remove bow
 scoreboard objectives add bow minecraft.used:minecraft.bow
 scoreboard objectives remove crossbow
 scoreboard objectives add crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives remove trident
+scoreboard objectives add trident minecraft.used:minecraft.trident
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
@@ -35,6 +37,7 @@ setworldspawn -10000 60 -10000
 advancement revoke @s only pvp:joingame
 advancement revoke @s only pvp:killplayer
 
+tag @a remove inflicter
 
 execute as @a at @s run function pvp:player/spawn_enter
 

@@ -2,4 +2,4 @@ $data modify storage pvp:storage loadout.$(uuid).$(id) set from storage pvp:stor
 
 $title @s actionbar {"color":"white","text":"Saved to Loadout $(id)!"}
 
-playsound minecraft:block.respawn_anchor.charge master @a ~ ~ ~ 1 0 1
+playsound minecraft:block.respawn_anchor.charge master @s ~ ~ ~ 1 0 1

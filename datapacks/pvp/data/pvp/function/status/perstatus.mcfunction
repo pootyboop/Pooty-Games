@@ -1,0 +1,2 @@
+$execute if score @s status.$(status).timer matches 0 run return run function pvp:status/clear {"status":"$(status)"}
+$execute if score @s status.$(status).timer matches 1.. run return run function pvp:status/perstatus2 {"status":"$(status)"}

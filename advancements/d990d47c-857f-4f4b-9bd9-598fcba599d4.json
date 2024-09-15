@@ -7050,7 +7050,7 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2024-07-21 20:10:13 +0100"
+      "requirement": "2024-09-14 21:08:55 +0100"
     },
     "done": true
   },
@@ -7068,25 +7068,7 @@
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2024-08-21 22:46:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crafter": {
-    "criteria": {
-      "has_dropper": "2024-08-21 23:00:22 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oxidized_copper_bulb": {
-    "criteria": {
-      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-08-21 22:52:00 +0100"
+      "requirement": "2024-09-14 21:15:33 +0100"
     },
     "done": true
   },
@@ -7096,9 +7078,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_copper_grate": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+      "lava_bucket": "2024-08-21 22:52:00 +0100"
     },
     "done": true
   },
@@ -7108,45 +7090,21 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_chestplate": "2024-08-21 22:59:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/obtain_netherite_hoe": {
-    "criteria": {
-      "netherite_hoe": "2024-08-21 23:17:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2024-08-21 23:14:19 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2024-08-21 23:25:51 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting": {
-    "criteria": {
-      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
-    },
-    "done": true
-  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2024-08-21 22:54:11 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+      "diamond_chestplate": "2024-08-21 22:59:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2024-08-21 23:00:22 +0100"
     },
     "done": true
   },
@@ -7156,9 +7114,63 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-08-21 23:14:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2024-08-21 23:15:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oxidized_copper_bulb": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_copper_grate": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 23:16:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2024-08-21 23:17:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-08-21 23:25:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-09-14 19:45:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-09-14 19:45:53 +0100"
     },
     "done": true
   },
