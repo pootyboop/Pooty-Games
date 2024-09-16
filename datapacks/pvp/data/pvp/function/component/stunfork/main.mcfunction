@@ -1,0 +1,1 @@
+execute as @e[distance=..100,type=trident,tag=!paralyzed,nbt={DealtDamage:1b}] run function pvp:component/stunfork/trident

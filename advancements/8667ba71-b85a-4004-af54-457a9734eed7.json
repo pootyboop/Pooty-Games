@@ -125,5 +125,11 @@
     },
     "done": true
   },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2024-09-16 05:06:09 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -9988 {Tags:["needsdata","breachingram","default"],HandItems:[{id:"minecraft:shield",components:{"minecraft:custom_data":{component:"breachingram",category:"weapon",getter:1}}},{}]}

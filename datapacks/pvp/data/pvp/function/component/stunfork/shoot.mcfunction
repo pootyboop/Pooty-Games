@@ -1,0 +1,1 @@
+data merge entity @n[type=trident,tag=!paralyzed,nbt={DealtDamage:0b}] {SoundEvent:"entity.bee.death"}

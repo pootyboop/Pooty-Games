@@ -10,3 +10,5 @@ execute store result score @s status.paralysis.position.yaw run data get entity 
 execute store result score @s status.paralysis.position.pitch run data get entity @s Rotation[1] 100
 
 damage @s 2 minecraft:magic by @p[tag=inflicter] from @p[tag=inflicter]
+
+execute if entity @s[tag=ramming] at @s run function pvp:component/breachingram/ram/stop

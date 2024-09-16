@@ -1,0 +1,1 @@
+execute as @a[tag=justdied] at @s run function pvp:player/died2

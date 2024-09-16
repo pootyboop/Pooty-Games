@@ -1,0 +1,1 @@
+$playsound minecraft:block.wooden_button.click_on master @s ~ ~ ~ .6 $(pitch) .6

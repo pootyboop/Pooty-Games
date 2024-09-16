@@ -1,1 +1,1 @@
-$function pvp:status/$(function) {"status":"paralysis"}
+$execute if score @s status.paralysis.timer matches 0.. run function pvp:status/$(function) {"status":"paralysis"}

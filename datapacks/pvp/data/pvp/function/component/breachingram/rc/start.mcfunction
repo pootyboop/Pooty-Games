@@ -1,0 +1,1 @@
+effect give @s slowness infinite 255 true

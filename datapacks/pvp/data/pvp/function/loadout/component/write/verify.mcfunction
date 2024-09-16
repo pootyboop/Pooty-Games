@@ -8,5 +8,5 @@ $execute store result score dummy dummy run function main:compare_string {"1":"$
 execute if score dummy dummy matches 1 if score @s dummy matches 3 run data modify storage pvp:storage temp.categorywrite set value "item2"
 
 
-
-function pvp:loadout/component/write/verify2 with storage pvp:storage temp
+$execute store result score dummy dummy run function main:compare_string {"1":"$(category)","2":"item"}
+execute if score dummy dummy matches 0 run function pvp:loadout/component/write/verify2 with storage pvp:storage temp

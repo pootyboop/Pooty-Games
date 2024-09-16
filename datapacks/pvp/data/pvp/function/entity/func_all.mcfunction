@@ -1,0 +1,2 @@
+$execute if entity @s[tag=paralysisfield] run return run function pvp:entity/$(function) {"entity":"paralysisfield"}
+$execute if entity @s[tag=dynamite] run return run function pvp:entity/$(function) {"entity":"dynamite"}
