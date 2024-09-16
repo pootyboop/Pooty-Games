@@ -5,6 +5,7 @@ scoreboard players operation dummy lastPlayedGameID = dummy gameID
 scoreboard players reset dummy roundcount
 bossbar set minecraft:timer players
 
+
 clear @a
 xp set @a 0
 xp set @a 0 levels

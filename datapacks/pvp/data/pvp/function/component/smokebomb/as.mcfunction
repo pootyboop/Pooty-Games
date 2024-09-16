@@ -1,0 +1,1 @@
+summon armor_stand -9984 59 -9988 {Tags:["needsdata","smokebomb","item"],HandItems:[{id:"minecraft:black_concrete_powder",components:{"minecraft:custom_data":{component:"smokebomb",category:"item",getter:1}}},{}]}

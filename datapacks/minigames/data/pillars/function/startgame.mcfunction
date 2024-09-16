@@ -4,6 +4,8 @@ function main:gamesetup {"tag":"pillars"}
 
 scoreboard players set dummy gameID 17
 
+function main:itemdrops_enable
+
 execute positioned 900 310 -900 run function pillars:setup
 
 gamerule doTileDrops true

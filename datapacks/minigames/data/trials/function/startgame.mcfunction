@@ -10,6 +10,8 @@ scoreboard players set dummy roundcount 0
 
 scoreboard players set dummy gameID 19
 
+function main:itemdrops_enable
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"Points","color":"gold"}

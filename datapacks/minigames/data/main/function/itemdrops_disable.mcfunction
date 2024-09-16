@@ -1,0 +1,1 @@
+tag @n[type=minecraft:area_effect_cloud,tag=dummy] remove allowdrop

@@ -1,0 +1,1 @@
+execute as @a[distance=..3] run effect clear @s blindness

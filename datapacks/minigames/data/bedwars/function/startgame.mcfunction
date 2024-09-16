@@ -39,6 +39,7 @@ tag @a remove lastlife
 tag @a add bedwars
 scoreboard players set dummy gameID 1
 
+function main:itemdrops_enable
 execute as @a run function main:enderchest_clear
 
 

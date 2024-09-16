@@ -24,11 +24,12 @@ gamerule doTileDrops false
 gamerule fallDamage false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages true
+function main:itemdrops_disable
 
 setworldspawn 0 60 0
 spawnpoint @a 0 60 0
 
-data merge entity @e[limit=1,type=area_effect_cloud,tag=dummy] {Age:0}
+data merge entity @n[type=area_effect_cloud,tag=dummy] {Age:0}
 
 time set 12500
 weather clear

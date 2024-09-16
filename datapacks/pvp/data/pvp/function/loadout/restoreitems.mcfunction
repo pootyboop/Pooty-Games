@@ -5,7 +5,5 @@ playsound minecraft:block.basalt.break master @s ~ ~ ~ .8 1
 
 clear @s *[minecraft:custom_data~{category:"item"}]
 
-function pvp:loadout/component/coc {"category":"item","function":"equip"}
-function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
-function pvp:loadout/component/coc {"category":"item2","function":"equip"}
-function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
+function pvp:loadout/restoreitems2
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"hoarder"}] run function pvp:loadout/restoreitems2

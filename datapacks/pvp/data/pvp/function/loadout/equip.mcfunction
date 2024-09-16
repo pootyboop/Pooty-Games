@@ -14,10 +14,7 @@ function pvp:loadout/component/coc {"category":"ability","function":"equip"}
 function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
 function pvp:loadout/component/coc {"category":"ability2","function":"equip"}
 function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
-function pvp:loadout/component/coc {"category":"item","function":"equip"}
-function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
-function pvp:loadout/component/coc {"category":"item2","function":"equip"}
-function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
+function pvp:loadout/restoreitems
 
 #update swap functions if holding something
 execute if data entity @s SelectedItem.components.minecraft:custom_data.component run function pvp:player/holding/swap_switch with storage pvp:storage temp

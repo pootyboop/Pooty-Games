@@ -2,4 +2,4 @@ function pvp:entity/dynamite/spawn_dynamite with storage pvp:storage temp.dynami
 
 playsound entity.tnt.primed master @a ~ ~ ~ 1 2
 
-function pvp:entity/dynamite/spawn2
+execute as @n[type=silverfish,tag=dynamite] run function pvp:entity/dynamite/spawn2
