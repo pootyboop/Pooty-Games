@@ -1,0 +1,3 @@
+tellraw @p [{"color":"white","text":"Grab an item ("},{"color":"#40FF66","text":"Right Click"},{"color":"white","text":") to equip it."}]
+tellraw @p {"color":"white","text":"Use your 4th hotbar slot to equip an item as your secondary item (you may need to use up all of your secondary items to equip a new one)."}
+tellraw @p {"color":"white","text":"Unlike other loadout components, both of your items can be the same."}

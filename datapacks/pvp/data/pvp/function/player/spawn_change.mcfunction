@@ -1,3 +1,4 @@
+effect clear @s blindness
 effect give @s blindness 1 0 true
 
 advancement revoke @s only pvp:joingame

@@ -7,7 +7,7 @@ playsound minecraft:entity.ravager.stunned master @a ~ ~ ~ 1 2
 playsound minecraft:item.shield.block master @a ~ ~ ~ 1 1 1
 
 ride @s dismount
-execute as @e[type=silverfish,tag=ramride] if score @s uuid0 = @p uuid0 run kill @s
+execute as @e[type=silverfish,tag=ramride] if score @s uuid0 = @p uuid0 run function pvp:component/breachingram/ram/stop_as
 
 effect clear @s slowness
 scoreboard players set @s breachingram.timer -1

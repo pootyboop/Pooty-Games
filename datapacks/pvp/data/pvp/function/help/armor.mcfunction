@@ -1,0 +1,2 @@
+tellraw @p [{"color":"#40FF66","text":"Right Click"},{"color":"white","text":" an armor stand to equip its armor set."}]
+tellraw @p {"color":"white","text":"Armor sets provide various passive bonuses (and sometimes, special abilities)."}

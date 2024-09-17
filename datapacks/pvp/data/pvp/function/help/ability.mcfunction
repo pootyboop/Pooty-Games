@@ -1,0 +1,3 @@
+tellraw @p [{"color":"white","text":"Grab an ability from an armor stand's hand ("},{"color":"#40FF66","text":"Right Click"},{"color":"white","text":") to equip it."}]
+tellraw @p {"color":"white","text":"Use your 2nd hotbar slot to equip an ability as your secondary ability."}
+tellraw @p {"color":"white","text":"Activate abilities in-game by dropping your weapon item (usually Q on your keyboard). They will activate if you have enough Ability Meter."}
