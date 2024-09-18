@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -9980 {Tags:["needsdata","cleaver","default"],HandItems:[{id:"minecraft:iron_axe",components:{"minecraft:custom_data":{component:"cleaver",category:"weapon",getter:1}}},{}]}

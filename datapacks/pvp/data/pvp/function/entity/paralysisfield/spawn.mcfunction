@@ -1,3 +1,2 @@
 summon marker ~ ~ ~ {Tags:["newentity","paralysisfield"]}
-execute store result score @n[type=marker,tag=newentity] status.paralysis.position.y run data get entity @s Pos[1] 1
-scoreboard players remove @n[type=marker,tag=newentity] status.paralysis.position.y 1
+execute as @n[type=marker,tag=newentity] at @s run function pvp:entity/paralysisfield/spawn2

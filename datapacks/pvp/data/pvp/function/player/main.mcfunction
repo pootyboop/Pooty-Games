@@ -6,4 +6,4 @@ function pvp:loadout/main with storage pvp:storage temp
 function pvp:player/checkinput with storage pvp:storage temp
 
 execute if entity @s[tag=spawn] run function pvp:player/atspawn
-execute unless entity @s[tag=spawn] run function pvp:player/ingame
+execute if entity @s[tag=ingame] run return run function pvp:player/ingame

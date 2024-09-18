@@ -7086,18 +7086,6 @@
     },
     "done": true
   },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2024-09-14 21:09:35 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2024-09-14 21:24:19 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2024-07-23 20:21:29 +0100"
@@ -7203,6 +7191,12 @@
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_heavy_core": "2024-09-14 22:10:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-09-17 18:14:05 +0100"
     },
     "done": true
   },

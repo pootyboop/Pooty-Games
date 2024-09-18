@@ -1,0 +1,1 @@
+execute as @n[type=minecraft:zombie,tag=trainingdummy] at @s run function pvp:player/trainingarea/dummy_togglestate2

@@ -39,6 +39,7 @@ advancement revoke @s only pvp:killplayer
 
 tag @a remove inflicter
 tag @a remove owner
+tag @a add fighter
 
 execute as @a at @s run function pvp:player/spawn_enter
 

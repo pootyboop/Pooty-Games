@@ -1,1 +1,1 @@
-execute if entity @s[tag=backstabbee] if score @s backstabknife.rotation <= 45 num as @p[tag=backstabber] at @s run return run function pvp:component/backstabknife/backstab_check3
+execute if entity @s[tag=backstabbee] if score @s backstabknife.rotation <= 45 num as @n[tag=fighter,tag=backstabber] at @s run return run function pvp:component/backstabknife/backstab_check3

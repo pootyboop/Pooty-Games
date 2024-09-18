@@ -1,4 +1,4 @@
-execute if entity @s[tag=spawn] run return fail
+execute unless entity @s[tag=ingame] run return fail
 
 tag @s add backstabber
 function pvp:component/backstabknife/held/main2

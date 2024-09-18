@@ -5,7 +5,7 @@ particle minecraft:small_gust ~ ~ ~ .3 .3 .3 0 4
 playsound minecraft:entity.wolf.shake master @a[distance=.1..] ~ ~ ~ 1 .6
 playsound minecraft:entity.wolf.shake master @s ~ ~ ~ 1 .6 1
 
-execute as @a[distance=.1..2] run function pvp:component/breachingram/ram/damage
+execute as @e[tag=fighter,distance=.1..2] run function pvp:component/breachingram/ram/damage
 
 execute store result storage pvp:storage temp.yaw double 0.0001 run scoreboard players get @s breachingram.yaw
 execute store result storage pvp:storage temp.pitch double 0.0001 run scoreboard players get @s breachingram.pitch

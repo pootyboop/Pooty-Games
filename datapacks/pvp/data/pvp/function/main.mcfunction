@@ -1,6 +1,6 @@
 schedule function pvp:main 1
 
-#execute positioned -10000 60 -10000 if entity @p[distance=..100] run function pvp:spawn
+execute if entity @p[tag=spawn] run function pvp:spawn
 
 execute as @n[type=arrow,nbt={inGround:1b}] run kill @s
 
