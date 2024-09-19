@@ -6281,6 +6281,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-08-21 23:36:07 +0100",
       "minecraft:zoglin": "2024-09-14 20:45:31 +0100",
+      "minecraft:vindicator": "2024-09-18 20:50:26 +0100",
       "minecraft:silverfish": "2024-08-21 23:26:12 +0100",
       "minecraft:witch": "2023-11-01 18:46:45 +0000",
       "minecraft:zombie": "2024-08-21 23:30:36 +0100",
@@ -7185,6 +7186,18 @@
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2024-09-14 19:36:42 +0100"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:26:20 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:37:22 +0100"
     },
     "done": true
   },
