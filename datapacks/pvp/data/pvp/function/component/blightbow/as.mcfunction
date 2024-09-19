@@ -1,0 +1,1 @@
+summon armor_stand -10012 59 -10020 {Tags:["needsdata","blightbow","bow"],HandItems:[{id:"minecraft:bow",components:{"minecraft:custom_data":{component:"blightbow",category:"weapon",getter:1}}},{}]}

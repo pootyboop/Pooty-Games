@@ -1,0 +1,1 @@
+function pvp:component/bulwark/rampart/stop_dealtdmg

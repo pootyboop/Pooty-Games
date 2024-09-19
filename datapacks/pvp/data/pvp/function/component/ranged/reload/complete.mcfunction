@@ -1,5 +1,4 @@
 $function pvp:component/ranged/maxammo {"component":"$(component)"}
-$execute if items entity @s weapon.mainhand *[minecraft:custom_data~{component:"$(component)"}] run function pvp:component/ranged/update_items with storage pvp:storage temp
 
 title @s actionbar {"color":"green","text":"Reloaded!"}
 playsound minecraft:block.bamboo.break master @s ~ ~ ~ 1 .7

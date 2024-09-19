@@ -1,0 +1,1 @@
+data modify entity @n[type=zombie,tag=trainingdummy] CustomName set value '"Attack Me!"'

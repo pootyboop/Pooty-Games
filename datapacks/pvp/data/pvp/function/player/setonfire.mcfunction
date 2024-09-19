@@ -1,0 +1,1 @@
+execute at @s run summon small_fireball ~ ~2.1 ~ {acceleration_power:1d,Motion:[0.0,-1.0,0.0],Item:{id:"minecraft:air",count:1}}

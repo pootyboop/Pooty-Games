@@ -1,4 +1,4 @@
-execute store result storage pvp:storage temp.uuid double 1 run scoreboard players get @s uuid0
+function pvp:player/uuidtotemp
 
 playsound minecraft:block.vault.open_shutter master @s ~ ~ ~ 1 2
 playsound minecraft:block.basalt.break master @s ~ ~ ~ .8 1

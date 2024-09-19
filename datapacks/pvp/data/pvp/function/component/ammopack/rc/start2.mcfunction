@@ -1,0 +1,1 @@
+$function pvp:component/ammopack/rc/start3 with storage pvp:storage loadout.$(uuid).curr

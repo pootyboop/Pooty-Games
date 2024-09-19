@@ -1,4 +1,4 @@
-execute store result storage pvp:storage temp.uuid double 1 run scoreboard players get @s uuid0
+function pvp:player/uuidtotemp
 
 clear @s
 
@@ -19,5 +19,9 @@ function pvp:loadout/restoreitems
 #update swap functions if holding something
 execute if data entity @s SelectedItem.components.minecraft:custom_data.component run function pvp:player/holding/swap_switch with storage pvp:storage temp
 
-function pvp:player/maxhealth
-function pvp:status/func_all {"function":"clear"}
+function pvp:player/died_cleanup
+
+execute if entity @s[tag=ingame] run return fail
+effect give @s weakness infinite 255 true
+effect give @s resistance infinite 255 true
+effect give @s speed infinite 1 true

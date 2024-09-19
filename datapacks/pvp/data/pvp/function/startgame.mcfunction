@@ -2,7 +2,7 @@ function main:gamesetup {"tag":"pvp"}
 
 scoreboard players set dummy gameID 100
 
-
+data remove storage pvp:storage temp
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
@@ -14,6 +14,8 @@ scoreboard objectives remove died
 scoreboard objectives add died deathCount
 scoreboard players set @a died 0
 
+
+
 scoreboard objectives remove bow
 scoreboard objectives add bow minecraft.used:minecraft.bow
 scoreboard objectives remove crossbow
@@ -22,6 +24,8 @@ scoreboard objectives remove trident
 scoreboard objectives add trident minecraft.used:minecraft.trident
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives remove dmg
+scoreboard objectives add dmg minecraft.custom:damage_dealt
 
 scoreboard objectives add weaponStats dummy
 
@@ -41,6 +45,7 @@ tag @a remove inflicter
 tag @a remove owner
 tag @a add fighter
 
+execute as @a run function pvp:player/team/add
 execute as @a at @s run function pvp:player/spawn_enter
 
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew

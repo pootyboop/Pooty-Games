@@ -1,0 +1,1 @@
+$function pvp:map/$(curr)/stop

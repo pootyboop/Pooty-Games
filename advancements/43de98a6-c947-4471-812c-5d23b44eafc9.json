@@ -7932,13 +7932,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2024-09-14 21:09:01 +0100"
+      "requirement": "2024-09-18 21:24:29 +0100"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2024-09-14 21:37:24 +0100"
+      "requirement": "2024-09-18 21:37:12 +0100"
     },
     "done": true
   },

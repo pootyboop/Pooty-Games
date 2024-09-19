@@ -1,0 +1,1 @@
+schedule clear pvp:map/thermalcaves/wave/sched

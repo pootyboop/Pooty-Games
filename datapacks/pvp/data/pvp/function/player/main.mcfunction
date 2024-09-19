@@ -1,4 +1,6 @@
-execute store result storage pvp:storage temp.uuid double 1 run scoreboard players get @s uuid0
+function pvp:player/uuidtotemp
+
+execute unless items entity @s inventory.17 *[minecraft:custom_data~{selfkill:1b}] run function pvp:player/selfkill
 
 execute if score @s died matches 1.. run function pvp:player/died
 

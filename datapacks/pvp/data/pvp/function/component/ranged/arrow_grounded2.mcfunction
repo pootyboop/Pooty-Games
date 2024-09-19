@@ -1,0 +1,1 @@
+$function pvp:component/$(arrow)/arrow_grounded

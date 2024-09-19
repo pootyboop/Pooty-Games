@@ -1,4 +1,4 @@
 tag @s add trainingarea
 function pvp:player/spawn_exit
 
-function pvp:player/trainingarea/dummy_spawn
+execute unless entity @n[type=zombie,tag=trainingdummy] run function pvp:player/trainingarea/dummy/spawn

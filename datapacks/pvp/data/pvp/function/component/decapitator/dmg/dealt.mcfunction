@@ -1,0 +1,1 @@
+execute if score @s decapitator.chargelevel matches 3 run function pvp:component/slimey/absorption {"amount":"1"}
