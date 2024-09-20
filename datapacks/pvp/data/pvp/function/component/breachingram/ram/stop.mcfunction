@@ -1,6 +1,6 @@
 tag @s remove ramming
 
-effect clear @s resistance
+effect clear @s[tag=!spawn] resistance
 
 stopsound @a master entity.wolf.shake
 playsound minecraft:entity.ravager.stunned master @a ~ ~ ~ 1 2

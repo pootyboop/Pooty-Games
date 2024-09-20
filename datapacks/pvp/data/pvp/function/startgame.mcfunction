@@ -14,6 +14,10 @@ scoreboard objectives remove died
 scoreboard objectives add died deathCount
 scoreboard players set @a died 0
 
+scoreboard objectives remove backstep.timer
+scoreboard objectives add backstep.timer dummy
+scoreboard players set @a backstep.timer -1
+
 
 
 scoreboard objectives remove bow
@@ -44,6 +48,8 @@ advancement revoke @s only pvp:killplayer
 tag @a remove inflicter
 tag @a remove owner
 tag @a add fighter
+
+execute as @a at @s run function pvp:player/new/start
 
 execute as @a run function pvp:player/team/add
 execute as @a at @s run function pvp:player/spawn_enter

@@ -7189,18 +7189,6 @@
     },
     "done": true
   },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:26:20 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:37:22 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_heavy_core": "2024-09-14 22:10:32 +0100"
@@ -7210,6 +7198,18 @@
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-09-17 18:14:05 +0100"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:26:20 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:37:22 +0100"
     },
     "done": true
   },

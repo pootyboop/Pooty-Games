@@ -1,1 +1,0 @@
-$execute as @e[type=$(entity)] run function pvp:player/died_cleanup_entity2

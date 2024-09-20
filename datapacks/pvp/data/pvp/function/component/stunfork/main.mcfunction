@@ -1,1 +1,1 @@
-execute as @e[distance=..100,type=trident,tag=!paralyzed,nbt={DealtDamage:1b}] run function pvp:component/stunfork/trident
+execute as @n[distance=..100,type=trident,tag=stunfork,tag=!paralyzed,nbt={DealtDamage:1b}] if score @s uuid0 = @n[tag=fighter] uuid0 run function pvp:component/stunfork/trident

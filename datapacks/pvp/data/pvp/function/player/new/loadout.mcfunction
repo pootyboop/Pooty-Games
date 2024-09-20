@@ -1,0 +1,5 @@
+$data modify storage pvp:storage loadout.$(uuid).curr.weapon set value "cleaver"
+$data modify storage pvp:storage loadout.$(uuid).curr.weapon2 set value "burnbow"
+$data modify storage pvp:storage loadout.$(uuid).curr.armor set value "mercenary"
+$data modify storage pvp:storage loadout.$(uuid).curr.item set value "enderpearl"
+$data modify storage pvp:storage loadout.$(uuid).curr.item2 set value "dynamite"

@@ -7162,18 +7162,6 @@
     },
     "done": true
   },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:24:13 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:24:51 +0100"
-    },
-    "done": true
-  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-09-18 19:27:54 +0100"
@@ -7279,6 +7267,18 @@
   "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2024-09-18 20:35:44 +0100"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:24:13 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2024-09-18 21:24:51 +0100"
     },
     "done": true
   },

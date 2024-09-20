@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=glacierblock] if score @s uuid0 = @p uuid0 if score @s glacier.timer matches 1000.. at @s run function pvp:component/glacier/icewall/move

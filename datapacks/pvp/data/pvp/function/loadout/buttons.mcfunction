@@ -1,13 +1,17 @@
 execute if entity @s[tag=!spawn] run return 0
 
-item replace entity @s inventory.11 with red_concrete[item_name='[{"color":"red","text":"Equip Loadout 1"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.12 with orange_concrete[item_name='[{"color":"#ff7200","text":"Equip Loadout 2"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.13 with yellow_concrete[item_name='[{"color":"#ffff00","text":"Equip Loadout 3"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.14 with lime_concrete[item_name='[{"color":"#72ff00","text":"Equip Loadout 4"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.15 with light_blue_concrete[item_name='[{"color":"#00aeff","text":"Equip Loadout 5"},{"color":"white","text":" (Click)"}]']
+clear @s *[minecraft:custom_data~{loadoutbutton:1b}]
 
-item replace entity @s inventory.20 with red_stained_glass[item_name='[{"color":"red","text":"Save to Loadout 1"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.21 with orange_stained_glass[item_name='[{"color":"#ff7200","text":"Save to Loadout 2"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.22 with yellow_stained_glass[item_name='[{"color":"#ffff00","text":"Save to Loadout 3"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.23 with lime_stained_glass[item_name='[{"color":"#72ff00","text":"Save to Loadout 4"},{"color":"white","text":" (Click)"}]']
-item replace entity @s inventory.24 with light_blue_stained_glass[item_name='[{"color":"#00aeff","text":"Save to Loadout 5"},{"color":"white","text":" (Click)"}]']
+function pvp:loadout/button {"slot":"11","id":"1","type":"read","block":"red","color":"red"}
+function pvp:loadout/button {"slot":"12","id":"2","type":"read","block":"orange","color":"#ff7200"}
+function pvp:loadout/button {"slot":"13","id":"3","type":"read","block":"yellow","color":"#ffff00"}
+function pvp:loadout/button {"slot":"14","id":"4","type":"read","block":"lime","color":"#72ff00"}
+function pvp:loadout/button {"slot":"15","id":"5","type":"read","block":"light_blue","color":"#00aeff"}
+
+function pvp:loadout/buttons_write
+
+execute store result score settingcheck dummy run function pvp:player/settings/get {"setting":"writeloadoutlock"}
+
+execute if score settingcheck dummy matches 1 run item replace entity @s inventory.25 with gunpowder[item_name='[{"color":"green","text":"Unlock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]
+
+execute if score settingcheck dummy matches 0 run item replace entity @s inventory.25 with redstone[item_name='[{"color":"red","text":"Lock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]

@@ -1,0 +1,1 @@
+$data modify storage pvp:storage loadout.$(uuid).loadoutid set value $(id)

@@ -1,0 +1,1 @@
+execute if score @s vaulter.timer matches ..-2 run function pvp:component/slimey/absorption {"amount":"1"}

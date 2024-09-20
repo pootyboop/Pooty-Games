@@ -1,0 +1,1 @@
+summon armor_stand -10012 59 -9984 {Tags:["needsdata","glacier","default"],HandItems:[{id:"minecraft:trident",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"glacier",category:"weapon",getter:1}}},{}]}
