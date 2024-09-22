@@ -11,5 +11,7 @@ execute at @s if entity @n[type=block_display,distance=.1..3,tag=fakeblock] run 
 scoreboard players add @s glacier.timer 1
 execute if score @s glacier.timer matches 1100.. run function pvp:component/glacier/icewall/done
 
-execute if entity @n[type=marker,tag=thermalwave,tag=!nether] run return run particle rain ~ ~ ~ 1.5 1.5 1.5 0 3
+execute store result score dummy dummy run function pvp:map/thermalcaves/is_nether
+
+execute if score dummy dummy matches 1 run return run particle rain ~ ~ ~ 1.5 1.5 1.5 0 3
 particle snowflake ~ ~ ~ 1.5 1.5 1.5 0 3
