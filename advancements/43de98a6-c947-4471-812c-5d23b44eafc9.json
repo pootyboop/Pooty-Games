@@ -4818,7 +4818,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2021-01-30 01:20:43 +0000",
       "minecraft:nether_wastes": "2021-01-30 01:20:29 +0000",
-      "minecraft:soul_sand_valley": "2021-01-30 01:20:15 +0000"
+      "minecraft:soul_sand_valley": "2021-01-30 01:20:15 +0000",
+      "minecraft:warped_forest": "2024-09-22 06:17:27 +0100"
     },
     "done": false
   },
@@ -7152,7 +7153,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-07-23 02:02:32 +0100"
+      "minecraft:cold_ocean": "2024-09-22 06:16:29 +0100",
+      "minecraft:forest": "2024-07-23 02:02:32 +0100",
+      "minecraft:ocean": "2024-09-22 06:16:20 +0100",
+      "minecraft:swamp": "2024-09-22 06:17:00 +0100",
+      "minecraft:warm_ocean": "2024-09-22 06:16:37 +0100"
     },
     "done": false
   },
