@@ -7089,7 +7089,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-07-23 20:21:29 +0100"
+      "minecraft:forest": "2024-07-23 20:21:29 +0100",
+      "minecraft:warm_ocean": "2024-09-22 16:13:08 +0100"
     },
     "done": false
   },
@@ -7210,6 +7211,12 @@
   "interaction:right_click": {
     "criteria": {
       "requirement": "2024-09-18 21:37:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2024-09-22 19:00:19 +0100"
     },
     "done": true
   },

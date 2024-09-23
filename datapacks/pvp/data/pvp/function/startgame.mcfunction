@@ -30,6 +30,8 @@ scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives remove dmg
 scoreboard objectives add dmg minecraft.custom:damage_dealt
+scoreboard objectives remove rangedTimer
+scoreboard objectives add rangedTimer dummy
 
 scoreboard objectives add weaponStats dummy
 
@@ -57,6 +59,7 @@ execute as @a at @s run function pvp:player/spawn_enter
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
 
 function pvp:map/set {"map":"miniarena"}
+function pvp:gm/set {"gm":"freeplay"}
 
 
 

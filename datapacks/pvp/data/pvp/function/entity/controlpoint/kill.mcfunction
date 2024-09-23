@@ -1,0 +1,1 @@
+kill @n[distance=..10,type=text_display,tag=controlpoint]

@@ -1,0 +1,1 @@
+function pvp:gm/loaddata2 {"1":"data modify storage pvp:storage gm.","2":"set value"}

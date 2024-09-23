@@ -7038,7 +7038,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "golden_apple": "2024-04-20 20:20:54 +0100"
+      "golden_apple": "2024-04-20 20:20:54 +0100",
+      "chorus_fruit": "2024-09-22 19:09:40 +0100"
     },
     "done": false
   },
@@ -7056,7 +7057,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-07-24 17:08:56 +0100"
+      "minecraft:forest": "2024-07-24 17:08:56 +0100",
+      "minecraft:warm_ocean": "2024-09-22 16:13:07 +0100"
     },
     "done": false
   },
@@ -7285,6 +7287,12 @@
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2024-09-18 21:57:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-09-22 19:18:43 +0100"
     },
     "done": true
   },

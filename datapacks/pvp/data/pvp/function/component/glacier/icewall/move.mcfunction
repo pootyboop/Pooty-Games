@@ -8,8 +8,12 @@ execute at @s if entity @e[tag=fighter,distance=.1..3] run function pvp:componen
 execute at @s unless block ~ ~ ~ #air run function pvp:component/glacier/icewall/done
 execute at @s if entity @n[type=block_display,distance=.1..3,tag=fakeblock] run function pvp:component/glacier/icewall/done
 
+
+
 scoreboard players add @s glacier.timer 1
-execute if score @s glacier.timer matches 1100.. run function pvp:component/glacier/icewall/done
+execute if score @s glacier.timer matches 1050.. run function pvp:component/glacier/icewall/done
+
+
 
 execute store result score dummy dummy run function pvp:map/thermalcaves/is_nether
 

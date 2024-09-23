@@ -1,3 +1,4 @@
+$execute if entity @s[tag=controlpoint] run return run function pvp:entity/$(function) {"entity":"controlpoint"}
 $execute if entity @s[tag=paralysisfield] run return run function pvp:entity/$(function) {"entity":"paralysisfield"}
 $execute if entity @s[tag=dynamitestick] run return run function pvp:entity/$(function) {"entity":"dynamite"}
 $execute if entity @s[tag=smokebombent] run return run function pvp:entity/$(function) {"entity":"smokebomb"}

@@ -1,7 +1,9 @@
 advancement revoke @s only pvp:killplayer
 execute unless score dummy gameID matches 100 run return fail
 
-scoreboard players add @s minigamescore 1
+execute store result score dummy dummy run function pvp:gm/checkproperty {"property":"tag","value":"pointcontrol"}
+execute if score dummy dummy matches 0 run scoreboard players add @s minigamescore 1
+execute if score dummy dummy matches 1 run scoreboard players add @s minigamescore 10
 
 title @s actionbar {"text":"Health and Items Restored!","color":"gold"}
 #playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 .75 1
