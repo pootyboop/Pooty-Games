@@ -7,3 +7,5 @@ scoreboard players reset @s trident
 $function pvp:component/ranged/shoot2 with storage pvp:storage loadout.$(uuid).held
 
 $execute at @s as @e[sort=nearest,distance=..6,type=arrow,tag=!shot] run function pvp:component/ranged/shoot3 with storage pvp:storage loadout.$(uuid).held
+
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"deception"}] unless predicate pred:sneaking run function pvp:component/shared/backstep/start

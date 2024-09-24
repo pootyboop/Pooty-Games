@@ -1,6 +1,6 @@
 tag @s add this
 
-effect clear @s speed
+effect clear @s[tag=!spawn] speed
 effect give @s slowness 1 2 true
 
 playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 .4

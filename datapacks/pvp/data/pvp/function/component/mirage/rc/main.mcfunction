@@ -1,0 +1,1 @@
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{charged:1b}] run function pvp:component/mirage/charging

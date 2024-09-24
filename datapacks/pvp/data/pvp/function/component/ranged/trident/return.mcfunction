@@ -1,4 +1,4 @@
-execute unless entity @n[type=trident,distance=.1..] run schedule clear pvp:component/ranged/trident/sched
+#execute unless entity @n[type=trident,distance=.1..] run schedule clear pvp:component/ranged/trident/sched
 
 
 tag @s add tridentautoreturn

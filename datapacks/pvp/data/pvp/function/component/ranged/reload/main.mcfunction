@@ -9,5 +9,6 @@ $scoreboard players add @s $(component).timer.reload 1
 
 scoreboard players set temp dummy 0
 $scoreboard players operation temp dummy = $(component).reloadspeed weaponStats
-execute if items entity @s armor.head *[minecraft:custom_data~{component:"ranger"}] run function pvp:component/ranged/rangerammo_new
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"ranger"}] run function pvp:component/ranged/ammo_ranger
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"deception"}] run function pvp:component/ranged/ammo_deception
 $execute if score @s $(component).timer.reload >= temp dummy run function pvp:component/ranged/reload/complete {"component":"$(component)"}

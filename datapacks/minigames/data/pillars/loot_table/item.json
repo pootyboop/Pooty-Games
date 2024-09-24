@@ -445,22 +445,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt_minecart"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rail"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:powered_rail"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:activator_rail"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:slime_block"
         },
         {
@@ -598,6 +582,128 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wind_charge"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:target"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bedrock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sticky_piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_sensor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_cluster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:muddy_mangrove_roots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dripstone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purpur_stairs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick_stairs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mud_brick_stairs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_stairs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_grate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:exposed_copper_bulb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_door"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_trapdoor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:podzol"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mycelium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,1 @@
+function pvp:entity/illusion/kill_fx
