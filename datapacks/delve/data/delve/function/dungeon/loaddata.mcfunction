@@ -1,0 +1,1 @@
+function delve:dungeon/loaddata2 {"1":"data modify storage delve:storage dungeon.","2":"set value"}

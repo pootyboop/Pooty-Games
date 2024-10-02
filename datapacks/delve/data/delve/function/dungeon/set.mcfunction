@@ -1,0 +1,1 @@
+$data modify storage delve:storage dungeon.curr set value $(dungeon)

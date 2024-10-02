@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ chest{LootTable:"delve:default/$(tier)"} destroy

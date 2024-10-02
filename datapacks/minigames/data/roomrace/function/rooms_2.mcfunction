@@ -6,6 +6,6 @@ setblock ~15 60 ~ minecraft:dark_oak_trapdoor[open=true,facing=east]
 setblock ~14 60 ~1 minecraft:dark_oak_trapdoor[open=true,facing=south]
 setblock ~14 60 ~-1 minecraft:dark_oak_trapdoor[open=true,facing=north]
 
-execute as @e[type=area_effect_cloud,tag=room] run data modify entity @s {CustomNameVisible:1b}
+execute as @e[type=area_effect_cloud,tag=room] run data merge entity @s {CustomNameVisible:1b}
 
 forceload add ~ ~

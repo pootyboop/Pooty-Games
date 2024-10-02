@@ -18,7 +18,7 @@ scoreboard players set @a minigamescore 0
 #scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives setdisplay sidebar
 
-scoreboard objectives add buildrating
+scoreboard objectives add buildrating dummy
 
 execute unless score dummy roundcount matches 0.. run scoreboard players set dummy roundcount 0
 

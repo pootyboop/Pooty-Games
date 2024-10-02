@@ -1,7 +1,3 @@
-#execute if predicate pred:cointoss run function hideseek:randomblock1to5
-#execute run function hideseek:randomblock6to10
-#tag @s remove randomblockBypass
-
 execute store result score dummy dummy run random value 0..8
 
 function map:if_params {"map":"blockfactory"}
@@ -26,29 +22,8 @@ execute if score @s hideseekblockID matches 7 run function hideseek:randomblock_
 execute if score @s hideseekblockID matches 8 run function hideseek:randomblock_2 {"block":"Smithing Table"}
 
 execute if score @s hideseekblockID matches 100 run function hideseek:randomblock_2 {"block":"Ancient Debris"}
-execute if score @s hideseekblockID matches 101 run function hideseek:randomblock_2 {"block":"Cauldron"}
-execute if score @s hideseekblockID matches 102 run function hideseek:randomblock_2 {"block":"Blast Furnace"}
+execute if score @s hideseekblockID matches 101 run function hideseek:randomblock_2 {"block":"Blast Furnace"}
+execute if score @s hideseekblockID matches 102 run function hideseek:randomblock_2 {"block":"Cauldron"}
 execute if score @s hideseekblockID matches 103 run function hideseek:randomblock_2 {"block":"Dried Kelp Block"}
 execute if score @s hideseekblockID matches 104 run function hideseek:randomblock_2 {"block":"Jukebox"}
 execute if score @s hideseekblockID matches 105 run function hideseek:randomblock_2 {"block":"Redstone Lamp"}
-
-
-
-
-
-
-
-
-
-
-
-
-#execute if score dummy matches 0 run function hideseek:randomblock_crafting_table
-#execute if score dummy matches 1 run function hideseek:randomblock_melon
-#execute if score dummy matches 2 run function hideseek:randomblock_flower_pot
-#execute if score dummy matches 3 run function hideseek:randomblock_note_block
-#execute if score dummy matches 4 run function hideseek:randomblock_barrel
-#execute if score dummy matches 5 run function hideseek:randomblock_coal_block
-#execute if score dummy matches 6 run function hideseek:randomblock_smithing_table
-#execute if score dummy matches 7 run function hideseek:randomblock_oak_log
-#execute if score dummy matches 8 run function hideseek:randomblock_hay_block

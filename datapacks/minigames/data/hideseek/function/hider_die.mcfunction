@@ -2,18 +2,6 @@ scoreboard players remove Hiders minigamescore 1
 
 execute if entity @a[tag=hider,distance=0.1..] run tag @s remove hider
 
-#tag @s remove crafting_table
-#tag @s remove melon
-#tag @s remove flower_pot
-#tag @s remove glowstone
-#tag @s remove note_block
-#tag @s remove barrel
-#tag @s remove smithing_table
-#tag @s remove smoker
-#tag @s remove oak_log
-#tag @s remove hay_block
-#tag @s remove coal_block
-
 tag @s add hiderdead
 
 effect clear @s invisibility

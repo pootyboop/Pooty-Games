@@ -21,6 +21,21 @@ $$(1) bedwars.genre $(2) "PvP"
 
 
 #PVP PLAYGROUND
+#$$(3) delve
+$$(1) delve.tag $(2) "delve"
+$$(1) delve.name $(2) "Delve"
+$$(1) delve.color $(2) "#a2ef8b"
+$$(1) delve.item $(2) "raw_gold"
+$$(1) delve.slot $(2) "4"
+$$(1) delve.desc1 $(2) "Loot the dungeon for"
+$$(1) delve.desc2 $(2) "resources and upgrades!"
+$$(1) delve.playtime $(2) "15-30"
+$$(1) delve.players $(2) "1+"
+$$(1) delve.genre $(2) "PvP"
+
+
+
+#PVP PLAYGROUND
 #$$(3) pvp
 $$(1) pvp.tag $(2) "pvp"
 $$(1) pvp.name $(2) "PvP Playground"
@@ -150,7 +165,7 @@ $$(1) hamsoccer.slot $(2) "23"
 $$(1) hamsoccer.desc1 $(2) "Score goals with the pig"
 $$(1) hamsoccer.desc2 $(2) "and defend your goal!"
 $$(1) hamsoccer.playtime $(2) "1-2"
-$$(1) hamsoccer.players $(2) "2+ - Even Number of"
+$$(1) hamsoccer.players $(2) "Even Number of"
 $$(1) hamsoccer.genre $(2) "Team Sport"
 
 $$(1) hamsoccer.settings.map.name $(2) "Map"

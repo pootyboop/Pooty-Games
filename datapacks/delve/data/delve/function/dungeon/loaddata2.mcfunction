@@ -1,0 +1,6 @@
+$$(1)stonystronghold.tag $(2) "stonystronghold"
+$$(1)stonystronghold.level $(2) "1"
+$$(1)stonystronghold.tier $(2) "1"
+$$(1)stonystronghold.size $(2) "8"
+$$(1)stonystronghold.name $(2) "Stony Stronghold"
+$$(1)stonystronghold.color $(2) "#90dd94"

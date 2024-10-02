@@ -1,0 +1,1 @@
+execute at @r run kill @e[type=item,distance=..500]

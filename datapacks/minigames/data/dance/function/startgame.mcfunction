@@ -10,6 +10,8 @@ scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard players set @a minigamescore 0
 
+scoreboard objectives setdisplay sidebar
+
 scoreboard players set dummy dancetimepertimer 22
 scoreboard players set dummy dancecount -1
 

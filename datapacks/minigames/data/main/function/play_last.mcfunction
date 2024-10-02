@@ -19,3 +19,4 @@ execute if score dummy lastPlayedGameID matches 18 run function slideout:startga
 execute if score dummy lastPlayedGameID matches 19 run function trials:startgame
 execute if score dummy lastPlayedGameID matches 20 run function dance:startgame
 execute if score dummy lastPlayedGameID matches 100 run function pvp:startgame
+execute if score dummy lastPlayedGameID matches 101 run function delve:startgame

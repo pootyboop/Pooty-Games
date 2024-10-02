@@ -4730,6 +4730,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:witch": "2023-11-01 19:20:35 +0000",
+      "minecraft:zombie": "2024-09-24 21:34:57 +0100",
       "minecraft:slime": "2020-11-19 01:54:43 +0000"
     },
     "done": false
@@ -7089,7 +7090,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-07-25 00:30:24 +0100"
+      "minecraft:forest": "2024-07-25 00:30:24 +0100",
+      "minecraft:warm_ocean": "2024-09-24 21:45:07 +0100"
     },
     "done": false
   },
@@ -7099,33 +7101,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crafter": {
-    "criteria": {
-      "has_dropper": "2024-08-21 22:51:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oxidized_copper_bulb": {
-    "criteria": {
-      "has_oxidized_copper": "2024-08-21 22:57:29 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-08-21 22:52:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2024-08-21 22:49:11 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_copper_grate": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "has_oxidized_copper": "2024-08-21 22:57:29 +0100"
+      "ancient_debris": "2024-08-21 22:50:41 +0100"
     },
     "done": true
   },
@@ -7135,15 +7119,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting": {
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2024-08-21 22:51:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-08-21 22:52:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oxidized_copper_bulb": {
     "criteria": {
       "has_oxidized_copper": "2024-08-21 22:57:29 +0100"
     },
     "done": true
   },
-  "minecraft:nether/obtain_ancient_debris": {
+  "minecraft:recipes/building_blocks/oxidized_copper_grate": {
     "criteria": {
-      "ancient_debris": "2024-08-21 22:50:41 +0100"
+      "has_oxidized_copper": "2024-08-21 22:57:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-08-21 22:57:29 +0100"
     },
     "done": true
   },

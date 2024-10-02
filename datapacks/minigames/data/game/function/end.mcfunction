@@ -19,6 +19,7 @@ execute if score dummy gameID matches 18 run function slideout:endgame
 execute if score dummy gameID matches 19 run function trials:endgame
 execute if score dummy gameID matches 20 run function dance:endgame
 execute if score dummy gameID matches 100 run function pvp:endgame
+execute if score dummy gameID matches 101 run function delve:endgame
 
 
 execute if entity @a[tag=login] unless score dummy gameID matches 0 run function main:login_causedcancel

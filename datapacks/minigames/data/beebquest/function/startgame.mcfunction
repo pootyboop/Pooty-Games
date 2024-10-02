@@ -32,7 +32,7 @@ title @a title {"text":"Beeb Quest","color":"aqua"}
 title @a subtitle {"text":"The epic quest starring Stavie Beeb!"}
 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
-tellraw @a {"text":"Beeb Quest","color":"aqua","bold":"true"}
+tellraw @a {"text":"Beeb Quest","color":"aqua","bold":true}
 tellraw @a {"text":"-Helpers guide Stavie Beeb to a fabled treasure"}
 tellraw @a {"text":"-The saboteur discreetly tries to get Stavie killed in battle"}
 tellraw @a {"text":"-Any helper can accuse a player of being the saboteur"}

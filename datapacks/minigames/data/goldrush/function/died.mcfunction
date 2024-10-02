@@ -9,7 +9,7 @@ tag @s add died
 team leave @s
 
 scoreboard objectives remove playercount
-scoreboard objectives add playercount
+scoreboard objectives add playercount dummy
 execute as @a[gamemode=adventure] run scoreboard players add dummy playercount 1
 
 execute as @a if score @s goldrushvoted = @p pnum run function goldrush:vote_cancel_dead

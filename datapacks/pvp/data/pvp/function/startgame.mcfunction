@@ -29,7 +29,7 @@ scoreboard objectives add trident minecraft.used:minecraft.trident
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives remove dmg
-scoreboard objectives add dmg minecraft.custom:damage_dealt
+scoreboard objectives add dmg minecraft.custom:minecraft.damage_dealt
 scoreboard objectives remove rangedTimer
 scoreboard objectives add rangedTimer dummy
 

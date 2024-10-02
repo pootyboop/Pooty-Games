@@ -4,6 +4,7 @@ function gamemenu:game_check_clicked with storage minigames:settings pvp
 function gamemenu:game_check_clicked with storage minigames:settings mix
 function gamemenu:game_check_clicked with storage minigames:settings build
 function gamemenu:game_check_clicked with storage minigames:settings dance
+function gamemenu:game_check_clicked with storage minigames:settings delve
 function gamemenu:game_check_clicked with storage minigames:settings fliptag
 function gamemenu:game_check_clicked with storage minigames:settings fps
 function gamemenu:game_check_clicked with storage minigames:settings geo

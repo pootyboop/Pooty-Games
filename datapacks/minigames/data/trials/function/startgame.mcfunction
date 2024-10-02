@@ -1,5 +1,3 @@
-
-
 function main:gamesetup {"tag":"trials"}
 
 execute positioned -600 60 600 run function trials:setup
@@ -11,6 +9,8 @@ scoreboard players set dummy roundcount 0
 scoreboard players set dummy gameID 19
 
 function main:itemdrops_enable
+
+recipe give @a *
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
