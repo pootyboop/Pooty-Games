@@ -13,6 +13,10 @@ scoreboard objectives add delve.gold dummy
 scoreboard objectives modify delve.gold displayname {"text":"Gold","color":"gold"}
 execute as @a unless score @s delve.gold matches 0.. run scoreboard players set @s delve.gold 0
 
+scoreboard objectives add delve.lapis dummy
+scoreboard objectives modify delve.lapis displayname {"text":"Lapis","color":"#1D53AC"}
+execute as @a unless score @s delve.lapis matches 0.. run scoreboard players set @s delve.lapis 0
+
 scoreboard objectives remove died
 scoreboard objectives add died deathCount
 scoreboard players set @a died 0
@@ -23,8 +27,13 @@ team modify delve seeFriendlyInvisibles true
 team join delve @a
 
 function delve:lobby/enter
+gamerule fallDamage true
+gamerule doMobLoot true
+gamerule doEntityDrops true
 
 execute as @a at @s run function delve:player/new/start
+
+execute as @a run attribute @s minecraft:generic.max_health base set 10
 
 
 

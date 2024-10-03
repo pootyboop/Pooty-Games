@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:1/valuables/_default",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}
+  

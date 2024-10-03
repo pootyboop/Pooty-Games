@@ -1,0 +1,1 @@
+tag @e[limit=2,sort=nearest,distance=..2,type=marker,tag=jigsaw] add used

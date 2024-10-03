@@ -12,7 +12,16 @@
       }
     },
     {
-      "weight": 25,
+      "weight": 3,
+      "element": {
+        "location": "delve:stonystronghold/room_merchant",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
       "element": {
         "location": "delve:stonystronghold/hall_lane_traps",
         "processors": "minecraft:empty",
@@ -21,7 +30,7 @@
       }
     },
     {
-      "weight": 45,
+      "weight": 40,
       "element": {
         "location": "delve:stonystronghold/hall_t",
         "processors": "minecraft:empty",
@@ -33,6 +42,24 @@
       "weight": 30,
       "element": {
         "location": "delve:stonystronghold/hall_end",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "delve:stonystronghold/hall_end_pool",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "delve:stonystronghold/hall_end_storeroom",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -57,9 +84,18 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 5,
       "element": {
         "location": "delve:stonystronghold/hall_ladder",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "delve:stonystronghold/hall_ladder_traps",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

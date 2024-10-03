@@ -31,7 +31,7 @@ $$(1) delve.desc1 $(2) "Loot the dungeon for"
 $$(1) delve.desc2 $(2) "resources and upgrades!"
 $$(1) delve.playtime $(2) "15-30"
 $$(1) delve.players $(2) "1+"
-$$(1) delve.genre $(2) "PvP"
+$$(1) delve.genre $(2) "Dungeon Crawler"
 
 
 
@@ -320,7 +320,7 @@ $$(1) trackracing.desc1 $(2) "Place and destroy tracks to get your"
 $$(1) trackracing.desc2 $(2) "minecart to the finish line first!"
 $$(1) trackracing.playtime $(2) "<5"
 $$(1) trackracing.players $(2) "2+"
-$$(1) trackracing.genre $(2) "Strategy"
+$$(1) trackracing.genre $(2) "Racing, Strategy"
 
 
 

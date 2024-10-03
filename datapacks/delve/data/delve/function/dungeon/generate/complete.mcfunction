@@ -1,4 +1,4 @@
-execute at @e[limit=1,sort=furthest,type=marker,tag=targetspawn] run tp @a ~ ~ ~
+execute at @e[limit=1,sort=furthest,type=marker,tag=targetspawn] run tp @a ~ ~ ~ 180 0
 effect clear @a blindness
 effect give @a blindness 1 0 true
 

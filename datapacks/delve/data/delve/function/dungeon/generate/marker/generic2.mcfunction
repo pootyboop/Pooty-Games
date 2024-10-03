@@ -1,0 +1,1 @@
+$function delve:dungeon/generate/marker/$(tag) with storage delve:storage temp

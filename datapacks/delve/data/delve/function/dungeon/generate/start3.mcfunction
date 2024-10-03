@@ -7,6 +7,8 @@ effect give @a blindness infinite 0 true
 title @a title {"text":"Generating..."}
 gamemode spectator @a
 
+function delve:structures_clearmarkers
+
 summon marker ~ 60 ~ {Tags:["place"]}
 
 $data modify storage delve:storage temp.size set from storage delve:storage dungeon.$(curr).size

@@ -21,6 +21,8 @@ scoreboard players reset @a openBarrel
 scoreboard players reset @a openchest
 
 gamerule doTileDrops false
+gamerule doMobLoot false
+gamerule doEntityDrops false
 gamerule fallDamage false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages true

@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:1/valuables/gold",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:1/valuables/lapis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
