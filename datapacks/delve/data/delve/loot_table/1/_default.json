@@ -6,12 +6,17 @@
         {
           "type": "minecraft:loot_table",
           "value": "delve:1/valuables/_default",
-          "weight": 5
+          "weight": 15
         },
         {
           "type": "minecraft:loot_table",
           "value": "delve:1/equipment/_default",
-          "weight": 2
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:1/resources/_default",
+          "weight": 1
         }
       ]
     }

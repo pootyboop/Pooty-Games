@@ -1,3 +1,5 @@
+function delve:dungeon/clean
+
 tp @a -20000 60 -10000 0 0
 
 spawnpoint @a -20000 60 -10000
@@ -13,5 +15,4 @@ effect give @a regeneration 2 255 true
 
 scoreboard objectives setdisplay sidebar delve.gold
 
-schedule clear delve:clearcommandblocks
 function delve:lobby/main

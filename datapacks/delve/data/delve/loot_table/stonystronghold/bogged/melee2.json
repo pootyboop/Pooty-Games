@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:1/_default",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:stonystronghold/skull/melee2",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

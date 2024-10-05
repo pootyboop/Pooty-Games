@@ -12,6 +12,12 @@
             "weight": 20,
             "functions": [
               {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -36,6 +42,12 @@
             "weight": 50,
             "functions": [
               {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -59,6 +71,12 @@
             "name": "minecraft:leather_boots",
             "weight": 50,
             "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
               {
                 "function": "minecraft:set_lore",
                 "lore": [

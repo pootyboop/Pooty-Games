@@ -43,6 +43,12 @@
             "weight": 30,
             "functions": [
               {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -66,6 +72,12 @@
             "name": "minecraft:wooden_axe",
             "weight": 20,
             "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
               {
                 "function": "minecraft:set_lore",
                 "lore": [
@@ -91,6 +103,12 @@
             "weight": 10,
             "functions": [
               {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -115,6 +133,12 @@
             "weight": 30,
             "functions": [
               {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -138,6 +162,12 @@
             "name": "minecraft:bow",
             "weight": 20,
             "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
               {
                 "function": "minecraft:set_lore",
                 "lore": [

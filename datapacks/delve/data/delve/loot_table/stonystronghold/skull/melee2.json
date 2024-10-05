@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text":"Mossy Mask",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "1g",
+                  "color": "gold",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                  "minecraft:profile": {
+                      "id": [
+                          874228512,
+                          1475562184,
+                          -1253679079,
+                          -189980627
+                      ],
+                      "properties": [
+                          {
+                              "name": "textures",
+                              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU2MDZjMDY1ZmU2OGY2MTVjYzEyMmExMmRjM2E2ODE4ZDg3OWE3Y2Y3OTVjOTQ3Yjc0ZjUwMzBiMjk0YmU2MSJ9fX0="
+                          }
+                      ]
+                  }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gold":1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

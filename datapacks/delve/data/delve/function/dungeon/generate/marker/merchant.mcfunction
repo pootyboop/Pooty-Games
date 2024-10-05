@@ -1,0 +1,1 @@
+function delve:dungeon/generate/marker/merchant2 with storage delve:storage dungeon

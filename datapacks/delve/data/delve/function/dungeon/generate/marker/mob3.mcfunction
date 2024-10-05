@@ -1,0 +1,2 @@
+$execute unless entity @s[tag=pretabled] run data modify entity @s DeathLootTable set value "delve:$(curr)/_mob"
+data merge entity @s {PersistenceRequired:1b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}

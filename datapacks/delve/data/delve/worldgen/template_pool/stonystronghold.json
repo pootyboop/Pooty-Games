@@ -21,6 +21,24 @@
       }
     },
     {
+      "weight": 5,
+      "element": {
+        "location": "delve:stonystronghold/room_arena",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "delve:stonystronghold/room_lava",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 20,
       "element": {
         "location": "delve:stonystronghold/hall_lane_traps",

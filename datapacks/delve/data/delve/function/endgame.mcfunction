@@ -1,10 +1,7 @@
 schedule clear delve:main
 schedule clear delve:lobby/main
-schedule clear delve:clearcommandblocks
 
-function delve:structures_clearmarkers
-forceload remove all
-forceload add 0 0
+function delve:dungeon/clean
 
 data remove storage delve:storage temp
 

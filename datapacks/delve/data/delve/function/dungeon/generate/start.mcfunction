@@ -1,7 +1,4 @@
-function delve:structures_clearmarkers
-
-forceload remove all
-forceload add 0 0
+function delve:dungeon/clean
 
 execute store result score dummy dummy run random value 0..22
 scoreboard players operation dummy dummy *= 57 num
