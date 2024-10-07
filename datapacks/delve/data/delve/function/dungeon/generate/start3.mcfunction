@@ -5,6 +5,8 @@ forceload add ~16 ~16 ~256 ~256
 tp @a ~ 315 ~ 0 0
 effect give @a blindness infinite 0 true
 title @a title {"text":"Generating..."}
+title @a subtitle ""
+title @a actionbar ""
 gamemode spectator @a
 
 function delve:structures_clearmarkers

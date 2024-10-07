@@ -1,0 +1,1 @@
+tellraw @a [{"color":"red","selector":"@s"},{"color":"white","text":" entered the portal!"}]

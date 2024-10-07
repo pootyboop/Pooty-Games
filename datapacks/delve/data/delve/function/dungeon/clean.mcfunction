@@ -1,4 +1,6 @@
+schedule clear delve:lobby/main
 schedule clear delve:clearcommandblocks
+schedule clear delve:player/portal/main
 
 function delve:dungeon/generate/clean_items
 

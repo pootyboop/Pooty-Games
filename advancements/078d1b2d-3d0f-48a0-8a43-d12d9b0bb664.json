@@ -6285,6 +6285,7 @@
       "minecraft:silverfish": "2024-08-21 23:26:12 +0100",
       "minecraft:witch": "2023-11-01 18:46:45 +0000",
       "minecraft:zombie": "2024-08-21 23:30:36 +0100",
+      "minecraft:bogged": "2024-10-05 11:58:31 +0100",
       "minecraft:slime": "2024-09-15 00:39:49 +0100"
     },
     "done": false
@@ -7217,6 +7218,12 @@
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "salmon_bucket": "2024-09-22 19:00:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-10-05 12:03:32 +0100"
     },
     "done": true
   },

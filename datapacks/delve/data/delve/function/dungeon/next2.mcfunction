@@ -1,0 +1,1 @@
+$function delve:dungeon/generate/start {"dungeon":"$(next)"}

@@ -1,0 +1,143 @@
+{
+    "pools": [
+      {
+        "rolls": {
+        "min": 1,
+        "max": 2
+      },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "10g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "10g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 50,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "5g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 50,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 3
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "4g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

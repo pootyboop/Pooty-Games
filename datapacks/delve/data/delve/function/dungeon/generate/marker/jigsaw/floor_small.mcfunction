@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run fill ~-2 ~ ~-2 ~2 ~ ~2 stone

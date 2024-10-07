@@ -4,5 +4,9 @@ effect give @a blindness 1 0 true
 
 $function delve:dungeon/generate/complete2 with storage delve:storage dungeon.$(curr)
 
+
+gamerule sendCommandFeedback false
 gamemode adventure @a
+gamerule sendCommandFeedback true
+
 schedule function delve:clearcommandblocks 1

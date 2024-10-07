@@ -1,0 +1,10 @@
+execute store result score dummy dummy run random value 0..7
+execute if score dummy dummy matches 0..1 run return fail
+
+execute if score dummy dummy matches 2..4 run return run summon drowned ~ ~ ~ {DeathLootTable:"delve:sterlingwaterways/mob/drowned",Health:6f,Tags:["delve","pretabled"]}
+
+execute if block ~ ~-.6 ~ waxed_oxidized_copper_grate run return run summon skeleton ~ ~ ~ {DeathLootTable:"delve:sterlingwaterways/mob/skeleton",Health:8f,Tags:["delve","pretabled"],HandItems:[{id:"minecraft:iron_axe",count:1,components:{"minecraft:attribute_modifiers":[{id:"attack_damage",type:"generic.attack_damage",amount:3,operation:"add_value"}]}},{}],ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":5221264,"minecraft:attribute_modifiers":[{id:"movement_speed",type:"generic.movement_speed",amount:-.4,operation:"add_multiplied_base"}]}},{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":5221264}},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":5221264}},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1711815795,-1383840331,-1693462450,1051911717],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYxNjFjMzUxY2MwYmY1ZTU1OWE5MWFmMWU5MTgyZGQ2OWE4NGZiNTRkZGY0YTRhYjA3NGZjN2ExY2YwYmYzZCJ9fX0="}]}}}],attributes:[{id:"minecraft:generic.scale",base:1.5}]}
+
+execute if block ~ ~-.6 ~ water if predicate pred:cointoss run return run summon guardian ~ ~ ~ {DeathLootTable:"delve:sterlingwaterways/mob/guardian",Health:4f,Tags:["delve","pretabled"]}
+
+summon drowned ~ ~ ~ {DeathLootTable:"delve:sterlingwaterways/mob/drowned",Health:2f,Tags:["delve","pretabled"],HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:attribute_modifiers":[{id:"attack_damage",type:"generic.attack_damage",amount:1,operation:"add_value"}]}},{}]}

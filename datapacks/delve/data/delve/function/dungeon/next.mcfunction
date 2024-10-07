@@ -1,0 +1,1 @@
+$function delve:dungeon/next2 with storage delve:storage dungeon.$(curr)

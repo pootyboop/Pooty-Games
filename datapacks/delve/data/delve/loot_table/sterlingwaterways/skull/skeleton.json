@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text":"Oxidized Helm",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "8g",
+                  "color": "gold",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                  "minecraft:profile": {
+                      "id": [
+                          -1711815795,
+                          -1383840331,
+                          -1693462450,
+                          1051911717
+                      ],
+                      "properties": [
+                          {
+                              "name": "textures",
+                              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYxNjFjMzUxY2MwYmY1ZTU1OWE5MWFmMWU5MTgyZGQ2OWE4NGZiNTRkZGY0YTRhYjA3NGZjN2ExY2YwYmYzZCJ9fX0="
+                          }
+                      ]
+                  }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gold":8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  
