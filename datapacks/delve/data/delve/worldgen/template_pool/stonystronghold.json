@@ -30,6 +30,15 @@
       }
     },
     {
+      "weight": 6,
+      "element": {
+        "location": "delve:stonystronghold/room_junction",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 4,
       "element": {
         "location": "delve:stonystronghold/room_lava",

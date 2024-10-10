@@ -33,7 +33,7 @@ spawnpoint @a 0 60 0
 
 data merge entity @n[type=area_effect_cloud,tag=dummy] {Age:0}
 
-time set 12500
+time set 12750
 weather clear
 
 #kill @e[type=item]
