@@ -1,0 +1,1 @@
+$function pvp:component/$(component)/dmg/melee/dealt {"dmg":"$(dmg)"}

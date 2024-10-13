@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -10012 {Tags:["needsdata","pointblank","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"pointblank",category:"weapon",getter:1}}},{}]}
