@@ -1,0 +1,1 @@
+$execute at @e[type=block_display,tag=fakechain,scores={uuid0=$(uuid)}] run function pvp:component/chaingun/chain/fx

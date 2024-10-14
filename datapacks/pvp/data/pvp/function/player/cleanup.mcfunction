@@ -10,6 +10,7 @@ function pvp:player/cleanup_entity {"entity":"ender_pearl"}
 function pvp:player/cleanup_entity {"entity":"block_display"}
 function pvp:player/cleanup_entity {"entity":"shulker"}
 function pvp:player/cleanup_entity {"entity":"trident"}
+function pvp:player/cleanup_entity {"entity":"arrow"}
 #function pvp:player/cleanup_entity {"entity":"armor_stand"}
 #function pvp:player/cleanup_entity {"entity":"marker"}
 

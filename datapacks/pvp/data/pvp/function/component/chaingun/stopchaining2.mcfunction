@@ -1,0 +1,1 @@
+$kill @n[type=arrow,tag=chaingun,scores={uuid0=$(uuid)}]

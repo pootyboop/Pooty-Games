@@ -1,0 +1,1 @@
+$function pvp:component/$(component)/dmg/ranged/taken {"dmg":"$(dmg)"}
