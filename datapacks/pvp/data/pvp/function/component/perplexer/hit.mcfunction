@@ -9,4 +9,4 @@ effect give @s blindness 2 0 true
 
 
 
-clear @p[tag=perplexer,gamemode=!creative] magenta_glazed_terracotta[minecraft:custom_data~{component:"perplexer"}] 1
+#clear @p[tag=perplexer,gamemode=!creative] magenta_glazed_terracotta[minecraft:custom_data~{component:"perplexer"}] 1

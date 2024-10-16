@@ -11,4 +11,5 @@ execute as @n[type=#pvp:fighter,tag=fighter,tag=dmgd] at @s run function pvp:com
 execute at @e[limit=2,type=#pvp:fighter,tag=warptp] run function pvp:component/warpshot/tp_fx
 
 tag @a remove warptp
+tag @n[type=#pvp:fighter,tag=fighter,tag=dmgd] remove dmgd
 say hi

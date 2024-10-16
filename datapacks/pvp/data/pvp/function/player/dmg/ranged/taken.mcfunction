@@ -11,8 +11,4 @@ function pvp:player/uuidtotemp
 
 function pvp:player/dmg/ranged/taken2 with storage pvp:storage temp
 
-
-execute on attacker if entity @s[tag=warpshot] at @s run function pvp:component/warpshot/tp
-
-tag @s remove dmgd
 execute on attacker run tag @s remove dmger

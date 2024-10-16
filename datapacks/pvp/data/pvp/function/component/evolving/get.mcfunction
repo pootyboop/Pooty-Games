@@ -1,4 +1,5 @@
 function pvp:component/armor/setstats {"component":"evolving","scale":.8}
+attribute @s generic.step_height base set 0.5
 
 tag @s add evolve1
 schedule function pvp:component/evolving/scientist/potion 1
