@@ -1,0 +1,1 @@
+summon armor_stand -10012 59 -10016 {Tags:["needsdata","cryolauncher","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"cryolauncher",category:"weapon",getter:1}}},{}]}

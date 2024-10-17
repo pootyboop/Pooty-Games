@@ -1,0 +1,1 @@
+function pvp:fakeblock {"block":"packed_ice"}

@@ -14,8 +14,7 @@ execute positioned ^1 ^ ^ positioned ~ ~-2 ~ run function pvp:fakeblock {"block"
 execute positioned ^-1 ^ ^ positioned ~ ~-2 ~ run function pvp:fakeblock {"block":"oak_planks"}
 
 #execute as @e[type=block_display,tag=newfakeblock] run data modify entity @s Rotation[0] set from entity @p[tag=owner] Rotation[0]
-execute as @e[type=block_display,tag=newfakeblock] run function pvp:component/bulwark/rampart/start_fakeblocks
-execute as @e[type=shulker,tag=newfakeblock] run function pvp:component/bulwark/rampart/start_fakeblocks
+execute as @e[type=#pvp:fakeblock,tag=newfakeblock] run function pvp:component/bulwark/rampart/start_fakeblocks
 
 tag @s remove owner
 
