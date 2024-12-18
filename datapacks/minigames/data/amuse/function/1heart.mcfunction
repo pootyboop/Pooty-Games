@@ -1,0 +1,1 @@
+execute as @a run damage @s 18 minecraft:magic

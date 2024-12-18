@@ -14,6 +14,7 @@ scoreboard objectives remove elevatorcooldown
 tag @a remove thief
 tag @a remove guardian
 tag @a remove dead
+tag @a remove starting
 tag @a remove tallgrass
 tag @a remove tallgrasshidden
 tag @a remove tallgrasswither

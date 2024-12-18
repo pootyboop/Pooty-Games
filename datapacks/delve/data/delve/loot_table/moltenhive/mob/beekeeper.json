@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:3/_default",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:moltenhive/skull/beekeeper",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
+  

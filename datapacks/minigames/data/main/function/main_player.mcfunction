@@ -1,5 +1,5 @@
 #no hunger
-execute if score @s hunger matches ..19 run effect give @s saturation 2 255 true
+execute if score @s hunger matches ..19 unless entity @n[type=minecraft:area_effect_cloud,tag=dummy,tag=allowhunger] run effect give @s saturation 2 255 true
 
 #log in
 execute unless entity @s[tag=player] run function main:login

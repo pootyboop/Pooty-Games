@@ -18,5 +18,7 @@ execute if score dummy lastPlayedGameID matches 17 run function pillars:startgam
 execute if score dummy lastPlayedGameID matches 18 run function slideout:startgame
 execute if score dummy lastPlayedGameID matches 19 run function trials:startgame
 execute if score dummy lastPlayedGameID matches 20 run function dance:startgame
+execute if score dummy lastPlayedGameID matches 21 run function amuse:startgame
+execute if score dummy lastPlayedGameID matches 22 run function chunk:startgame
 execute if score dummy lastPlayedGameID matches 100 run function pvp:startgame
 execute if score dummy lastPlayedGameID matches 101 run function delve:startgame

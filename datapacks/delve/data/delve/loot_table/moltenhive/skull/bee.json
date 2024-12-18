@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text":"Bee Carcass",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "15g",
+                  "color": "gold",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                      -317432114,
+                      -1132050051,
+                      -1240782408,
+                      -2074803191
+                  ],
+                  "properties": [
+                    {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3YWI4YmZmMWU1MjcxNDhiYTc0ZjNjZDYyYjc0MWRkNjU1ZGM3ZDg3NTk5OGE2NzNlZWEwNjJhMTlmMDRmMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gold":15
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

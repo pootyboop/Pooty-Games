@@ -1,0 +1,1 @@
+fill ~-1 ~ ~-1 ~1 ~4 ~1 nether_bricks

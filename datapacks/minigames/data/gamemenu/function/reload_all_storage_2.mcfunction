@@ -1,7 +1,14 @@
 #Add minigames here
-#ALSO ADD THEM TO THE FOLLOWING:
+
+#=============ALSO ADD THEM TO THE FOLLOWING=============#
 #gamemenu:home_setup_games
 #gamemenu:games_check_clicked
+#main:play_last
+#game:play
+#game:end
+#mix:pickgame2
+#mix:selectid
+#========================================================#
 
 
 
@@ -56,12 +63,27 @@ $$(1) mix.tag $(2) "mix"
 $$(1) mix.name $(2) "Minigame Mix"
 $$(1) mix.color $(2) "red"
 $$(1) mix.item $(2) "apple"
-$$(1) mix.slot $(2) "9"
+$$(1) mix.slot $(2) "0"
 $$(1) mix.desc1 $(2) "Play a random mix"
 $$(1) mix.desc2 $(2) "of all minigames!"
 $$(1) mix.playtime $(2) "5-15"
 $$(1) mix.players $(2) "2+"
 $$(1) mix.genre $(2) "Party Games"
+
+
+
+#AMUSE ME
+#$$(3) amuse
+$$(1) amuse.tag $(2) "amuse"
+$$(1) amuse.name $(2) "Amuse Me!"
+$$(1) amuse.color $(2) "#ffcc60"
+$$(1) amuse.item $(2) "quartz_bricks"
+$$(1) amuse.slot $(2) "9"
+$$(1) amuse.desc1 $(2) "Amuse the King by"
+$$(1) amuse.desc2 $(2) "completing his requests!"
+$$(1) amuse.playtime $(2) "5-10"
+$$(1) amuse.players $(2) "1+"
+$$(1) amuse.genre $(2) "Party Games"
 
 
 
@@ -77,6 +99,21 @@ $$(1) build.desc2 $(2) "and vote on the best builds!"
 $$(1) build.playtime $(2) "15-30"
 $$(1) build.players $(2) "2+"
 $$(1) build.genre $(2) "PvP"
+
+
+
+#CHUNK FIGHT        
+#$$(3) chunk
+$$(1) chunk.tag $(2) "chunk"
+$$(1) chunk.name $(2) "Chunk Fight"
+$$(1) chunk.color $(2) "#6CB863"
+$$(1) chunk.item $(2) "grass_block"
+$$(1) chunk.slot $(2) "8"
+$$(1) chunk.desc1 $(2) "Craft and survive in"
+$$(1) chunk.desc2 $(2) "a survival-world FFA!"
+$$(1) chunk.playtime $(2) "30+"
+$$(1) chunk.players $(2) "2+"
+$$(1) chunk.genre $(2) "PvP, Survival"
 
 
 
@@ -223,8 +260,8 @@ $$(1) hideseek.settings.map.4.slot $(2) "15"
 #$$(3) kinghill
 $$(1) kinghill.tag $(2) "kinghill"
 $$(1) kinghill.name $(2) "King of the Hill"
-$$(1) kinghill.color $(2) "#6CB863"
-$$(1) kinghill.item $(2) "grass_block"
+$$(1) kinghill.color $(2) "#edb7ad"
+$$(1) kinghill.item $(2) "stick"
 $$(1) kinghill.slot $(2) "26"
 $$(1) kinghill.desc1 $(2) "Stay atop the hill while"
 $$(1) kinghill.desc2 $(2) "fighting off other players!"

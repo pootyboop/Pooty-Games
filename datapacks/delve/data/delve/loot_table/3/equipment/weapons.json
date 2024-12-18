@@ -1,0 +1,310 @@
+{
+    "pools": [
+      {
+        "rolls": {
+        "min": 1,
+        "max": 2
+      },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 7
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "1g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "weight": 30,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.7
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "20g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_axe",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 6
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "Hive Chopper",
+                    "color": "gold",
+                    "italic": false
+                  }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "30g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "enchant_with_levels",
+                "levels": {
+                  "min": 2,
+                  "max": 5
+                },
+                "options": "fire_aspect"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "weight": 10,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 8
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "10g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "weight": 30,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 6
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 1
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "20g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 5
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 1
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "30g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trident",
+            "weight": 40,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 6
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 1
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "3l",
+                    "color": "#1D53AC",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "lapis":3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "weight": 70,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 10
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "20g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":20
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

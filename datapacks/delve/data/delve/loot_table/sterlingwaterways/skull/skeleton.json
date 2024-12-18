@@ -26,6 +26,25 @@
               "mode": "replace_all"
             },
             {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "id": "minecraft:attribute",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "id": "minecraft:attribute",
+                  "amount": -0.4,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
               "function": "set_components",
               "components": {
                   "minecraft:profile": {
@@ -56,4 +75,3 @@
     }
   ]
 }
-  

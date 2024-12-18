@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:3/equipment/weapons",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:3/equipment/armor",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text":"Beekeeper Mask",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "50g",
+                  "color": "gold",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "max_damage": 5
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "levels": "5",
+              "enchantment": "minecraft:fire_protection",
+              "formula": "uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 1
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "id": "minecraft:attribute",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "id": "minecraft:attribute",
+                  "amount": -0.35,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                      -317432114,
+                      -1132050051,
+                      -1240782408,
+                      -2074803191
+                  ],
+                  "properties": [
+                    {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNjY2E5MWFiMTkwNWE0ZGY2N2RjYWE0ZTkwNjBhYzcxNTQ1MTNmMWRhZDliOTFlZjVkZmM1YjlkZjZjMmQzZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gold":50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

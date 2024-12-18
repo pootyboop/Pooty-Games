@@ -2,6 +2,8 @@
 function gamemenu:home_setup_game with storage minigames:settings bedwars
 function gamemenu:home_setup_game with storage minigames:settings pvp
 function gamemenu:home_setup_game with storage minigames:settings mix
+function gamemenu:home_setup_game with storage minigames:settings amuse
+function gamemenu:home_setup_game with storage minigames:settings chunk
 function gamemenu:home_setup_game with storage minigames:settings build
 function gamemenu:home_setup_game with storage minigames:settings dance
 function gamemenu:home_setup_game with storage minigames:settings delve

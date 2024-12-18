@@ -1,0 +1,1 @@
+execute positioned -30000 60 -10000 as @e[distance=..30,type=!player,tag=!dontkill] run function amuse:killstuff2

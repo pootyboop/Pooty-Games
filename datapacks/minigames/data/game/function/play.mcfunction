@@ -12,11 +12,15 @@ tellraw @a {"text":""}
 
 
 
+execute if score dummy playercount matches 1.. run tellraw @a {"text":"Amuse Me!","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function amuse:startgame"}}
+
 execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Bedwars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bedwars:startgame"}}
-#
+
 execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Beeb Quest","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function beebquest:startgame"}}
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Build Comp","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function build:startgame"}}
+
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chunk Fight","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chunk:startgame"}}
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Dance of the Block","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function dance:startgame"}}
 

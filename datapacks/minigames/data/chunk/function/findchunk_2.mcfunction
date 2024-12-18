@@ -1,0 +1,1 @@
+$execute in chunk:chunkfight positioned $(x) 100 $(z) run function chunk:findchunk_3

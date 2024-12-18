@@ -20,12 +20,29 @@ scoreboard players reset @a drop
 scoreboard players reset @a openBarrel
 scoreboard players reset @a openchest
 
-gamerule doTileDrops false
-gamerule doMobLoot false
+gamerule disableRaids true
+gamerule doDaylightCycle false
 gamerule doEntityDrops false
+gamerule doFireTick false
+gamerule doMobLoot false
+gamerule doMobSpawning false
+gamerule doTileDrops false
+gamerule doVinesSpread false
+gamerule doWeatherCycle false
 gamerule fallDamage false
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule naturalRegeneration false
+gamerule playersSleepingPercentage 100
+gamerule randomTickSpeed 0
 gamerule sendCommandFeedback true
 gamerule showDeathMessages true
+gamerule spawnRadius 0
+
+worldborder center 0 0
+worldborder set 59999968
+
+function main:hunger_disable
 function main:itemdrops_disable
 
 setworldspawn 0 60 0

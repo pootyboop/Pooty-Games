@@ -9,12 +9,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "delve:2/valuables/gold",
-          "weight": 10
+          "weight": 9
         },
         {
           "type": "minecraft:loot_table",
           "value": "delve:2/valuables/lapis",
-          "weight": 3
+          "weight": 5
         }
       ]
     }

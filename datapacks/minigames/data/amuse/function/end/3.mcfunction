@@ -1,0 +1,1 @@
+execute as @a unless score @s died matches 1.. run function amuse:pass

@@ -18,6 +18,8 @@ execute if score dummy gameID matches 17 run function pillars:endgame
 execute if score dummy gameID matches 18 run function slideout:endgame
 execute if score dummy gameID matches 19 run function trials:endgame
 execute if score dummy gameID matches 20 run function dance:endgame
+execute if score dummy gameID matches 21 run function amuse:endgame
+execute if score dummy gameID matches 22 run function chunk:endgame
 execute if score dummy gameID matches 100 run function pvp:endgame
 execute if score dummy gameID matches 101 run function delve:endgame
 

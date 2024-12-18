@@ -1,0 +1,236 @@
+{
+    "pools": [
+      {
+        "rolls": {
+        "min": 1,
+        "max": 2
+      },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_helmet",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "20g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_boots",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "20g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_chestplate",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "30g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:elytra",
+            "weight": 15,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 8
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.gravity",
+                    "id": "minecraft:attribute",
+                    "amount": -0.2,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "minecraft:generic.jump_strength",
+                    "id": "minecraft:attribute",
+                    "amount": 0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "minecraft:generic.armor",
+                    "id": "minecraft:attribute",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "Hive Wings",
+                    "italic": false
+                  }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "40g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":40
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_leggings",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "30g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":30
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
