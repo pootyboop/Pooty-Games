@@ -1,4 +1,4 @@
-$$(1)default.dungeon $(2) "moltenhive"
+$$(1)default.dungeon $(2) "stonystronghold"
 
 $$(1)stonystronghold.tag $(2) "stonystronghold"
 $$(1)stonystronghold.level $(2) "1"

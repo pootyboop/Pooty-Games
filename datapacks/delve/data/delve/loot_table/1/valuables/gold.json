@@ -113,6 +113,79 @@
                 }
               }
             ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_dye",
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text":"Lush Morass",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "3g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_dye",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text":"Gorgeous Jewel",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "15g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":15
+                }
+              }
+            ]
           }
         ]
       }

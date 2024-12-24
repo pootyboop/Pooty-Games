@@ -108,12 +108,10 @@
                 "mode": "replace_all"
               },
               {
-                "function": "enchant_with_levels",
-                "levels": {
-                  "min": 2,
-                  "max": 5
-                },
-                "options": "fire_aspect"
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:fire_aspect": 1
+                }
               },
               {
                 "function": "minecraft:set_custom_data",

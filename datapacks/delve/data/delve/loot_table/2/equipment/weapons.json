@@ -9,7 +9,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:arrow",
-            "weight": 100,
+            "weight": 120,
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -140,7 +140,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:crossbow",
-            "weight": 30,
+            "weight": 40,
             "functions": [
               {
                 "function":"minecraft:set_components",
@@ -170,7 +170,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:bow",
-            "weight": 20,
+            "weight": 30,
             "functions": [
               {
                 "function":"minecraft:set_components",
@@ -200,7 +200,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:trident",
-            "weight": 55,
+            "weight": 75,
             "functions": [
               {
                 "function":"minecraft:set_components",

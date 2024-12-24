@@ -2,6 +2,8 @@ function main:gamesetup {"tag":"delve"}
 
 scoreboard players set dummy gameID 101
 
+tag @a remove ingame
+
 data remove storage delve:storage temp
 
 scoreboard objectives remove minigamescore

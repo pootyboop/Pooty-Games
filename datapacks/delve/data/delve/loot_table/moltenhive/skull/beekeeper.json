@@ -32,12 +32,9 @@
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "levels": "5",
-              "enchantment": "minecraft:fire_protection",
-              "formula": "uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 1
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 3
               }
             },
             {

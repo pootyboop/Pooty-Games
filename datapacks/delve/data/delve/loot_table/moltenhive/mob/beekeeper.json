@@ -9,15 +9,19 @@
         {
           "type": "minecraft:loot_table",
           "value": "delve:3/_default",
-          "weight": 4
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",
           "value": "delve:moltenhive/skull/beekeeper",
-          "weight": 3
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "delve:moltenhive/skull/hivemind",
+          "weight": 1
         }
       ]
     }
   ]
 }
-  

@@ -4,6 +4,9 @@ effect give @a blindness 1 0 true
 
 $function delve:dungeon/generate/complete2 with storage delve:storage dungeon.$(curr)
 
+tag @a add ingame
+
+
 
 gamerule sendCommandFeedback false
 gamemode adventure @a

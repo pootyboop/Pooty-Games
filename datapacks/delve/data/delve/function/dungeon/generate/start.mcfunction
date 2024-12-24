@@ -3,6 +3,8 @@ function delve:dungeon/clean
 effect clear @a resistance
 effect clear @a weakness
 
+tag @a remove ingame
+
 $function delve:dungeon/set {"dungeon":"$(dungeon)"}
 
 execute store result score dummy dummy run random value 0..22

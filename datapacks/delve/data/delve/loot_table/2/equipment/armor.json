@@ -29,6 +29,12 @@
                 "mode": "replace_all"
               },
               {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:aqua_affinity": 1
+                }
+              },
+              {
                 "function": "minecraft:set_custom_data",
                 "tag": {
                   "gold":10
@@ -59,14 +65,10 @@
                 "mode": "replace_all"
               },
               {
-                "function": "minecraft:enchant_randomly",
-                "only_compatible": true,
-                "conditions": [
-                  {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.4
-                  }
-                ]
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:depth_strider": 2
+                }
               },
               {
                 "function": "minecraft:set_custom_data",

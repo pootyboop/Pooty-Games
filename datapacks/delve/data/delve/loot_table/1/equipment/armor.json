@@ -18,6 +18,14 @@
                 }
               },
               {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "Moss Cap",
+                    "color": "yellow",
+                    "italic": false
+                  }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
@@ -69,7 +77,7 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:leather_boots",
-            "weight": 50,
+            "weight": 30,
             "functions": [
               {
                 "function":"minecraft:set_components",
@@ -92,6 +100,146 @@
                 "function": "minecraft:set_custom_data",
                 "tag": {
                   "gold":2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_boots",
+            "weight": 20,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 4
+                }
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "minecraft:bolt",
+                    "show_in_tooltip":false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.armor",
+                    "id": "minecraft:attribute",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "id": "minecraft:attribute",
+                    "amount": 0.07,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  }
+                ]
+              },
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Leafy Treads",
+                  "color": "yellow",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "5g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:feather_falling": 2
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 10,
+            "functions": [
+              {
+                "function":"minecraft:set_components",
+                "components": {
+                  "max_damage": 5
+                }
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "minecraft:snout",
+                    "show_in_tooltip":false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.armor",
+                    "id": "minecraft:attribute",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "id": "minecraft:attribute",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "chest"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                    "text": "Slab Mail",
+                    "color": "yellow",
+                    "italic": false
+                  }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "8g",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "gold":8
                 }
               }
             ]

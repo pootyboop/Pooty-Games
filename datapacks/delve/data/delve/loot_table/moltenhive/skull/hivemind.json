@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text":"Hive Mind",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "100g",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "• Pacifies nearby Bees.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA1MGRmNzMwYTE5Yjk5OTI3YzRlNTJmNWI2YmYyMjA5MTYxOGYwY2I3OTEwNTZhZWY2ODJiNmM4NTI4OGJkNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gold":100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
