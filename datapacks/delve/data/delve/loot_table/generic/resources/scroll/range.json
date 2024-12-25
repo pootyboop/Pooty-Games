@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bordure_indented_banner_pattern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "sound": "entity.blaze.ambient",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": {
+                  "item": "range_scroll"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#00ff84",
+                  "italic": false,
+                  "shadow_color": -16678523,
+                  "text": "Range Scroll"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "• "
+                  },
+                  {
+                    "color": "#40FF66",
+                    "text": "Right Click"
+                  },
+                  {
+                    "text": ": consume for"
+                  }
+                ],
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "+0.5 blocks Attack Range"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text":"Fire Resistance Potion",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:fire_resistance"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "1l",
+                    "color": "#1D53AC",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "lapis":1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

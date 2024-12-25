@@ -78,48 +78,9 @@
             ]
           },
           {
-            "type": "minecraft:item",
-            "name": "minecraft:golden_axe",
-            "weight": 20,
-            "functions": [
-              {
-                "function":"minecraft:set_components",
-                "components": {
-                  "max_damage": 6
-                }
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                    "text": "Hive Chopper",
-                    "color": "gold",
-                    "italic": false
-                  }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "30g",
-                    "color": "gold",
-                    "italic": false
-                  }
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "minecraft:set_enchantments",
-                "enchantments": {
-                  "minecraft:fire_aspect": 1
-                }
-              },
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": {
-                  "gold":30
-                }
-              }
-            ]
+            "type": "minecraft:loot_table",
+            "value": "delve:moltenhive/hive_chopper",
+            "weight": 20
           },
           {
             "type": "minecraft:item",

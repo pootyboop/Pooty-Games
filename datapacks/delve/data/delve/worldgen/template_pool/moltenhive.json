@@ -84,9 +84,18 @@
       }
     },
     {
-      "weight": 15,
+      "weight": 10,
       "element": {
         "location": "delve:moltenhive/ruins_room_arena",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "delve:moltenhive/ruins_room_tall",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

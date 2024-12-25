@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "item": "vitality_scroll"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "delve:item/vitality_scroll"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:mojang_banner_pattern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "sound": "entity.blaze.ambient",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": {
+                  "item": "vitality_scroll"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#FF0090",
+                  "italic": false,
+                  "shadow_color": -8060671,
+                  "text": "Vitality Scroll"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "• "
+                  },
+                  {
+                    "color": "#40FF66",
+                    "text": "Right Click"
+                  },
+                  {
+                    "text": ": consume"
+                  }
+                ],
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "for +1❤ Max Health"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
