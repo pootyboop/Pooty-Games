@@ -1,24 +1,26 @@
+scoreboard players set dummy dummy 0
+
 #ADD GAMES HERE
-function gamemenu:game_check_clicked with storage minigames:settings bedwars
-function gamemenu:game_check_clicked with storage minigames:settings pvp
-function gamemenu:game_check_clicked with storage minigames:settings mix
-function gamemenu:game_check_clicked with storage minigames:settings amuse
-function gamemenu:game_check_clicked with storage minigames:settings build
-function gamemenu:game_check_clicked with storage minigames:settings chunk
-function gamemenu:game_check_clicked with storage minigames:settings dance
-function gamemenu:game_check_clicked with storage minigames:settings delve
-function gamemenu:game_check_clicked with storage minigames:settings fliptag
-function gamemenu:game_check_clicked with storage minigames:settings fps
-function gamemenu:game_check_clicked with storage minigames:settings geo
-function gamemenu:game_check_clicked with storage minigames:settings goldrush
-function gamemenu:game_check_clicked with storage minigames:settings hamsoccer
-function gamemenu:game_check_clicked with storage minigames:settings hideseek
-function gamemenu:game_check_clicked with storage minigames:settings kinghill
-function gamemenu:game_check_clicked with storage minigames:settings paulheist
-function gamemenu:game_check_clicked with storage minigames:settings pillars
-function gamemenu:game_check_clicked with storage minigames:settings shopping
-function gamemenu:game_check_clicked with storage minigames:settings slideout
-function gamemenu:game_check_clicked with storage minigames:settings trackracing
-function gamemenu:game_check_clicked with storage minigames:settings trials
-function gamemenu:game_check_clicked with storage minigames:settings warden
-function gamemenu:game_check_clicked with storage minigames:settings witchhunt
+$$(1) bedwars
+$$(1) pvp
+$$(1) mix
+$$(1) amuse
+$$(1) build
+$$(1) chunk
+$$(1) dance
+$$(1) delve
+$$(1) fliptag
+$$(1) fps
+$$(1) geo
+$$(1) goldrush
+$$(1) hamsoccer
+$$(1) hideseek
+$$(1) kinghill
+$$(1) paulheist
+$$(1) pillars
+$$(1) shopping
+$$(1) slideout
+$$(1) trackracing
+$$(1) trials
+$$(1) warden
+$$(1) witchhunt

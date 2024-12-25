@@ -1,2 +1,2 @@
-execute if score dummy gamemenuMenu matches 0 run function gamemenu:games_check_clicked
+execute if score dummy gamemenuMenu matches 0 run function gamemenu:games_check_clicked {"1":"execute unless score dummy dummy matches 1 store result score dummy dummy run function gamemenu:game_check_clicked with storage minigames:settings"}
 execute if score dummy gamemenuMenu matches 1 run function gamemenu:settings_check_clicked with storage minigames:settings tempsetting
