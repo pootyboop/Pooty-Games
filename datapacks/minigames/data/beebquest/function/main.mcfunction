@@ -2,7 +2,7 @@
 
 #execute if score dummy minigametimer matches 200 run title @a title {"text":""}
 #execute if score dummy minigametimer matches 200 run title @a subtitle {"text":"10 Seconds Left!","color":"red"}
-#execute if score dummy minigametimer matches 200 run playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1
+#execute if score dummy minigametimer matches 200 run playsound minecraft:entity.death master @a ~ ~ ~ 1 0 1
 
 
 

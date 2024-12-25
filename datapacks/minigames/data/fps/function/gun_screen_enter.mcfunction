@@ -26,7 +26,7 @@ effect give @s speed infinite 1 true
 effect give @s resistance infinite 255 true
 effect give @a weakness infinite 255 true
 
-#attribute @s minecraft:generic.max_health base set 10
+#attribute @s minecraft:max_health base set 10
 #effect give @s minecraft:regeneration 2 255 true
 
 schedule function fps:gun_screen 1

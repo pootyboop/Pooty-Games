@@ -1,7 +1,7 @@
 gamemode adventure @a
 
 tp @a 0 60 -603 0 0
-execute as @a run attribute @s minecraft:generic.max_health base set 6
+execute as @a run attribute @s minecraft:max_health base set 6
 
 effect give @a weakness infinite 255 true
 effect give @a resistance infinite 255 true

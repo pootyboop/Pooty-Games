@@ -29,14 +29,14 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor",
+                  "attribute": "minecraft:armor",
                   "id": "minecraft:attribute",
                   "amount": 4,
                   "operation": "add_value",
                   "slot": "head"
                 },
                 {
-                  "attribute": "minecraft:generic.movement_speed",
+                  "attribute": "minecraft:movement_speed",
                   "id": "minecraft:attribute",
                   "amount": -0.4,
                   "operation": "add_multiplied_total",

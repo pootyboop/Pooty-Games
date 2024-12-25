@@ -1,24 +1,24 @@
 #ADD GAMES HERE
-function gamemenu:home_setup_game with storage minigames:settings bedwars
-function gamemenu:home_setup_game with storage minigames:settings pvp
-function gamemenu:home_setup_game with storage minigames:settings mix
-function gamemenu:home_setup_game with storage minigames:settings amuse
-function gamemenu:home_setup_game with storage minigames:settings chunk
-function gamemenu:home_setup_game with storage minigames:settings build
-function gamemenu:home_setup_game with storage minigames:settings dance
-function gamemenu:home_setup_game with storage minigames:settings delve
-function gamemenu:home_setup_game with storage minigames:settings fliptag
-function gamemenu:home_setup_game with storage minigames:settings fps
-function gamemenu:home_setup_game with storage minigames:settings geo
-function gamemenu:home_setup_game with storage minigames:settings goldrush
-function gamemenu:home_setup_game with storage minigames:settings hamsoccer
-function gamemenu:home_setup_game with storage minigames:settings hideseek
-function gamemenu:home_setup_game with storage minigames:settings kinghill
-function gamemenu:home_setup_game with storage minigames:settings paulheist
-function gamemenu:home_setup_game with storage minigames:settings pillars
-function gamemenu:home_setup_game with storage minigames:settings shopping
-function gamemenu:home_setup_game with storage minigames:settings slideout
-function gamemenu:home_setup_game with storage minigames:settings trackracing
-function gamemenu:home_setup_game with storage minigames:settings trials
-function gamemenu:home_setup_game with storage minigames:settings warden
-function gamemenu:home_setup_game with storage minigames:settings witchhunt
+$$(1) bedwars
+$$(1) pvp
+$$(1) mix
+$$(1) amuse
+$$(1) chunk
+$$(1) build
+$$(1) dance
+$$(1) delve
+$$(1) fliptag
+$$(1) fps
+$$(1) geo
+$$(1) goldrush
+$$(1) hamsoccer
+$$(1) hideseek
+$$(1) kinghill
+$$(1) paulheist
+$$(1) pillars
+$$(1) shopping
+$$(1) slideout
+$$(1) trackracing
+$$(1) trials
+$$(1) warden
+$$(1) witchhunt

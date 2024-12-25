@@ -1,4 +1,4 @@
-execute store result score dummy dummy run attribute @s generic.max_health get
+execute store result score dummy dummy run attribute @s max_health get
 execute if score dummy dummy matches ..8 run return fail
 
 effect give @s minecraft:instant_health 1 0 true

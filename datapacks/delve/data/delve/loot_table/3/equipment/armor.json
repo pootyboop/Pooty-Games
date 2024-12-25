@@ -141,21 +141,21 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.gravity",
+                    "attribute": "minecraft:gravity",
                     "id": "minecraft:attribute",
                     "amount": -0.2,
                     "operation": "add_multiplied_base",
                     "slot": "chest"
                   },
                   {
-                    "attribute": "minecraft:generic.jump_strength",
+                    "attribute": "minecraft:jump_strength",
                     "id": "minecraft:attribute",
                     "amount": 0.25,
                     "operation": "add_multiplied_total",
                     "slot": "chest"
                   },
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "minecraft:armor",
                     "id": "minecraft:attribute",
                     "amount": 5,
                     "operation": "add_value",

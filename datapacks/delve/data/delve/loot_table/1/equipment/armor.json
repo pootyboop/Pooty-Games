@@ -129,14 +129,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "minecraft:armor",
                     "id": "minecraft:attribute",
                     "amount": 0,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
-                    "attribute": "minecraft:generic.movement_speed",
+                    "attribute": "minecraft:movement_speed",
                     "id": "minecraft:attribute",
                     "amount": 0.07,
                     "operation": "add_multiplied_total",
@@ -202,14 +202,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "minecraft:armor",
                     "id": "minecraft:attribute",
                     "amount": 8,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
-                    "attribute": "minecraft:generic.movement_speed",
+                    "attribute": "minecraft:movement_speed",
                     "id": "minecraft:attribute",
                     "amount": -0.5,
                     "operation": "add_multiplied_total",

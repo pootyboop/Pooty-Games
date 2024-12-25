@@ -5,7 +5,7 @@
 #playsound minecraft:item.axe.scrape master @a ~ ~ ~ 1 1.2
 #playsound minecraft:enchant.thorns.hit master @a ~ ~ ~ .7 1.2
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ .1 1.5
+playsound minecraft:entity.explode master @a ~ ~ ~ .1 1.5
 playsound minecraft:entity.iron_golem.hurt master @a ~ ~ ~ .4 2
 playsound minecraft:enchant.thorns.hit master @a ~ ~ ~ .2 2
 playsound minecraft:block.anvil.land master @a ~ ~ ~ .05 1.5

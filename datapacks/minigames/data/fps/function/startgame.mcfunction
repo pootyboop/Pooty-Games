@@ -2,7 +2,7 @@
 
 function main:gamesetup {"tag":"fps"}
 
-#execute as @a run attribute @s minecraft:generic.max_health base set 10
+#execute as @a run attribute @s minecraft:max_health base set 10
 #effect give @a minecraft:regeneration 2 255 true
 
 scoreboard players set dummy gameID 15

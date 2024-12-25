@@ -1,1 +1,1 @@
-attribute @s generic.gravity base set .08
+attribute @s gravity base set .08

@@ -1,5 +1,5 @@
-execute if data entity @s Inventory[{Slot:-106b}] run give @s pufferfish[custom_name='{"text":"Paul","color":"gold","italic":false}',lore=['{"text":"Needs no introduction.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"generic.movement_speed",id:"generic.movement_speed",amount:0.02,operation:"add_value"}],show_in_tooltip:0b}]
-execute unless data entity @s Inventory[{Slot:-106b}] run item replace entity @s weapon.offhand with pufferfish[custom_name='{"text":"Paul","color":"gold","italic":false}',lore=['{"text":"Needs no introduction.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"generic.movement_speed",id:"generic.movement_speed",amount:0.02,operation:"add_value"}],show_in_tooltip:0b}]
+execute if data entity @s Inventory[{Slot:-106b}] run give @s pufferfish[custom_name='{"text":"Paul","color":"gold","italic":false}',lore=['{"text":"Needs no introduction.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"movement_speed",id:"movement_speed",amount:0.02,operation:"add_value"}],show_in_tooltip:0b}]
+execute unless data entity @s Inventory[{Slot:-106b}] run item replace entity @s weapon.offhand with pufferfish[custom_name='{"text":"Paul","color":"gold","italic":false}',lore=['{"text":"Needs no introduction.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"movement_speed",id:"movement_speed",amount:0.02,operation:"add_value"}],show_in_tooltip:0b}]
 
 title @a title {"text":""}
 title @a[distance=0.1..] subtitle {"text":"PAUL STOLEN!!!","color":"gold"}

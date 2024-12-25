@@ -35,7 +35,7 @@ gamerule doEntityDrops true
 
 execute as @a at @s run function delve:player/new/start
 
-execute as @a run attribute @s minecraft:generic.max_health base set 10
+execute as @a run attribute @s minecraft:max_health base set 10
 
 
 

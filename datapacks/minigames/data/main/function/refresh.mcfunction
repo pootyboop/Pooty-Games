@@ -8,7 +8,7 @@ function main:seat_resetall
 
 function main:pnum
 
-execute as @a run attribute @s minecraft:generic.max_health base set 20
+execute as @a run attribute @s max_health base set 20
 effect give @a minecraft:instant_health 1 0 true
 effect give @a regeneration 2 255 true
 effect give @a weakness 4 255 true

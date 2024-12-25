@@ -9,7 +9,7 @@ execute as @e[distance=..3,type=villager] run function geo:ripplehit
 execute as @a at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] if score @s uuid0 = @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] uuid0 run tag @s remove ignoreripple
 
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ .8 1.4
+playsound minecraft:entity.explode master @a ~ ~ ~ .8 1.4
 playsound minecraft:block.basalt.break master @a ~ ~ ~ 1 2
 
 

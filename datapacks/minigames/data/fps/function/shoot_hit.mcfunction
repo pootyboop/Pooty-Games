@@ -1,4 +1,4 @@
-playsound minecraft:entity.generic.hurt master @a[tag=shooter] ~ ~ ~ 1 2 1
+playsound minecraft:entity.hurt master @a[tag=shooter] ~ ~ ~ 1 2 1
 
 execute as @e[tag=shootable,scores={raycastHits=1..}] run function fps:damage_calc
 

@@ -15,7 +15,7 @@ scoreboard players reset @a flingCooldown
 gamemode adventure @a
 tag @a add geopause
 
-execute as @a run attribute @s minecraft:generic.max_health base set 10
+execute as @a run attribute @s minecraft:max_health base set 10
 effect give @a regeneration 2 255 true
 
 clear @a

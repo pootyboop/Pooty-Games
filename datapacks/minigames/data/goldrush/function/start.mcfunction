@@ -11,6 +11,6 @@ give @a netherite_pickaxe[unbreakable={show_in_tooltip:0b},enchantments={"minecr
 
 function goldrush:vote_item
 
-item replace entity @a armor.head with minecraft:golden_helmet[unbreakable={},attribute_modifiers=[{type:"generic.armor",slot:"head",id:"generic.armor",amount:0,operation:"add_value"}]]
+item replace entity @a armor.head with minecraft:golden_helmet[unbreakable={},attribute_modifiers=[{type:"armor",slot:"head",id:"armor",amount:0,operation:"add_value"}]]
 
 function goldrush:main

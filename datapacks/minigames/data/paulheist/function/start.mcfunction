@@ -28,21 +28,21 @@ item replace entity @a[tag=thief] hotbar.0 with iron_hoe[unbreakable={show_in_to
 #give @a[tag=thief] ladder{CanPlaceOn:["minecraft:polished_blackstone_bricks","minecraft:dark_oak_planks","minecraft:deepslate_bricks","minecraft:dark_oak_stairs","minecraft:deepslate_tiles","minecraft:chiseled_polished_blackstone","minecraft:jungle_leaves","minecraft:bookshelf","minecraft:deepslate_brick_slab","minecraft:cracked_deepslate_bricks","minecraft:cracked_deepslate_tiles"],HideFlags:16} 5
 
 
-item replace entity @a[tag=guardian] hotbar.0 with blaze_rod[enchantments={levels:{"minecraft:knockback":2},show_in_tooltip:0b},custom_name='{"text":"Baton","color":"gold","italic":false}',lore=['{"text":"Shoplifters will be prosecuted.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"generic.attack_damage",slot:"mainhand",id:"generic.attack_damage",amount:10,operation:"add_value"}],show_in_tooltip:0b},unbreakable={show_in_tooltip:0b}]
+item replace entity @a[tag=guardian] hotbar.0 with blaze_rod[enchantments={levels:{"minecraft:knockback":2},show_in_tooltip:0b},custom_name='{"text":"Baton","color":"gold","italic":false}',lore=['{"text":"Shoplifters will be prosecuted.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"attack_damage",slot:"mainhand",id:"attack_damage",amount:10,operation:"add_value"}],show_in_tooltip:0b},unbreakable={show_in_tooltip:0b}]
 
 function paulheist:alarm_item
 
 item replace entity @a[tag=guardian] armor.head with minecraft:sea_lantern[custom_name='{"text":"Guardian Dome","color":"aqua","italic":false}']
 
-item replace entity @a[tag=guardian] armor.chest with netherite_chestplate[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Chestplate","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"generic.armor",id:"generic.armor",amount:0,operation:"add_value"},{type:"generic.armor_toughness",id:"generic.armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
+item replace entity @a[tag=guardian] armor.chest with netherite_chestplate[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Chestplate","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
 
-item replace entity @a[tag=guardian] armor.legs with netherite_leggings[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Leggings","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"generic.armor",id:"generic.armor",amount:0,operation:"add_value"},{type:"generic.armor_toughness",id:"generic.armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
+item replace entity @a[tag=guardian] armor.legs with netherite_leggings[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Leggings","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
 
-item replace entity @a[tag=guardian] armor.feet with netherite_boots[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Boots","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"generic.armor",id:"generic.armor",amount:0,operation:"add_value"},{type:"generic.armor_toughness",id:"generic.armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
+item replace entity @a[tag=guardian] armor.feet with netherite_boots[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Boots","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"}]
 
 
 effect give @a[tag=guardian] slowness 100 255 true
-execute as @a[tag=guardian] run attribute @s minecraft:generic.jump_strength base set 0
+execute as @a[tag=guardian] run attribute @s minecraft:jump_strength base set 0
 effect give @a[tag=guardian] blindness 100 255 true
 schedule function paulheist:freeguardians 6s
 

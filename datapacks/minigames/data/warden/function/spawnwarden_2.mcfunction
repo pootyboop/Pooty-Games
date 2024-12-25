@@ -1,1 +1,1 @@
-$summon warden $(coords) {Invulnerable:1b,PersistenceRequired:1b,attributes:[{id:"minecraft:generic.attack_damage",base:1000},{id:"minecraft:generic.movement_speed",base:.35}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+$summon warden $(coords) {Invulnerable:1b,PersistenceRequired:1b,attributes:[{id:"minecraft:attack_damage",base:1000},{id:"minecraft:movement_speed",base:.35}],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}

@@ -3,7 +3,7 @@ tag @s add this
 effect clear @s[tag=!spawn] speed
 effect give @s slowness 1 2 true
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 .4
+playsound minecraft:entity.explode master @a ~ ~ ~ 1 .4
 playsound minecraft:entity.armor_stand.break master @a ~ ~ ~ 1 .9
 playsound minecraft:entity.wither_skeleton.death master @a ~ ~ ~ .85 1
 
