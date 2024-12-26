@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:breeze_rod",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#8FBFFF",
+                  "shadow_color": -11116847,
+                  "text": "Wind Staff"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "sound": "entity.warden.heartbeat",
+                  "has_consume_particles": false
+                },
+                "minecraft:tool": {
+                  "default_mining_speed": 0,
+                  "damage_per_block": 0,
+                  "rules": []
+                },
+                "minecraft:max_damage": 10,
+                "max_stack_size": 1,
+                "minecraft:custom_data": {
+                  "item": "wind_staff"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

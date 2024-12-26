@@ -1,0 +1,1 @@
+$function delve:item/$(rightclick)
