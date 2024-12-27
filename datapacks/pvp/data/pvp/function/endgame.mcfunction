@@ -15,4 +15,4 @@ tag @a remove fighter
 data remove storage pvp:storage temp
 
 function main:score_places
-function main:endgame {"gamename":"PvP Playground"}
+function main:endgame

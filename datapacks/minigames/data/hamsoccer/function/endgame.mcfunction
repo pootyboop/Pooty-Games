@@ -13,4 +13,4 @@ tag @a remove pause
 execute if score Red minigamescore > Blue minigamescore run tag @a[team=red] add winner
 execute if score Red minigamescore < Blue minigamescore run tag @a[team=blue] add winner
 
-function main:endgame {"gamename":"Ham Soccer"}
+function main:endgame

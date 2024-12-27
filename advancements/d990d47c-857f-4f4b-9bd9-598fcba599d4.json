@@ -4723,6 +4723,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2024-12-27 11:56:52 +0100",
       "minecraft:skeleton": "2024-08-22 00:39:19 +0200",
       "minecraft:zoglin": "2024-08-22 00:37:22 +0200",
       "minecraft:vindicator": "2024-11-01 21:58:47 +0100",
@@ -7918,5 +7919,119 @@
     },
     "done": true
   },
-  "DataVersion": 3955
+  "minecraft:recipes/decorations/red_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2024-12-27 11:53:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-27 11:46:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-27 11:49:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2024-12-27 11:46:26 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
 }

@@ -6,5 +6,3 @@ execute store result storage minigames:temp trialcoord.x double 1 run scoreboard
 execute positioned -608 56 615 run function trials:clone_2 with storage minigames:temp trialcoord
 
 $function trials:prep_$(x)
-#tag @a add prepping
-#schedule function trials:prepdone 10

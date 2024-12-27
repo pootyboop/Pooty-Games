@@ -14,4 +14,4 @@ forceload remove ~ ~
 forceload remove ~-16 ~-16
 
 function main:score_places
-function main:endgame {"gamename":"Amuse Me!"}
+function main:endgame

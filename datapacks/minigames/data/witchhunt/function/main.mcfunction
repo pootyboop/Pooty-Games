@@ -18,4 +18,4 @@ execute if score dummy minigametimer matches 200 run playsound minecraft:entity.
 execute if score dummy minigametimer matches 0 unless entity @a[tag=hiding] run function witchhunt:endgame_witches
 execute if score dummy minigametimer matches 0 if entity @a[tag=hiding] run tag @a[tag=hiding] remove hiding
 
-execute if entity @a[tag=witchhunt] run schedule function witchhunt:main 1
+schedule function witchhunt:main 1

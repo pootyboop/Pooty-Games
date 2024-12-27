@@ -40,7 +40,6 @@ scoreboard players reset @a dmgd
 effect give @a weakness 10000 255 true
 
 tag @a add hiding
-tag @a add witchhunt
 scoreboard players set dummy gameID 12
 tag @a remove dmgd
 tag @a remove witchdead

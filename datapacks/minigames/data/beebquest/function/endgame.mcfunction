@@ -19,4 +19,4 @@ tag @a remove accuser
 
 
 function main:score_places
-function main:endgame {"gamename":"Beeb Quest"}
+function main:endgame

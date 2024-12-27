@@ -11,4 +11,4 @@ tag @a remove murderer
 tag @a remove died
 
 execute unless entity @a[tag=winner] run function goldrush:getwinner
-function main:endgame {"gamename":"Gold Rush"}
+function main:endgame

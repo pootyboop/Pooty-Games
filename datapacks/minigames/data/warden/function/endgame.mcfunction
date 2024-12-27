@@ -9,14 +9,12 @@ kill @e[type=minecraft:warden]
 kill @e[type=arrow]
 kill @e[type=slime]
 
-tag @a remove warden
-
 scoreboard players set @a lastDied 2
 
 scoreboard players reset dummy scorecheck
 scoreboard players operation dummy scorecheck > @a minigamescore
 tag @s add winner
 
-function main:endgame {"gamename":"Warden's Dungeon"}
+function main:endgame
 
 effect give @a blindness 1 2 true

@@ -14,4 +14,4 @@ tag @a remove hiding
 tag @a remove gotbow
 
 function main:score_places
-function main:endgame {"gamename":"Hide and Seek"}
+function main:endgame

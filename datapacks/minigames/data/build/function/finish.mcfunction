@@ -1,4 +1,4 @@
-tag @a remove build
+schedule clear build:main
 
 gamemode spectator @a
 

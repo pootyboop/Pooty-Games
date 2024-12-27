@@ -9,4 +9,4 @@ kill @e[type=minecart]
 forceload remove -3 607 37 621
 
 function main:score_places
-function main:endgame {"gamename":"Track Racing"}
+function main:endgame

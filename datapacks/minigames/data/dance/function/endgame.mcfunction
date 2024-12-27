@@ -9,4 +9,4 @@ function dance:clearlamps
 kill @e[type=block_display,tag=powerup]
 
 function main:score_places
-function main:endgame {"gamename":"Dance of the Block"}
+function main:endgame

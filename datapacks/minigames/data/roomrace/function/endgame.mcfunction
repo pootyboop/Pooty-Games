@@ -18,4 +18,4 @@ tag @a remove firstRoom
 
 forceload remove all
 
-function main:endgame {"gamename":"Room Race"}
+function main:endgame

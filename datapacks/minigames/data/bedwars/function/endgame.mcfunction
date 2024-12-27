@@ -57,14 +57,9 @@ execute if entity @a[tag=winner,team=Green] run summon firework_rocket 10006 59 
 
 
 
-execute unless entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run function main:endgame {"gamename":"Bedwars"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run function main:endgame {"gamename":"Bedwars - CHICKEN MODE"}
+function main:endgame
 
-
-
-effect give @a[tag=winner] resistance 10 255 true
-effect give @a[tag=winner] regeneration 2 255 true
-effect give @a[tag=winner] slowness 10 255 true
+execute as @a[tag=winner] run function bedwars:endgame_winner
 
 
 

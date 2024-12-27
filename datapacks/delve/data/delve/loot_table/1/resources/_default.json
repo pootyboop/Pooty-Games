@@ -5,7 +5,13 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "delve:generic/resources/potion/health"
+            "value": "delve:generic/resources/potion/health",
+            "weight": 10
+          },
+          {
+            "type": "loot_table",
+            "value": "delve:generic/resources/scroll/_default",
+            "weight": 1
           }
         ]
       }

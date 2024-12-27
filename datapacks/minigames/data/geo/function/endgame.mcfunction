@@ -16,4 +16,4 @@ fill -612 60 12 -588 64 -12 air
 forceload remove -600 0
 
 function main:score_places
-function main:endgame {"gamename":"Geokinesis"}
+function main:endgame

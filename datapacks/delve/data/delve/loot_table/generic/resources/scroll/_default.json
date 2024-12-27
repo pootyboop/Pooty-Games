@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "delve:generic/resources/scroll/vitality"
+        },
+        {
+          "type": "loot_table",
+          "value": "delve:generic/resources/scroll/resilience"
+        },
+        {
+          "type": "loot_table",
+          "value": "delve:generic/resources/scroll/range"
+        }
+      ]
+    }
+  ]
+}

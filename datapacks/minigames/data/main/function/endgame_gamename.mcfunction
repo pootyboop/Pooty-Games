@@ -1,0 +1,1 @@
+$tellraw @a {"text":"$(name)","color":"gold","bold":true}

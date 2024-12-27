@@ -20,4 +20,4 @@ tag @a remove tallgrasshidden
 tag @a remove tallgrasswither
 
 function main:score_places
-function main:endgame {"gamename":"Paul Heist"}
+function main:endgame

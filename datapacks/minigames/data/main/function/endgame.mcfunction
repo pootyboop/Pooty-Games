@@ -27,7 +27,7 @@ title @a actionbar {"text":""}
 
 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
-$tellraw @a {"text":"$(gamename)","color":"gold","bold":true}
+function main:endgame_tag with storage minigames:settings currGame
 execute if score dummy dummy matches 0 run tellraw @a {"text":"No Winner","color":"gray"}
 execute if score dummy dummy matches 1 run tellraw @a {"text":"Winner:"}
 execute if score dummy dummy matches 2.. run tellraw @a {"text":"Winners:"}

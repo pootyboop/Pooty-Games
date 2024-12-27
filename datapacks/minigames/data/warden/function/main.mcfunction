@@ -6,4 +6,4 @@ execute as @e[type=minecraft:arrow,nbt={inGround: 1b}] at @s run function warden
 
 execute as @a[scores={lastDied=0}] at @s run function warden:tryendgame
 
-execute if entity @a[tag=warden] run schedule function warden:main 1
+schedule function warden:main 1

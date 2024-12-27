@@ -98,7 +98,18 @@ $$(1) build.desc1 $(2) "Write and build a prompt"
 $$(1) build.desc2 $(2) "and vote on the best builds!"
 $$(1) build.playtime $(2) "15-30"
 $$(1) build.players $(2) "2+"
-$$(1) build.genre $(2) "PvP"
+$$(1) build.genre $(2) "Building"
+
+$$(1) build.settings.mode.name $(2) "mode"
+$$(1) build.settings.mode.value $(2) "0"
+$$(1) build.settings.mode.1.name $(2) "Normal"
+$$(1) build.settings.mode.1.value $(2) "0"
+$$(1) build.settings.mode.1.item $(2) "grass_block"
+$$(1) build.settings.mode.1.slot $(2) "12"
+$$(1) build.settings.mode.2.name $(2) "Gartic Phone"
+$$(1) build.settings.mode.2.value $(2) "1"
+$$(1) build.settings.mode.2.item $(2) "name_tag"
+$$(1) build.settings.mode.2.slot $(2) "14"
 
 
 

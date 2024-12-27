@@ -7,7 +7,6 @@ tag @a remove sinking
 tag @a remove tntbow
 tag @a remove doublejumped
 
-tag @a add slideout
 scoreboard players set dummy gameID 18
 
 execute positioned 10000 60 10000 run function slideout:setup

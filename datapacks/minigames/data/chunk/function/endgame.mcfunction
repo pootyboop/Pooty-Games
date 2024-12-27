@@ -14,4 +14,4 @@ data remove storage minigames:temp chunk
 team remove grace_period
 
 function main:score_places
-function main:endgame {"gamename":"Chunk Fight"}
+function main:endgame

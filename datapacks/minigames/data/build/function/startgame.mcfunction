@@ -2,7 +2,6 @@
 
 function main:gamesetup {"tag":"build"}
 
-tag @a add build
 scoreboard players set dummy gameID 2
 
 kill @e[type=area_effect_cloud,tag=room]
@@ -11,11 +10,13 @@ gamerule sendCommandFeedback false
 
 execute positioned 900 60 0 run function build:setup
 
+#function setting:if_params {"tag":"build","setting":"mode","value":"1"}
+#execute if function setting:if_call run function 
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"Build Points","color":"gold"}
 scoreboard players set @a minigamescore 0
-#scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives setdisplay sidebar
 
 scoreboard objectives add buildrating dummy

@@ -11,4 +11,4 @@ tag @a remove flipbypass
 tag @a remove flipping
 
 function main:score_places
-function main:endgame {"gamename":"Flip Tag"}
+function main:endgame

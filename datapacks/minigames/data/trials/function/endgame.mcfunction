@@ -14,4 +14,4 @@ tag @a remove trialing
 tag @a remove played
 
 function main:score_places
-function main:endgame {"gamename":"Trials"}
+function main:endgame
