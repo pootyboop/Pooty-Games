@@ -5,9 +5,11 @@
 #gamemenu:games_check_clicked
 #main:play_last
 #game:play
-#game:end
 #mix:pickgame2
 #mix:selectid
+
+#AND IF THEY USE A NEW KIND OF SETTING:
+#gamemenu:settings_setupcheck
 #========================================================#
 
 
@@ -27,7 +29,7 @@ $$(1) bedwars.genre $(2) "PvP"
 
 
 
-#PVP PLAYGROUND
+#DELVE
 #$$(3) delve
 $$(1) delve.tag $(2) "delve"
 $$(1) delve.name $(2) "Delve"
@@ -87,6 +89,21 @@ $$(1) amuse.genre $(2) "Party Games"
 
 
 
+#BRIDGE
+#$$(3) bridge
+$$(1) bridge.tag $(2) "bridge"
+$$(1) bridge.name $(2) "Bridge"
+$$(1) bridge.color $(2) "#8e60c1"
+$$(1) bridge.item $(2) "blue_terracotta"
+$$(1) bridge.slot $(2) "26"
+$$(1) bridge.desc1 $(2) "Race the enemy across the bridge"
+$$(1) bridge.desc2 $(2) "to reach their portal first!"
+$$(1) bridge.playtime $(2) "5-10"
+$$(1) bridge.players $(2) "2+"
+$$(1) bridge.genre $(2) "PvP"
+
+
+
 #BUILD COMP
 #$$(3) build
 $$(1) build.tag $(2) "build"
@@ -94,13 +111,13 @@ $$(1) build.name $(2) "Build Comp"
 $$(1) build.color $(2) "#68f2f2"
 $$(1) build.item $(2) "oak_sign"
 $$(1) build.slot $(2) "11"
-$$(1) build.desc1 $(2) "Write and build a prompt"
-$$(1) build.desc2 $(2) "and vote on the best builds!"
-$$(1) build.playtime $(2) "15-30"
+$$(1) build.desc1 $(2) "Write and build a prompt,"
+$$(1) build.desc2 $(2) "then vote on the best builds!"
+$$(1) build.playtime $(2) "5-10"
 $$(1) build.players $(2) "2+"
 $$(1) build.genre $(2) "Building"
 
-$$(1) build.settings.mode.name $(2) "mode"
+$$(1) build.settings.mode.name $(2) "Mode"
 $$(1) build.settings.mode.value $(2) "0"
 $$(1) build.settings.mode.1.name $(2) "Normal"
 $$(1) build.settings.mode.1.value $(2) "0"
@@ -140,6 +157,21 @@ $$(1) dance.desc2 $(2) "before the floor disappears!"
 $$(1) dance.playtime $(2) "<5"
 $$(1) dance.players $(2) "2+"
 $$(1) dance.genre $(2) "Party Game"
+
+$$(1) dance.settings.mode.name $(2) "Mode"
+$$(1) dance.settings.mode.value $(2) "0"
+$$(1) dance.settings.mode.1.name $(2) "Normal"
+$$(1) dance.settings.mode.1.value $(2) "0"
+$$(1) dance.settings.mode.1.item $(2) "red_terracotta"
+$$(1) dance.settings.mode.1.slot $(2) "12"
+$$(1) dance.settings.mode.2.name $(2) "PvP Enabled"
+$$(1) dance.settings.mode.2.value $(2) "1"
+$$(1) dance.settings.mode.2.item $(2) "iron_sword"
+$$(1) dance.settings.mode.2.slot $(2) "13"
+$$(1) dance.settings.mode.3.name $(2) "Breeze"
+$$(1) dance.settings.mode.3.value $(2) "1"
+$$(1) dance.settings.mode.3.item $(2) "wind_charge"
+$$(1) dance.settings.mode.3.slot $(2) "14"
 
 
 
@@ -273,7 +305,7 @@ $$(1) kinghill.tag $(2) "kinghill"
 $$(1) kinghill.name $(2) "King of the Hill"
 $$(1) kinghill.color $(2) "#edb7ad"
 $$(1) kinghill.item $(2) "stick"
-$$(1) kinghill.slot $(2) "26"
+#$$(1) kinghill.slot $(2) "26"
 $$(1) kinghill.desc1 $(2) "Stay atop the hill while"
 $$(1) kinghill.desc2 $(2) "fighting off other players!"
 $$(1) kinghill.playtime $(2) "1-2"
@@ -295,6 +327,21 @@ $$(1) paulheist.playtime $(2) "<10"
 $$(1) paulheist.players $(2) "2+"
 $$(1) paulheist.genre $(2) "Team"
 
+$$(1) paulheist.settings.map.name $(2) "Map"
+$$(1) paulheist.settings.map.value $(2) "1"
+$$(1) paulheist.settings.map.1.name $(2) "Random Map"
+$$(1) paulheist.settings.map.1.value $(2) "1"
+$$(1) paulheist.settings.map.1.item $(2) "glass"
+$$(1) paulheist.settings.map.1.slot $(2) "13"
+$$(1) paulheist.settings.map.2.name $(2) "Manor"
+$$(1) paulheist.settings.map.2.value $(2) "2"
+$$(1) paulheist.settings.map.2.item $(2) "deepslate_bricks"
+$$(1) paulheist.settings.map.2.slot $(2) "12"
+$$(1) paulheist.settings.map.3.name $(2) "Beeb Banking"
+$$(1) paulheist.settings.map.3.value $(2) "3"
+$$(1) paulheist.settings.map.3.item $(2) "pearlescent_froglight"
+$$(1) paulheist.settings.map.3.slot $(2) "14"
+
 
 
 #PROSPEROUS PILLARS
@@ -309,6 +356,17 @@ $$(1) pillars.desc2 $(2) "other players into the void!"
 $$(1) pillars.playtime $(2) "<5"
 $$(1) pillars.players $(2) "2-4"
 $$(1) pillars.genre $(2) "PvP"
+
+$$(1) pillars.settings.mode.name $(2) "Mode"
+$$(1) pillars.settings.mode.value $(2) "1"
+$$(1) pillars.settings.mode.1.name $(2) "Default"
+$$(1) pillars.settings.mode.1.value $(2) "1"
+$$(1) pillars.settings.mode.1.item $(2) "creeper_banner_pattern"
+$$(1) pillars.settings.mode.1.slot $(2) "12"
+$$(1) pillars.settings.mode.2.name $(2) "Swapping"
+$$(1) pillars.settings.mode.2.value $(2) "2"
+$$(1) pillars.settings.mode.2.item $(2) "flow_banner_pattern"
+$$(1) pillars.settings.mode.2.slot $(2) "14"
 
 
 

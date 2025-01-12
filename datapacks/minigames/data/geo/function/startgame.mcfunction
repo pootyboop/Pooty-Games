@@ -40,4 +40,3 @@ function geo:main
 
 schedule function geo:block_cleanup 2s
 
-tag @a[tag=mix] add mixBypass

@@ -61,4 +61,3 @@ time set 2000
 
 schedule function fps:newround 5s
 
-tag @a[tag=mix] add mixBypass

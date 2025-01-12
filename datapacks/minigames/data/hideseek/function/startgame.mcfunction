@@ -109,4 +109,3 @@ execute as @a store result score @s uuid3 run data get entity @s UUID[3]
 
 schedule function hideseek:hiding 5s
 
-tag @a[tag=mix] add mixBypass

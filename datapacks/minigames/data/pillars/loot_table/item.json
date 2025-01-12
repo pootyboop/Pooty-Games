@@ -21,15 +21,27 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diorite_wall"
+          "name": "minecraft:resin_brick_slab"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:birch_fence"
+          "name": "minecraft:cherry_slab"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:acacia_slab"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diorite_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_fence"
         },
         {
           "type": "minecraft:item",
@@ -109,6 +121,22 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_wool"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:birch_chest_boat"
         },
         {
@@ -177,11 +205,27 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:pale_oak_door"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_door"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:cherry_trapdoor"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bamboo_trapdoor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_trapdoor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_trapdoor"
         },
         {
           "type": "minecraft:item",
@@ -229,6 +273,14 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe"
         },
         {
@@ -238,6 +290,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe"
         },
         {
           "type": "minecraft:item",
@@ -261,6 +317,26 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:pink_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_terracotta"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:smooth_stone"
         },
         {
@@ -281,6 +357,14 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:lapis_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:furnace"
         },
         {
@@ -294,14 +378,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stripped_mangrove_log"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gray_wool"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_glazed_terracotta"
         },
         {
           "type": "minecraft:item",
@@ -338,6 +414,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:white_shulker_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_shulker_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_box"
         },
         {
           "type": "minecraft:item",
@@ -497,11 +581,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain"
+          "name": "minecraft:red_concrete_powder"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_concrete_powder"
+          "name": "minecraft:chain"
         },
         {
           "type": "minecraft:item",
@@ -514,6 +598,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:smithing_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_glazed_terracotta"
         },
         {
           "type": "minecraft:item",
@@ -530,6 +618,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cyan_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_glazed_terracotta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_glazed_terracotta"
         },
         {
           "type": "minecraft:item",
@@ -625,6 +721,18 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:creeper_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:amethyst_cluster"
         },
         {
@@ -661,15 +769,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:waxed_weathered_copper_grate"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:exposed_copper_bulb"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_door"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_trapdoor"
         },
         {
           "type": "minecraft:item",

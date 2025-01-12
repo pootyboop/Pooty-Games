@@ -33,4 +33,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 schedule function amuse:roundover 5s
 function amuse:main
 
-tag @a[tag=mix] add mixBypass

@@ -30,4 +30,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 schedule function trials:newround 5s
 schedule function trials:main 5s
 
-tag @a[tag=mix] add mixBypass

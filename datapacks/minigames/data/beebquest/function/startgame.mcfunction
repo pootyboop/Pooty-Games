@@ -40,4 +40,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function beebquest:start 5s
 
-tag @a[tag=mix] add mixBypass

@@ -8,7 +8,7 @@ scoreboard players set dummy dancecount 3
 scoreboard players operation dummy minigametimer = dummy dancetimepertimer
 
 
-function dance:clearlamps
+function dance:cleanlamps
 execute positioned -600 61 -591 run fill ~ ~ ~ ~-1 ~2 ~ minecraft:redstone_block
 execute positioned -600 61 -610 run fill ~ ~ ~ ~-1 ~2 ~ minecraft:redstone_block
 execute positioned -591 61 -600 run fill ~ ~ ~ ~ ~2 ~-1 minecraft:redstone_block

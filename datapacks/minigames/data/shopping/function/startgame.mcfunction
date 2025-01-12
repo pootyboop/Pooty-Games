@@ -31,4 +31,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function shopping:newround 5s
 
-tag @a[tag=mix] add mixBypass

@@ -6,16 +6,16 @@ gamemode survival @a
 effect clear @a
 function main:hunger_enable
 
-tellraw @a {"text":"3 minute grace period!","color":"gold"}
-tellraw @a {"text":"Players cannot damage each other.","color":"gray"}
-
 team add grace_period
 team join grace_period @a
 team modify grace_period friendlyFire false
 team modify grace_period collisionRule pushOtherTeams
 
-schedule function chunk:grace_over 180s
-schedule function chunk:shrink/warning 240s
+tellraw @a {"text":"5 minute grace period!","color":"gold"}
+tellraw @a {"text":"Players cannot damage each other.","color":"gray"}
+
+schedule function chunk:grace_over 300s
+schedule function chunk:shrink/warning 360s
 
 
 function chunk:main

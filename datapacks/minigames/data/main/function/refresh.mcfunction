@@ -6,6 +6,7 @@ gamemode adventure @a
 team leave @a[team=piglin]
 function main:seat_resetall
 
+function main:playercount
 function main:pnum
 
 execute as @a run attribute @s max_health base set 20

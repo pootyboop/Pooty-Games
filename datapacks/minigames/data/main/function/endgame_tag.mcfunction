@@ -1,4 +1,5 @@
 $schedule clear $(tag):setup
+$schedule clear $(tag):setup_1
 $schedule clear $(tag):setup_2
 $schedule clear $(tag):setup_3
 $schedule clear $(tag):count3

@@ -1,3 +1,4 @@
-execute if predicate pred:cointoss run function hamsoccer:map2
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=!mapBypass] add hogsea
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=mapBypass] remove mapBypass
+execute store result score dummy dummy run random value 0..1
+
+execute if score dummy dummy matches 0 run function map:set {"map":"palandechfield"}
+execute if score dummy dummy matches 1 run function map:set {"map":"hogsea"}

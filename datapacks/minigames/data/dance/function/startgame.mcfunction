@@ -1,10 +1,8 @@
-
-
 function main:gamesetup {"tag":"dance"}
 
 scoreboard players set dummy gameID 20
 
-execute positioned -600 60 -600 run function dance:setup
+execute positioned -600.0 60 -600.0 run function dance:setup
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
@@ -30,4 +28,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 schedule function dance:main 5s
 schedule function dance:initfloor 5s
 
-tag @a[tag=mix] add mixBypass

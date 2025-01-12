@@ -9,8 +9,13 @@ tag @a remove starting
 
 gamemode adventure @a
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=manor] run function paulheist:start_map1
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=beebbanking] run function paulheist:start_map2
+
+
+function map:if_params {"map":"manor"}
+execute if function map:if_call run function paulheist:start_map1
+
+function map:if_params {"map":"beebbanking"}
+execute if function map:if_call run function paulheist:start_map2
 
 #scoreboard players operation dummy minigametimer = dummy paulheisttime
 #scoreboard players operation dummy minigametimer *= 20 num

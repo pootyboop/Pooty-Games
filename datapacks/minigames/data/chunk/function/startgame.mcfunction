@@ -27,4 +27,3 @@ function chunk:findchunk
 
 
 
-tag @a[tag=mix] add mixBypass

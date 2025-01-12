@@ -35,4 +35,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 schedule function roomrace:nomovement 4s
 schedule function roomrace:rooms_setup 5s
 
-tag @a[tag=mix] add mixBypass

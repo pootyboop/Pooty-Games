@@ -48,4 +48,3 @@ effect give @a weakness 100 255 true
 
 schedule function goldrush:count3 5s
 
-tag @a[tag=mix] add mixBypass

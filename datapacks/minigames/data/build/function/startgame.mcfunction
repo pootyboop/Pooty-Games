@@ -36,4 +36,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 schedule function build:nomovement 4s
 schedule function build:rooms_setup 5s
 
-tag @a[tag=mix] add mixBypass

@@ -1,5 +1,10 @@
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=palandechfield] as @e[type=pig,tag=ball] at @s run function hamsoccer:pig_palandechfield
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=hogsea] as @e[type=pig,tag=ball] at @s run function hamsoccer:pig_hogsea
+function map:if_params {"map":"palandechfield"}
+execute if function map:if_call as @e[type=pig,tag=ball] at @s run function hamsoccer:pig_palandechfield
+
+function map:if_params {"map":"hogsea"}
+execute if function map:if_call as @e[type=pig,tag=ball] at @s run function hamsoccer:pig_hogsea
+
+
 
 clear @a porkchop
 

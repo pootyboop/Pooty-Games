@@ -1,1 +1,11 @@
 execute positioned 900 310 -900 run function pillars:cleanup_2
+execute positioned 900 280 -900 run function pillars:cleanup_2
+execute positioned 900 250 -900 run function pillars:cleanup_2
+execute positioned 900 220 -900 run function pillars:cleanup_2
+execute positioned 900 180 -900 run function pillars:cleanup_2
+execute positioned 900 150 -900 run function pillars:cleanup_2
+execute positioned 900 120 -900 run function pillars:cleanup_2
+execute positioned 900 90 -900 run function pillars:cleanup_2
+execute positioned 900 60 -900 run function pillars:cleanup_2
+execute positioned 900 30 -900 run function pillars:cleanup_2
+execute positioned 900 0 -900 run function pillars:cleanup_2

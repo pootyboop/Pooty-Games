@@ -1,18 +1,25 @@
-
-
 function main:gamesetup {"tag":"hamsoccer"}
 
 scoreboard players set dummy gameID 5
 
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove palandechfield
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove hogsea
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=hamsoccermap1] run function hamsoccer:randommap
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=hamsoccermap2] add palandechfield
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=hamsoccermap3] add hogsea
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=palandechfield] positioned 300 60 300 run function hamsoccer:setup
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=hogsea] positioned 600 60 300 run function hamsoccer:setup
+function setting:if_params {"tag":"hamsoccer","setting":"map","value":"1"}
+execute if function setting:if_call run function hamsoccer:randommap
+
+function setting:if_params {"tag":"hamsoccer","setting":"map","value":"2"}
+execute if function setting:if_call run function map:set {"map":"palandechfield"}
+
+function setting:if_params {"tag":"hamsoccer","setting":"map","value":"3"}
+execute if function setting:if_call run function map:set {"map":"hogsea"}
+
+
+
+function map:if_params {"map":"palandechfield"}
+execute if function map:if_call positioned 300 60 300 run function hamsoccer:setup
+
+function map:if_params {"map":"hogsea"}
+execute if function map:if_call positioned 600 60 300 run function hamsoccer:setup
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
@@ -57,4 +64,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function hamsoccer:newround 5s
 
-tag @a[tag=mix] add mixBypass

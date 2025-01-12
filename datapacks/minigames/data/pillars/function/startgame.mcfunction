@@ -33,5 +33,3 @@ tellraw @a {"text":"-The last one standing wins"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
 schedule function pillars:count3 5s
-
-tag @a[tag=mix] add mixBypass

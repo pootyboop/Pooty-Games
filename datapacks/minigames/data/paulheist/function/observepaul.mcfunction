@@ -1,5 +1,8 @@
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=manor] as @a at @s run tp @s ^ ^ ^0.02 facing 374 78 -300
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=beebbanking] as @a at @s run tp @s ^ ^ ^0.02 facing 617 97 -323
+function map:if_params {"map":"manor"}
+execute if function map:if_call as @a at @s run tp @s ^ ^ ^0.02 facing 374 78 -300
+
+function map:if_params {"map":"beebbanking"}
+execute if function map:if_call as @a at @s run tp @s ^ ^ ^0.02 facing 617 97 -323
 
 
 execute as @e[limit=1,tag=paulitem,type=item] at @s run function paulheist:paul_particles

@@ -127,4 +127,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] as @a at @s run playsound minecraft:entity.chicken.death master @s ~ ~ ~ 1 1 1
 
-tag @a[tag=mix] add mixBypass

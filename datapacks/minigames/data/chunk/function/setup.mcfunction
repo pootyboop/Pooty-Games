@@ -17,6 +17,7 @@ gamerule doTileDrops true
 gamerule doVinesSpread true
 gamerule doWeatherCycle true
 gamerule fallDamage true
+gamerule keepInventory false
 gamerule mobGriefing true
 gamerule naturalRegeneration true
 gamerule playersSleepingPercentage 100

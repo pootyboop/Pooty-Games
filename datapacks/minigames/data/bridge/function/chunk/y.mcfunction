@@ -1,0 +1,12 @@
+execute positioned ~ ~ ~ run function bridge:chunk/z
+execute positioned ~ ~5 ~ run function bridge:chunk/z
+execute positioned ~ ~10 ~ run function bridge:chunk/z
+execute positioned ~ ~15 ~ run function bridge:chunk/z
+execute positioned ~ ~20 ~ run function bridge:chunk/z
+execute positioned ~ ~25 ~ run function bridge:chunk/z
+execute positioned ~ ~30 ~ run function bridge:chunk/z
+execute positioned ~ ~35 ~ run function bridge:chunk/z
+execute positioned ~ ~40 ~ run function bridge:chunk/z
+execute positioned ~ ~45 ~ run function bridge:chunk/z
+execute positioned ~ ~50 ~ run function bridge:chunk/z
+execute positioned ~ ~55 ~ run function bridge:chunk/z

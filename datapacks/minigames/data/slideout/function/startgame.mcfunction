@@ -48,4 +48,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function slideout:count3 5s
 
-tag @a[tag=mix] add mixBypass

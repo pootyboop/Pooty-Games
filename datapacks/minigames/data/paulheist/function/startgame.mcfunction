@@ -1,18 +1,27 @@
-
-
 function main:gamesetup {"tag":"paulheist"}
 
 difficulty hard
 
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove manor
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove beebbanking
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=paulheistmap1] run function paulheist:randommap
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=paulheistmap2] add manor
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=paulheistmap3] add beebbanking
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=manor] run tp @a 368 78.3 -300
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=beebbanking] run tp @a 623 97.3 -329
+function setting:if_params {"tag":"paulheist","setting":"map","value":"1"}
+execute if function setting:if_call run function paulheist:randommap
+
+function setting:if_params {"tag":"paulheist","setting":"map","value":"2"}
+execute if function setting:if_call run function map:set {"map":"manor"}
+
+function setting:if_params {"tag":"paulheist","setting":"map","value":"3"}
+execute if function setting:if_call run function map:set {"map":"beebbanking"}
+
+
+
+function map:if_params {"map":"manor"}
+execute if function map:if_call run tp @a 368 78.3 -300
+
+function map:if_params {"map":"beebbanking"}
+execute if function map:if_call run tp @a 623 97.3 -329
+
+
 
 team add thieves
 team modify thieves prefix {"text":"[T] ","color":"light_purple"}
@@ -32,8 +41,14 @@ scoreboard objectives add elevatorcooldown dummy
 scoreboard players set @a elevatorcooldown 0
 
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=manor] positioned 309 60 -300 run function paulheist:setup
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=beebbanking] positioned 617 83 -323 run function paulheist:setup
+
+function map:if_params {"map":"manor"}
+execute if function map:if_call positioned 309 60 -300 run function paulheist:setup
+
+function map:if_params {"map":"beebbanking"}
+execute if function map:if_call positioned 617 83 -323 run function paulheist:setup
+
+
 
 scoreboard players set @a respawntimer 0
 scoreboard objectives remove minigamescore
@@ -75,4 +90,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function paulheist:count3 5s
 
-tag @a[tag=mix] add mixBypass

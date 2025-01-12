@@ -40,4 +40,3 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 schedule function fliptag:newround 5s
 
-tag @a[tag=mix] add mixBypass
