@@ -19,8 +19,6 @@ scoreboard objectives add delve.lapis dummy
 scoreboard objectives modify delve.lapis displayname {"text":"Lapis","color":"#1D53AC"}
 execute as @a unless score @s delve.lapis matches 0.. run scoreboard players set @s delve.lapis 0
 
-scoreboard objectives remove died
-scoreboard objectives add died deathCount
 scoreboard players set @a died 0
 
 team add delve

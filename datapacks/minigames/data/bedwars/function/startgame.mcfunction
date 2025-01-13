@@ -1,5 +1,3 @@
-
-
 function main:gamesetup {"tag":"bedwars"}
 
 execute positioned 10000 60 0 run function bedwars:setup
@@ -75,11 +73,12 @@ team modify Green prefix {"text":"[G] ","color":"green"}
 team modify Green friendlyFire false
 team modify Green collisionRule pushOtherTeams
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Red suffix {"text":" the chicken"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Yellow suffix {"text":" the chicken"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Blue suffix {"text":" the chicken"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Green suffix {"text":" the chicken"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run scoreboard objectives add chickenTimer dummy
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call run team modify Red suffix {"text":" the chicken"}
+execute if function setting:if_call run team modify Yellow suffix {"text":" the chicken"}
+execute if function setting:if_call run team modify Blue suffix {"text":" the chicken"}
+execute if function setting:if_call run team modify Green suffix {"text":" the chicken"}
+execute if function setting:if_call run scoreboard objectives add chickenTimer dummy
 
 
 
@@ -112,18 +111,21 @@ scoreboard players reset @e[type=area_effect_cloud,tag=oreGen] oreTimer3
 scoreboard players reset @e[type=area_effect_cloud,tag=oreGen] oreTimer4
 
 title @a title {"text":"Bedwars","color":"gold"}
-execute unless entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run title @a subtitle {"text":"Break other players\' beds!"}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run title @a subtitle {"text":"CHICKEN MODE!"}
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call run title @a subtitle {"text":"CHICKEN MODE!"}
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call as @a at @s run playsound minecraft:entity.chicken.death master @s ~ ~ ~ 1 1 1
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute unless function setting:if_call run title @a subtitle {"text":"Break other players\' beds!"}
 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
-execute unless entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run tellraw @a {"text":"Bedwars","color":"red","bold":true}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run tellraw @a {"text":"Bedwars - CHICKEN MODE","color":"red","bold":true}
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute unless function setting:if_call run tellraw @a {"text":"Bedwars","color":"red","bold":true}
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call run tellraw @a {"text":"Bedwars - CHICKEN MODE","color":"red","bold":true}
 tellraw @a {"text":"-Bridge to other islands to break beds and collect ores"}
 tellraw @a {"text":"-Players without a bed cannot respawn after dying"}
 tellraw @a {"text":"-Ores can be spent on items/upgrades at the shop"}
 tellraw @a {"text":"-Break other players\' beds; last one standing wins!"}
 tellraw @a [{"text":"Bedwars Castle by "},{"text":"Morozov Architect","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/bedwarp-castle/"}},{"text":" (click to visit)","color":"gray"}]
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
-
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] as @a at @s run playsound minecraft:entity.chicken.death master @s ~ ~ ~ 1 1 1
-

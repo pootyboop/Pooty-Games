@@ -1,1 +1,1 @@
-execute as @a run damage @s 18 minecraft:magic
+execute as @a run attribute @s max_health base set 2

@@ -1,8 +1,7 @@
 #Add minigames here
 
 #=============ALSO ADD THEM TO THE FOLLOWING=============#
-#gamemenu:home_setup_games
-#gamemenu:games_check_clicked
+#gamemenu:games_list
 #main:play_last
 #game:play
 #mix:pickgame2
@@ -26,6 +25,21 @@ $$(1) bedwars.desc2 $(2) "and protect your own!"
 $$(1) bedwars.playtime $(2) "15-30"
 $$(1) bedwars.players $(2) "2-8"
 $$(1) bedwars.genre $(2) "PvP"
+
+$$(1) bedwars.settings.mode.name $(2) "Mode"
+$$(1) bedwars.settings.mode.value $(2) "0"
+$$(1) bedwars.settings.mode.1.name $(2) "Classic"
+$$(1) bedwars.settings.mode.1.value $(2) "0"
+$$(1) bedwars.settings.mode.1.item $(2) "red_wool"
+$$(1) bedwars.settings.mode.1.slot $(2) "12"
+$$(1) bedwars.settings.mode.2.name $(2) "Chicken Mode"
+$$(1) bedwars.settings.mode.2.value $(2) "1"
+$$(1) bedwars.settings.mode.2.item $(2) "egg"
+$$(1) bedwars.settings.mode.2.slot $(2) "13"
+$$(1) bedwars.settings.mode.3.name $(2) "Sudden Death"
+$$(1) bedwars.settings.mode.3.value $(2) "2"
+$$(1) bedwars.settings.mode.3.item $(2) "red_stained_glass"
+$$(1) bedwars.settings.mode.3.slot $(2) "14"
 
 
 
@@ -119,14 +133,18 @@ $$(1) build.genre $(2) "Building"
 
 $$(1) build.settings.mode.name $(2) "Mode"
 $$(1) build.settings.mode.value $(2) "0"
-$$(1) build.settings.mode.1.name $(2) "Normal"
+$$(1) build.settings.mode.1.name $(2) "Classic"
 $$(1) build.settings.mode.1.value $(2) "0"
 $$(1) build.settings.mode.1.item $(2) "grass_block"
 $$(1) build.settings.mode.1.slot $(2) "12"
 $$(1) build.settings.mode.2.name $(2) "Gartic Phone"
 $$(1) build.settings.mode.2.value $(2) "1"
 $$(1) build.settings.mode.2.item $(2) "name_tag"
-$$(1) build.settings.mode.2.slot $(2) "14"
+$$(1) build.settings.mode.2.slot $(2) "13"
+$$(1) build.settings.mode.3.name $(2) "Guess the Build"
+$$(1) build.settings.mode.3.value $(2) "2"
+$$(1) build.settings.mode.3.item $(2) "book"
+$$(1) build.settings.mode.3.slot $(2) "14"
 
 
 
@@ -160,7 +178,7 @@ $$(1) dance.genre $(2) "Party Game"
 
 $$(1) dance.settings.mode.name $(2) "Mode"
 $$(1) dance.settings.mode.value $(2) "0"
-$$(1) dance.settings.mode.1.name $(2) "Normal"
+$$(1) dance.settings.mode.1.name $(2) "Classic"
 $$(1) dance.settings.mode.1.value $(2) "0"
 $$(1) dance.settings.mode.1.item $(2) "red_terracotta"
 $$(1) dance.settings.mode.1.slot $(2) "12"
@@ -186,7 +204,7 @@ $$(1) fliptag.desc1 $(2) "Flip dimensions to"
 $$(1) fliptag.desc2 $(2) "avoid getting tagged!"
 $$(1) fliptag.playtime $(2) "<5"
 $$(1) fliptag.players $(2) "2+"
-$$(1) fliptag.genre $(2) "PvP"
+$$(1) fliptag.genre $(2) "Tag"
 
 
 
@@ -391,12 +409,27 @@ $$(1) slideout.tag $(2) "slideout"
 $$(1) slideout.name $(2) "Slideout"
 $$(1) slideout.color $(2) "#d6262f"
 $$(1) slideout.item $(2) "crossbow"
-$$(1) slideout.slot $(2) "24"
+#$$(1) slideout.slot $(2) "24"
 $$(1) slideout.desc1 $(2) "Collect points and shoot enemies"
 $$(1) slideout.desc2 $(2) "while power sliding at mach speed!"
 $$(1) slideout.playtime $(2) "<5"
 $$(1) slideout.players $(2) "1+"
 $$(1) slideout.genre $(2) "PvP, Racing"
+
+
+
+#SURFACE TENSION
+#$$(3) surface
+$$(1) surface.tag $(2) "surface"
+$$(1) surface.name $(2) "Surface Tension"
+$$(1) surface.color $(2) "#345fdc"
+$$(1) surface.item $(2) "water_bucket"
+$$(1) surface.slot $(2) "24"
+$$(1) surface.desc1 $(2) "Riptide through floating water"
+$$(1) surface.desc2 $(2) "to keep the ball from enemies!"
+$$(1) surface.playtime $(2) "<5"
+$$(1) surface.players $(2) "2+"
+$$(1) surface.genre $(2) "Tag"
 
 
 

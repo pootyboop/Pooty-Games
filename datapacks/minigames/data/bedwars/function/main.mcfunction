@@ -38,4 +38,5 @@ execute as @a[nbt=!{Inventory:[{components:{"minecraft:custom_data":{sword:1b}}}
 
 
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run function bedwars:chicken_mode
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call run function bedwars:chicken_mode

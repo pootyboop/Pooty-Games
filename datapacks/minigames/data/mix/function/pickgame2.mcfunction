@@ -26,7 +26,8 @@ execute if score dummy dummy matches 14 unless entity @a[tag=mixBypass] if score
 execute if score dummy dummy matches 15 unless entity @a[tag=mixBypass] if score dummy playercount matches 1.. run function dance:startgame
 execute if score dummy dummy matches 16 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function chunk:startgame
 execute if score dummy dummy matches 17 unless entity @a[tag=mixBypass] if score dummy playercount matches 1.. run function amuse:startgame
-execute if score dummy dummy matches 18 unless entity @a[tag=mixBypass] if score dummy playercount matches 1.. run function bridge:startgame
+execute if score dummy dummy matches 18 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function bridge:startgame
+execute if score dummy dummy matches 19 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function surface:startgame
 execute unless entity @a[tag=mixBypass] run function shopping:startgame
 
 execute store result score dummy mixLastID run scoreboard players get dummy dummy

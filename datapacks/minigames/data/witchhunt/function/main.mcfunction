@@ -13,7 +13,7 @@ execute if score dummy minigametimer matches 500 run function witchhunt:killvill
 
 execute if score dummy minigametimer matches 200 run title @a title {"text":""}
 execute if score dummy minigametimer matches 200 run title @a subtitle {"text":"10 Seconds Left!","color":"red"}
-execute if score dummy minigametimer matches 200 run playsound minecraft:entity.death master @a ~ ~ ~ 1 0 1
+execute if score dummy minigametimer matches 200 run playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1
 
 execute if score dummy minigametimer matches 0 unless entity @a[tag=hiding] run function witchhunt:endgame_witches
 execute if score dummy minigametimer matches 0 if entity @a[tag=hiding] run tag @a[tag=hiding] remove hiding

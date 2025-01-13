@@ -4,6 +4,8 @@ time set 2000
 
 tp @a ~ ~ ~ 180 0
 
+function amuse:1heart
+
 setworldspawn ~ ~ ~ 180
 spawnpoint @a ~ ~ ~ 180
 

@@ -21,4 +21,7 @@ gamerule fallDamage true
 
 execute as @a run function bedwars:armor
 
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"2"}
+execute if function setting:if_call run schedule function bedwars:instant_death 1s
+
 function bedwars:main

@@ -10,8 +10,6 @@ scoreboard objectives modify minigamescore displayname {"text":"Score","color":"
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 
-scoreboard objectives remove died
-scoreboard objectives add died deathCount
 scoreboard players set @a died 0
 
 scoreboard objectives remove backstep.timer

@@ -21,7 +21,7 @@ kill @e[type=slime,tag=leapslime,scores={leaped=4..}]
 
 execute if score dummy minigametimer matches 200 run title @a title {"text":""}
 execute if score dummy minigametimer matches 200 run title @a subtitle {"text":"10 Seconds Left!","color":"red"}
-execute if score dummy minigametimer matches 200 run playsound minecraft:entity.death master @a ~ ~ ~ 1 0 1
+execute if score dummy minigametimer matches 200 run playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1
 
 execute if score dummy minigametimer matches 0 unless entity @e[type=pig,tag=ball,nbt={OnGround:1b}] run title @a title {"text":""}
 execute if score dummy minigametimer matches 0 unless entity @e[type=pig,tag=ball,nbt={OnGround:1b}] run title @a subtitle {"text":"FINAL SHOT!"}

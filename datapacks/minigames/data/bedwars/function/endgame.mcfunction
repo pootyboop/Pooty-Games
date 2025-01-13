@@ -26,11 +26,12 @@ scoreboard objectives remove uProt
 scoreboard objectives remove uForge
 scoreboard objectives remove uHaste
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Red suffix {"text":""}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Yellow suffix {"text":""}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Blue suffix {"text":""}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run team modify Green suffix {"text":""}
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] run scoreboard objectives remove chickenTimer
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call run team modify Red suffix {"text":""}
+execute if function setting:if_call run team modify Yellow suffix {"text":""}
+execute if function setting:if_call run team modify Blue suffix {"text":""}
+execute if function setting:if_call run team modify Green suffix {"text":""}
+execute if function setting:if_call run scoreboard objectives remove chickenTimer
 
 tag @a remove bedwars
 tag @a remove respawn
@@ -68,4 +69,5 @@ tp @a[tag=winner] 10000 58 0 90 0
 gamemode adventure @a[tag=winner]
 tp @a[gamemode=spectator] 9994 59 0 -90 0
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=bedwarsChicken] as @a at @s run playsound minecraft:entity.chicken.death master @s ~ ~ ~ 1 1 1
+function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
+execute if function setting:if_call as @a at @s run playsound minecraft:entity.chicken.death master @s ~ ~ ~ 1 1 1

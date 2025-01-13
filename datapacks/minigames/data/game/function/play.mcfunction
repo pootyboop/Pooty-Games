@@ -16,7 +16,7 @@ execute if score dummy playercount matches 1.. run tellraw @a {"text":"Amuse Me!
 
 execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Bedwars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bedwars:startgame"}}
 
-execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Beeb Quest","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function beebquest:startgame"}}
+#execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Beeb Quest","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function beebquest:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Bridge","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bridge:startgame"}}
 
@@ -51,6 +51,8 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"PvP Playg
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Shopping","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function shopping:startgame"}}
 
 execute if score dummy playercount matches 2..10 run tellraw @a {"text":"Slideout","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function slideout:startgame"}}
+
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Surface Tension","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function surface:startgame"}}
 
 execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Track Racing","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function trackracing:startgame"}}
 

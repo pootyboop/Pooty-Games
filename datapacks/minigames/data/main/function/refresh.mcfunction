@@ -16,10 +16,17 @@ effect give @a weakness 4 255 true
 
 title @a times 0 40 20
 
-scoreboard players reset @a died
-scoreboard players reset @a drop
+scoreboard objectives remove died
+scoreboard objectives add died deathCount
+scoreboard objectives remove drop
+scoreboard objectives add drop minecraft.custom:minecraft.drop
 scoreboard players reset @a openBarrel
 scoreboard players reset @a openchest
+
+bossbar add minecraft:timer {"text":""}
+bossbar set minecraft:timer color white
+bossbar set minecraft:timer style progress
+bossbar set minecraft:timer players
 
 gamerule disableRaids true
 gamerule doDaylightCycle false

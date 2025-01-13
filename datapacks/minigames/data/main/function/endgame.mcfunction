@@ -13,6 +13,8 @@ effect clear @a
 team leave @a
 gamemode spectator @a
 
+function main:worldborder/freeze
+
 
 
 scoreboard players set dummy dummy 0
