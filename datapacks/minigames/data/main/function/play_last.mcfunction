@@ -22,5 +22,6 @@ execute if score dummy lastPlayedGameID matches 21 run function amuse:startgame
 execute if score dummy lastPlayedGameID matches 22 run function chunk:startgame
 execute if score dummy lastPlayedGameID matches 23 run function bridge:startgame
 execute if score dummy lastPlayedGameID matches 24 run function surface:startgame
+execute if score dummy lastPlayedGameID matches 25 run function fine:startgame
 execute if score dummy lastPlayedGameID matches 100 run function pvp:startgame
 execute if score dummy lastPlayedGameID matches 101 run function delve:startgame

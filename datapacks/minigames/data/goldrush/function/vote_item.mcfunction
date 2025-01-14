@@ -1,1 +1,1 @@
-item replace entity @a hotbar.8 with carrot_on_a_stick[unbreakable={},custom_name='[{"text":"Vote Kill ","color":"gold","italic":false},{"text":"(Right Click)","color":"gray","italic":false}]']
+item replace entity @a hotbar.8 with carrot_on_a_stick[unbreakable={},custom_name='[{"text":"Vote Kill ","color":"gold","italic":false},{"text":"(Right Click)","color":"gray","italic":false}]',item_model="minecraft:writable_book"]

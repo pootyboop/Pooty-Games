@@ -1,7 +1,7 @@
 scoreboard players remove dummy mixcount 1
 function main:playercount
 
-#ENABLE ALL GAMES, REGARDLESS OF PLAYER COUNT
+#UNCOMMENT THIS LINE TO ENABLE ALL GAMES, REGARDLESS OF PLAYER COUNT
 #scoreboard players set dummy playercount 3
 
 tag @a remove mixBypass
@@ -28,6 +28,7 @@ execute if score dummy dummy matches 16 unless entity @a[tag=mixBypass] if score
 execute if score dummy dummy matches 17 unless entity @a[tag=mixBypass] if score dummy playercount matches 1.. run function amuse:startgame
 execute if score dummy dummy matches 18 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function bridge:startgame
 execute if score dummy dummy matches 19 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function surface:startgame
+execute if score dummy dummy matches 20 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function fine:startgame
 execute unless entity @a[tag=mixBypass] run function shopping:startgame
 
 execute store result score dummy mixLastID run scoreboard players get dummy dummy

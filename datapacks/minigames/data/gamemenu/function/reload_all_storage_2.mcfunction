@@ -2,8 +2,8 @@
 
 #=============ALSO ADD THEM TO THE FOLLOWING=============#
 #gamemenu:games_list
-#main:play_last
 #game:play
+#main:play_last
 #mix:pickgame2
 #mix:selectid
 
@@ -190,6 +190,21 @@ $$(1) dance.settings.mode.3.name $(2) "Breeze"
 $$(1) dance.settings.mode.3.value $(2) "1"
 $$(1) dance.settings.mode.3.item $(2) "wind_charge"
 $$(1) dance.settings.mode.3.slot $(2) "14"
+
+
+
+#FINE DINING
+#$$(3) fine
+$$(1) fine.tag $(2) "fine"
+$$(1) fine.name $(2) "Fine Dining"
+$$(1) fine.color $(2) "#DA7420"
+$$(1) fine.item $(2) "pumpkin_pie"
+$$(1) fine.slot $(2) "25"
+$$(1) fine.desc1 $(2) "Work together to serve"
+$$(1) fine.desc2 $(2) "dishes as fast as you can!"
+$$(1) fine.playtime $(2) "5-10"
+$$(1) fine.players $(2) "2+"
+$$(1) fine.genre $(2) "Crafting"
 
 
 
@@ -399,7 +414,7 @@ $$(1) shopping.desc1 $(2) "Race other players to craft"
 $$(1) shopping.desc2 $(2) "items using nearby resources!"
 $$(1) shopping.playtime $(2) "<5"
 $$(1) shopping.players $(2) "1+"
-$$(1) shopping.genre $(2) "Party Game"
+$$(1) shopping.genre $(2) "Crafting"
 
 
 
@@ -454,7 +469,7 @@ $$(1) trackracing.tag $(2) "trackracing"
 $$(1) trackracing.name $(2) "Track Racing"
 $$(1) trackracing.color $(2) "#e0c094"
 $$(1) trackracing.item $(2) "rail"
-$$(1) trackracing.slot $(2) "25"
+#$$(1) trackracing.slot $(2) "25"
 $$(1) trackracing.desc1 $(2) "Place and destroy tracks to get your"
 $$(1) trackracing.desc2 $(2) "minecart to the finish line first!"
 $$(1) trackracing.playtime $(2) "<5"

@@ -1,4 +1,4 @@
-execute store result score dummy dummy run random value 0..12
+execute store result score dummy dummy run random value 0..14
 
 execute if score dummy dummy matches 0 run function dance:music_play {"song":"blocks"}
 execute if score dummy dummy matches 1 run function dance:music_play {"song":"cat"}
@@ -13,3 +13,5 @@ execute if score dummy dummy matches 9 run function dance:music_play {"song":"st
 execute if score dummy dummy matches 10 run function dance:music_play {"song":"strad"}
 execute if score dummy dummy matches 11 run function dance:music_play {"song":"wait"}
 execute if score dummy dummy matches 12 run function dance:music_play {"song":"ward"}
+execute if score dummy dummy matches 13 run function dance:music_play {"song":"precipice"}
+execute if score dummy dummy matches 14 run function dance:music_play {"song":"creator"}
