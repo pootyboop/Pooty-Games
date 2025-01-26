@@ -1,5 +1,5 @@
 gamemode adventure @a
-
+time set 6000
 
 #bossbar set minecraft:timer players @a
 scoreboard players operation dummy minigametimer = dummy buildtime
