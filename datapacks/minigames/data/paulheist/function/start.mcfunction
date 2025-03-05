@@ -49,7 +49,7 @@ item replace entity @a[tag=guardian] armor.feet with netherite_boots[unbreakable
 effect give @a[tag=guardian] slowness 100 255 true
 execute as @a[tag=guardian] run attribute @s minecraft:jump_strength base set 0
 effect give @a[tag=guardian] blindness 100 255 true
-schedule function paulheist:freeguardians 6s
+schedule function paulheist:freeguardians 7.5s
 
 
 

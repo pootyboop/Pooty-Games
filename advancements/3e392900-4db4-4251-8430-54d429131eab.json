@@ -8382,5 +8382,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-02 21:07:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-03-04 19:52:25 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

@@ -53,6 +53,9 @@ worldborder set 59999968
 function main:hunger_disable
 function main:itemdrops_disable
 
+execute as @a run function main:jumpheight_reset
+execute as @a run function main:gravity_reset
+
 setworldspawn 0 60 0
 spawnpoint @a 0 60 0
 

@@ -11,4 +11,4 @@ execute positioned -911 57 322 run clone ~ ~ ~ ~ ~2 ~1 -911 60 332
 execute as @a at @s run function hideseek:factory_player
 #execute as @e[type=falling_block,tag=falling] at @s run function hideseek:factory_player
 
-schedule function hideseek:factory 10
+schedule function hideseek:factory 20

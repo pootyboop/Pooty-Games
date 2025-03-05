@@ -7047,6 +7047,7 @@
       "apple": "2024-12-17 19:08:28 +0000",
       "golden_apple": "2024-04-20 20:20:54 +0100",
       "cooked_chicken": "2024-12-17 17:53:54 +0000",
+      "enchanted_golden_apple": "2025-03-01 15:13:27 +0000",
       "cooked_mutton": "2024-12-17 19:35:19 +0000",
       "mushroom_stew": "2024-12-17 19:09:26 +0000",
       "chorus_fruit": "2024-09-22 19:09:40 +0100",
@@ -8409,6 +8410,12 @@
   "minecraft:recipes/tools/light_blue_bundle": {
     "criteria": {
       "has_the_recipe": "2025-01-11 22:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2025-03-04 19:55:36 +0000"
     },
     "done": true
   },

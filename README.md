@@ -2,7 +2,7 @@
 - Multiplayer party games for 2-10 players, including original and classic games.
 
 ## Details
-- Minecraft Java Edition 1.21.1
+- Minecraft Java Edition 1.21.4
 
 - Play with friends via LAN or a server (make sure cheats/command blocks are enabled!)
 
