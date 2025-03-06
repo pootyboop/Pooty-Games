@@ -1,5 +1,7 @@
 kill @e[type=item,distance=..20]
 
+time set 6000
+
 gamemode adventure @a
 #tp @a ~ ~ ~
 tp @a -600 61 609 180 0

@@ -2,23 +2,7 @@ function main:gamesetup {"tag":"hideseek"}
 
 
 
-kill @e[type=falling_block,tag=falling]
-
-
-tag @a remove hiderdead
-scoreboard players reset @a goathorn
-
-team add seekers {"text":"Seekers","color":"red"}
-team modify seekers prefix {"text":"[S] ","color":"red"}
-team modify seekers friendlyFire false
-team modify seekers color red
-
-team add hiders {"text":"Hiders","color":"green"}
-team modify hiders prefix {"text":"[H] ","color":"green"}
-team modify hiders friendlyFire false
-team modify hiders seeFriendlyInvisibles false
-team modify hiders collisionRule pushOwnTeam
-team modify hiders color green
+function hideseek:killallblocks
 
 
 
@@ -78,12 +62,15 @@ scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives remove hideseekblockID
 scoreboard objectives add hideseekblockID dummy
 
-execute unless entity @a[tag=seeker] as @r[tag=!hider] run function hideseek:seeker_join
-execute as @a[tag=!seeker] run function hideseek:hider_join
+function hideseek:teams
 
 scoreboard players reset @a died
 scoreboard players reset @a dmgd
 scoreboard players reset @a noisestick
+scoreboard players reset @a goathorn
+
+tag @a remove gotbow
+tag @a remove hiderdead
 
 effect give @a weakness 10000 255 true
 

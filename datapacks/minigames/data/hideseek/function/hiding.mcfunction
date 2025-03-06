@@ -21,7 +21,7 @@ execute if function map:if_call run fill -910 60 343 -889 62 343 iron_bars repla
 
 
 
-execute as @a[tag=hider] run function hideseek:randomblock
+execute as @a[tag=hider] at @s run function hideseek:randomblock
 
 effect give @a[tag=hider] minecraft:invisibility infinite 1 true
 effect give @a[tag=hider] speed 15 2 true

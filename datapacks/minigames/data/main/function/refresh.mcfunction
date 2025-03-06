@@ -10,6 +10,10 @@ function main:playercount
 function main:pnum
 
 execute as @a run attribute @s max_health base set 20
+execute as @a run attribute @s minecraft:scale base set 1
+execute as @a run function main:jumpheight_reset
+execute as @a run function main:gravity_reset
+
 effect give @a minecraft:instant_health 1 0 true
 effect give @a regeneration 2 255 true
 effect give @a weakness 4 255 true
@@ -52,9 +56,6 @@ worldborder set 59999968
 
 function main:hunger_disable
 function main:itemdrops_disable
-
-execute as @a run function main:jumpheight_reset
-execute as @a run function main:gravity_reset
 
 setworldspawn 0 60 0
 spawnpoint @a 0 60 0

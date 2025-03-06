@@ -13,5 +13,7 @@ tag @a remove hiderdead
 tag @a remove hiding
 tag @a remove gotbow
 
+function hideseek:killallblocks
+
 function main:score_places
 function main:endgame

@@ -19,18 +19,16 @@ execute if function map:if_call run fill -910 60 343 -889 62 343 air replace iro
 function map:if_params {"map":"blockfactory"}
 execute if function map:if_call run spawnpoint @a -899 60 344 180
 
+
+
 effect clear @a[tag=seeker] blindness
 effect clear @a[tag=hider] speed
-#effect give @a[tag=hider] speed 10000 0 true
-
 scoreboard players operation dummy minigametimer = dummy hideseektime
 scoreboard players operation dummy minigametimer *= 20 num
 execute store result bossbar minecraft:timer max run scoreboard players get dummy minigametimer
 execute store result bossbar minecraft:timer value run scoreboard players get dummy minigametimer
 
-#bossbar set minecraft:timer max 2400
-#bossbar set minecraft:timer value 2400
-#scoreboard players set dummy minigametimer 2400
+
 
 give @a[tag=seeker] bow[unbreakable={},enchantments={"minecraft:power":1,"minecraft:infinity":1},custom_name='{"text":"Bow of Block Killing","color":"red","italic":false}']
 item replace entity @a[tag=seeker] hotbar.8 with arrow 1
@@ -38,8 +36,6 @@ item replace entity @a[tag=seeker] hotbar.8 with arrow 1
 item replace entity @a[tag=hider] hotbar.1 with wooden_sword[unbreakable={},enchantments={"minecraft:knockback":2,"minecraft:sharpness":1},custom_name='{"text":"Slapsword","color":"green","italic":false}']
 item replace entity @a[tag=hider] hotbar.2 with carrot_on_a_stick[unbreakable={},custom_name='[{"text":"Timid Taunt ","color":"green","italic":false},{"text":"(Right Click)","color":"gray","italic":false}]']
 item replace entity @a[tag=hider] hotbar.3 with goat_horn[custom_name='[{"text":"Testy Taunt ","color":"red","italic":false},{"text":"(Right Click)","color":"gray","italic":false}]',instrument="minecraft:admire_goat_horn"]
-#replaceitem entity @a[tag=hider] hotbar.1 bow{Unbreakable:1b,Enchantments:[{id:"minecraft:punch",lvl:2s}]}
-#replaceitem entity @a[tag=hider] hotbar.8 arrow 5
 
 effect clear @a resistance
 effect clear @a weakness

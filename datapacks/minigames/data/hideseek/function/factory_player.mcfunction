@@ -16,6 +16,6 @@ execute if entity @s[x=-886.0,dx=-0.5,y=61,dy=1,z=312.0,dz=1.0] run tp @s ~ ~ ~1
 
 
 tag @s add temp
-execute as @e[type=falling_block,tag=falling] if score @s uuid0 = @a[limit=1,tag=temp] uuid0 run kill @s
+execute as @e[type=block_display,tag=snapblock] if score @s uuid0 = @a[limit=1,tag=temp] uuid0 run kill @s
 tag @s remove temp
 execute at @s[tag=sneaking] anchored feet run function hideseek:autocorrectblock

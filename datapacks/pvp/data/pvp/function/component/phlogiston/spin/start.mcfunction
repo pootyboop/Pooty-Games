@@ -6,7 +6,9 @@ effect give @s speed 1 3 true
 title @s actionbar {"text":""}
 
 playsound minecraft:block.fire.ambient master @a ~ ~ ~ 1 1
-
+playsound minecraft:block.fire.ambient master @a ~ ~ ~ 1 2
+playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 0
+playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1 1.2
 
 execute if score phlogiston.ridespin weaponStats matches 0 run return fail
 tag @s add newphlogistonspinner

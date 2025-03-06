@@ -1,0 +1,1 @@
+$data get storage pvp:storage loadout.$(uuid).curr.weapon3

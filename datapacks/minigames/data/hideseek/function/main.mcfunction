@@ -1,6 +1,5 @@
-execute as @e[type=falling_block,tag=falling] run data merge entity @s {Time:100}
-
-
+#function map:if_params {"map":"frozenlodge"}
+#execute if function map:if_call as @a at @s if entity @s[y=0,dy=47] run function hideseek:frozenlodge_tpup
 
 execute store result bossbar minecraft:timer value run scoreboard players remove dummy minigametimer 1
 
@@ -15,8 +14,9 @@ schedule function hideseek:main 1
 
 
 
-execute as @a[tag=seeker,scores={died=1..}] run function hideseek:died_seeker
-execute as @a[tag=hider] run function hideseek:hider
+#execute as @a[tag=seeker,scores={died=1..}] run function hideseek:died_seeker
+#kill @e[type=block_display,tag=tickblock]
+execute as @a[tag=hider] at @s run function hideseek:hider
 
 execute if score dummy minigametimer matches 0 unless entity @a[tag=hiding] run function hideseek:endgame_hiders
 execute if score dummy minigametimer matches 0 if entity @a[tag=hiding] run tag @a[tag=hiding] remove hiding

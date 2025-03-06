@@ -5,6 +5,5 @@ execute as @e[limit=1,type=leash_knot,tag=newautosnapper] run function hideseek:
 
 tag @s remove newauto
 
-#tag @s add autocorrect
 tag @s add sneaking
 effect give @s slowness infinite 255 true

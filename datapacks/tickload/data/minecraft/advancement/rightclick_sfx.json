@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 1000000,
+              "sound":"entity.turtle.shamble_baby",
+              "has_consume_particles":false
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:rightclick"
+  }
+}

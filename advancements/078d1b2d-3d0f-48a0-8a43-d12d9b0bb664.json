@@ -8407,5 +8407,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-03-05 19:22:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-05 19:34:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

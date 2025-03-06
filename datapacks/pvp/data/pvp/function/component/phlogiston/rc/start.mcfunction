@@ -1,5 +1,7 @@
 execute if score @s phlogiston.circle matches 0.. run return fail
 
+playsound minecraft:entity.blaze.ambient master @a ~ ~ ~ .5 2
+playsound minecraft:item.flintandsteel.use master @a ~ ~ ~ 1 0
 effect give @s slowness infinite 255 true
 scoreboard players set @s phlogiston.timer 0
 

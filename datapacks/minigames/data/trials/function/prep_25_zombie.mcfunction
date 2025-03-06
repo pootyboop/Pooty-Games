@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {PersistenceRequired:1b,ArmorItems:[{id:"minecraft:leather_boots",count:1},{id:"minecraft:leather_leggings",count:1},{id:"minecraft:leather_chestplate",count:1},{id:"minecraft:leather_helmet",count:1}],Rotation:[90F,0F]}

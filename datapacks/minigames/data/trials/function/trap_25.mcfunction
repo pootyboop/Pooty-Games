@@ -1,0 +1,1 @@
+fill -608 59 600 -592 59 600 air replace spruce_slab

@@ -1,5 +1,5 @@
-execute at @e[type=falling_block,tag=falling] if score @s uuid0 = @e[limit=1,sort=nearest,type=falling_block,tag=falling] uuid0 run kill @e[limit=1,sort=nearest,type=falling_block,tag=falling]
+execute at @e[type=block_display,tag=snapblock] if score @s uuid0 = @n[type=block_display,tag=snapblock] uuid0 run kill @n[type=block_display,tag=snapblock]
 tag @s remove sneaking
 effect clear @s slowness
 
-title @s actionbar {"text":"Stopped hiding!"}
+title @s[tag=!seeker] actionbar {"text":"Stopped hiding!"}

@@ -12,4 +12,3 @@ execute at @e[limit=2,type=#pvp:fighter,tag=warptp] run function pvp:component/w
 
 tag @a remove warptp
 tag @n[type=#pvp:fighter,tag=fighter,tag=dmgd] remove dmgd
-say hi

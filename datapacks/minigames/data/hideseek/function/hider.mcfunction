@@ -1,15 +1,13 @@
-function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call as @a at @s if entity @s[y=0,dy=47] run function hideseek:frozenlodge_tpup
+#execute at @s[tag=!sneaking] run function hideseek:hider_block {"isauto":"0"}
+execute at @e[type=block_display,tag=hiderblock] if score @s uuid0 = @n[type=block_display,tag=hiderblock] uuid0 run tag @n[type=block_display,tag=hiderblock] add temp
+tp @n[type=block_display,tag=temp] ~ ~ ~
+execute if score @s died matches 1.. run return run function hideseek:hider_die
+tag @e[type=block_display,tag=temp] remove temp
 
-execute if score @s died matches 1.. run function hideseek:hider_die
-
+execute if score @s noisestick matches 1.. run function hideseek:noisestick
 execute if entity @s[tag=!gotbow,scores={goathorn=5..}] run function hideseek:hider_getbow
 
-execute at @s[tag=!sneaking] run function hideseek:hider_block {"isauto":"0"}
+execute if entity @s[tag=sneaking] run function hideseek:hider_sneak_check
+execute if entity @s[tag=!sneaking,predicate=pred:sneaking,nbt={OnGround:1b}] if block ~ ~ ~ air unless entity @a[distance=.01..1] run function hideseek:autocorrectblock
 
-execute at @s[scores={noisestick=1..}] run function hideseek:noisestick
-
-execute at @s[tag=sneaking] run function hideseek:hider_sneak_check
-execute at @s[tag=!sneaking,predicate=pred:sneaking,nbt={OnGround:1b}] if block ~ ~ ~ air unless entity @a[distance=.01..1] run function hideseek:autocorrectblock
-
-execute at @s[scores={dmgd=1..}] run function hideseek:dmgd
+execute if score @s dmgd matches 1.. run function hideseek:dmgd

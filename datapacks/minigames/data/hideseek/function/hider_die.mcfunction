@@ -1,8 +1,11 @@
+kill @n[type=block_display,tag=temp]
+
 scoreboard players remove Hiders minigamescore 1
 
 execute if entity @a[tag=hider,distance=0.1..] run tag @s remove hider
 
 tag @s add hiderdead
+execute if entity @s[tag=sneaking] run function hideseek:hider_sneak_cleanup
 
 effect clear @s invisibility
 
