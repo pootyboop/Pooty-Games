@@ -1,0 +1,1 @@
+damage @s 12 mace_smash by @p[tag=rotaxeslam] from @p[tag=rotaxeslam]

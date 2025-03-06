@@ -1,7 +1,7 @@
 scoreboard players set @s phlogiston.circle 0
 scoreboard players set @s phlogiston.timer -1
 effect clear @s slowness
-effect give @s speed 1 3 true
+effect give @s speed 2 3 true
 
 title @s actionbar {"text":""}
 

@@ -1,1 +1,1 @@
-execute as @n[type=minecraft:zombie,tag=trainingdummy] at @s run function pvp:player/trainingarea/dummy/togglestate2
+execute as @n[type=minecraft:vindicator,tag=trainingdummy] at @s run function pvp:player/trainingarea/dummy/togglestate2

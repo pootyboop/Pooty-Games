@@ -7,3 +7,5 @@ scoreboard players reset @s dmg
 function pvp:player/uuidtotemp
 
 function pvp:player/dmg/melee/dealt2 with storage pvp:storage temp
+
+execute as @n[type=#pvp:fighter,type=!player,distance=..10,nbt={HurtTime:10s}] at @s run function pvp:player/dmg/taken

@@ -1,6 +1,6 @@
 effect clear @s strength
 
-clear @s golden_hoe[minecraft:custom_data~{component:"vaulter"}]
+clear @s *[minecraft:custom_data~{component:"vaulter"}]
 function pvp:component/vaulter/get
 
 playsound minecraft:block.note_block.chime master @s ~ ~ ~ .4 .5

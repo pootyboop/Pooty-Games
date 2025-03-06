@@ -8,7 +8,7 @@ execute store result storage pvp:storage temp.dmg double 1 run scoreboard player
 scoreboard players reset @s dmgd
 
 function pvp:player/uuidtotemp
-
 function pvp:player/dmg/ranged/taken2 with storage pvp:storage temp
 
+tag @s remove dmgd
 execute on attacker run tag @s remove dmger

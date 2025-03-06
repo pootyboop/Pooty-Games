@@ -1,0 +1,14 @@
+{
+  "values":[
+  "#minecraft:air",
+  "#slabs",
+  "#minecraft:trapdoors",
+  "#minecraft:doors",
+  "bamboo",
+  "#minecraft:walls",
+  "#minecraft:fences",
+  "minecraft:iron_bars",
+  "minecraft:glass",
+  "minecraft:glass_pane"
+  ]
+}

@@ -1,0 +1,1 @@
+function pvp:component/twinscythes/get_offhand

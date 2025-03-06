@@ -3,6 +3,7 @@
     "minecraft:player",
     "#minecraft:zombies",
     "#minecraft:skeletons",
+    "#minecraft:raiders",
     "minecraft:armor_stand"
   ]
 }

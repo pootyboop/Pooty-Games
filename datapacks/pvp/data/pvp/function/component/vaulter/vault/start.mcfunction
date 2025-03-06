@@ -2,10 +2,11 @@ tag @s add newvault
 
 effect give @s strength infinite 0 true
 
-clear @s golden_shovel[minecraft:custom_data~{component:"vaulter"}]
+clear @s *[minecraft:custom_data~{component:"vaulter"}]
 function pvp:component/vaulter/get2
 
-playsound minecraft:entity.extinguish_fire master @a ~ ~ ~ .8 2
+playsound minecraft:block.fire.extinguish master @a ~ ~ ~ .8 2
+playsound minecraft:entity.breeze.shoot master @a ~ ~ ~ .4 0.7
 playsound minecraft:item.armor.equip_chain master @s ~ ~ ~ 1 .9
 particle minecraft:cloud ~ ~ ~ 1.2 0 1.2 .01 70
 

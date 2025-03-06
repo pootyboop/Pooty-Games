@@ -1,5 +1,6 @@
 $execute if entity @s[tag=arrow] run return run function pvp:entity/$(function) {"entity":"arrow"}
 $execute if entity @s[tag=controlpoint] run return run function pvp:entity/$(function) {"entity":"controlpoint"}
+$execute if entity @s[tag=fire] run return run function pvp:entity/$(function) {"entity":"fire"}
 $execute if entity @s[tag=icesphere] run return run function pvp:entity/$(function) {"entity":"icesphere"}
 $execute if entity @s[tag=illusion] run return run function pvp:entity/$(function) {"entity":"illusion"}
 $execute if entity @s[tag=paralysisfield] run return run function pvp:entity/$(function) {"entity":"paralysisfield"}
