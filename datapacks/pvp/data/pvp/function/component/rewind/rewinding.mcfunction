@@ -1,6 +1,8 @@
 scoreboard players add @s rewind.timer 1
 execute if score @s rewind.timer matches 20.. run return run function pvp:component/rewind/stop_ended
 
+function pvp:component/hothead/increment_fire_trail_amount {"amount":"3"}
+
 scoreboard players remove @s rewind.rewinding 3
 execute if score @s rewind.rewinding matches ..-1 run scoreboard players add @s rewind.rewinding 60
 

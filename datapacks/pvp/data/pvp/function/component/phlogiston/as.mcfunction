@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -9984 {Tags:["needsdata","phlogiston","default"],HandItems:[{id:"minecraft:blaze_rod",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"phlogiston",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -9984 {Tags:["needsdata","phlogiston","default"],HandItems:[{id:"minecraft:blaze_rod",components:{"minecraft:custom_data":{component:"phlogiston",category:"weapon",getter:1}}},{}]}

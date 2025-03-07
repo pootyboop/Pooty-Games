@@ -1,1 +1,1 @@
-damage @n[type=#pvp:fighter,tag=fighter,distance=..1.5,tag=!startrush] 7 player_attack by @p[tag=startrush] from @p[tag=startrush]
+execute as @e[type=#pvp:fighter,tag=fighter,distance=..1.5,tag=!startrush] run function pvp:component/twinscythes/rush/dmg2
