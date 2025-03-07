@@ -21,3 +21,6 @@ tag @a remove tallgrasswither
 
 function main:score_places
 function main:endgame
+
+team empty thieves
+team empty guardians

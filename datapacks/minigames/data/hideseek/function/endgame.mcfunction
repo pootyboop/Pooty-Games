@@ -17,3 +17,6 @@ function hideseek:killallblocks
 
 function main:score_places
 function main:endgame
+
+team empty hiders
+team empty seekers

@@ -62,7 +62,10 @@ function main:endgame
 
 execute as @a[tag=winner] run function bedwars:endgame_winner
 
-
+team empty Red
+team empty Green
+team empty Yellow
+team empty Blue
 
 fill 9999 58 -1 10001 60 1 air
 tp @a[tag=winner] 10000 58 0 90 0

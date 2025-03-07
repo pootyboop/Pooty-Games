@@ -12,11 +12,15 @@ execute positioned ~ ~ ~-2 run function pvp:entity/icesphere/sides/z
 
 execute as @e[type=#pvp:fakeblock,tag=newfakeblock] run function pvp:entity/icesphere/spawn_fakeblocks
 
-execute as @e[type=#pvp:fighter,tag=fighter,distance=..2] run damage @s 5 freeze by @n[type=#pvp:fighter,tag=fighter,tag=owner] from @n[type=#pvp:fighter,tag=fighter,tag=owner]
-
+execute as @e[type=#pvp:fighter,tag=fighter,distance=..1.75,tag=!owner] run function pvp:entity/icesphere/dmg
 tag @s remove newicesphere
 
 
 
-particle poof ~ ~ ~ 2 2 2 0 30
+
 playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 1 0
+
+execute store result score dummy dummy run function pvp:map/thermalcaves/is_nether
+
+execute if score dummy dummy matches 1 run return run particle rain ~ ~ ~ 2 2 2 0 30
+particle poof ~ ~ ~ 2 2 2 0 30

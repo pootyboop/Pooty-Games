@@ -1,3 +1,5 @@
+execute if block ~ ~ ~ water run return run function pvp:entity/kill {"entity":"fire"}
+
 execute if predicate pred:cointoss run particle flame ~ ~ ~ .2 .2 .2 .01 1
 
 tag @s add currfire

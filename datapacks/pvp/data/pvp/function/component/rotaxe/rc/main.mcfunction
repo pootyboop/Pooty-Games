@@ -1,5 +1,5 @@
 particle smoke ~ ~1 ~ .2 .4 .2 0 1 force
-title @s actionbar {"text":"Charging Slam...","color":"#96b63f"}
+title @s actionbar {"text":"🥀 Charging Slam... 🥀","color":"#96b63f"}
 execute if score @s rotaxe.timer >= rotaxe.chargetime weaponStats run title @s actionbar {"text":"Slam Ready!","color":"#96b63f"}
 
 execute if score @s rotaxe.timer >= rotaxe.chargetime weaponStats if score @s rotaxe.timer matches ..99 run return run function pvp:component/rotaxe/slam/ready

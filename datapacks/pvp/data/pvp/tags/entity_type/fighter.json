@@ -4,6 +4,7 @@
     "#minecraft:zombies",
     "#minecraft:skeletons",
     "#minecraft:raiders",
-    "minecraft:armor_stand"
+    "minecraft:armor_stand",
+    "minecraft:villager"
   ]
 }

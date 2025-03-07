@@ -14,3 +14,6 @@ execute if score Red minigamescore > Blue minigamescore run tag @a[team=red] add
 execute if score Red minigamescore < Blue minigamescore run tag @a[team=blue] add winner
 
 function main:endgame
+
+team empty red
+team empty blue

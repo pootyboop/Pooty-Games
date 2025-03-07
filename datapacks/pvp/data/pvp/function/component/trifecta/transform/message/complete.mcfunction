@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"$(mode)","color":"#bb2a2a"}

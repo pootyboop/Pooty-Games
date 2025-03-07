@@ -1,1 +1,0 @@
-execute align xyz positioned ~.5 ~ ~.5 run function pvp:entity/spawn {"entity":"icesphere","lifetime":"50"}

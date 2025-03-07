@@ -9,6 +9,7 @@ schedule clear geo:start
 execute unless entity @a[tag=roundover] run function geo:roundover_cleanup
 tag @a remove roundover
 tag @a remove geopause
+team empty geo
 
 kill @e[tag=ripplespike_2,type=minecraft:block_display]
 
