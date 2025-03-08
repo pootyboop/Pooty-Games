@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.mainhand * run return run function pvp:player/holding/offhand/fix_accidental_swap
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{offhand:true}] run return run function pvp:player/holding/offhand/fix_accidental_swap

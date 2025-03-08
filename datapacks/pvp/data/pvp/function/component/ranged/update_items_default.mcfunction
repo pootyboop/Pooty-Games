@@ -1,0 +1,1 @@
+$data modify storage pvp:storage temp.ammoitem set value "arrow[custom_data={component:\"$(component)\",category:\"weapon\",offhand:1b},max_stack_size=99]"
