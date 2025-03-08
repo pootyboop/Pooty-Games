@@ -1,0 +1,1 @@
+summon armor_stand -9984 59 -9976 {Tags:["needsdata","fishingrod","default"],HandItems:[{id:"minecraft:fishing_rod",components:{"minecraft:custom_data":{component:"fishingrod",category:"item",getter:1}}},{}]}

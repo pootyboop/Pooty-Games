@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    [{"color":"aqua","italic":false,"text":"Max Count"},
+    {"color":"gold","text":" doubled by "},
+    {"color":"#d2a33c","text":"Hoarder Armor"},
+    {"color":"gold","text":"!"}]
+  ],
+  "mode": "append"
+}

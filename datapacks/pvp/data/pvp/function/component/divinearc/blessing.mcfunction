@@ -1,0 +1,1 @@
+execute align y run function pvp:entity/spawn {"entity":"blessingfield","lifetime":"200"}

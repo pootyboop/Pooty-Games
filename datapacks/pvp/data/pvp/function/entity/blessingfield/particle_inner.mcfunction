@@ -1,0 +1,1 @@
+particle entity_effect{color:[1.000,1.000,1.000,1.00]} ~ ~1 ~ 2 .5 2 0 1
