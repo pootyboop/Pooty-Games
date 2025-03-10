@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Can't teleport -- too close to ","color":"gray"},{"text":"Exit Portal","color":"#FFA200"},{"text":"!","color":"gray"}]

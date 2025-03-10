@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#pvp:fighter",
+        "minecraft:arrow",
+        "minecraft:area_effect_cloud",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:item_display",
+        "minecraft:block_display",
+        "minecraft:shulker"
+    ]
+}
