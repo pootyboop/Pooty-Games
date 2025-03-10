@@ -1,0 +1,1 @@
+$kill @e[type=block_display,tag=wire,scores={wireanchor.uuid0=$(wiretargetdelete)}]

@@ -1,3 +1,3 @@
 $execute if items entity @s weapon.offhand *[minecraft:custom_data~{component:"$(componentnew)"}] if items entity @s weapon.mainhand *[minecraft:custom_data~{component:"$(componentnew)",offhand:1b}] run return run function pvp:player/holding/offhand/fix_accidental_offhand
-$execute if items entity @s weapon.offhand *[minecraft:custom_data~{component:"$(componentnew)"}] unless items entity @s weapon.mainhand * run return run function pvp:player/holding/offhand/fix_accidental_offhand
+$execute if items entity @s weapon.offhand *[minecraft:custom_data~{component:"$(componentnew)"}] unless items entity @s weapon.offhand *[minecraft:custom_data~{offhand:1b}] unless items entity @s weapon.mainhand * run return run function pvp:player/holding/offhand/fix_accidental_offhand
 execute if items entity @s weapon.offhand * run item replace entity @s weapon.offhand with air

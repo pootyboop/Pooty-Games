@@ -13,6 +13,8 @@ effect clear @a
 team leave @a
 gamemode spectator @a
 
+execute as @e[type=marker] at @s unless data entity @s Tags run kill @s
+
 function main:worldborder/freeze
 
 

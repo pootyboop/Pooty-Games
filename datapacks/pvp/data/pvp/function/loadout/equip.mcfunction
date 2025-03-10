@@ -23,6 +23,6 @@ function pvp:loadout/restoreitems
 execute if data entity @s SelectedItem.components.minecraft:custom_data.component run function pvp:player/holding/swap_switch with storage pvp:storage temp
 
 execute if entity @s[tag=ingame] run return fail
-effect give @s weakness infinite 255 true
+#effect give @s weakness infinite 255 true
 effect give @s resistance infinite 255 true
 effect give @s speed infinite 1 true

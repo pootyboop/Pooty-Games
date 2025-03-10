@@ -17,7 +17,6 @@ scoreboard objectives add backstep.timer dummy
 scoreboard players set @a backstep.timer -1
 
 
-
 scoreboard objectives remove bow
 scoreboard objectives add bow minecraft.used:minecraft.bow
 scoreboard objectives remove crossbow
@@ -31,7 +30,11 @@ scoreboard objectives add dmg minecraft.custom:minecraft.damage_dealt
 scoreboard objectives remove rangedTimer
 scoreboard objectives add rangedTimer dummy
 
+
+
 scoreboard objectives add weaponStats dummy
+scoreboard objectives add entity.timer dummy
+scoreboard objectives add owningUUID dummy
 
 scoreboard players set @a rightclicking 0
 

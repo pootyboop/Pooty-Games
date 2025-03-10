@@ -1,0 +1,2 @@
+tag @s add markedfordeath
+execute at @e[type=marker,tag=wireanchor,tag=!markedfordeath] if score @s owningUUID = @n[type=marker,tag=wireanchor] wireanchor.uuid0 as @n[type=marker,tag=wireanchor] run return run function pvp:entity/kill {"entity":"wireanchor"}

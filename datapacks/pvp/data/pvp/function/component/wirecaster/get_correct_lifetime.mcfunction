@@ -1,0 +1,2 @@
+execute at @e[type=marker,tag=wireanchor] if score @s uuid0 = @n[type=marker,tag=wireanchor] uuid0 store result storage pvp:storage temp.lifetime double 1 run return run scoreboard players get wirecaster.2pylonlifetime weaponStats
+execute store result storage pvp:storage temp.lifetime double 1 run scoreboard players get wirecaster.1pylonlifetime weaponStats

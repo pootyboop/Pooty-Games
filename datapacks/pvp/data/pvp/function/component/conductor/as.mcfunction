@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9976 {Tags:["needsdata","conductor","item"],HandItems:[{id:"minecraft:slime_ball",components:{"minecraft:custom_data":{component:"conductor",category:"item",getter:1}}},{}]}

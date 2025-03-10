@@ -13,6 +13,7 @@ function pvp:player/cleanup_entity {"entity":"trident"}
 function pvp:player/cleanup_entity {"entity":"arrow"}
 #function pvp:player/cleanup_entity {"entity":"armor_stand"}
 #function pvp:player/cleanup_entity {"entity":"marker"}
+execute at @e[type=marker,tag=wireanchor] if score @s uuid0 = @n[type=marker,tag=wireanchor] uuid0 as @n[type=marker,tag=wireanchor] run function pvp:entity/kill {"entity":"wireanchor"}
 
 execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:component/chaingun/stopchaining
 function pvp:component/twinscythes/rush/marker/kill
