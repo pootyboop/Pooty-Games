@@ -1,4 +1,4 @@
-clear @s *[minecraft:custom_data~{component:"mirage"}]
+clear @s bow[minecraft:custom_data~{component:"mirage"}]
 function pvp:component/mirage/get2
 
 execute positioned ~ ~1.35 ~ run particle minecraft:enchanted_hit ^ ^ ^1 .4 .4 .4 .1 10

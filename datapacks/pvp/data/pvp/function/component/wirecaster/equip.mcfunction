@@ -5,6 +5,7 @@ scoreboard players operation @s wireanchor.uuid0 = @s uuid0
 
 scoreboard objectives add wireanchor.yaw dummy
 scoreboard objectives add wireanchor.pitch dummy
+scoreboard objectives add wireanchor.loop_sound dummy
 scoreboard players set wireanchor.wire.maxlength weaponStats 32
 
 scoreboard players set wirecaster.1pylonlifetime weaponStats 140

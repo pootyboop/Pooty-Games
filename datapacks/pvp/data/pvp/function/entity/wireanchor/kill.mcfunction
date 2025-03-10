@@ -1,5 +1,8 @@
 particle minecraft:poof ~ ~ ~ .25 .1 .25 0 5 force
 playsound minecraft:block.tripwire.detach master @a ~ ~ ~ 1 1.6
+playsound minecraft:entity.bee.death master @a ~ ~ ~ .35 .8
+playsound minecraft:item.flintandsteel.use master @a ~ ~ ~ .8 2
+stopsound @a master minecraft:entity.bee.loop_aggressive
 
 function pvp:entity/wireanchor/wire/delete_all
 function pvp:entity/wireanchor/kill_otheranchor
