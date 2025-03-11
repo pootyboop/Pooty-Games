@@ -15,6 +15,6 @@ playsound minecraft:block.weeping_vines.step master @a ~ ~ ~ 1 0
 playsound minecraft:block.weeping_vines.place master @a ~ ~ ~ 1 2
 playsound minecraft:block.chain.place master @a ~ ~ ~ 1 .4
 
-function pvp:entity/wireanchor/loop_audio/start
+function pvp:entity/wireanchor/loop_audio/start_nexttick
 
 tag @e[type=#pvp:wireanchor,tag=newwireanchor,distance=..2] remove newwireanchor
