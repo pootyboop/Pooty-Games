@@ -33,7 +33,7 @@ title @a subtitle {"text":"Flip dimensions and don\'t get tagged!"}
 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 tellraw @a [{"text":"Flip ","color":"dark_purple"},{"text":"Tag","color":"gold"}]
-tellraw @a {"text":"-Press F to flip dimensions"}
+tellraw @a {"text":"-Right Click your item to flip dimensions"}
 tellraw @a {"text":"-Flip dimensions to hide and open doors"}
 tellraw @a {"text":"-Tag others if you\'re it and don\'t get tagged"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}

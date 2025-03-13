@@ -14,7 +14,6 @@ function setting:if_params {"tag":"hamsoccer","setting":"map","value":"3"}
 execute if function setting:if_call run function map:set {"map":"hogsea"}
 
 
-
 function map:if_params {"map":"palandechfield"}
 execute if function map:if_call positioned 300 60 300 run function hamsoccer:setup
 

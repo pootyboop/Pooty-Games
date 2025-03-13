@@ -1,6 +1,7 @@
 tag @s add flipping
 execute if entity @s[tag=flipped] run function fliptag:flip_purple
 execute if entity @s[tag=!flipped,tag=!flipbypass] run function fliptag:flip_yellow
+clear @s
 tag @s remove flipbypass
 tag @s remove flipping
 

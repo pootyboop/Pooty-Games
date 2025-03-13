@@ -1,5 +1,3 @@
-
-
 function main:gamesetup {"tag":"geo"}
 
 team add geo

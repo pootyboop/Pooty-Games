@@ -83,7 +83,7 @@ $$(1) mix.slot $(2) "0"
 $$(1) mix.desc1 $(2) "Play a random mix"
 $$(1) mix.desc2 $(2) "of all minigames!"
 $$(1) mix.playtime $(2) "5-15"
-$$(1) mix.players $(2) "2+"
+$$(1) mix.players $(2) "1-10"
 $$(1) mix.genre $(2) "Party Games"
 
 

@@ -8,4 +8,5 @@ tag @s add justdied
 execute as @a[limit=1,sort=furthest,gamemode=adventure] at @s anchored eyes run tp @a[tag=justdied] ^ ^ ^4 ~180 0
 tag @s remove justdied
 
-execute as @a[scores={died=0}] at @s unless entity @a[scores={died=0},distance=0.1..] run function geo:roundover
+execute as @a[scores={died=0}] at @s unless entity @a[scores={died=0},distance=0.1..] run return run function geo:roundover
+execute at @s unless entity @a[distance=0.1..] run function geo:roundover

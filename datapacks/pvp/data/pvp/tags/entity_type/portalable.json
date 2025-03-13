@@ -1,6 +1,7 @@
 {
     "values": [
         "#pvp:fighter",
+        "minecraft:marker",
         "minecraft:arrow",
         "minecraft:area_effect_cloud",
         "minecraft:silverfish",

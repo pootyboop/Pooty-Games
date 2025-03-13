@@ -3,6 +3,7 @@ tellraw @a[tag=seeker] {"text":"Tip: Hit above blocks to detect players","color"
 playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 
 tellraw @a[tag=hider] {"text":"Seeker(s) released!","color":"gold"}
+title @a[tag=hider] actionbar {"text":"Hint: Crouch to blend in with nearby blocks!","color":"gold"}
 
 function map:if_params {"map":"gardenmarket"}
 execute if function map:if_call run tp @a[tag=seeker] -276 67 325 90 0

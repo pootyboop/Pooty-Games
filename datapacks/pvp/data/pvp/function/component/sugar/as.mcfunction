@@ -1,0 +1,1 @@
+summon armor_stand -9984 59 -9972 {Tags:["needsdata","sugar","item"],HandItems:[{id:"minecraft:sugar",components:{"minecraft:custom_data":{component:"sugar",category:"item",getter:1}}},{}]}

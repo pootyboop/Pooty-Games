@@ -1,2 +1,2 @@
-item replace entity @s weapon.mainhand with leather_helmet[item_name='["Fling: ",{"color":"green","text":"Ready"}]',unbreakable={show_in_tooltip:false},custom_data={fling:1b},attribute_modifiers={modifiers:[{id:"armor",type:"armor",amount:0,operation:"add_value",slot:"head"}],show_in_tooltip:false}]
+item replace entity @s weapon.mainhand with granite[item_name='["Fling: ",{"color":"green","text":"Ready"}]',unbreakable={show_in_tooltip:false},custom_data={fling:1b},attribute_modifiers={modifiers:[{id:"armor",type:"armor",amount:0,operation:"add_value",slot:"head"}],show_in_tooltip:false},consumable={consume_seconds:1000000,has_consume_particles:false}]
 playsound minecraft:entity.phantom.flap master @s ~ ~ ~ 1 2 1

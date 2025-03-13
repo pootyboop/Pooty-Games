@@ -10,6 +10,7 @@ execute store result score @s uuid1 run data get entity @s UUID[1]
 execute store result score @s uuid2 run data get entity @s UUID[2]
 execute store result score @s uuid3 run data get entity @s UUID[3]
 
+team leave @s
 gamemode adventure
 effect give @s blindness 1 0 true
 title @s title {"text":"Pooty Games"}

@@ -26,17 +26,24 @@ team modify delve friendlyFire false
 team modify delve seeFriendlyInvisibles true
 team join delve @a
 
-function delve:lobby/enter
 gamerule fallDamage true
 gamerule doMobLoot true
 gamerule doEntityDrops true
+function main:itemdrops_enable
+
+time set 15000
+
+
+
+function delve:lobby/enter
+tp @a -20000 60 -10000 0 -15
+playsound ambient.cave master @a -20000 60 -10000 1 1
+execute positioned -20000 60 -10000 as @a run function delve:dungeon/door_opening
 
 execute as @a at @s run function delve:player/new/start
 
 
 
-time set 15000
-function main:itemdrops_enable
 
 
 title @a title {"text":"Delve","color":"gold"}

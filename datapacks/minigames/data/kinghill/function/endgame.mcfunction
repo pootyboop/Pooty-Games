@@ -4,7 +4,7 @@ schedule clear kinghill:count2
 schedule clear kinghill:count1
 schedule clear kinghill:start
 
-execute at @a run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 air replace barrier
+execute at @a[tag=!login] run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace barrier
 
 function main:score_places
 function main:endgame

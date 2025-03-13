@@ -1,5 +1,3 @@
-execute if data entity @s Inventory[{Slot:-106b}] at @s run function fliptag:tryflip
-
 effect give @s[tag=it] speed 1 1 true
 effect give @s[tag=!it] weakness 1 255 true
 

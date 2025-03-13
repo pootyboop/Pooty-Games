@@ -1,4 +1,4 @@
-item replace entity @s armor.head with air
+item replace entity @s weapon.mainhand with air
 
 scoreboard players set @s flingCooldown 20
 function geo:fling_cooldown
