@@ -1,0 +1,1 @@
+$item replace entity @s inventory.$(slot) from block -10000 49 -10000 container.0

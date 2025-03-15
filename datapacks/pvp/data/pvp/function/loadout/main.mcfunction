@@ -13,3 +13,4 @@ function pvp:loadout/component/coc {"category":"ability","function":"main"}
 function pvp:loadout/component/coc {"category":"ability2","function":"main"}
 function pvp:loadout/component/coc {"category":"item","function":"main"}
 function pvp:loadout/component/coc {"category":"item2","function":"main"}
+function pvp:loadout/component/coc {"category":"item3","function":"main"}

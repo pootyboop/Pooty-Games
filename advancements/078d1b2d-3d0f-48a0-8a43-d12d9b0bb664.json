@@ -7225,18 +7225,6 @@
     },
     "done": true
   },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:26:20 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2024-09-18 21:37:22 +0100"
-    },
-    "done": true
-  },
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "salmon_bucket": "2024-09-22 19:00:19 +0100"
@@ -8422,6 +8410,18 @@
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2025-03-10 20:33:13 +0000"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2025-03-14 19:19:39 +0000"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2025-03-14 20:03:53 +0000"
     },
     "done": true
   },

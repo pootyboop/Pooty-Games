@@ -1,0 +1,1 @@
+$execute at @e[type=$(type),tag=$(entity)] if score @s uuid0 = @n[type=$(type),tag=$(entity)] uuid0 as @n[type=$(type),tag=$(entity)] run function pvp:entity/kill {"entity":"$(entity)"}

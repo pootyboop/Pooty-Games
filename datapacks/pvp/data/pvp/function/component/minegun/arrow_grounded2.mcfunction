@@ -1,0 +1,1 @@
+$function pvp:entity/spawn {"entity":"mine","lifetime":"$(lifetime)"}

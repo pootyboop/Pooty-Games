@@ -1,6 +1,3 @@
-#$execute if data storage pvp:storage loadout.$(uuid).rightclicking run say yep
-#$execute unless data storage pvp:storage loadout.$(uuid).rightclicking run say nope
-
 $execute unless data storage pvp:storage loadout.$(uuid).rightclicking run return fail
 
 $data modify storage pvp:storage temp.component set from storage pvp:storage loadout.$(uuid).rightclicking

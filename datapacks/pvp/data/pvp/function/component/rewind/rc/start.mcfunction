@@ -2,10 +2,11 @@ execute if entity @s[tag=rewindcooldown] run return run function pvp:component/r
 
 clear @s[gamemode=!creative] clock[minecraft:custom_data~{component:"rewind"}] 1
 
-summon armor_stand ~ ~ ~ {Tags:["rewindmarker"],NoGravity:1b,Invisible:1b}
+gamemode spectator
+
+summon armor_stand ~ ~ ~ {Tags:["rewindmarker"],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
 scoreboard players operation @n[type=armor_stand,tag=rewindmarker] uuid0 = @s uuid0
 
-gamemode spectator
 spectate @n[type=armor_stand,tag=rewindmarker]
 
 particle minecraft:poof ~ ~1 ~ .2 .4 .2 0 10

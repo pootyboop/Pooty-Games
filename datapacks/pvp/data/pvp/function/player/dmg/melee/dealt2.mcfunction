@@ -11,3 +11,5 @@ $data modify storage pvp:storage temp.component set from storage pvp:storage loa
 function pvp:player/dmg/melee/dealt3 with storage pvp:storage temp
 $data modify storage pvp:storage temp.component set from storage pvp:storage loadout.$(uuid).curr.item2
 function pvp:player/dmg/melee/dealt3 with storage pvp:storage temp
+$data modify storage pvp:storage temp.component set from storage pvp:storage loadout.$(uuid).curr.item3
+function pvp:player/dmg/melee/dealt3 with storage pvp:storage temp

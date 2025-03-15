@@ -7985,18 +7985,6 @@
     },
     "done": true
   },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2024-12-17 20:07:19 +0000"
-    },
-    "done": true
-  },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2024-12-17 20:08:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2024-12-17 20:20:50 +0000"
@@ -8504,6 +8492,18 @@
   "minecraft:husbandry/obtain_sniffer_egg": {
     "criteria": {
       "obtain_sniffer_egg": "2025-03-04 19:55:44 +0000"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2025-03-14 19:18:25 +0000"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2025-03-14 19:28:40 +0000"
     },
     "done": true
   },

@@ -1,1 +1,1 @@
-$data get storage pvp:storage loadout.$(uuid).curr.weapon3
+$data remove storage pvp:storage loadout.$(uuid).curr.weapon3

@@ -2,8 +2,6 @@ function pvp:player/uuidtotemp
 
 clear @s
 
-function pvp:loadout/buttons
-
 function pvp:player/cleanup
 
 function pvp:loadout/component/coc {"category":"armor","function":"equip"}
@@ -18,6 +16,12 @@ function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
 function pvp:loadout/component/coc {"category":"ability2","function":"equip"}
 function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
 function pvp:loadout/restoreitems
+
+function pvp:loadout/component/name/start with storage pvp:storage temp
+
+
+
+function pvp:loadout/buttons with storage pvp:storage temp
 
 #update swap functions if holding something
 execute if data entity @s SelectedItem.components.minecraft:custom_data.component run function pvp:player/holding/swap_switch with storage pvp:storage temp

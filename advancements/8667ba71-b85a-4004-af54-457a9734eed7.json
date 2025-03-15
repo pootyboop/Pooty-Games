@@ -185,5 +185,23 @@
     },
     "done": false
   },
-  "DataVersion": 3955
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-15 00:28:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-15 00:28:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-15 00:28:41 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
 }

@@ -1,1 +1,1 @@
-$data modify entity @s CustomName set value '"Hit for $(name)❤"'
+$data modify entity @s CustomName set value '"Hit for $(damage)❤"'

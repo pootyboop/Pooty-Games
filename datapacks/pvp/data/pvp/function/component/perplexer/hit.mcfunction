@@ -7,6 +7,6 @@ particle dust{color:[1.000,0.000,1.000],scale:1} ~ ~1 ~ .4 .6 .4 0 7
 
 effect give @s blindness 2 0 true
 
-
+tag @n[type=#pvp:fighter,tag=perplexer] remove perplexer
 
 #clear @p[tag=perplexer,gamemode=!creative] magenta_glazed_terracotta[minecraft:custom_data~{component:"perplexer"}] 1

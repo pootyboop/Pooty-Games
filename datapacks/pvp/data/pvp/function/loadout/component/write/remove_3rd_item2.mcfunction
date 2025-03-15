@@ -1,0 +1,1 @@
+$data remove storage pvp:storage loadout.$(uuid).curr.item3

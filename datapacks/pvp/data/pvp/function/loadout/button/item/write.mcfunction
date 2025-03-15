@@ -1,0 +1,1 @@
+$item replace block -10000 49 -10000 container.0 with $(block)_stained_glass[item_name='[{"color":"$(color)","text":"Save to Loadout $(id)"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,write:1b}]

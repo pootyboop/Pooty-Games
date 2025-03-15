@@ -1,7 +1,6 @@
 execute if entity @s[tag=!spawn] run return 0
 
 clear @s *[minecraft:custom_data~{loadoutbutton:1b}]
-
 function pvp:loadout/button {"slot":"9","id":"1","type":"read","block":"red","color":"red"}
 function pvp:loadout/button {"slot":"10","id":"2","type":"read","block":"orange","color":"#ff7200"}
 function pvp:loadout/button {"slot":"11","id":"3","type":"read","block":"yellow","color":"#ffff00"}
