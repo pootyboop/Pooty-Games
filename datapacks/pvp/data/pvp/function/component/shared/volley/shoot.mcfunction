@@ -1,0 +1,1 @@
+$function pvp:component/shared/volley/remove {"component":"$(component)"}

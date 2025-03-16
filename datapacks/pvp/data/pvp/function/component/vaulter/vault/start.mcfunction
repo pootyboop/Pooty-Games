@@ -2,6 +2,8 @@ tag @s add newvault
 
 effect give @s strength infinite 0 true
 
+execute as @e[distance=..4.5,type=marker,tag=conductor] at @s run function pvp:entity/conductorground/wind/start
+
 clear @s *[minecraft:custom_data~{component:"vaulter"}]
 function pvp:component/vaulter/get2
 

@@ -1,4 +1,5 @@
 $function pvp:component/$(component)/held/stop
+$function pvp:component/ranged/held/stop {"component":"$(component)"}
 
 title @s[tag=!spawn] actionbar ""
 

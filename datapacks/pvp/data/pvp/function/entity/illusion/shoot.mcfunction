@@ -10,6 +10,6 @@ execute as @n[type=marker,tag=temp] at @s run function pvp:entity/illusion/shoot
 tag @s remove as
 
 execute unless data storage pvp:storage temp.illusion run say ERROR no data
-execute positioned ~ ~1.35 ~ positioned ^ ^ ^1 run function pvp:entity/illusion/shoot_arrow with storage pvp:storage temp.illusion
+execute anchored eyes positioned ^ ^ ^1 run function pvp:entity/illusion/shoot_arrow with storage pvp:storage temp.illusion
 
 tag @n[type=#pvp:fighter,tag=illusionarrowowner] remove illusionarrowowner

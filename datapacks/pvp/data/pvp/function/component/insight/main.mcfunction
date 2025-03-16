@@ -1,1 +1,1 @@
-execute if score @s insight.timer matches 0.. run scoreboard players remove @s insight.timer 1
+execute if score @s insight.invisnexttick matches 0.. run scoreboard players remove @s insight.invisnexttick 1

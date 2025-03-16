@@ -1,0 +1,2 @@
+item modify block ~ ~ ~ inventory.0 {function:"minecraft:set_enchantments",enchantments:{"minecraft:multishot":-255},add:true}
+$data modify block ~ ~ ~ Items[0].components.minecraft:enchantments.levels merge value {"multishot":$(multishot)}

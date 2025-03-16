@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "enchantments": {"multishot": 1},
+    "enchantment_glint_override": false
+  }
+}

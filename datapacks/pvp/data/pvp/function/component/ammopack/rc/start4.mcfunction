@@ -1,0 +1,1 @@
+$function pvp:component/ranged/maxammo {"component":"$(weapon3)"}

@@ -1,7 +1,7 @@
 execute if score @s glacier.timer matches 300.. run return 0
 
 scoreboard players add @s glacier.timer 6
-execute if items entity @p[tag=glaciermain] armor.head *[minecraft:custom_data~{component:"mercenary"}] run scoreboard players add @s glacier.timer 6
+execute if items entity @n[type=#pvp:fighter,tag=glaciermain] armor.head *[minecraft:custom_data~{component:"mercenary"}] run scoreboard players add @s glacier.timer 6
 
 execute if score @s glacier.timer matches 300.. at @s run function pvp:component/glacier/icewall/block/ready
 

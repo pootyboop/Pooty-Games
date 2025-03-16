@@ -1,0 +1,1 @@
+$scoreboard players set $(component).volleytime weaponStats $(time)

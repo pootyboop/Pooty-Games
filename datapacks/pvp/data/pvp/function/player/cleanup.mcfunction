@@ -2,6 +2,8 @@ tag @s add diedcleanup
 
 function pvp:status/func_all {"function":"clear"}
 
+function main:jumpheight_reset
+
 effect clear @s
 function pvp:player/maxhealth
 function pvp:player/scale/set {"scale":1.0}
@@ -13,10 +15,10 @@ function pvp:player/cleanup_entity {"entity":"trident"}
 function pvp:player/cleanup_entity {"entity":"arrow"}
 #function pvp:player/cleanup_entity {"entity":"armor_stand"}
 #function pvp:player/cleanup_entity {"entity":"marker"}
-function pvp:player/cleanup_entity {"entity":"mine","type":"marker"}
-function pvp:player/cleanup_entity {"entity":"portal","type":"marker"}
-function pvp:player/cleanup_entity {"entity":"wireanchor","type":"marker"}
 execute at @e[type=fireball,tag=fireball] if score @s uuid0 = @n[type=fireball,tag=fireball] uuid0 run kill @n[type=fireball,tag=fireball]
+execute at @e[type=#pvp:plantedentity,tag=mine] if score @s uuid0 = @n[type=#pvp:plantedentity,tag=mine] uuid0 run kill @n[type=#pvp:plantedentity,tag=mine]
+execute at @e[type=#pvp:plantedentity,tag=wireanchor] if score @s uuid0 = @n[type=#pvp:plantedentity,tag=wireanchor] uuid0 run kill @n[type=#pvp:plantedentity,tag=wireanchor]
+execute at @e[type=marker,tag=portal] if score @s uuid0 = @n[type=marker,tag=portal] uuid0 run kill @n[type=marker,tag=portal]
 
 execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:component/chaingun/stopchaining
 function pvp:component/twinscythes/rush/marker/kill

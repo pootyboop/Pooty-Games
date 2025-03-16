@@ -1,1 +1,1 @@
-execute if entity @p[distance=.1..6] run effect give @s speed 1 0 true
+execute if entity @n[type=#pvp:fighter,tag=fighter,distance=.1..6] run effect give @s speed 1 0 true

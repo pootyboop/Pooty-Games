@@ -11,6 +11,9 @@ scoreboard objectives add breachingram.z dummy
 
 scoreboard objectives add breachingram.cooldown dummy
 scoreboard players set @s breachingram.cooldown -1
+scoreboard players set breachingram.cooldown weaponStats 50
+
+scoreboard players set breachingram.chargetime weaponStats 25
 
 tag @s remove ramming
 

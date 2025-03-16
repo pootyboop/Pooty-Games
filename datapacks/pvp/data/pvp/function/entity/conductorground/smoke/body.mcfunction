@@ -1,0 +1,1 @@
+execute unless entity @s[tag=c_smoke] run return fail

@@ -1,4 +1,6 @@
-execute if entity @s[tag=!ingame] run return run function pvp:player/fire/extinguish
+execute unless entity @s[nbt={Fire:-20s}] run return fail
+execute if entity @s[tag=!ingame] run return fail
+#function pvp:player/fire/extinguish
 
 function pvp:player/fire/solveheight
 function pvp:player/fire/setonfire_fireball with storage pvp:storage temp

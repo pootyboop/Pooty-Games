@@ -14,6 +14,6 @@ function pvp:loadout/buttons_write
 
 execute store result score settingcheck dummy run function pvp:player/settings/get {"setting":"writeloadoutlock"}
 
-execute if score settingcheck dummy matches 1 run item replace entity @s inventory.26 with gunpowder[item_name='[{"color":"green","text":"Unlock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]
+execute if score settingcheck dummy matches 1 run item replace entity @s inventory.26 with chest[item_name='[{"color":"green","text":"Unlock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]
 
-execute if score settingcheck dummy matches 0 run item replace entity @s inventory.26 with redstone[item_name='[{"color":"red","text":"Lock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]
+execute if score settingcheck dummy matches 0 run item replace entity @s inventory.26 with trial_key[item_name='[{"color":"red","text":"Lock Loadout Saving"},{"color":"white","text":" (Click)"}]',custom_data={loadoutbutton:1b,writeloadoutlock:1b}]

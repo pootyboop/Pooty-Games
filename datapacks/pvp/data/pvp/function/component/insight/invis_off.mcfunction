@@ -1,7 +1,6 @@
 execute unless entity @s[tag=insightinvis] run return fail
 execute unless score @s insight.invisnexttick matches -1 run return fail
 
-#effect clear @s invisibility
 effect clear @s strength
 tag @s remove insightinvis
 

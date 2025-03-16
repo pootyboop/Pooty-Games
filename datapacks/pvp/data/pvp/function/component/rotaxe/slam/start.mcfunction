@@ -5,7 +5,7 @@ scoreboard players set @s rotaxe.timer -9
 effect give @s slowness 1 4 true
 
 execute as @e[type=#pvp:fighter,tag=fighter,distance=..1.5,tag=!rotaxeslam] run function pvp:component/rotaxe/slam/dmg
-summon area_effect_cloud ~ ~ ~ {Radius:0.5f,RadiusPerTick:.03f,Duration:60,potion_contents:{custom_color:13172480,custom_effects:[{id:"minecraft:poison",amplifier:1,duration:40,show_particles:1b}]}}
+summon area_effect_cloud ~ ~ ~ {Radius:0.5f,RadiusPerTick:.03f,Duration:60,potion_contents:{custom_color:13172480,custom_effects:[{id:"minecraft:poison",amplifier:1,duration:40,show_particles:1b}]},Tags:["poisonfield"]}
 
 playsound minecraft:entity.frog.hurt master @a ~ ~ ~ .6 0
 playsound minecraft:entity.armadillo.hurt_reduced master @a ~ ~ ~ 1 0

@@ -19,6 +19,11 @@ tag @s remove newicesphere
 
 
 playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 1 0
+playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 1 .8
+playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 1 1
+playsound minecraft:block.amethyst_block.place master @a ~ ~ ~ 1 2
+playsound minecraft:item.armor.equip_turtle master @a ~ ~ ~ 1 0
+playsound minecraft:item.armor.equip_turtle master @a ~ ~ ~ 1 0.8
 
 execute store result score dummy dummy run function pvp:map/thermalcaves/is_nether
 
