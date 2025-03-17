@@ -1,4 +1,4 @@
-execute as @e[type=#pvp:fighter,tag=fighter,distance=..3] run damage @s 6 explosion by @n[type=#pvp:fighter,tag=currconductorowner] from @n[type=#pvp:fighter,tag=currconductorowner]
+execute as @e[type=#pvp:fighter,tag=fighter,distance=..3] run damage @s 5 explosion by @n[type=#pvp:fighter,tag=currconductorowner] from @n[type=#pvp:fighter,tag=currconductorowner]
 
 particle explosion ~ ~ ~ 0 0 0 0 1 force
 playsound entity.generic.explode master @a ~ ~ ~ 1 1

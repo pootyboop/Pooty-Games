@@ -4,6 +4,8 @@ execute store result storage pvp:storage temp.conductorlifetime double 1 run sco
 
 function pvp:entity/conductorground/_particle/body
 
+execute if score @s conductor.timer < conductor.cooldown weaponStats run return run scoreboard players add @s conductor.timer 1
+
 function pvp:entity/conductorground/update_entries
 execute as @e[type=#pvp:fighter,tag=fighter,distance=..3] at @s run function pvp:entity/conductorground/inside
 

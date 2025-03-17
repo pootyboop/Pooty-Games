@@ -1,3 +1,7 @@
+effect give @e[type=#pvp:fighter,tag=fighter,distance=.1..6] slowness 1 1 true
+
+
+
 execute if score @s permafrost.timer matches 0.. run scoreboard players add @s permafrost.timer 1
 
 execute if score @s permafrost.timer >= permafrost.cooldown weaponStats run return run function pvp:component/permafrost/cooldown_over
