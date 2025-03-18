@@ -6,6 +6,7 @@ function pvp:map/stop with storage pvp:storage map
 forceload remove all
 forceload add 0 0
 
+kill @e[type=#pvp:projectile,tag=!dontkill]
 execute as @a at @s run function pvp:player/cleanup
 execute as @a run function pvp:player/team/remove
 tag @a remove spawn

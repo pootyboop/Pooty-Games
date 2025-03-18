@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -10036 {Tags:["needsdata","divinearc","bow"],HandItems:[{id:"minecraft:bow",components:{"minecraft:custom_data":{component:"divinearc",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -10020 {Tags:["needsdata","divinearc","bow"],HandItems:[{id:"minecraft:bow",components:{"minecraft:custom_data":{component:"divinearc",category:"weapon",getter:1}}},{}]}

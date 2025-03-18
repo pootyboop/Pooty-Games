@@ -1,9 +1,11 @@
 {
   "values": [
-    "minecraft:arrow",
-    "minecraft:trident",
-    "minecraft:silverfish",
-    "minecraft:wind_charge",
-    "minecraft:ender_pearl"
+    "arrow",
+    "trident",
+    "silverfish",
+    "wind_charge",
+    "ender_pearl",
+    "fireball",
+    "wither_skull"
   ]
 }
