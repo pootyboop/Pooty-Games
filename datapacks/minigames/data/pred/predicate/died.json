@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "died": {
+            "min": 1
+          }
+        }
+      }
+    ]
+  }

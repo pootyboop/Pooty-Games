@@ -1,5 +1,5 @@
-execute if score @n[type=#pvp:fighter,tag=fighter,tag=rushcurr] twinscythes.timer = twinscythes.maxrushcharge weaponStats run return 0
-execute if entity @n[type=#pvp:fighter,tag=fighter,distance=..1.5,tag=!rushcurr] run return run function pvp:component/twinscythes/rush/maxed
+execute if score @n[predicate=pvp:fighter,tag=rushcurr] twinscythes.timer = twinscythes.maxrushcharge weaponStats run return 0
+execute if entity @n[predicate=pvp:fighter,distance=..1.5,tag=!rushcurr] run return run function pvp:component/twinscythes/rush/maxed
 
 
 #execute store result score dummy dummy run function pvp:component/twinscythes/rush/marker/checkhalf

@@ -42,7 +42,7 @@ tag @a remove alarm
 tag @a remove shears
 
 
-execute as @e[limit=1,type=armor_stand,tag=bedwarsCleanup] at @s run function bedwars:cleanup_finish
+execute as @n[type=armor_stand,tag=bedwarsCleanup] at @s run function bedwars:cleanup_finish
 forceload remove all
 
 kill @e[type=area_effect_cloud,tag=base]

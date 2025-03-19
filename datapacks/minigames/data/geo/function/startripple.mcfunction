@@ -9,7 +9,7 @@ execute as @s store result score @s uuid3 run data get entity @s UUID[3]
 #execute store result score @s y run data get entity @s Pos[1] 10000
 #execute store result score @s z run data get entity @s Pos[2] 10000
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=geomoves] run title @s actionbar {"text":"Spike Charge","color":"#FFEAC9"}
+execute if entity @n[predicate=pred:dummy,tag=geomoves] run title @s actionbar {"text":"Spike Charge","color":"#FFEAC9"}
 
 #playsound minecraft:entity.wolf.shake master @a ~ ~ ~ 1 2
 

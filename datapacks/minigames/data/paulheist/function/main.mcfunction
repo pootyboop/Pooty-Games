@@ -1,8 +1,8 @@
 schedule function paulheist:main 1
 
-execute as @e[limit=1,tag=paulitem,type=item] at @s run function paulheist:paul_checknearby
+execute as @n[tag=paulitem,type=item] at @s run function paulheist:paul_checknearby
 
-execute as @a[scores={died=1..}] at @s run function paulheist:died
+execute as @a[predicate=pred:died] at @s run function paulheist:died
 
 execute as @a[tag=thief] at @s run function paulheist:thief
 execute as @a[tag=guardian] at @s run function paulheist:guardian

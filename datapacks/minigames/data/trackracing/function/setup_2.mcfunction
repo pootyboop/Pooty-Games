@@ -1,4 +1,4 @@
 give @a rail[can_place_on={predicates:[{blocks:"#trackracing_place"}],show_in_tooltip:false}] 128
 give @a powered_rail[can_place_on={predicates:[{blocks:"#trackracing_place"}],show_in_tooltip:false}] 8
 
-execute unless entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=trackracingbreakdisabled] run give @a iron_pickaxe[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Rail Breaker","italic":false}',lore=['{"text":"Can break regular rails","color":"white","italic":false}','{"text":"but not powered rails","color":"white","italic":false}'],can_break={predicates:[{blocks:["minecraft:rail"]}],show_in_tooltip:0b}]
+execute unless entity @n[predicate=pred:dummy,tag=trackracingbreakdisabled] run give @a iron_pickaxe[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Rail Breaker","italic":false}',lore=['{"text":"Can break regular rails","color":"white","italic":false}','{"text":"but not powered rails","color":"white","italic":false}'],can_break={predicates:[{blocks:["minecraft:rail"]}],show_in_tooltip:0b}]

@@ -11,4 +11,4 @@ effect give @a[tag=!trialing] resistance 1 255 true
 schedule function trials:main 1
 
 execute as @a[tag=trialing] at @s if entity @s[y=0,dy=54] run return run function trials:roundover_viewers
-execute if entity @a[tag=trialing,scores={died=1..}] run function trials:roundover_viewers
+execute if entity @a[tag=trialing,predicate=pred:died] run function trials:roundover_viewers

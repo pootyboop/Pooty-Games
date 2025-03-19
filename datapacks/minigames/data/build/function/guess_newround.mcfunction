@@ -1,7 +1,7 @@
 tag @e[type=area_effect_cloud,tag=room,tag=viewed] remove viewed
 
-execute as @a[tag=lastRoom] at @a[tag=firstRoom] at @s at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=room] run tp @s 889 60 900 90 0
-execute as @a[tag=!lastRoom] at @s positioned ~ ~ ~300 at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=room] run tp @s 889 60 ~ 90 0
+execute as @a[tag=lastRoom] at @a[tag=firstRoom] at @s at @n[type=area_effect_cloud,tag=room] run tp @s 889 60 900 90 0
+execute as @a[tag=!lastRoom] at @s positioned ~ ~ ~300 at @n[type=area_effect_cloud,tag=room] run tp @s 889 60 ~ 90 0
 
 title @a title {"text":""}
 title @a subtitle {"text":"BUILD!","color":"gold"}

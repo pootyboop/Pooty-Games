@@ -1,1 +1,1 @@
-$execute in overworld run tp @s @e[limit=1,sort=random,type=marker,tag=spawnpoint,tag=$(map)]
+$execute in overworld run tp @s @n[sort=random,type=marker,tag=spawnpoint,tag=$(map)]

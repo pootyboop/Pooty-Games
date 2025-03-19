@@ -7,4 +7,4 @@ scoreboard players set mine.armtime weaponStats 20
 scoreboard objectives add minegun.ammowaiting dummy
 scoreboard players set @s minegun.ammowaiting 0
 
-function pvp:component/ranged/setstats {"component":"minegun","maxammo":"3","reloadspeed":"-1","autoreload":"-1"}
+function pvp:component/ranged/setstats {"component":"minegun","maxammo":"3","reloadspeed":"-1","autoreload":"-1","dmg":"250"}

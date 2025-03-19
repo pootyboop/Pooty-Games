@@ -1,4 +1,4 @@
-$tag @n[type=arrow,tag=chaingun,scores={uuid0=$(uuid)}] add tempchainarrow
+$tag @n[type=arrow,tag=chaingun,scores={trueUUID=$(uuid)}] add tempchainarrow
 execute unless entity @n[type=arrow,tag=tempchainarrow] run return run function pvp:component/chaingun/stopchaining
 
 function pvp:component/hothead/increment_fire_trail_amount {"amount":"3"}

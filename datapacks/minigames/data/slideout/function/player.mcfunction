@@ -18,7 +18,7 @@ execute if entity @s[tag=sinking] run function slideout:sink
 execute if entity @s[tag=!doublejumped,nbt={FallFlying:1b}] run function slideout:doublejump
 execute if entity @s[tag=doublejumped,nbt={FallFlying:0b}] unless block ~ ~-.1 ~ air run function slideout:doublejump_recharge
 
-execute if score @s died matches 1.. run function slideout:died
+execute if predicate pred:died run function slideout:died
 execute if entity @s[gamemode=!spectator,y=0,dy=55] run kill @s
 
 execute if score @s kills matches 1.. run function slideout:kill

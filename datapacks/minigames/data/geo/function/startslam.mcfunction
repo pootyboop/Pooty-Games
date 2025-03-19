@@ -3,7 +3,7 @@ tag @s add slam
 attribute @s gravity base set 2.5
 effect give @s minecraft:speed infinite 1 true
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=geomoves] run title @s actionbar {"text":"Slam","color":"#FFEAC9"}
+execute if entity @n[predicate=pred:dummy,tag=geomoves] run title @s actionbar {"text":"Slam","color":"#FFEAC9"}
 
 playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 1 2
 

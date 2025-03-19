@@ -1,10 +1,10 @@
 tag @s add viewed
 
 title @a title {"text":""}
-title @a subtitle {"selector":"@e[limit=1,sort=nearest,type=area_effect_cloud,tag=room]"}
+title @a subtitle {"selector":"@n[type=area_effect_cloud,tag=room]"}
 
 tp @a ~ ~ ~ -90 0
-execute at @a if score @p uuid0 = @s uuid0 run tellraw @a [{"selector":"@e[limit=1,sort=nearest,type=area_effect_cloud,tag=room]"},{"text":" by "},{"selector":"@p"},{"text":" - how well did they build their topic?"}]
+execute at @a if score @p uuid0 = @s uuid0 run tellraw @a [{"selector":"@n[type=area_effect_cloud,tag=room]"},{"text":" by "},{"selector":"@p"},{"text":" - how well did they build their topic?"}]
 #tellraw @a {"text":" "}
 tellraw @a {"text":" Amazing","color":"gold","clickEvent":{"action":"run_command","value":"/scoreboard players set @s buildrating 5"}}
 #tellraw @a {"text":" "}

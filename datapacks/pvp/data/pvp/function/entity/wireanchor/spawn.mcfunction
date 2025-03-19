@@ -8,7 +8,7 @@ execute as @e[type=#pvp:plantedentity,tag=newwireanchor,tag=wireanchor,distance=
 
 execute if entity @n[type=#pvp:wiretarget,tag=wiretarget] as @n[type=marker,tag=newwireanchor] run function pvp:entity/wireanchor/wire/start
 
-execute as @n[type=#pvp:fighter,tag=fighter,tag=owner] run function pvp:component/wirecaster/remove_ammowaiting
+execute as @n[predicate=pvp:fighter,tag=owner] run function pvp:component/wirecaster/remove_ammowaiting
 
 particle poof ~ ~.3 ~ .5 .2 .5 0 3 force
 playsound minecraft:block.weeping_vines.step master @a ~ ~ ~ 1 0

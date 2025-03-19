@@ -6,7 +6,7 @@ summon slime ~ ~ ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:1000f,Size:1
 
 execute as @e[type=#pvp:plantedentity,tag=newmine,tag=mine,distance=..2.5] at @s run function pvp:entity/mine/spawn2
 
-execute as @n[type=#pvp:fighter,tag=fighter,tag=owner] run function pvp:component/minegun/remove_ammowaiting
+execute as @n[predicate=pvp:fighter,tag=owner] run function pvp:component/minegun/remove_ammowaiting
 
 particle poof ~ ~.3 ~ .5 .2 .5 0 3 force
 playsound item.armor.equip_chain master @a ~ ~ ~ 1 1.4

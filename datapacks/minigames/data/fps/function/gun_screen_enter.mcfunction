@@ -14,7 +14,7 @@ title @a times 0 40 20
 
 title @s title {"text":""}
 title @s[scores={died=0}] subtitle {"text":"Pick a gun!"}
-title @s[scores={died=1..}] subtitle {"text":"DEAD!"}
+title @s[predicate=pred:died] subtitle {"text":"DEAD!"}
 
 title @s actionbar {"text":""}
 

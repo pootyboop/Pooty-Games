@@ -1,5 +1,7 @@
-execute unless entity @s[nbt={Fire:-20s}] run return fail
-execute if entity @s[tag=!ingame] run return fail
+execute if entity @s[predicate=pred:fire] run return fail
+execute if entity @s[type=player,tag=!ingame] run return fail
+execute if entity @s[tag=nondmgable] run return fail
+execute if entity @s[tag=uuidowner] run return fail
 #function pvp:player/fire/extinguish
 
 function pvp:player/fire/solveheight

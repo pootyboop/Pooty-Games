@@ -1,6 +1,6 @@
 function pvp:component/whistler/get
 
-function pvp:component/ranged/setstats {"component":"whistler","maxammo":"3","reloadspeed":"30","autoreload":"40"}
+function pvp:component/ranged/setstats {"component":"whistler","maxammo":"3","reloadspeed":"30","autoreload":"40","dmg":"200"}
 function pvp:component/ranged/setvolleytime {"component":"whistler","time":"40"}
 
 scoreboard objectives add whistler.chargelevel dummy

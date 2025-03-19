@@ -1,11 +1,12 @@
 {
   "values": [
-    "arrow",
-    "trident",
-    "silverfish",
-    "wind_charge",
+    "#arrows",
     "ender_pearl",
+    "firework_rocket",
     "fireball",
+    "silverfish",
+    "trident",
+    "wind_charge",
     "wither_skull"
   ]
 }

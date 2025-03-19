@@ -1,7 +1,7 @@
 tag @s add newauto
 
 summon leash_knot ~ ~-10 ~ {NoAI:1b,Silent:1b,Invisible:1b,Invulnerable:1b,Tags:["newautosnapper"]}
-execute as @e[limit=1,type=leash_knot,tag=newautosnapper] run function hideseek:autocorrectblock_snap
+execute as @n[type=leash_knot,tag=newautosnapper] run function hideseek:autocorrectblock_snap
 
 tag @s remove newauto
 

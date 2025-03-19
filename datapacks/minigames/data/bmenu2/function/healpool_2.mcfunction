@@ -9,9 +9,9 @@ execute if entity @s[team=Green] run tag @a[team=Green] add healpoolUpgrade1
 tellraw @a[tag=healpoolUpgrade1] [{"selector":"@s"},{"text":" bought ","color":"white"},{"text":"Heal Pool","color":"aqua"},{"text":"!","color":"white"}]
 tag @a[tag=healpoolUpgrade1] add healpool
 
-execute if entity @s[team=Red] run tag @e[limit=1,type=area_effect_cloud,tag=baseRed] add healPool
-execute if entity @s[team=Yellow] run tag @e[limit=1,type=area_effect_cloud,tag=baseYellow] add healPool
-execute if entity @s[team=Blue] run tag @e[limit=1,type=area_effect_cloud,tag=baseBlue] add healPool
-execute if entity @s[team=Green] run tag @e[limit=1,type=area_effect_cloud,tag=baseGreen] add healPool
+execute if entity @s[team=Red] run tag @n[type=area_effect_cloud,tag=baseRed] add healPool
+execute if entity @s[team=Yellow] run tag @n[type=area_effect_cloud,tag=baseYellow] add healPool
+execute if entity @s[team=Blue] run tag @n[type=area_effect_cloud,tag=baseBlue] add healPool
+execute if entity @s[team=Green] run tag @n[type=area_effect_cloud,tag=baseGreen] add healPool
 
 tag @a[tag=healpoolUpgrade1] remove healpoolUpgrade1

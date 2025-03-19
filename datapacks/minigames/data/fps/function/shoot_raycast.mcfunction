@@ -22,6 +22,6 @@ scoreboard players set @e[tag=shootable] raycastHits 0
 function fps:shoot_raycast_start
 execute if score @s lastUsedGunID matches 1 run function fps:shoot_raycast_shotgun
 
-execute if entity @e[limit=1,tag=shootable,scores={raycastHits=1..}] run function fps:shoot_hit
+execute if entity @n[tag=shootable,scores={raycastHits=1..}] run function fps:shoot_hit
 
 tag @s remove shooter

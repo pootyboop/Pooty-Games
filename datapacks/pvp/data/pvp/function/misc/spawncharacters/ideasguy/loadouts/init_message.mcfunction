@@ -1,0 +1,1 @@
+$data modify storage pvp:storage loadout.ideasguy.$(id).message set value "$(message)"

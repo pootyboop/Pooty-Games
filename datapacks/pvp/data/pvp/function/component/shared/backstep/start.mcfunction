@@ -1,4 +1,4 @@
-execute if entity @s[nbt={OnGround:0b}] run return fail
+execute if entity @s[predicate=!pred:grounded] run return fail
 execute unless score @s backstep.timer matches -1 run return fail
 
 

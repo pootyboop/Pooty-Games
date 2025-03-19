@@ -2,7 +2,7 @@ function pvp:player/uuidtotemp
 
 clear @s
 
-function pvp:player/cleanup
+function pvp:player/cleanup/start
 
 function pvp:loadout/component/coc {"category":"armor","function":"equip"}
 function pvp:loadout/component/write/scoreboards with storage pvp:storage temp

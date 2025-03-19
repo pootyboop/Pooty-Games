@@ -1,0 +1,3 @@
+$summon block_display ~ ~ ~ {Tags:["fakeblock","newfakeblock","newfakeblockneedsuuid"],Passengers:[{id:"minecraft:shulker",Silent:1b,Invulnerable:1b,NoAI:1b,AttachFace:0b,Tags:["fakeblock","newfakeblock","newfakeblockneedsuuid"],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:200000000,show_particles:0b}]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-.5f,0f,-.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:$(block)"}}
+
+execute as @e[sort=nearest,limit=2,type=#pvp:fakeblock,tag=newfakeblockneedsuuid] run function pvp:misc/fakeblock/spawn2

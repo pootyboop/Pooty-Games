@@ -1,0 +1,1 @@
+execute as @n[tag=dmg] run function pvp:component/slimey/absorption {"amount":"0"}

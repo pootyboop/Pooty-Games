@@ -1,8 +1,8 @@
 schedule function pvp:main 1
 
 execute if entity @p[tag=spawn] run function pvp:spawn
-execute if entity @p[tag=ingame] run function pvp:main_ingame
+execute if entity @p[tag=ingame] run function pvp:ingame
 
-execute as @n[type=arrow,tag=!grounded,nbt={inGround:1b}] at @s run function pvp:component/ranged/arrow_grounded
+execute as @n[predicate=pvp:arrow_grounded] at @s run function pvp:component/ranged/arrow_grounded
 
-execute as @a at @s run function pvp:player/main
+execute as @e[predicate=pvp:fighter] at @s run function pvp:fighter/main

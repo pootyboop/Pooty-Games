@@ -1,2 +1,2 @@
-execute at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=room] unless block 901 61 ~ oak_sign run tellraw @s {"text":"Place the sign on the wool and write a build theme!","color":"red"}
-execute at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=room] if block 901 61 ~ oak_sign run function build:topic_done
+execute at @n[type=area_effect_cloud,tag=room] unless block 901 61 ~ oak_sign run tellraw @s {"text":"Place the sign on the wool and write a build theme!","color":"red"}
+execute at @n[type=area_effect_cloud,tag=room] if block 901 61 ~ oak_sign run function build:topic_done

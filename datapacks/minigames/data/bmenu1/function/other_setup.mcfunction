@@ -1,4 +1,4 @@
-scoreboard players set @e[limit=1,sort=nearest,type=area_effect_cloud] bmenu 7
+scoreboard players set @n[type=area_effect_cloud] bmenu 7
 
 clear @a tnt[custom_data~{bmenu1:1b}]
 

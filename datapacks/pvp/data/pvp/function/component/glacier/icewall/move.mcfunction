@@ -4,7 +4,7 @@ execute store result storage pvp:storage temp.glacier.z double 0.0001 run scoreb
 
 function pvp:component/glacier/icewall/move2 with storage pvp:storage temp.glacier
 
-execute at @s if entity @e[type=#pvp:fighter,tag=fighter,distance=.1..3] run function pvp:component/glacier/icewall/damage
+execute at @s if entity @e[predicate=pvp:fighter,distance=.1..3] run function pvp:component/glacier/icewall/damage
 execute at @s unless block ~ ~ ~ #air run function pvp:component/glacier/icewall/done
 execute at @s if entity @n[type=block_display,distance=.1..3,tag=fakeblock] run function pvp:component/glacier/icewall/done
 

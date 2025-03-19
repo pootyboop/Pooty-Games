@@ -11,12 +11,12 @@ execute as @e[type=area_effect_cloud,tag=alarm] at @s run function bedwars:alarm
 
 
 
-execute as @a[scores={died=1..}] at @s run function bedwars:died
+execute as @a[predicate=pred:died] at @s run function bedwars:died
 execute as @a[tag=respawn] at @s run function bedwars:respawntimer
 
 
 
-execute as @e[limit=1,type=area_effect_cloud,tag=oreManager] at @s run function bedwars:ore
+execute as @n[type=area_effect_cloud,tag=oreManager] at @s run function bedwars:ore
 
 execute as @a[scores={fireball=1..}] at @s run function bedwars:fireball_activate
 execute as @a[scores={placeTnt=1..}] at @s run function bedwars:tnt_activate

@@ -6,7 +6,7 @@ function geo:fling_cooldown
 
 playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1 0
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=geomoves] run title @s actionbar {"text":"Fling","color":"#FFEAC9"}
+execute if entity @n[predicate=pred:dummy,tag=geomoves] run title @s actionbar {"text":"Fling","color":"#FFEAC9"}
 
 # summon the temporary entity at the players position
 summon marker ~ ~ ~ {Tags:["direction"]}
@@ -18,7 +18,7 @@ execute as @e[tag=direction,limit=1] positioned 0.0 0.0 0.0 run function geo:get
 # and in front of them, so we'll do that in this example
 execute anchored eyes positioned ^ ^ ^1 run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:granite"},NoGravity:0b,Time:520,DropItem:0b,HurtEntities:1b,Tags:["flingblock","newflingblock","flinging"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["flingblockcleanup","flinging"],Duration:1200}]}
 # store the previously stored Motion into the projectile entity
-execute anchored eyes positioned ^ ^ ^1 run data modify entity @e[limit=1,sort=nearest,type=falling_block,tag=newflingblock] Motion set from storage geo:storage Motion
+execute anchored eyes positioned ^ ^ ^1 run data modify entity @n[type=falling_block,tag=newflingblock] Motion set from storage geo:storage Motion
 # clean up the tag
 tag @e[tag=newflingblock] remove newflingblock
 

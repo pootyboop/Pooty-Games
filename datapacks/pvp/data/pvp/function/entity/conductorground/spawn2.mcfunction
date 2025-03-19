@@ -1,4 +1,4 @@
-scoreboard players operation @s uuid0 = @n[type=#pvp:fighter,tag=owner] uuid0
+scoreboard players operation @s uuid0 = @n[predicate=pvp:fighter,tag=owner] uuid0
 
 scoreboard players set @s conductor.timer 0
 

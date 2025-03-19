@@ -1,0 +1,1 @@
+execute as @n[type=minecraft:vindicator,tag=trainingdummy] at @s run function pvp:misc/trainingarea/dummy/togglestate2

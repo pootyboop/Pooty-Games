@@ -1,1 +1,1 @@
-execute if entity @s[tag=!rotaxeslam] as @n[type=#pvp:fighter,tag=fighter,tag=dmgd] run function pvp:player/removemaxhealth {"amount":"2"}
+execute if entity @s[tag=!rotaxeslam] as @n[predicate=pvp:fighter,tag=dmgd] run function pvp:player/maxhealth/remove {"amount":"2"}

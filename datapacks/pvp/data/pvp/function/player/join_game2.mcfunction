@@ -1,4 +1,4 @@
-function pvp:player/spawn_exit
+function pvp:player/spawn/exit
 function pvp:map/spawn
 
 execute at @s run playsound minecraft:block.end_portal_frame.fill master @s ~ ~ ~ 1 1 1

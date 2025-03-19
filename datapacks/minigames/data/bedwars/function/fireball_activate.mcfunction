@@ -1,4 +1,4 @@
-kill @e[limit=1,sort=nearest,type=snowball]
+kill @n[type=snowball]
 scoreboard players reset @s fireball
 
 #execute store result score @s uuid0 run data get entity @s UUID[0]

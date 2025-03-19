@@ -1,5 +1,5 @@
-execute at @e[type=#pvp:fighter,tag=fighter] if score @s uuid0 = @n[type=#pvp:fighter,tag=fighter] uuid0 run tag @n[type=#pvp:fighter,tag=fighter] add this
+function pvp:entity/tag_uuid_owner {"tag":"this"}
 
-execute as @e[type=#pvp:fighter,tag=fighter,distance=.1..3,tag=!this] run damage @s 9 freeze by @n[type=#pvp:fighter,tag=this] from @n[type=#pvp:fighter,tag=this]
+execute as @e[predicate=pvp:fighter,distance=.1..3,tag=!this] run damage @s 9 freeze by @n[predicate=pvp:fighter,tag=this] from @n[predicate=pvp:fighter,tag=this]
 
-tag @n[type=#pvp:fighter,tag=this] remove this
+tag @n[predicate=pvp:fighter,tag=this] remove this

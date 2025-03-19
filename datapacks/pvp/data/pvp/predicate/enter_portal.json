@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "end_portal"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "barrier"
+        }
+      }
+    }
+  ]
+}

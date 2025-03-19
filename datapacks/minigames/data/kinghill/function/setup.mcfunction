@@ -3,7 +3,7 @@ time set day
 
 gamemode adventure @a
 
-execute positioned 0 60 -300 run data merge entity @e[limit=1,type=area_effect_cloud,tag=kinghillorient] {Age:0}
+execute positioned 0 60 -300 run data merge entity @n[type=area_effect_cloud,tag=kinghillorient] {Age:0}
 
 
 bossbar set minecraft:timer players @a

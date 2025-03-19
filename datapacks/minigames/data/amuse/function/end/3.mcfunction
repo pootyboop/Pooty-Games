@@ -1,1 +1,1 @@
-execute as @a unless score @s died matches 1.. run function amuse:pass
+execute as @a unless predicate pred:died run function amuse:pass

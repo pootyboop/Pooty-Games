@@ -7,4 +7,4 @@ execute positioned ~ 62 ~ run function trials:prep_22_blockrow
 execute positioned ~ 63 ~ run function trials:prep_22_blockrow
 execute positioned ~ 64 ~ run function trials:prep_22_blockrow
 
-tag @e[limit=1,sort=random,tag=fakeblock] add cheatchecker
+tag @n[sort=random,tag=fakeblock] add cheatchecker

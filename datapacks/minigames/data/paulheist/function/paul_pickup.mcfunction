@@ -10,4 +10,4 @@ execute as @a at @s run playsound minecraft:entity.villager.death master @s ~ ~ 
 tellraw @a[tag=thief] [{"selector":"@s","color":"light_purple"},{"text":" got ","color":"white"},{"text":"Paul","color":"gold"},{"text":"! Escape ASAP!","color":"white"}]
 tellraw @a[tag=guardian] [{"selector":"@s","color":"light_purple"},{"text":" snatched ","color":"white"},{"text":"Paul","color":"gold"},{"text":"! Don't let them escape!","color":"white"}]
 
-kill @e[limit=1,sort=nearest,tag=paulitem,type=item]
+kill @n[tag=paulitem,type=item]

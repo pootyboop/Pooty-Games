@@ -5,4 +5,4 @@ execute if entity @s[type=!player] run return run function pvp:component/rotaxe/
 execute store result score dummy dummy run attribute @s max_health base get
 execute if score dummy dummy < rotaxe.slamdmg weaponStats run return run function pvp:component/rotaxe/slam/dmg_regular
 
-function pvp:player/removemaxhealth {"amount":"12"}
+function pvp:player/maxhealth/remove {"amount":"12"}

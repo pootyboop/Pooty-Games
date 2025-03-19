@@ -1,1 +1,1 @@
-execute if predicate pred:sneaking if entity @s[nbt={OnGround:1b}] run function pvp:component/bulwark/rampart/start
+execute if predicate pred:sneaking if entity @s[predicate=pred:grounded] run function pvp:component/bulwark/rampart/start

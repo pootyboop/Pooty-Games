@@ -1,6 +1,6 @@
 function pvp:component/chaingun/get
 
-function pvp:component/ranged/setstats {"component":"chaingun","maxammo":"1","reloadspeed":"30","autoreload":"200"}
+function pvp:component/ranged/setstats {"component":"chaingun","maxammo":"1","reloadspeed":"30","autoreload":"200","dmg":"300"}
 
 scoreboard objectives add chaingun.yaw dummy
 scoreboard objectives add chaingun.pitch dummy

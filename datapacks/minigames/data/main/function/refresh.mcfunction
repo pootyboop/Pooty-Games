@@ -60,7 +60,7 @@ function main:itemdrops_disable
 setworldspawn 0 60 0
 spawnpoint @a 0 60 0
 
-data merge entity @n[type=area_effect_cloud,tag=dummy] {Age:0}
+data merge entity @n[predicate=pred:dummy] {Age:0}
 
 time set 12750
 weather clear

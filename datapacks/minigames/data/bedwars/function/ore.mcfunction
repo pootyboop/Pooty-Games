@@ -11,10 +11,10 @@ execute if entity @s[scores={oreTimer4=..0}] at @e[limit=4,type=area_effect_clou
 
 scoreboard players operation @s oreTimer = @s oreTimer3
 scoreboard players operation @s oreTimer /= 40 num
-setblock 10000 5 0 oak_sign{front_text:{messages:['{"score":{"name":"@e[limit=1,type=area_effect_cloud,tag=oreManager]","objective":"oreTimer"}}','{"text":""}','{"text":""}','{"text":""}']}} destroy
+setblock 10000 5 0 oak_sign{front_text:{messages:['{"score":{"name":"@n[type=area_effect_cloud,tag=oreManager]","objective":"oreTimer"}}','{"text":""}','{"text":""}','{"text":""}']}} destroy
 execute as @e[type=area_effect_cloud,tag=diamondTimer] run data modify entity @s CustomName set from block 10000 5 0 front_text.messages[0]
 
 scoreboard players operation @s oreTimer = @s oreTimer4
 scoreboard players operation @s oreTimer /= 40 num
-setblock 10000 6 0 oak_sign{front_text:{messages:['{"score":{"name":"@e[limit=1,type=area_effect_cloud,tag=oreManager]","objective":"oreTimer"}}','{"text":""}','{"text":""}','{"text":""}']}} destroy
+setblock 10000 6 0 oak_sign{front_text:{messages:['{"score":{"name":"@n[type=area_effect_cloud,tag=oreManager]","objective":"oreTimer"}}','{"text":""}','{"text":""}','{"text":""}']}} destroy
 execute as @e[type=area_effect_cloud,tag=emeraldTimer] run data modify entity @s CustomName set from block 10000 6 0 front_text.messages[0]

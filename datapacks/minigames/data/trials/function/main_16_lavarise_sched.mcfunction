@@ -1,1 +1,1 @@
-execute as @e[limit=1,type=marker,tag=lavarise] at @s run function trials:main_16_lavarise
+execute as @n[type=marker,tag=lavarise] at @s run function trials:main_16_lavarise

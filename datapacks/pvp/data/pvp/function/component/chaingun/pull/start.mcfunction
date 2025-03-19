@@ -1,4 +1,5 @@
-scoreboard players operation @s chaingun.pulling.uuid0 = @n[type=#pvp:fighter,tag=fighter,tag=dmgd] uuid0
+function pvp:component/slimey/absorption {"amount":"2"}
+scoreboard players operation @s chaingun.pulling.uuid0 = @n[predicate=pvp:fighter,tag=dmgd] trueUUID
 
 tag @s add chainpulling
 scoreboard players set @s chaingun.timer -1

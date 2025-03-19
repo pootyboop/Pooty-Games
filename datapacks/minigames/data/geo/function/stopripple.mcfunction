@@ -1,2 +1,2 @@
 tag @s remove ripple
-execute at @e[type=area_effect_cloud,tag=ripple,tag=!rippleground] if score @s uuid0 = @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple,tag=!rippleground] uuid0 run kill @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple,tag=!rippleground]
+execute at @e[type=area_effect_cloud,tag=ripple,tag=!rippleground] if score @s uuid0 = @n[type=area_effect_cloud,tag=ripple,tag=!rippleground] uuid0 run kill @n[type=area_effect_cloud,tag=ripple,tag=!rippleground]

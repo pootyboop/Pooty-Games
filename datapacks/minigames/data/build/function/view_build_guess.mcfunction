@@ -1,1 +1,1 @@
-execute as @e[limit=1,sort=nearest,type=area_effect_cloud,tag=room,tag=!viewed] at @s run function build:view_build_guess_2
+execute as @n[type=area_effect_cloud,tag=room,tag=!viewed] at @s run function build:view_build_guess_2

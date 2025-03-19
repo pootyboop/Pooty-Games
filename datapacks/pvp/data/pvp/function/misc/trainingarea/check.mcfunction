@@ -1,0 +1,2 @@
+execute if predicate pvp:training_area if entity @s[tag=!trainingarea] run return run function pvp:misc/trainingarea/enter
+execute unless predicate pvp:training_area if entity @s[tag=trainingarea] run return run function pvp:misc/trainingarea/exit

@@ -1,6 +1,2 @@
-playsound entity.arrow.shoot
-$summon arrow ~ ~ ~ {Motion:[$(x),$(y),$(z)],Tags:["illusionarrow","newillusionarrow"],pickup:0b,crit:1b}
-
-#$say $(x),$(y),$(z)
-
-scoreboard players reset @s illusionTimer
+$summon arrow ~ ~ ~ {Motion:[$(x),$(y),$(z)],Tags:["illusionarrow","newillusionarrow"]}
+execute as @n[type=arrow,tag=newillusionarrow] at @s run function pvp:entity/illusion/shoot_arrow2

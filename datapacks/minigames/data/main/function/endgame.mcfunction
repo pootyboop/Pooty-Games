@@ -42,7 +42,7 @@ execute if entity @a[tag=thirdplace] run tellraw @a {"text":"Third Place: "}
 execute if entity @a[tag=thirdplace] run tellraw @a {"selector":"@a[tag=thirdplace]","color":"yellow"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove playagain
+tag @n[predicate=pred:dummy] remove playagain
 tellraw @a {"text":""}
 tellraw @a {"text":"Click here to play again!","color":"aqua","hoverEvent":{"action":"show_text","value":[{"text":"Click to requeue","color":"aqua"}]},"clickEvent":{"action":"run_command","value":"/function main:playagain"}}
 

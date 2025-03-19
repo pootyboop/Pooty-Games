@@ -1,4 +1,4 @@
-effect give @e[type=#pvp:fighter,tag=fighter,distance=.1..6] slowness 1 1 true
+effect give @e[predicate=pvp:fighter,distance=.1..6] slowness 1 1 true
 
 
 

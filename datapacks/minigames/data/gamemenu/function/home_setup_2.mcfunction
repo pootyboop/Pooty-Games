@@ -1,5 +1,5 @@
 scoreboard players reset @a openchest
-tag @e[limit=1,sort=nearest,type=text_display,tag=sidemenu] remove sidemenu
+tag @n[type=text_display,tag=sidemenu] remove sidemenu
 
 scoreboard objectives add gamemenuMenu dummy
 scoreboard players set dummy gamemenuMenu 0

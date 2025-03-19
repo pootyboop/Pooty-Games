@@ -1,7 +1,7 @@
 tag @s remove gunscreen
 tag @s add ingame
 tag @s add shootable
-tp @e[limit=1,sort=random,tag=fpsspawn,type=marker]
+tp @n[sort=random,tag=fpsspawn,type=marker]
 
 title @s title {"text":""}
 title @s subtitle {"text":""}

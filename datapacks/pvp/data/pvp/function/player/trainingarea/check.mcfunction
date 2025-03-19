@@ -1,2 +1,0 @@
-execute if entity @s[tag=!trainingarea,x=-10019.0,dx=-100,y=59,dy=15,z=-10005,dz=10] run function pvp:player/trainingarea/enter
-execute if entity @s[tag=trainingarea,x=-10017.0,dx=100,y=59,dy=15,z=-10005,dz=10] run function pvp:player/trainingarea/exit

@@ -9,15 +9,15 @@ scoreboard players set @a lastDied 0
 difficulty hard
 gamerule doWardenSpawning true
 
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove dungeon
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove mines
+tag @n[predicate=pred:dummy] remove dungeon
+tag @n[predicate=pred:dummy] remove mines
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=wardenmap1] run function warden:randommap
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=wardenmap2] add dungeon
-tag @e[limit=1,type=area_effect_cloud,tag=dummy,tag=wardenmap3] add mines
+execute if entity @n[predicate=pred:dummy,tag=wardenmap1] run function warden:randommap
+tag @n[predicate=pred:dummy,tag=wardenmap2] add dungeon
+tag @n[predicate=pred:dummy,tag=wardenmap3] add mines
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=dungeon] positioned -289 64 10 run function warden:setup
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=mines] positioned -267 28 35 run function warden:setup
+execute if entity @n[predicate=pred:dummy,tag=dungeon] positioned -289 64 10 run function warden:setup
+execute if entity @n[predicate=pred:dummy,tag=mines] positioned -267 28 35 run function warden:setup
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy

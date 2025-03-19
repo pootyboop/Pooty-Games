@@ -22,6 +22,10 @@ scoreboard objectives add rangedTimer dummy
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
+scoreboard objectives remove healthtracker
+scoreboard objectives add healthtracker dummy
+scoreboard objectives remove healthtracker2
+scoreboard objectives add healthtracker2 dummy
 scoreboard players set @a died 0
 scoreboard objectives remove dmg
 scoreboard objectives add dmg minecraft.custom:minecraft.damage_dealt
@@ -31,6 +35,8 @@ scoreboard objectives remove entity.timer
 scoreboard objectives add entity.timer dummy
 scoreboard objectives remove owningUUID
 scoreboard objectives add owningUUID dummy
+scoreboard objectives add trueUUID dummy
+execute as @a run function pvp:misc/update_true_uuid
 
 scoreboard players set @a rightclicking 0
 
@@ -61,7 +67,7 @@ spawnpoint @a -10000 60 -10000
 setworldspawn -10000 60 -10000
 
 advancement revoke @s only pvp:joingame
-advancement revoke @s only pvp:killplayer
+advancement revoke @s only pvp:kill
 
 tag @a remove inflicter
 tag @a remove owner
@@ -70,13 +76,14 @@ tag @a add fighter
 execute as @a at @s run function pvp:player/new/start
 
 execute as @a run function pvp:player/team/add
-execute as @a at @s run function pvp:player/spawn_enter
+execute as @a at @s run function pvp:player/spawn/enter
 
 
 
 # Prepate spawn, map, and gamemode
 
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
+function pvp:misc/spawncharacters/spawn_all
 
 function pvp:map/set {"map":"miniarena"}
 function pvp:gm/set {"gm":"freeplay"}

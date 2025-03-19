@@ -1,1 +1,1 @@
-tag @n[type=minecraft:area_effect_cloud,tag=dummy] remove allowhunger
+tag @n[predicate=pred:dummy] remove allowhunger

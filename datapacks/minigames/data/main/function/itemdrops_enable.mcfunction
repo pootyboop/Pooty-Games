@@ -1,1 +1,1 @@
-tag @n[type=minecraft:area_effect_cloud,tag=dummy] add allowdrop
+tag @n[predicate=pred:dummy] add allowdrop

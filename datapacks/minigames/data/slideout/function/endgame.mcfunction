@@ -9,8 +9,8 @@ kill @e[type=arrow]
 
 tag @e[type=marker,tag=goldpointspawn] remove used
 
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove slideoutgp
-tag @e[limit=1,type=area_effect_cloud,tag=dummy] remove slideoutffa
+tag @n[predicate=pred:dummy] remove slideoutgp
+tag @n[predicate=pred:dummy] remove slideoutffa
 
 tag @a remove sliding
 tag @a remove sinking

@@ -1,4 +1,4 @@
-execute unless score @s twinscythes.timer = twinscythes.maxrushcharge weaponStats run return 0
+execute unless score @s twinscythes.timer >= twinscythes.maxrushcharge weaponStats run return 0
 
 tag @s add startrush
 title @s actionbar ""

@@ -1,4 +1,4 @@
-scoreboard players set @e[limit=1,sort=nearest,type=area_effect_cloud] bmenu 1
+scoreboard players set @n[type=area_effect_cloud] bmenu 1
 
 clear @a compass[custom_data~{bmenu1:1b}]
 

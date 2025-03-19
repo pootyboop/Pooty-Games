@@ -1,0 +1,1 @@
+rotate @s[tag=passive] -90 0

@@ -27,5 +27,5 @@ execute if function map:if_call positioned 600 64 300 run function hamsoccer:pig
 scoreboard players reset @a leap
 scoreboard players reset @a leaped
 
-execute as @a at @s run tp @s ~ ~ ~ facing entity @e[limit=1,type=pig,tag=ball]
+execute as @a at @s run tp @s ~ ~ ~ facing entity @n[type=pig,tag=ball]
 function hamsoccer:count3

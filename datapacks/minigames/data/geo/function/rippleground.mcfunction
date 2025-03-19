@@ -1,12 +1,12 @@
 tag @s add rippleground
-execute as @a at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] if score @s uuid0 = @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] uuid0 run function geo:shotripple
+execute as @a at @n[type=area_effect_cloud,tag=ripple] if score @s uuid0 = @n[type=area_effect_cloud,tag=ripple] uuid0 run function geo:shotripple
 
 execute as @a[distance=..3] run function geo:ripplehit
 execute as @e[distance=..3,type=falling_block] run function geo:ripplehit
 execute as @e[distance=..3,type=armor_stand] run function geo:ripplehit
 execute as @e[distance=..3,type=villager] run function geo:ripplehit
 
-execute as @a at @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] if score @s uuid0 = @e[limit=1,sort=nearest,type=area_effect_cloud,tag=ripple] uuid0 run tag @s remove ignoreripple
+execute as @a at @n[type=area_effect_cloud,tag=ripple] if score @s uuid0 = @n[type=area_effect_cloud,tag=ripple] uuid0 run tag @s remove ignoreripple
 
 
 playsound minecraft:entity.explode master @a ~ ~ ~ .8 1.4

@@ -1,9 +1,9 @@
 schedule function kinghill:main 1
 
-execute positioned 0 60 -300 as @a[distance=..5.5,nbt={OnGround:1b}] at @s run function kinghill:point
+execute positioned 0 60 -300 as @a[distance=..5.5,predicate=pred:grounded] at @s run function kinghill:point
 particle dust{color:[0.0,1.0,0.0],scale:1} 0 62 -300 2.5 2 2.5 0 1
 
-execute positioned 0 60 -300 run effect give @a[distance=..1,nbt={OnGround:1b}] minecraft:jump_boost 1 3 true
+execute positioned 0 60 -300 run effect give @a[distance=..1,predicate=pred:grounded] minecraft:jump_boost 1 3 true
 particle minecraft:composter 0 60.2 -300 .2 0 .2 .1 1
 
 execute as @a at @s if entity @s[gamemode=!spectator,y=0,dy=54] run function kinghill:died

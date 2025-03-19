@@ -1,3 +1,1 @@
-$tag @n[type=#pvp:fighter,tag=fighter,team=!$(uuid),distance=.1..] add illusiontarget
-
-tp @s ~ ~ ~ facing entity @n[type=#pvp:fighter,tag=fighter,tag=illusiontarget,distance=.1..25]
+$rotate @s facing entity @n[predicate=pvp:fighter,distance=0.1..25,team=!$(uuid)] feet

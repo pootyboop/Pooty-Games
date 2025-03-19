@@ -4,4 +4,4 @@ title @s[tag=!reloading,scores={gunAmmo=1..}] actionbar [{"score":{"name":"@s","
 title @s[tag=!reloading,scores={gunAmmo=..0}] actionbar [{"text":"F","color":"red"},{"text":" - Reload","color":"gray"}]
 
 
-execute if score @s died matches 1.. at @s run function fps:gun_screen_enter
+execute if predicate pred:died at @s run function fps:gun_screen_enter

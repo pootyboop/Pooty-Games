@@ -10,6 +10,6 @@ execute store result score @s status.paralysis.position.yaw run data get entity 
 execute store result score @s status.paralysis.position.pitch run data get entity @s Rotation[1] 100
 
 particle minecraft:flash ~ ~1 ~ 0 0 0 0 1 force
-damage @s 2 player_attack by @n[type=#pvp:fighter,tag=fighter,tag=inflicter] from @n[type=#pvp:fighter,tag=fighter,tag=inflicter]
+damage @s 2 player_attack by @n[predicate=pvp:fighter,tag=inflicter] from @n[predicate=pvp:fighter,tag=inflicter]
 
 execute if entity @s[tag=ramming] at @s run function pvp:component/breachingram/ram/stop

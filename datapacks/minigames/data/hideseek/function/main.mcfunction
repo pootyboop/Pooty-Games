@@ -14,7 +14,7 @@ schedule function hideseek:main 1
 
 
 
-#execute as @a[tag=seeker,scores={died=1..}] run function hideseek:died_seeker
+#execute as @a[tag=seeker,predicate=pred:died] run function hideseek:died_seeker
 #kill @e[type=block_display,tag=tickblock]
 execute as @a[tag=hider] at @s run function hideseek:hider
 

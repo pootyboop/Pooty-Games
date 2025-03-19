@@ -1,0 +1,1 @@
+$tag @n[predicate=pvp:fighter,tag=$(tag)] remove $(tag)

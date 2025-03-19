@@ -8,8 +8,8 @@ scoreboard players operation dummy minigametimer *= 60 num
 execute store result bossbar minecraft:timer max run scoreboard players get dummy minigametimer
 execute store result bossbar minecraft:timer value run scoreboard players get dummy minigametimer
 
-execute if entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=guessMode] run scoreboard players operation dummy roundcount = dummy buildcount
-execute unless entity @e[limit=1,type=area_effect_cloud,tag=dummy,tag=guessMode] run scoreboard players reset dummy roundcount
+execute if entity @n[predicate=pred:dummy,tag=guessMode] run scoreboard players operation dummy roundcount = dummy buildcount
+execute unless entity @n[predicate=pred:dummy,tag=guessMode] run scoreboard players reset dummy roundcount
 
 spreadplayers ~ ~ 3 3 false @a
 execute as @a at @s run tp @s ~ 60 ~

@@ -1,10 +1,15 @@
+# Most common entities at top for performance
+$execute if entity @s[tag=projectiletracker] run return run function pvp:entity/$(function) {"entity":"projectiletracker"}
 $execute if entity @s[tag=arrow] run return run function pvp:entity/$(function) {"entity":"arrow"}
+$execute if entity @s[tag=fire] run return run function pvp:entity/$(function) {"entity":"fire"}
+
+
+
 $execute if entity @s[tag=blessingfield] run return run function pvp:entity/$(function) {"entity":"blessingfield"}
 $execute if entity @s[tag=conductorent] run return run function pvp:entity/$(function) {"entity":"conductor"}
 $execute if entity @s[tag=conductorground] run return run function pvp:entity/$(function) {"entity":"conductorground"}
 $execute if entity @s[tag=controlpoint] run return run function pvp:entity/$(function) {"entity":"controlpoint"}
 $execute if entity @s[tag=dynamitestick] run return run function pvp:entity/$(function) {"entity":"dynamite"}
-$execute if entity @s[tag=fire] run return run function pvp:entity/$(function) {"entity":"fire"}
 $execute if entity @s[tag=icesphere] run return run function pvp:entity/$(function) {"entity":"icesphere"}
 $execute if entity @s[tag=illusion] run return run function pvp:entity/$(function) {"entity":"illusion"}
 $execute if entity @s[tag=mine] run return run function pvp:entity/$(function) {"entity":"mine"}
