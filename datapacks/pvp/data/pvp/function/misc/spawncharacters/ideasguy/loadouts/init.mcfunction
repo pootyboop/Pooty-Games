@@ -1,18 +1,18 @@
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":0,"message":"This one's scary! Catch up to enemies with your items, trap them with Cryo Launcher, and use Decapitator to finish them off."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":0,"message":"This one's scary! Catch up to enemies with your items, trap them in an Ice Sphere, and finish them off with Decapitator."}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":0,"category":"armor","component":"mercenary"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":0,"category":"weapon","component":"decapitator"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":0,"category":"weapon2","component":"cryolauncher"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":0,"category":"item","component":"enderpearl"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":0,"category":"item2","component":"sugar"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":1,"message":"Max stealth! Sneak up on enemies to backstab them or shoot them with super-fast arrows from afar."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":1,"message":"Max stealth! Sneak up on enemies to Backstab them or snipe them with super-fast arrows from afar."}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"armor","component":"insight"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"weapon","component":"backstabknife"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"weapon2","component":"whistler"}
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"item","component":"perplexer"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"item","component":"rewind"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":1,"category":"item2","component":"smokebomb"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":2,"message":"This loadout's perfect for exploding everything around you. Mines, dynamite, and fireballs galore!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":2,"message":"Here's a load of Mines, Dynamite, and Fireballs to explode everything in close proximity."}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":2,"category":"armor","component":"hoarder"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":2,"category":"weapon","component":"ridge"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":2,"category":"weapon2","component":"minegun"}
@@ -35,7 +35,7 @@ function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":4,"cate
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":4,"category":"item2","component":"dynamite"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":4,"category":"item3","component":"fireball"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":5,"message":"Yank your enemies in and blast them Point Blank!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":5,"message":"Yank your enemies in and blast them with Point Blank! Slimey Armor will keep your Absorption hearts up to tank melee hits."}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":5,"category":"armor","component":"slimey"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":5,"category":"weapon","component":"chaingun"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":5,"category":"weapon2","component":"pointblank"}
@@ -63,21 +63,21 @@ function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":8,"cate
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":8,"category":"item","component":"perplexer"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":8,"category":"item2","component":"enderpearl"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":9,"message":"Swarm your enemies with identical Illusions and pelt them with arrows while they try to figure out where you are!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":9,"message":"Swarm your enemies with Illusions and pelt them with arrows while they try to figure out where you are!"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":9,"category":"armor","component":"deception"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":9,"category":"weapon","component":"mirage"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":9,"category":"weapon2","component":"whistler"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":9,"category":"item","component":"rewind"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":9,"category":"item2","component":"enderpearl"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":10,"message":"Here's a technical, trap-heavy loadout. Lay tripwires and mines to catch your enemies and strike when the time is right!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":10,"message":"Here's a technical, trap-heavy loadout. Lay Pylons and Mines to catch your enemies and strike when the time is right!"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":10,"category":"armor","component":"wright"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":10,"category":"weapon","component":"portalsword"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":10,"category":"weapon2","component":"wirecaster"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":10,"category":"weapon3","component":"minegun"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":10,"category":"item","component":"rewind"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":11,"message":"This loadout makes the most of Ranger Armor's Volley ability. Coat the map in poison and ice AOEs!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":11,"message":"This loadout makes the most of Ranger Armor's Volley ability for great area control. Coat the map in poison and ice AOEs!"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":11,"category":"armor","component":"ranger"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":11,"category":"weapon","component":"blightbow"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":11,"category":"weapon2","component":"cryolauncher"}
@@ -91,7 +91,7 @@ function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":12,"cat
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":12,"category":"item","component":"dynamite"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":12,"category":"item2","component":"conductor"}
 
-function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":13,"message":"Here's a fast-paced charging playstyle using Mercenary Armor to speed up Burn Bow's Volley and Whistler's charge."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":13,"message":"Here's a fast-paced charging playstyle using Mercenary Armor to speed up Burn Bow's Volley and Whistler's Charge."}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":13,"category":"armor","component":"mercenary"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":13,"category":"weapon","component":"burnbow"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":13,"category":"weapon2","component":"whistler"}
@@ -111,3 +111,59 @@ function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":15,"cat
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":15,"category":"weapon2","component":"chaingun"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":15,"category":"item","component":"ammopack"}
 function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":15,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":16,"message":"If your aim's good, try this: prepare an area with fire and Mines, then use Warpshot to swap places with an unlucky enemy."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":16,"category":"armor","component":"hothead"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":16,"category":"weapon","component":"warpshot"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":16,"category":"weapon2","component":"minegun"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":16,"category":"item","component":"conductor"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":16,"category":"item2","component":"rewind"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":17,"message":"A simple but effective ranged status build. Use the Stunfork and Wind Charges to keep your distance from enemies."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":17,"category":"armor","component":"ranger"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":17,"category":"weapon","component":"blightbow"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":17,"category":"weapon2","component":"stunfork"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":17,"category":"item","component":"windcharge"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":17,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":18,"message":"Create a ring of death! Use your sped-up melee Right Click abilities to constantly sap enemies' health."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":18,"category":"armor","component":"mercenary"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":18,"category":"weapon","component":"rotaxe"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":18,"category":"weapon2","component":"phlogiston"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":18,"category":"item","component":"fishingrod"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":18,"category":"item2","component":"conductor"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":19,"message":"Let's keep it simple. This one's straight to the point, just reliable raw damage and some extra healing."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":19,"category":"armor","component":"slimey"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":19,"category":"weapon","component":"cleaver"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":19,"category":"weapon2","component":"whistler"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":19,"category":"item","component":"fireball"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":19,"category":"item2","component":"dynamite"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":20,"message":"Go old-school PvP Playground with this Backstab Knife + Paralysis combo. If someone's charging you head-on, use a Perplexer and backstab them!"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":20,"category":"armor","component":"slimey"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":20,"category":"weapon","component":"backstabknife"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":20,"category":"weapon2","component":"stunfork"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":20,"category":"item","component":"perplexer"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":20,"category":"item2","component":"rewind"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":21,"message":"Here's the perfect kit for maximum aerial mobility."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":21,"category":"armor","component":"geokinetic"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":21,"category":"weapon","component":"vaulter"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":21,"category":"weapon2","component":"cryolauncher"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":21,"category":"item","component":"rewind"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":21,"category":"item2","component":"fireball"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":22,"message":"This loadout sets you up to disappear into the smoke and pelt down statuses on unsuspecting enemies from above."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":22,"category":"armor","component":"wright"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":22,"category":"weapon","component":"vaulter"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":22,"category":"weapon2","component":"burnbow"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":22,"category":"weapon3","component":"blightbow"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":22,"category":"item","component":"smokebomb"}
+
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_message {"id":23,"message":"Ram through your enemies with Breaching Ram, then turn around and go to town with Point Blank."}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":23,"category":"armor","component":"evolving"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":23,"category":"weapon","component":"breachingram"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":23,"category":"weapon2","component":"pointblank"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":23,"category":"item","component":"fireball"}
+function pvp:misc/spawncharacters/ideasguy/loadouts/init_component {"id":23,"category":"item2","component":"enderpearl"}

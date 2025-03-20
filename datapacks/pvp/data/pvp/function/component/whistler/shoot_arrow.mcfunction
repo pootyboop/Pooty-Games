@@ -1,0 +1,1 @@
+scoreboard players operation @n[predicate=pvp:projectile_tracker,tag=newprojectiletracker] whistler.chargelevel = @n[predicate=pvp:fighter,tag=currshooter] whistler.chargelevel

@@ -13,5 +13,8 @@ execute on origin run tag @s add owner
 execute at @s run function pvp:entity/spawn {"entity":"projectiletracker","lifetime":"-1"}
 
 $execute at @s run function pvp:component/$(componentnew)/shoot_arrow
+
+tag @n[predicate=pvp:projectile_tracker,tag=newprojectiletracker] remove newprojectiletracker
+
 execute if entity @s[tag=allowgrounded] run data modify entity @s pickup set value 0b
 tag @s remove newshot

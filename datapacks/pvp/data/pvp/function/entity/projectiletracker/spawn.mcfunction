@@ -1,2 +1,2 @@
 summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Radius:0f,Duration:2147483647,Tags:["tracker","projectiletracker","newprojectiletracker","newentity"]}
-execute as @n[type=area_effect_cloud,tag=newprojectiletracker] at @s run function pvp:entity/projectiletracker/spawn2
+execute as @n[predicate=pvp:projectile_tracker,tag=newprojectiletracker] at @s run function pvp:entity/projectiletracker/spawn2

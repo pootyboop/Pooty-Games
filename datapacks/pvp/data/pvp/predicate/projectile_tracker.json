@@ -2,8 +2,10 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "vehicle": {
-      "type": "#pvp:projectile"
+    "type": "area_effect_cloud",
+    "nbt": "{Tags:[\"projectiletracker\"]}",
+    "location": {
+      "dimension": "minecraft:overworld"
     }
   }
 }

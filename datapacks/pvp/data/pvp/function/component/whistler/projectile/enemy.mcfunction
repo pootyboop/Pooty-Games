@@ -1,0 +1,2 @@
+execute if score @n[predicate=pvp:projectile_tracker,tag=currprojectiletracker] whistler.chargelevel matches 3..4 run return run function pvp:component/slimey/absorption {"amount":"0"}
+execute if score @n[predicate=pvp:projectile_tracker,tag=currprojectiletracker] whistler.chargelevel matches 5 run return run function pvp:component/slimey/absorption {"amount":"1"}

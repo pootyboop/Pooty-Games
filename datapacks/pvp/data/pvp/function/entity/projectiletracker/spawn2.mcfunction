@@ -1,4 +1,3 @@
-tag @s remove newprojectiletracker
 tag @n[type=#pvp:projectile,tag=newshot] add currshot
 scoreboard players operation @s uuid0 = @n[type=#pvp:projectile,tag=currshot] uuid0
 
