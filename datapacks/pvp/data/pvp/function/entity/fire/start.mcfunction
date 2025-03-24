@@ -1,5 +1,5 @@
 advancement revoke @s only pvp:fire
-execute unless score dummy gameID matches 100 run return fail
+execute unless predicate pvp:playing_pvp_playground run return fail
 
 kill @n[distance=..0.6,type=block_display,tag=fireblockdisplay]
 

@@ -1,5 +1,5 @@
 advancement revoke @s only pvp:kill
-execute unless score dummy gameID matches 100 run return fail
+execute unless predicate pvp:playing_pvp_playground run return fail
 
 execute if entity @s[tag=spawn] run return fail
 

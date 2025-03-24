@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -10028 {Tags:["needsdata","whistler","bow"],HandItems:[{id:"minecraft:bow",components:{"minecraft:custom_data":{component:"whistler",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -10028 {Tags:["needsdata","whistler","bow"],HandItems:[{id:"minecraft:bow",components:{"minecraft:custom_data":{component:"whistler",category:"weapon",getter:1b}}},{}]}

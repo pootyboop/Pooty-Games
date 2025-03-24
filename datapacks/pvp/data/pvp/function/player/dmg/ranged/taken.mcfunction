@@ -1,5 +1,5 @@
 advancement revoke @s only pvp:dmgtaken_ranged
-execute unless score dummy gameID matches 100 run return fail
+execute unless predicate pvp:playing_pvp_playground run return fail
 
 tag @s add dmgd
 execute on attacker run tag @s add dmger

@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": ".hurttime"
+      },
+      "score": "healthtracker"
+    },
+    "range": {
+      "min": 0,
+      "max": 1
+    }
+  }

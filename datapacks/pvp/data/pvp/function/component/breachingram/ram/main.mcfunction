@@ -7,7 +7,7 @@ playsound minecraft:entity.wolf.shake master @s ~ ~ ~ 1 .6 1
 
 function pvp:component/hothead/increment_fire_trail_amount {"amount":"5"}
 
-execute as @e[predicate=pvp:fighter,distance=.1..2,nbt={HurtTime:0s}] run function pvp:component/breachingram/ram/damage
+execute as @e[predicate=pvp:dmgable,distance=.1..2] run function pvp:component/breachingram/ram/damage
 
 execute store result storage pvp:storage temp.yaw double 0.0001 run scoreboard players get @s breachingram.yaw
 execute store result storage pvp:storage temp.pitch double 0.0001 run scoreboard players get @s breachingram.pitch

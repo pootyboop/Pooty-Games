@@ -2,6 +2,7 @@ execute if entity @s[tag=rewindcooldown] run return run function pvp:component/r
 
 clear @s[gamemode=!creative] clock[minecraft:custom_data~{component:"rewind"}] 1
 
+tag @s add spectatingingame
 gamemode spectator
 
 summon armor_stand ~ ~ ~ {Tags:["rewindmarker"],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}

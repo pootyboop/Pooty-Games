@@ -1,0 +1,1 @@
+$data modify storage pvp:storage horde.wavedata.$(wave).$(type).$(tier) set value $(count)

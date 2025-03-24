@@ -1,4 +1,4 @@
-summon armor_stand -10012 59 -10008 {Tags:["needsdata","ridge","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"ridge",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -10008 {Tags:["needsdata","ridge","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"ridge",category:"weapon",getter:1b}}},{}]}
 
 summon minecraft:armor_stand -10011 59 -10009 {Tags:["display","ridge"],Invulnerable:true,PersistenceRequired:true,NoBasePlate:true,NoGravity:true,ShowArms:true,Rotation:[-10F,0F],HandItems:[{id:"minecraft:crossbow"},{}],ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":15908722}},{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":11081495}},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":15908722}},{id:"minecraft:lectern",count:1}],Pose:{Body:[0f,20f,0f],Head:[350f,320f,0f],LeftLeg:[356f,141f,0f],RightLeg:[0f,18f,0f],LeftArm:[255f,8f,0f],RightArm:[259f,322f,0f]},DisabledSlots:4144959}
 

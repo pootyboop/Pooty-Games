@@ -1,1 +1,1 @@
-summon armor_stand -9984 59 -9980 {Tags:["needsdata","platform","item"],HandItems:[{id:"minecraft:beehive",components:{"minecraft:custom_data":{component:"platform",category:"item",getter:1}}},{}]}
+summon armor_stand -9984 59 -9980 {Tags:["needsdata","platform","item"],HandItems:[{id:"minecraft:beehive",components:{"minecraft:custom_data":{component:"platform",category:"item",getter:1b}}},{}]}

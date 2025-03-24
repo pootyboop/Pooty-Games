@@ -1,5 +1,5 @@
 advancement revoke @s only pvp:dmgdealt
-execute unless score dummy gameID matches 100 run return fail
+execute unless predicate pvp:playing_pvp_playground run return fail
 
 execute store result storage pvp:storage temp.dmg double 1 run scoreboard players get @s dmg
 scoreboard players reset @s dmg

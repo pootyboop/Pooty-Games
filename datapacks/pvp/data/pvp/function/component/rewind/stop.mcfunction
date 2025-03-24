@@ -7,4 +7,5 @@ execute if entity @s[tag=killreward] run return 0
 
 scoreboard players set @s rewind.index 0
 gamemode adventure @s[gamemode=spectator]
+tag @s remove spectatingingame
 tag @s add rewindcooldown

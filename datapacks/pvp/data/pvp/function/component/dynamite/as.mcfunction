@@ -1,1 +1,1 @@
-summon armor_stand -9988 59 -9988 {Tags:["needsdata","dynamite","item"],HandItems:[{id:"minecraft:red_candle",components:{"minecraft:custom_data":{component:"dynamite",category:"item",getter:1}}},{}]}
+summon armor_stand -9988 59 -9988 {Tags:["needsdata","dynamite","item"],HandItems:[{id:"minecraft:red_candle",components:{"minecraft:custom_data":{component:"dynamite",category:"item",getter:1b}}},{}]}

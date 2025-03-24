@@ -1,6 +1,8 @@
 scoreboard players reset @s died
 tag @s add justdied
 
+execute if entity @s[tag=waitingroom] run function pvp:gm/waitingroom/ready/stop
+
 function pvp:player/cleanup/start
 
 title @s title {"text":"☠ DEAD ☠","color":"red"}

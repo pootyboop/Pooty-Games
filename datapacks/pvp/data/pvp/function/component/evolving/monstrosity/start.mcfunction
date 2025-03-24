@@ -1,5 +1,5 @@
 advancement revoke @s only pvp:evolving_monstrosity
-execute unless score dummy gameID matches 100 run return fail
+execute unless predicate pvp:playing_pvp_playground run return fail
 
 function pvp:component/evolving/evolved
 

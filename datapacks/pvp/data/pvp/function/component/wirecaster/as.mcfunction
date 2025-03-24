@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -10024 {Tags:["needsdata","wirecaster","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"wirecaster",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -10024 {Tags:["needsdata","wirecaster","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"wirecaster",category:"weapon",getter:1b}}},{}]}

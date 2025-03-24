@@ -12,6 +12,7 @@ execute as @a run function pvp:player/team/remove
 tag @a remove spawn
 tag @a remove ingame
 tag @a remove fighter
+tag @a remove trainingarea
 
 data remove storage pvp:storage temp
 

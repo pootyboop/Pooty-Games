@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -10012 {Tags:["needsdata","machinebowgun","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"machinebowgun",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -10012 {Tags:["needsdata","machinebowgun","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"machinebowgun",category:"weapon",getter:1b}}},{}]}

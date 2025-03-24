@@ -83,7 +83,7 @@ execute as @a at @s run function pvp:player/spawn/enter
 # Prepate spawn, map, and gamemode
 
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
-function pvp:misc/spawncharacters/spawn_all
+function pvp:misc/spawnstuff/spawn_all
 
 function pvp:map/set {"map":"miniarena"}
 function pvp:gm/set {"gm":"freeplay"}

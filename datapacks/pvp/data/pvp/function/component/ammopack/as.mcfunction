@@ -1,1 +1,1 @@
-summon armor_stand -9984 59 -9984 {Tags:["needsdata","ammopack","item"],HandItems:[{id:"minecraft:barrel",components:{"minecraft:custom_data":{component:"ammopack",category:"item",getter:1}}},{}]}
+summon armor_stand -9984 59 -9984 {Tags:["needsdata","ammopack","item"],HandItems:[{id:"minecraft:barrel",components:{"minecraft:custom_data":{component:"ammopack",category:"item",getter:1b}}},{}]}

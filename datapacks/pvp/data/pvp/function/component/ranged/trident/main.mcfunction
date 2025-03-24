@@ -1,4 +1,4 @@
-execute if entity @s[nbt={DealtDamage:1b}] run return run tag @s remove throwntrident
+execute if entity @s[tag=throwntrident,nbt={DealtDamage:1b}] run return run tag @s remove throwntrident
 
 scoreboard players add @s rangedTimer 1
 

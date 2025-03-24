@@ -1,1 +1,1 @@
-summon armor_stand -9988 59 -9972 {Tags:["needsdata","fireball","item"],HandItems:[{id:"minecraft:fire_charge",components:{"minecraft:custom_data":{component:"fireball",category:"item",getter:1}}},{}]}
+summon armor_stand -9988 59 -9972 {Tags:["needsdata","fireball","item"],HandItems:[{id:"minecraft:fire_charge",components:{"minecraft:custom_data":{component:"fireball",category:"item",getter:1b}}},{}]}

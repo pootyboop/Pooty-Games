@@ -1,4 +1,4 @@
-summon armor_stand -10016 59 -9992 {Tags:["needsdata","decapitator","default"],HandItems:[{id:"minecraft:mace",components:{"minecraft:custom_data":{component:"decapitator",category:"weapon",getter:1},custom_model_data:{strings:["decapitator"]}}},{}]}
+summon armor_stand -10016 59 -9992 {Tags:["needsdata","decapitator","default"],HandItems:[{id:"minecraft:mace",components:{"minecraft:custom_data":{component:"decapitator",category:"weapon",getter:1b},custom_model_data:{strings:["decapitator"]}}},{}]}
 
 summon minecraft:armor_stand -10017.0 59 -9990.8 {Tags:["display","decapitator"],Invulnerable:true,PersistenceRequired:true,NoBasePlate:true,NoGravity:true,ShowArms:true,Rotation:[170F,0F],HandItems:[{id:"minecraft:mace",count:1,components:{custom_model_data:{strings:["decapitator"]}}},{}],ArmorItems:[{id:"minecraft:netherite_boots",count:1},{id:"minecraft:chainmail_leggings",count:1},{id:"minecraft:netherite_chestplate",count:1},{id:"minecraft:vault",count:1}],Pose:{Body:[0f,16f,0f],Head:[10f,352f,356f],LeftLeg:[350f,350f,0f],RightLeg:[13f,13f,0f],LeftArm:[273f,311f,39f],RightArm:[280f,354f,317f]},DisabledSlots:4144959}
 

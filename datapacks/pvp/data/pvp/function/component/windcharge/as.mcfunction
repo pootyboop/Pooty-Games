@@ -1,1 +1,1 @@
-summon armor_stand -9984 59 -9992 {Tags:["needsdata","windcharge","item"],HandItems:[{id:"minecraft:wind_charge",components:{"minecraft:custom_data":{component:"windcharge",category:"item",getter:1}}},{}]}
+summon armor_stand -9984 59 -9992 {Tags:["needsdata","windcharge","item"],HandItems:[{id:"minecraft:wind_charge",components:{"minecraft:custom_data":{component:"windcharge",category:"item",getter:1b}}},{}]}

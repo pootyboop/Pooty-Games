@@ -1,1 +1,1 @@
-summon armor_stand -9988 59 -9980 {Tags:["needsdata","rewind","item"],HandItems:[{id:"minecraft:clock",components:{"minecraft:custom_data":{component:"rewind",category:"item",getter:1}}},{}]}
+summon armor_stand -9988 59 -9980 {Tags:["needsdata","rewind","item"],HandItems:[{id:"minecraft:clock",components:{"minecraft:custom_data":{component:"rewind",category:"item",getter:1b}}},{}]}

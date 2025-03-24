@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -9976 {Tags:["needsdata","vaulter","default"],HandItems:[{id:"minecraft:golden_shovel",components:{"minecraft:custom_data":{component:"vaulter",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -9976 {Tags:["needsdata","vaulter","default"],HandItems:[{id:"minecraft:golden_shovel",components:{"minecraft:custom_data":{component:"vaulter",category:"weapon",getter:1b}}},{}]}

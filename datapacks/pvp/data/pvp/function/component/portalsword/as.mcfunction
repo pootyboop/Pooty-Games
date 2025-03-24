@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -9972 {Tags:["needsdata","portalsword","default"],HandItems:[{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{component:"portalsword",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -9972 {Tags:["needsdata","portalsword","default"],HandItems:[{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{component:"portalsword",category:"weapon",getter:1b}}},{}]}

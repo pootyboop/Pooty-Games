@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -9972 {Tags:["needsdata","twinscythes","default"],HandItems:[{id:"minecraft:diamond_hoe",components:{"minecraft:custom_data":{component:"twinscythes",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -9972 {Tags:["needsdata","twinscythes","default"],HandItems:[{id:"minecraft:diamond_hoe",components:{"minecraft:custom_data":{component:"twinscythes",category:"weapon",getter:1b}}},{}]}

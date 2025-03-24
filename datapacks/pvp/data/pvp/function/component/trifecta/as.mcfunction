@@ -1,4 +1,4 @@
-summon armor_stand -10012 59 -9976 {Tags:["needsdata","trifecta","default"],HandItems:[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{component:"trifecta",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -9976 {Tags:["needsdata","trifecta","default"],HandItems:[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{component:"trifecta",category:"weapon",getter:1b}}},{}]}
 
 summon minecraft:armor_stand -10010 59 -9976 {Tags:["display","trifecta"],Invulnerable:true,PersistenceRequired:true,NoBasePlate:true,NoGravity:true,ShowArms:true,Rotation:[90F,0F],HandItems:[{id:"minecraft:stone_shovel",count:1},{id:"minecraft:stone_sword",count:1}],ArmorItems:[{id:"minecraft:netherite_boots",count:1},{id:"minecraft:chainmail_leggings",count:1},{id:"minecraft:netherite_chestplate",count:1},{id:"minecraft:vault",count:1}],Pose:{Body:[358f,0f,0f],Head:[342f,6f,0f],LeftLeg:[350f,336f,0f],RightLeg:[16f,14f,0f],LeftArm:[235f,334f,0f],RightArm:[300f,38f,0f]},DisabledSlots:4144959}
 

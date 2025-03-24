@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -10008 {Tags:["needsdata","chaingun","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"chaingun",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -10008 {Tags:["needsdata","chaingun","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"chaingun",category:"weapon",getter:1b}}},{}]}

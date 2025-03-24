@@ -1,1 +1,1 @@
-summon armor_stand -10012 59 -9980 {Tags:["needsdata","rotaxe","default"],HandItems:[{id:"minecraft:stone_axe",components:{"minecraft:custom_data":{component:"rotaxe",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10012 59 -9980 {Tags:["needsdata","rotaxe","default"],HandItems:[{id:"minecraft:stone_axe",components:{"minecraft:custom_data":{component:"rotaxe",category:"weapon",getter:1b}}},{}]}

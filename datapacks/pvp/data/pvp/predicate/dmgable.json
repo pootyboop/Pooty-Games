@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#pvp:dmgable",
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"nondmgable\"]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "pvp:not_spectating"
+    }
+  ]
+}

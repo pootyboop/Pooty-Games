@@ -1,10 +1,9 @@
 {
   "values": [
-    "minecraft:player",
-    "#minecraft:zombies",
-    "#minecraft:skeletons",
-    "#minecraft:raiders",
-    "minecraft:armor_stand",
-    "minecraft:villager"
+    "player",
+    "#zombies",
+    "#skeletons",
+    "vindicator",
+    "armor_stand"
   ]
 }

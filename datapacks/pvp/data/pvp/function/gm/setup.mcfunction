@@ -1,0 +1,1 @@
+$function pvp:gm/$(curr)/setup

@@ -1,1 +1,1 @@
-summon armor_stand -10016 59 -10024 {Tags:["needsdata","stunfork","default"],HandItems:[{id:"minecraft:trident",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"stunfork",category:"weapon",getter:1}}},{}]}
+summon armor_stand -10016 59 -10024 {Tags:["needsdata","stunfork","default"],HandItems:[{id:"minecraft:trident",components:{"enchantment_glint_override":true,"minecraft:custom_data":{component:"stunfork",category:"weapon",getter:1b}}},{}]}

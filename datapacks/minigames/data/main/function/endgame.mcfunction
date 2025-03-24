@@ -47,6 +47,7 @@ tellraw @a {"text":""}
 tellraw @a {"text":"Click here to play again!","color":"aqua","hoverEvent":{"action":"show_text","value":[{"text":"Click to requeue","color":"aqua"}]},"clickEvent":{"action":"run_command","value":"/function main:playagain"}}
 
 scoreboard objectives setdisplay sidebar totalscore
+execute as @a[tag=winner] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1 1.2 1
 scoreboard players add @a[tag=winner] totalscore 3
 scoreboard players add @a[tag=secondplace] totalscore 2
 scoreboard players add @a[tag=thirdplace] totalscore 1
