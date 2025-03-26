@@ -1,1 +1,2 @@
 execute if score @s vaulter.timer matches ..-2 run function pvp:component/slimey/absorption {"amount":"1"}
+execute if score @s vaulter.timer matches ..-2 positioned ~ ~-1.5 ~ run function pvp:component/salvo/explode

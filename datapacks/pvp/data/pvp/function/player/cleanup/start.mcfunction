@@ -19,6 +19,7 @@ execute at @e[type=fireball,tag=fireball] if score @s uuid0 = @n[type=fireball,t
 execute at @e[type=#pvp:plantedentity,tag=mine] if score @s uuid0 = @n[type=#pvp:plantedentity,tag=mine] uuid0 run kill @n[type=#pvp:plantedentity,tag=mine]
 execute at @e[type=#pvp:plantedentity,tag=wireanchor] if score @s uuid0 = @n[type=#pvp:plantedentity,tag=wireanchor] uuid0 run kill @n[type=#pvp:plantedentity,tag=wireanchor]
 execute at @e[type=marker,tag=portal] if score @s uuid0 = @n[type=marker,tag=portal] uuid0 run kill @n[type=marker,tag=portal]
+execute at @e[type=minecart,tag=prospectorcart] if score @s uuid0 = @n[type=minecart,tag=prospectorcart] uuid0 run kill @n[type=minecart,tag=prospectorcart]
 
 execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:component/chaingun/stopchaining
 function pvp:component/twinscythes/rush/marker/kill

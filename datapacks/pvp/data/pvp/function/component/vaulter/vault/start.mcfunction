@@ -1,5 +1,5 @@
 tag @s add newvault
-
+execute positioned ~ ~-1.5 ~ run function pvp:component/salvo/explode
 effect give @s strength infinite 0 true
 
 execute as @e[distance=..4.5,type=marker,tag=conductor] at @s run function pvp:entity/conductorground/wind/start

@@ -1,8 +1,7 @@
 function pvp:entity/uuid_owner
 execute as @n[predicate=pvp:fighter,tag=uuidowner] at @s run function pvp:component/wirecaster/wire_tripped
-function pvp:entity/uuid_owner_done
-
 execute as @n[predicate=pvp:fighter,distance=..0.5] run function pvp:entity/wireanchor/wire/wiring/connected_dmgd
+function pvp:entity/uuid_owner_done
 
 particle minecraft:smoke ~ ~.2 ~ 2 1 2 0 3 force
 particle minecraft:crit ~ ~.2 ~ 2 1 2 0 3 force

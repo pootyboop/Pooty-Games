@@ -5,9 +5,11 @@ particle minecraft:small_gust ~ ~ ~ .3 .3 .3 0 4
 playsound minecraft:entity.wolf.shake master @a[distance=.1..] ~ ~ ~ 1 .6
 playsound minecraft:entity.wolf.shake master @s ~ ~ ~ 1 .6 1
 
+effect give @s resistance 1 255 true
+
 function pvp:component/hothead/increment_fire_trail_amount {"amount":"5"}
 
-execute as @e[predicate=pvp:dmgable,distance=.1..2] run function pvp:component/breachingram/ram/damage
+execute as @e[predicate=pvp:dmgable,distance=.1..1.25] run function pvp:component/breachingram/ram/damage
 
 execute store result storage pvp:storage temp.yaw double 0.0001 run scoreboard players get @s breachingram.yaw
 execute store result storage pvp:storage temp.pitch double 0.0001 run scoreboard players get @s breachingram.pitch

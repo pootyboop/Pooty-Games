@@ -1,4 +1,4 @@
-effect give @e[predicate=pvp:fighter,distance=.1..6] slowness 1 1 true
+effect give @e[predicate=pvp:fighter,distance=.1..6] slowness 1 0 true
 
 
 
@@ -10,5 +10,7 @@ execute unless predicate pred:sneaking run return fail
 execute unless score @s permafrost.timer matches -1 run return fail
 
 tag @s add owner
-function pvp:entity/spawn {"entity":"icesphere","lifetime":"40"}
+execute positioned ^ ^ ^2 run function pvp:entity/spawn {"entity":"iceshield","lifetime":"40"}
+#tag @s add owner
+#execute positioned ^ ^ ^-2 run function pvp:entity/spawn {"entity":"iceshield","lifetime":"40"}
 scoreboard players set @s permafrost.timer 0

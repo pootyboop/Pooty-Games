@@ -11,6 +11,7 @@ $execute if entity @s[tag=conductorground] run return run function pvp:entity/$(
 $execute if entity @s[tag=controlpoint] run return run function pvp:entity/$(function) {"entity":"controlpoint"}
 $execute if entity @s[tag=dynamitestick] run return run function pvp:entity/$(function) {"entity":"dynamite"}
 $execute if entity @s[tag=icesphere] run return run function pvp:entity/$(function) {"entity":"icesphere"}
+$execute if entity @s[tag=iceshield] run return run function pvp:entity/$(function) {"entity":"iceshield"}
 $execute if entity @s[tag=illusion] run return run function pvp:entity/$(function) {"entity":"illusion"}
 $execute if entity @s[tag=mine] run return run function pvp:entity/$(function) {"entity":"mine"}
 $execute if entity @s[tag=paralysisfield] run return run function pvp:entity/$(function) {"entity":"paralysisfield"}

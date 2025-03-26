@@ -1,0 +1,2 @@
+execute if score @n[predicate=pvp:projectile_tracker,tag=currprojectiletracker] whistler.chargelevel matches 3.. as @n[tag=projectileowner] run function pvp:component/salvo/explode
+execute if score @n[predicate=pvp:projectile_tracker,tag=currprojectiletracker] whistler.chargelevel matches 5 as @n[tag=projectileowner] at @s run function pvp:component/salvo/explode

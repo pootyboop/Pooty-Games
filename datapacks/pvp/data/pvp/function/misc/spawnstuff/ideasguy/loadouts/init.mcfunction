@@ -1,4 +1,4 @@
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":0,"message":"This one's scary! Catch up to enemies with your items, trap them in an Ice Sphere, and finish them off with Decapitator."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":0,"message":"This one's scary! Close distance with your items, trap your enemy in an Ice Sphere, and finish them off with Decapitator."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":0,"category":"armor","component":"mercenary"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":0,"category":"weapon","component":"decapitator"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":0,"category":"weapon2","component":"cryolauncher"}
@@ -91,7 +91,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":12,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":12,"category":"item","component":"dynamite"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":12,"category":"item2","component":"conductor"}
 
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":13,"message":"Here's a fast-paced charging playstyle using Mercenary Armor to speed up Burn Bow's Volley and Whistler's Charge."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":13,"message":"Here's a fast-paced charging playstyle using high-speed Burn Bow Volleys and Whistler Charge arrows."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":13,"category":"armor","component":"mercenary"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":13,"category":"weapon","component":"burnbow"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":13,"category":"weapon2","component":"whistler"}
@@ -167,3 +167,24 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"weapon2","component":"pointblank"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"item","component":"fireball"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":24,"message":"Send in the Hounds! This lets you guard, Paralyze, and ruin enemies' visibility while your Hounds attack."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"armor","component":"houndkeeper"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"weapon","component":"bulwark"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"weapon2","component":"stunfork"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"item","component":"rewind"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"item2","component":"smokebomb"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":25,"message":"The ultimate explosion set. Try different weapons, too: the Salvo Suit has all kinds of synergies!"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":25,"category":"armor","component":"salvo"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":25,"category":"weapon","component":"phlogiston"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":25,"category":"weapon2","component":"minegun"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":25,"category":"item","component":"dynamite"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":25,"category":"item2","component":"conductor"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":26,"message":"Burst into the sky with nonstop melee-triggered explosions."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"armor","component":"salvo"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"weapon","component":"bulwark"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"weapon2","component":"vaulter"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item","component":"conductor"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item2","component":"rewind"}

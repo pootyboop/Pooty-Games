@@ -17,3 +17,4 @@ title @s actionbar [{"text":"Point Blank","color":"#5d0000"},{"text":" Melee-loa
 
 
 function pvp:component/slimey/absorption {"amount":"0"}
+function pvp:component/salvo/explode

@@ -1,0 +1,9 @@
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"armor"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"weapon"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"weapon2"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"weapon3"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"ability"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"ability2"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"item"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"item2"}
+$function pvp:loadout/unequip2 {"uuid":"$(uuid)","category":"item3"}

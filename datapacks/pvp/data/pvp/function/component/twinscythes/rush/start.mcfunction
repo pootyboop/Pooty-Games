@@ -9,6 +9,9 @@ execute facing entity @n[type=marker,tag=rushtarget,tag=currrushtpmarker] feet r
 
 execute as @n[type=marker,tag=rushtarget,tag=currrushtpmarker] at @s facing entity @p[tag=startrush] feet rotated ~180 ~ run function pvp:component/twinscythes/rush/start_marker
 
+function pvp:component/salvo/explode
+execute at @s run function pvp:component/salvo/explode
+
 scoreboard players set @s twinscythes.timer -30
 
 clear @s *[minecraft:custom_data~{component:"twinscythes"}]

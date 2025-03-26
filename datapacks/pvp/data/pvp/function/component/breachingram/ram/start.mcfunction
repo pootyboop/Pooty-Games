@@ -1,8 +1,6 @@
 tag @s add ramming
 tag @s add ramride
 
-effect give @s resistance infinite 255 true
-
 playsound minecraft:entity.ravager.roar master @a ~ ~ ~ .8 1
 playsound minecraft:entity.ender_dragon.growl master @a ~ ~ ~ .7 2
 playsound minecraft:entity.breeze.shoot master @a ~ ~ ~ 1 1

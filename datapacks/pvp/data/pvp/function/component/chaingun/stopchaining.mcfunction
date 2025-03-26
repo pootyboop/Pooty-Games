@@ -1,3 +1,5 @@
+execute if entity @s[tag=ingame,tag=chaining] run function pvp:component/salvo/explode
+
 tag @s remove chaining
 tag @s remove chainriding
 tag @s remove chainpulling

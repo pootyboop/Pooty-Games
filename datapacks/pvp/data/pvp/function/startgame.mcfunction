@@ -88,6 +88,8 @@ function pvp:misc/spawnstuff/spawn_all
 function pvp:map/set {"map":"miniarena"}
 function pvp:gm/set {"gm":"freeplay"}
 
+gamerule enderPearlsVanishOnDeath true
+
 
 
 # Announce game start

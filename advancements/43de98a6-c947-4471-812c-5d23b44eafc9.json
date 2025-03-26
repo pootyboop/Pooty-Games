@@ -7993,6 +7993,7 @@
   },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
+      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2025-03-25 21:13:23 +0000",
       "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-12-23 21:35:32 +0000"
     },
     "done": false
@@ -8504,6 +8505,12 @@
   "interaction:right_click": {
     "criteria": {
       "requirement": "2025-03-14 19:28:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-03-24 22:41:36 +0000"
     },
     "done": true
   },

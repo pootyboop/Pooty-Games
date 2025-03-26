@@ -17,12 +17,14 @@
   "vine",
   "bamboo",
   "dead_bush",
-  "#wool_carpets",
   "#all_signs",
   "#flowers",
   "#coral_plants",
   "#buttons",
   "#pressure_plates",
+  "#wool_carpets",
+  "moss_carpet",
+  "pale_moss_carpet",
   "lever",
   "#saplings",
   "torch",
@@ -33,8 +35,6 @@
   "soul_wall_torch",
   "small_dripleaf",
   "big_dripleaf_stem",
-  "moss_carpet",
-  "pale_moss_carpet",
   "lily_pad"
   ]
 }

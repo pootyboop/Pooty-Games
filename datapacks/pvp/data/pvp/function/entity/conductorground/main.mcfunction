@@ -1,3 +1,4 @@
+#tag @s remove currexplodingconductor
 tag @s add currconductor
 
 function pvp:entity/tag_uuid_owner {"tag":"currconductorowner"}
