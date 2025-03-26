@@ -12,6 +12,7 @@ execute at @s as @e[type=area_effect_cloud,tag=projectiletracker,distance=..6] r
 execute on attacker run function pvp:ticked/dmgable/dealt/start with storage pvp:storage temp
 
 function pvp:ticked/dmgable/hurt/print/start with storage pvp:storage temp
+execute unless entity @s[tag=kill] run function pvp:ticked/dmgable/hurt/dmgnumber with storage pvp:storage temp
 execute if entity @s[tag=trainingdummy] run function pvp:misc/trainingarea/dummy/hurt with storage pvp:storage temp
 
 tag @n[predicate=pvp:fighter,tag=dmg] remove dmg

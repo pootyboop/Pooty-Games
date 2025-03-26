@@ -1,6 +1,7 @@
 # Most common entities at top for performance
 $execute if entity @s[tag=projectiletracker] run return run function pvp:entity/$(function) {"entity":"projectiletracker"}
 $execute if entity @s[tag=arrow] run return run function pvp:entity/$(function) {"entity":"arrow"}
+$execute if entity @s[tag=dmgnumber] run return run function pvp:entity/$(function) {"entity":"dmgnumber"}
 $execute if entity @s[tag=fire] run return run function pvp:entity/$(function) {"entity":"fire"}
 
 

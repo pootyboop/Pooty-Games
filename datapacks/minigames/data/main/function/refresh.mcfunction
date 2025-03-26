@@ -66,5 +66,5 @@ time set 12750
 weather clear
 
 #kill @e[type=item]
-kill @e[type=minecart]
-kill @e[type=arrow]
+kill @e[type=minecart,tag=!display,tag=!dontkill]
+kill @e[type=arrow,tag=!display,tag=!dontkill]

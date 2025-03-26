@@ -1,0 +1,1 @@
+$execute positioned ~ ~2.1 ~ positioned ~$(x) ~$(y) ~$(z) run function pvp:entity/spawn {"entity":"dmgnumber","lifetime":"60"}

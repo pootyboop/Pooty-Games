@@ -7,7 +7,7 @@ scoreboard players operation @s owningUUID = @s uuid0
 execute unless score @s uuid0 = @n[predicate=pvp:fighter,distance=..0.1] uuid0 run return fail
 
 data modify entity @s crit set value 0b
-$execute unless score $(componentnew).projectiledmg weaponStats matches -1 store result entity @s damage double 0.01 run scoreboard players get $(componentnew).projectiledmg weaponStats
+$execute unless score $(componentnew).projectiledmg weaponStats matches -1 run function pvp:component/ranged/shoot_arrow_damage {"component":"$(componentnew)"}
 
 execute on origin run tag @s add owner
 execute at @s run function pvp:entity/spawn {"entity":"projectiletracker","lifetime":"-1"}

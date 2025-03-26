@@ -1,1 +1,3 @@
-$data modify storage pvp:storage temp.ammoitem set value "arrow[custom_data={component:\"$(component)\",category:\"weapon\",offhand:1b},max_stack_size=99]"
+data modify storage pvp:storage temp.rangedcomponent set from entity @s SelectedItem.components."minecraft:custom_data".component
+function pvp:component/ranged/update_items_default2 with storage pvp:storage temp
+data remove storage pvp:storage temp.rangedcomponent

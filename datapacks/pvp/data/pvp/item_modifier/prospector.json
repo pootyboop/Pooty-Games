@@ -1,0 +1,6 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "enchantments": {"quick_charge": 1}
+  }
+}

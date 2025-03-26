@@ -19,7 +19,7 @@ scoreboard players add dummy dummy 1000
 execute store result storage pvp:storage temp.whistler.speed double 1 run scoreboard players get dummy dummy
 
 scoreboard players operation dummy dummy = @s whistler.chargelevel
-execute store result storage pvp:storage temp.whistler.damage double 0.56 run scoreboard players get dummy dummy
+execute store result storage pvp:storage temp.whistler.damage double 0.5 run scoreboard players get dummy dummy
 
 function pvp:component/whistler/shoot2 with storage pvp:storage temp.whistler
 execute as @e[type=arrow,tag=whistler,distance=..3] at @s run function pvp:component/whistler/shoot_arrow_special with storage pvp:storage temp.whistler

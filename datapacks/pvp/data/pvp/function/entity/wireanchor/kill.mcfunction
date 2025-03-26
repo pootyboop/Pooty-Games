@@ -4,7 +4,8 @@ playsound minecraft:entity.bee.death master @a ~ ~ ~ .35 .8
 playsound minecraft:item.flintandsteel.use master @a ~ ~ ~ .8 2
 stopsound @a master minecraft:entity.bee.loop_aggressive
 
-function pvp:entity/wireanchor/wire/delete_all
+kill @e[type=block_display,tag=wire]
+#function pvp:entity/wireanchor/wire/delete_all
 function pvp:entity/wireanchor/kill_otheranchor
 
 function pvp:entity/uuid_owner

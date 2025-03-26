@@ -75,7 +75,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category":"weapon","component":"portalsword"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category":"weapon2","component":"wirecaster"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category":"weapon3","component":"minegun"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category":"item","component":"rewind"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":10,"category":"item","component":"ammopack"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":11,"message":"This loadout makes the most of Ranger Armor's Volley ability for great area control. Coat the map in poison and ice AOEs!"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":11,"category":"armor","component":"ranger"}
@@ -188,3 +188,24 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"weapon2","component":"vaulter"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item","component":"conductor"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item2","component":"rewind"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":27,"message":"Span the map with your mobility options while channeling Pylons across the field."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"armor","component":"ranger"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"weapon","component":"breachingram"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"weapon2","component":"wirecaster"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"item","component":"enderpearl"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"item2","component":"rewind"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":28,"message":"Here's an evasive, heavy-hitting melee build. Stay on top of your enemies at all times while charging up your Decapitator."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"armor","component":"prospector"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"weapon","component":"decapitator"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"weapon2","component":"chaingun"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"item","component":"perplexer"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":29,"message":"Feeling lonely? Keep enemies at bay with your personal army of Hounds and Illusions!"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"armor","component":"houndkeeper"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon","component":"mirage"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon2","component":"phlogiston"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item","component":"platform"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item2","component":"smokebomb"}

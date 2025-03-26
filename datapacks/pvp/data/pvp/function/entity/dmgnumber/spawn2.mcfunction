@@ -1,0 +1,2 @@
+$data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(scale)f,$(scale)f,$(scale)f]},text:'{"color":"red","text":"$(dmg_hearts)❤"}'}
+tag @s remove newdmgnumber

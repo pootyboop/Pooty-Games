@@ -15,3 +15,4 @@ scoreboard objectives add wirecaster.ammowaiting dummy
 scoreboard players set @s wirecaster.ammowaiting 0
 
 function pvp:component/ranged/setstats {"component":"wirecaster","maxammo":"2","reloadspeed":"-1","autoreload":"-1","dmg":"0"}
+function pvp:component/ranged/setvolleytime {"component":"wirecaster","time":"60"}
