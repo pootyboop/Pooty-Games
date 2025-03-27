@@ -1,4 +1,4 @@
-$execute unless predicate pred:sneaking run return run function pvp:component/ranged/reload/cancel {"component":"$(component)"}
+$execute unless predicate pvp:input/sneak run return run function pvp:component/ranged/reload/cancel {"component":"$(component)"}
 $execute if score @s $(component).ammo = $(component).maxammo weaponStats run return run function pvp:component/ranged/reload/cancel {"component":"$(component)"}
 
 title @s actionbar {"color":"gold","text":"Reloading..."}

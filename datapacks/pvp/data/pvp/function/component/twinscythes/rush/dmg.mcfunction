@@ -1,1 +1,1 @@
-execute as @e[predicate=pvp:fighter,distance=..2,tag=!startrush] run function pvp:component/twinscythes/rush/dmg2
+execute if entity @n[predicate=pvp:fighter,tag=maxedrush] as @e[predicate=pvp:fighter,distance=..2,tag=!startrush] run function pvp:component/twinscythes/rush/dmg2

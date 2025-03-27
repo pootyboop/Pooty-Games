@@ -1,3 +1,5 @@
+execute unless items entity @s inventory.0 *[minecraft:custom_data~{loadoutbutton:1b}] run return run function pvp:player/ui/button/clicked_shareloadout
+
 execute unless items entity @s inventory.9 *[minecraft:custom_data~{loadoutbutton:1b}] run return run function pvp:player/ui/button/clicked_loadout {"id":1,"write":0}
 execute unless items entity @s inventory.10 *[minecraft:custom_data~{loadoutbutton:1b}] run return run function pvp:player/ui/button/clicked_loadout {"id":2,"write":0}
 execute unless items entity @s inventory.11 *[minecraft:custom_data~{loadoutbutton:1b}] run return run function pvp:player/ui/button/clicked_loadout {"id":3,"write":0}

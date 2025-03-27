@@ -1,0 +1,3 @@
+$data modify storage pvp:storage temp.shareID.$(shareID_Latest) set from storage pvp:storage loadout.$(uuid).curr
+
+$tellraw @a {"clickEvent":{"action":"run_command","value":"/function pvp:loadout/equip_from_share_id {\"shareID\":\"$(shareID_Latest)\"}"},"color":"aqua","hoverEvent":{"action":"show_text","value":[{"selector":"@s","color":"red"},{"text":"\'s loadout","color":"white"}]},"text":"Click here to equip the full loadout."}

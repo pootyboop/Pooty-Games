@@ -6,6 +6,8 @@ function pvp:map/stop with storage pvp:storage map
 forceload remove all
 forceload add 0 0
 
+execute as @a[tag=trainingarea] at @s run function pvp:misc/trainingarea/exit
+
 kill @e[type=#pvp:projectile,tag=!dontkill]
 kill @e[type=wolf,tag=hound,tag=!display]
 execute as @a at @s run function pvp:player/cleanup/start

@@ -6,7 +6,7 @@ execute if score @s permafrost.timer matches 0.. run scoreboard players add @s p
 
 execute if score @s permafrost.timer >= permafrost.cooldown weaponStats run return run function pvp:component/permafrost/cooldown_over
 
-execute unless predicate pred:sneaking run return fail
+execute unless predicate pvp:input/sneak run return fail
 execute unless score @s permafrost.timer matches -1 run return fail
 
 tag @s add owner

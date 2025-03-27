@@ -32,14 +32,21 @@ bossbar set minecraft:timer color white
 bossbar set minecraft:timer style progress
 bossbar set minecraft:timer players
 
+gamerule announceAdvancements false
+gamerule commandBlockOutput false
 gamerule disableRaids true
 gamerule doDaylightCycle false
 gamerule doEntityDrops false
 gamerule doFireTick false
+gamerule doInsomnia false
+gamerule doLimitedCrafting false
 gamerule doMobLoot false
 gamerule doMobSpawning false
+gamerule doPatrolSpawning false
 gamerule doTileDrops false
+gamerule doTraderSpawning false
 gamerule doVinesSpread false
+gamerule doWardenSpawning true
 gamerule doWeatherCycle false
 gamerule fallDamage false
 gamerule keepInventory true

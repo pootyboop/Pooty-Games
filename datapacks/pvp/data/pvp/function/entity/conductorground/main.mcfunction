@@ -10,7 +10,7 @@ function pvp:entity/conductorground/_particle/body
 execute if score @s conductor.timer < conductor.cooldown weaponStats run return run scoreboard players add @s conductor.timer 1
 
 function pvp:entity/conductorground/update_entries
-execute as @e[predicate=pvp:fighter,distance=..3] at @s run function pvp:entity/conductorground/inside
+execute as @e[distance=..3,predicate=pvp:fighter,tag=!illusion] at @s run function pvp:entity/conductorground/inside
 
 
 

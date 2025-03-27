@@ -9,36 +9,7 @@ scoreboard players set @s backstep.timer 0
 function pvp:component/hothead/increment_fire_trail_amount {"amount":"100"}
 tp @s ~ ~.3 ~
 
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
-function pvp:component/shared/backstep/slime
+execute rotated ~ 0 positioned ^ ^ ^.2 run function pvp:component/shared/backstep/slimes
 
 particle cloud ~ ~1 ~ .3 .4 .3 0 4
 playsound minecraft:entity.egg.throw master @a ~ ~ ~ 1 0.7

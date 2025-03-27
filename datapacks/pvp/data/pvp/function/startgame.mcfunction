@@ -85,7 +85,7 @@ execute as @a at @s run function pvp:player/spawn/enter
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
 function pvp:misc/spawnstuff/spawn_all
 
-function pvp:map/set {"map":"miniarena"}
+function pvp:map/set {"map":"gritpit"}
 function pvp:gm/set {"gm":"freeplay"}
 
 gamerule enderPearlsVanishOnDeath true

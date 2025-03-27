@@ -1,0 +1,1 @@
+$execute as @e[limit=2,type=wolf,tag=hound,tag=$(uuid)] run data remove entity @s AngryAt

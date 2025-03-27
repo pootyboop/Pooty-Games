@@ -8,5 +8,5 @@ $execute unless score $(component).autoreload weaponStats matches -1 unless scor
 
 $execute if score $(component).reloadspeed weaponStats matches -1 run return fail
 
-$execute if score @s $(component).timer.reload matches -1 if predicate pred:sneaking unless score @s $(component).ammo = $(component).maxammo weaponStats run function pvp:component/ranged/reload/start {"component":"$(component)"}
+$execute if score @s $(component).timer.reload matches -1 if predicate pvp:input/sneak unless score @s $(component).ammo = $(component).maxammo weaponStats run function pvp:component/ranged/reload/start {"component":"$(component)"}
 $execute unless score @s $(component).timer.reload matches -1 run function pvp:component/ranged/reload/main {"component":"$(component)"}

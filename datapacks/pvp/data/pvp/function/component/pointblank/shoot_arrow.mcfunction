@@ -1,3 +1,1 @@
-tag @s add arrow
-tag @s add entity
-scoreboard players set @s entity.timer 3
+function pvp:entity/spawn {"entity":"arrow","lifetime":"3"}

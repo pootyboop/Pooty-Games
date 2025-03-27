@@ -16,3 +16,6 @@ function pvp:component/trifecta/get
 function pvp:component/trifecta/transform/stage3_sword
 function pvp:component/trifecta/transform/stage3_axe
 function pvp:component/trifecta/transform/stage3_spear
+
+function pvp:component/slimey/absorption {"amount":"0"}
+#function pvp:component/salvo/explode

@@ -8496,21 +8496,21 @@
     },
     "done": true
   },
-  "interaction:left_click": {
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
-      "requirement": "2025-03-14 19:18:25 +0000"
+      "kill_mob_near_sculk_catalyst": "2025-03-24 22:41:36 +0000"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2025-03-14 19:28:40 +0000"
+      "requirement": "2025-03-27 03:39:57 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+  "interaction:left_click": {
     "criteria": {
-      "kill_mob_near_sculk_catalyst": "2025-03-24 22:41:36 +0000"
+      "requirement": "2025-03-27 03:41:52 +0000"
     },
     "done": true
   },
