@@ -1,4 +1,4 @@
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 
 $data modify storage pvp:storage temp.id set value "$(id)"
 function pvp:player/ui/loadout_id with storage pvp:storage temp

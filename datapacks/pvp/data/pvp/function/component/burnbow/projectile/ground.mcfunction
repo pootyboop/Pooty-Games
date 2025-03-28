@@ -1,3 +1,4 @@
+execute if block ~ ~ ~ barrier run return fail
 tag @n[tag=projectileowner] add owner
 function pvp:entity/spawn {"entity":"fire","lifetime":"80"}
 

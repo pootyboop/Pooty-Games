@@ -7,6 +7,7 @@ $execute if entity @s[tag=fire] run return run function pvp:entity/$(function) {
 
 
 $execute if entity @s[tag=blessingfield] run return run function pvp:entity/$(function) {"entity":"blessingfield"}
+$execute if entity @s[tag=blockpillar] run return run function pvp:entity/$(function) {"entity":"blockpillar"}
 $execute if entity @s[tag=conductorent] run return run function pvp:entity/$(function) {"entity":"conductor"}
 $execute if entity @s[tag=conductorground] run return run function pvp:entity/$(function) {"entity":"conductorground"}
 $execute if entity @s[tag=controlpoint] run return run function pvp:entity/$(function) {"entity":"controlpoint"}

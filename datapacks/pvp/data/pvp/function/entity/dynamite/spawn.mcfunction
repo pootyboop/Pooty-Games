@@ -1,4 +1,5 @@
-function pvp:entity/dynamite/spawn_dynamite with storage pvp:storage temp.dynamite
+function pvp:util/motion/get/from_facing {"scale":100}
+function pvp:entity/dynamite/spawn_dynamite with storage pvp:storage temp.motion
 
 playsound entity.tnt.primed master @a ~ ~ ~ 1 2
 

@@ -1,0 +1,1 @@
+execute as @e[predicate=pvp:fighter,tag=movementslimeuser] at @s run function pvp:component/shared/movement_slimes/cleanup2

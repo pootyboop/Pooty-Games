@@ -1,1 +1,0 @@
-function pvp:entity/tag_uuid_owner_done {"tag":"uuidowner"}

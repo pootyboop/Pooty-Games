@@ -1,7 +1,7 @@
 tag @s add shot
 tag @s add newshot
 $tag @s add $(componentnew)
-function pvp:misc/update_true_uuid
+function pvp:util/uuid/true
 execute store result score @s uuid0 run data get entity @s Owner[0]
 scoreboard players operation @s owningUUID = @s uuid0
 execute unless score @s uuid0 = @n[predicate=pvp:fighter,distance=..0.1] uuid0 run return fail

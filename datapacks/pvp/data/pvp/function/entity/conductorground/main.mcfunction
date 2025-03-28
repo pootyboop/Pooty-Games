@@ -1,7 +1,7 @@
 tag @s remove currexplodingconductor
 tag @s add currconductor
 
-function pvp:entity/tag_uuid_owner {"tag":"currconductorowner"}
+function pvp:util/uuid/owner/start_tag {"tag":"currconductorowner"}
 
 execute store result storage pvp:storage temp.conductorlifetime double 1 run scoreboard players get @s entity.timer
 

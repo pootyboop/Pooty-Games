@@ -12,7 +12,7 @@ function pvp:player/cleanup/entity {"entity":"block_display"}
 function pvp:player/cleanup/entity {"entity":"shulker"}
 function pvp:player/cleanup/entity {"entity":"#pvp:projectile"}
 
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 function pvp:player/cleanup/start2 with storage pvp:storage temp
 
 execute at @e[type=fireball,tag=fireball] if score @s uuid0 = @n[type=fireball,tag=fireball] uuid0 run kill @n[type=fireball,tag=fireball]

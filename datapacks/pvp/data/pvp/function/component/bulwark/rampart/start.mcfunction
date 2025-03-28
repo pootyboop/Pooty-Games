@@ -5,13 +5,13 @@ function pvp:component/slimey/absorption {"amount":"0"}
 
 tag @s add owner
 
-execute positioned ^ ^ ^ positioned ~ ~-1 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
-execute positioned ^1 ^ ^ positioned ~ ~-1 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
-execute positioned ^-1 ^ ^ positioned ~ ~-1 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^ ^ ^ positioned ~ ~-1 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^1 ^ ^ positioned ~ ~-1 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^-1 ^ ^ positioned ~ ~-1 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
 
-execute positioned ^ ^ ^ positioned ~ ~-2 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
-execute positioned ^1 ^ ^ positioned ~ ~-2 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
-execute positioned ^-1 ^ ^ positioned ~ ~-2 ~ run function pvp:misc/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^ ^ ^ positioned ~ ~-2 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^1 ^ ^ positioned ~ ~-2 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
+execute positioned ^-1 ^ ^ positioned ~ ~-2 ~ run function pvp:entity/fakeblock/spawn {"block":"oak_planks"}
 
 #execute as @e[type=block_display,tag=newfakeblock] run data modify entity @s Rotation[0] set from entity @p[tag=owner] Rotation[0]
 execute as @e[type=#pvp:fakeblock,tag=newfakeblock] run function pvp:component/bulwark/rampart/start_fakeblocks

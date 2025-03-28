@@ -6,12 +6,12 @@ data modify storage pvp:storage temp.arrow set from entity @s weapon.components.
 
 
 tag @s add currgroundarrow
-function pvp:entity/tag_uuid_owner {"tag":"projectileowner"}
+function pvp:util/uuid/owner/start_tag {"tag":"projectileowner"}
 
 execute as @n[tag=projectileowner] run function pvp:component/ranged/arrow_grounded2 with storage pvp:storage temp
 
 tag @s remove currgroundarrow
-function pvp:entity/tag_uuid_owner_done {"tag":"projectileowner"}
+function pvp:util/uuid/owner/stop_tag {"tag":"projectileowner"}
 
 
 

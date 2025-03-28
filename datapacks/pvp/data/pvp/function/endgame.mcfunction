@@ -19,6 +19,8 @@ tag @a remove ingame
 tag @a remove fighter
 tag @a remove trainingarea
 
+scoreboard objectives remove timeSinceJumpInputStarted
+
 data remove storage pvp:storage temp
 
 function main:score_places

@@ -1,4 +1,4 @@
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 
 data modify storage pvp:storage temp.categorywrite set from storage pvp:storage temp.category
 

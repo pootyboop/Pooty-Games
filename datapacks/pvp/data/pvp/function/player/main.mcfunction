@@ -1,4 +1,4 @@
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 
 execute unless items entity @s inventory.17 *[minecraft:custom_data~{selfkill:1b}] run function pvp:player/died/selfkill
 execute if predicate pred:died run function pvp:player/died/start

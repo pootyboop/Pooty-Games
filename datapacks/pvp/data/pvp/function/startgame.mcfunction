@@ -21,6 +21,10 @@ scoreboard objectives add rangedTimer dummy
 
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives remove jumpDown
+scoreboard objectives add jumpDown dummy
+scoreboard objectives remove timeSinceJumpInputStarted
+scoreboard objectives add timeSinceJumpInputStarted minecraft.custom:minecraft.total_world_time
 
 scoreboard objectives remove healthtracker
 scoreboard objectives add healthtracker dummy
@@ -33,10 +37,12 @@ scoreboard objectives add dmg minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add weaponStats dummy
 scoreboard objectives remove entity.timer
 scoreboard objectives add entity.timer dummy
+scoreboard objectives remove entity.buildtimer
+scoreboard objectives add entity.buildtimer dummy
 scoreboard objectives remove owningUUID
 scoreboard objectives add owningUUID dummy
 scoreboard objectives add trueUUID dummy
-execute as @a run function pvp:misc/update_true_uuid
+execute as @a run function pvp:util/uuid/true
 
 scoreboard players set @a rightclicking 0
 

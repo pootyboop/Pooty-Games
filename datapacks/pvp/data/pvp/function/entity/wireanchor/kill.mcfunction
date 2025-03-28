@@ -8,9 +8,9 @@ kill @e[type=block_display,tag=wire]
 #function pvp:entity/wireanchor/wire/delete_all
 function pvp:entity/wireanchor/kill_otheranchor
 
-function pvp:entity/uuid_owner
+function pvp:util/uuid/owner/start
 scoreboard players add @n[predicate=pvp:fighter,tag=uuidowner] wirecaster.ammowaiting 1
-function pvp:entity/uuid_owner_done
+function pvp:util/uuid/owner/stop
 
 execute at @n[type=slime,tag=wireanchor,distance=..2] if score @s uuid0 = @n[type=slime,tag=wireanchor] uuid0 as @n[type=slime,tag=wireanchor] run function pvp:entity/wireanchor/kill_slime
 execute at @e[type=#pvp:plantedentity,tag=wireanchor,distance=..2.5] if score @s uuid0 = @n[type=#pvp:plantedentity,tag=wireanchor] uuid0 run kill @n[type=#pvp:plantedentity,tag=wireanchor]

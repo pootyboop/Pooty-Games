@@ -10,7 +10,5 @@ execute unless predicate pvp:input/sneak run return fail
 execute unless score @s permafrost.timer matches -1 run return fail
 
 tag @s add owner
-execute positioned ^ ^ ^2 run function pvp:entity/spawn {"entity":"iceshield","lifetime":"40"}
-#tag @s add owner
-#execute positioned ^ ^ ^-2 run function pvp:entity/spawn {"entity":"iceshield","lifetime":"40"}
+execute rotated ~ 0 positioned ^ ^ ^2 run function pvp:entity/spawn {"entity":"iceshield","lifetime":"40"}
 scoreboard players set @s permafrost.timer 0

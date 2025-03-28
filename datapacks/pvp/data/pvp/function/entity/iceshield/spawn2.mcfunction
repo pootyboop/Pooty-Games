@@ -1,6 +1,6 @@
 execute store result score @s uuid0 run data get entity @s UUID[0]
 scoreboard players operation @s owningUUID = @s uuid0
-scoreboard players set @s iceshield.buildtimer 0
+scoreboard players set @s entity.buildtimer 0
 
 execute facing entity @n[predicate=pvp:fighter,tag=owner] feet run rotate @s ~180 0
 

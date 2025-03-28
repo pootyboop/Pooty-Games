@@ -1,0 +1,1 @@
+$say Scale is $(scale)

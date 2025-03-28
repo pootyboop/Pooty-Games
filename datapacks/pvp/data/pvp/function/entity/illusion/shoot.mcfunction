@@ -1,5 +1,5 @@
 scoreboard players reset @s illusionTimer
-function pvp:entity/uuid_owner
+function pvp:util/uuid/owner/start
 
 function pvp:entity/illusion/get_pos
 tag @s add as
@@ -10,4 +10,4 @@ tag @s remove as
 playsound entity.arrow.shoot master @a ~ ~ ~ 1 1
 execute anchored eyes positioned ^ ^ ^.2 run function pvp:entity/illusion/shoot_arrow with storage pvp:storage temp.illusion
 
-function pvp:entity/uuid_owner_done
+function pvp:util/uuid/owner/stop

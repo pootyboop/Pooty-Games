@@ -2,7 +2,7 @@ function pvp:entity/illusion/proximity
 
 execute if predicate pred:cointoss run function pvp:entity/illusion/particle
 
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 function pvp:entity/illusion/rotate with storage pvp:storage temp
 
 scoreboard players add @s illusionTimer 1

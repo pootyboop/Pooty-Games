@@ -1,0 +1,1 @@
+execute if score @s jumpDown matches 1.. run function pvp:input/jump/stop

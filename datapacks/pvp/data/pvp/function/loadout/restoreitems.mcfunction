@@ -1,4 +1,4 @@
-function pvp:player/uuidtotemp
+function pvp:util/uuid/temp
 
 playsound minecraft:block.vault.open_shutter master @s ~ ~ ~ 1 2
 playsound minecraft:block.basalt.break master @s ~ ~ ~ .8 1

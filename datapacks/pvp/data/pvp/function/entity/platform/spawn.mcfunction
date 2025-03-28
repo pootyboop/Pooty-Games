@@ -1,10 +1,10 @@
 summon marker ~ ~ ~ {Tags:["newentity","platform"]}
 execute as @n[type=marker,tag=newentity] at @s run function pvp:entity/platform/spawn2
 
-execute positioned ~.5 ~ ~.5 run function pvp:misc/fakeblock/spawn {"block":"beehive"}
-execute positioned ~-.5 ~ ~-.5 run function pvp:misc/fakeblock/spawn {"block":"beehive"}
-execute positioned ~.5 ~ ~-.5 run function pvp:misc/fakeblock/spawn {"block":"beehive"}
-execute positioned ~-.5 ~ ~.5 run function pvp:misc/fakeblock/spawn {"block":"beehive"}
+execute positioned ~.5 ~ ~.5 run function pvp:entity/fakeblock/spawn {"block":"beehive"}
+execute positioned ~-.5 ~ ~-.5 run function pvp:entity/fakeblock/spawn {"block":"beehive"}
+execute positioned ~.5 ~ ~-.5 run function pvp:entity/fakeblock/spawn {"block":"beehive"}
+execute positioned ~-.5 ~ ~.5 run function pvp:entity/fakeblock/spawn {"block":"beehive"}
 
 execute as @e[type=#pvp:fakeblock,tag=newfakeblock] run function pvp:entity/platform/spawn_fakeblock
 

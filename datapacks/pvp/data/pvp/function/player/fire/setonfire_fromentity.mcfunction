@@ -1,3 +1,3 @@
-execute as @n[tag=currfire] run function pvp:entity/uuid_owner
+execute as @n[tag=currfire] run function pvp:util/uuid/owner/start
 function pvp:player/fire/setonfire
-execute as @n[tag=currfire] run function pvp:entity/uuid_owner_done
+execute as @n[tag=currfire] run function pvp:util/uuid/owner/stop
