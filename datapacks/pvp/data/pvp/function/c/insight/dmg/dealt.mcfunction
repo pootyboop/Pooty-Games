@@ -1,0 +1,1 @@
+function pvp:c/insight/invis_off

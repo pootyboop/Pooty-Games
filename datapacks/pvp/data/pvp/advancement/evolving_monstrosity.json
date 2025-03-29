@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "pvp:component/evolving/monstrosity/start"
+    "function": "pvp:c/evolving/monstrosity/start"
   }
 }

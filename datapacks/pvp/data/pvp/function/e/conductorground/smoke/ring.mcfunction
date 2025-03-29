@@ -1,0 +1,1 @@
+execute unless entity @s[tag=c_gravity] run return fail

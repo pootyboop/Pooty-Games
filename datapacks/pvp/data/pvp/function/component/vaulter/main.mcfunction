@@ -1,1 +1,0 @@
-execute unless score @s vaulter.timer matches -1 run function pvp:component/vaulter/vault/main

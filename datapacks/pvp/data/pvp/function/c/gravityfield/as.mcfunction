@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9964 {Tags:["needsdata","gravityfield","item"],HandItems:[{id:"minecraft:crying_obsidian",components:{"minecraft:custom_data":{component:"gravityfield",category:"item",getter:1b}}},{}]}

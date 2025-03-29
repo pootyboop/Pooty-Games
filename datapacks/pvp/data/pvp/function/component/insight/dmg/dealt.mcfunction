@@ -1,1 +1,0 @@
-function pvp:component/insight/invis_off

@@ -1,1 +1,0 @@
-$execute as @e[type=#pvp:fakeblock,tag=blockpillarblock,distance=..4,scores={uuid0=$(uuid)}] at @s run function pvp:entity/blockpillar/kill3

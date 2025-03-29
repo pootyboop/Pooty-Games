@@ -1,0 +1,1 @@
+execute as @p[tag=deathbypass] at @s run function pvp:player/cleanup/kill_in_place/cleanup

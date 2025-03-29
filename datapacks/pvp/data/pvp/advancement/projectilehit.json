@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "pvp:component/ranged/hit"
+    "function": "pvp:c/ranged/hit"
   }
 }

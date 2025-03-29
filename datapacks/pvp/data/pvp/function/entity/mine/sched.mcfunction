@@ -1,4 +1,0 @@
-execute unless entity @n[type=marker,tag=mine] run return fail
-
-execute as @e[type=marker,tag=mine] at @s run function pvp:entity/mine/main
-schedule function pvp:entity/mine/sched 1

@@ -1,0 +1,2 @@
+execute positioned ~ ~1.1 ~ unless function pvp:util/block/is_traversable run return run function pvp:e/decoy/hit_wall
+execute positioned ~ ~1.9 ~ unless block ~ ~ ~ #minecraft:air run return run function pvp:e/decoy/hit_wall

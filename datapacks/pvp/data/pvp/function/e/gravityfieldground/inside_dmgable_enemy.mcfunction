@@ -1,0 +1,1 @@
+execute at @s if entity @n[distance=..1,type=marker,tag=currgravityfield] run effect give @s wither 2 1 true

@@ -1,0 +1,1 @@
+execute store result storage pvp:storage temp.uuid_internal double 1 run scoreboard players get @s uuid0

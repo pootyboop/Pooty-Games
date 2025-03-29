@@ -1,0 +1,1 @@
+execute if entity @s[tag=backstabbee] if score @s backstabknife.rotation <= 45 num as @n[predicate=pvp:fighter,tag=backstabber] at @s run return run function pvp:c/backstabknife/backstab_check3

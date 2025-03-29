@@ -1,1 +1,1 @@
-$function pvp:component/$(unequip)/unequip
+$function pvp:c/$(unequip)/unequip

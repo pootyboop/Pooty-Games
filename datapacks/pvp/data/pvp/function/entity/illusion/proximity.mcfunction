@@ -1,2 +1,0 @@
-execute if entity @s[tag=invincible] run return run function pvp:entity/illusion/invincibility
-execute positioned ~ ~1 ~ if entity @n[type=#pvp:projectile,tag=!illusionarrow,distance=..3] run return run function pvp:entity/kill {"entity":"illusion"}

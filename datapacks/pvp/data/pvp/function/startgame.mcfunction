@@ -5,6 +5,7 @@ scoreboard players set dummy gameID 100
 
 
 data remove storage pvp:storage temp
+data remove storage pvp:storage e
 
 
 
@@ -69,7 +70,7 @@ scoreboard players set volley.chargetime weaponStats 60
 
 tp @a -10000 60 -10000 0 0
 
-spawnpoint @a -10000 60 -10000
+execute as @a run function pvp:player/restore_spawnpoint
 setworldspawn -10000 60 -10000
 
 advancement revoke @s only pvp:joingame

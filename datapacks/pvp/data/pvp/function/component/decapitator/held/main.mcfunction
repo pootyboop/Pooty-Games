@@ -1,1 +1,0 @@
-execute if entity @s[tag=decapnear] run function pvp:component/decapitator/held/main_near

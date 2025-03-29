@@ -1,1 +1,1 @@
-$function pvp:component/$(component)/jump/double_tap
+$function pvp:c/$(component)/jump/double_tap

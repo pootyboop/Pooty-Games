@@ -1,1 +1,0 @@
-execute as @n[predicate=pvp:fighter,tag=dmg] at @n[predicate=pvp:fighter,tag=dmgd] run function pvp:component/chaingun/pull/start

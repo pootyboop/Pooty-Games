@@ -1,0 +1,1 @@
+$function pvp:loadout/nonplayer/main3 with storage pvp:storage e.$(trueUUID)

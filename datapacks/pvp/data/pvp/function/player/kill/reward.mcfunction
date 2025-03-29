@@ -7,8 +7,8 @@ playsound minecraft:block.note_block.bell master @s ~ ~ ~ 1 0
 function pvp:player/maxhealth/restore
 function pvp:loadout/restoreitems
 
-execute if items entity @s armor.head *[minecraft:custom_data~{component:"houndkeeper"}] run function pvp:component/houndkeeper/update
-execute if items entity @s armor.head *[minecraft:custom_data~{component:"insight"}] run function pvp:component/insight/invis_on
-execute if items entity @s armor.head *[minecraft:custom_data~{component:"prospector"}] run function pvp:component/prospector/restore_cart
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"houndkeeper"}] run function pvp:c/houndkeeper/update
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"insight"}] run function pvp:c/insight/invis_on
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"prospector"}] run function pvp:c/prospector/restore_cart
 
 tag @s remove killreward

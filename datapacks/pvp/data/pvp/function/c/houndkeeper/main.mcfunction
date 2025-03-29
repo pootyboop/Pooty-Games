@@ -1,0 +1,1 @@
+execute if entity @s[tag=spawn,tag=!ingame] run function pvp:c/houndkeeper/passive_hounds

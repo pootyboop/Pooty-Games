@@ -1,0 +1,1 @@
+execute store result storage pvp:storage temp.trueUUID double 1 run data get entity @s UUID[0]

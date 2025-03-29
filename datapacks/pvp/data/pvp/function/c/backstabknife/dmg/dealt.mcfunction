@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{backstab:1b}] run function pvp:c/slimey/absorption {"amount":"1"}
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{backstab:1b}] run function pvp:c/salvo/explode

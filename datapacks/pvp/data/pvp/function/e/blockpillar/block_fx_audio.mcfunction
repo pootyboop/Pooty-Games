@@ -1,0 +1,1 @@
+$function pvp:util/block/sound {"block":"$(block)","sound":"place","volume":1}

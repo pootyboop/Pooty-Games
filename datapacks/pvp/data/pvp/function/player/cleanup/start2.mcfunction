@@ -1,1 +1,1 @@
-$execute as @e[tag=entity,tag=!surviveownercleanup,scores={uuid0=$(uuid)}] at @s run function pvp:entity/kill_unknowntype
+$execute as @e[tag=entity,tag=!surviveownercleanup,scores={uuid0=$(uuid)}] at @s run function pvp:e/kill_unknowntype

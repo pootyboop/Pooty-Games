@@ -1,0 +1,2 @@
+execute if entity @n[type=marker,tag=currexit,distance=..1.2] run return run function pvp:e/portal/entity_inside/tp_fail_tooclose
+execute at @n[type=marker,tag=currexit] rotated as @s run function pvp:e/portal/entity_inside/tp

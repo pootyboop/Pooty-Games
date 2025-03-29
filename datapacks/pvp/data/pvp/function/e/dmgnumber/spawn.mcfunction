@@ -1,0 +1,3 @@
+summon text_display ~ ~ ~ {Glowing:1b,shadow_radius:0f,billboard:"center",shadow:1b,see_through:1b,glow_color_override:16711680,Tags:["dmgnumber","newdmgnumber","newentity","surviveownercleanup"],brightness:{sky:15,block:15},text:'{"color":"red","text":"hearts❤"}',background:0}
+
+execute as @n[type=text_display,tag=newdmgnumber] run function pvp:e/dmgnumber/spawn2 with storage pvp:storage temp.dmgnumber

@@ -1,0 +1,2 @@
+damage @s 4 player_attack by @n[type=armor_stand,tag=currdecoy] from @n[predicate=pvp:fighter,tag=uuidowner]
+data modify entity @s[type=!player] AngryAt set from entity @n[type=armor_stand,tag=currdecoy] UUID

@@ -1,12 +1,8 @@
 {
   "values": [
-    "#arrows",
+    "#pvp:projectile_damaging",
     "ender_pearl",
-    "firework_rocket",
-    "fireball",
     "silverfish",
-    "trident",
-    "wind_charge",
-    "wither_skull"
+    "wind_charge"
   ]
 }

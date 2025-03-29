@@ -1,0 +1,1 @@
+execute as @n[predicate=pvp:fighter,tag=projectileowner] run function pvp:c/slimey/absorption {"amount":"0"}

@@ -1,0 +1,2 @@
+execute unless entity @s[tag=ramming] if score @s breachingram.cooldown matches -1 run return run function pvp:c/breachingram/charge
+execute if entity @s[tag=ramming] run function pvp:c/breachingram/ram/main

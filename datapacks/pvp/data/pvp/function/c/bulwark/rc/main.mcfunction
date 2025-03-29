@@ -1,0 +1,1 @@
+execute if predicate pvp:input/sneak if entity @s[predicate=pred:grounded,scores={bulwark.timer=-1}] run function pvp:c/bulwark/rampart/start

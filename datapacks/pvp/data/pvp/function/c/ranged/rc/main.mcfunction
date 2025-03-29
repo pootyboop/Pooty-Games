@@ -1,0 +1,2 @@
+$execute store result score .volley_compatible dummy run function pvp:c/shared/volley/check_compatible {"component":"$(component)"}
+$execute if score .volley_compatible dummy matches 1 run function pvp:c/shared/volley/rc/main {"component":"$(component)"}

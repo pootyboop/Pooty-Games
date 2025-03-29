@@ -1,0 +1,1 @@
+function pvp:e/func_all {"function":"kill"}

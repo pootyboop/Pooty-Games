@@ -1,1 +1,0 @@
-#execute if entity @s[tag=machinebowgunfiring] run function pvp:component/machinebowgun/held/main2

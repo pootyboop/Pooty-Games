@@ -1,0 +1,1 @@
+execute unless entity @s[tag=machinebowgunfiring] run function pvp:c/machinebowgun/charge

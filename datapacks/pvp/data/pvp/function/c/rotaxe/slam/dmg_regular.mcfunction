@@ -1,0 +1,1 @@
+damage @s 12 mace_smash by @n[predicate=pvp:fighter,tag=rotaxeslam] from @n[predicate=pvp:fighter,tag=rotaxeslam]

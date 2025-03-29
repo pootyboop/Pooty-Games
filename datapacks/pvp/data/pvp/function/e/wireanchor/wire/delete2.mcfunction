@@ -1,0 +1,1 @@
+$execute as @e[type=block_display,tag=wire,scores={wireanchor.uuid0=$(wiretargetdelete)}] run function pvp:e/wireanchor/wire/delete3

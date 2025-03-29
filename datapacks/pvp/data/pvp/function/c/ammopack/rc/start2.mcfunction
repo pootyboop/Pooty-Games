@@ -1,0 +1,2 @@
+$function pvp:c/ammopack/rc/start3 with storage pvp:storage loadout.$(uuid).curr
+$execute if data storage pvp:storage loadout.$(uuid).curr.weapon3 run function pvp:c/ammopack/rc/start4 with storage pvp:storage loadout.$(uuid).curr

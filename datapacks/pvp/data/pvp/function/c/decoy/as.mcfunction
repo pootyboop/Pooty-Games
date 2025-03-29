@@ -1,0 +1,1 @@
+summon armor_stand -9984 59.2 -9968 {Tags:["needsdata","decoy","item"],HandItems:[{id:"minecraft:player_head",components:{"minecraft:custom_data":{component:"decoy",category:"item",getter:1b}}},{}]}

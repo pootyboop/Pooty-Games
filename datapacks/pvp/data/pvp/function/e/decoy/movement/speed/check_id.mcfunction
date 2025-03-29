@@ -1,0 +1,2 @@
+$data modify storage pvp:storage temp.effect set from entity @s active_effects[$(id)]
+execute if data storage pvp:storage temp.effect run function pvp:e/decoy/movement/speed/check_id2 with storage pvp:storage temp.effect

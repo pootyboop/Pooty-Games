@@ -1,0 +1,1 @@
+execute if score @s bulwark.timer matches -1 run function pvp:c/bulwark/get_offhand

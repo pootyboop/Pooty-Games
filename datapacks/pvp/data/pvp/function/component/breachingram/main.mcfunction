@@ -1,1 +1,0 @@
-execute unless score @s breachingram.cooldown matches -1 run function pvp:component/breachingram/cooldown/main

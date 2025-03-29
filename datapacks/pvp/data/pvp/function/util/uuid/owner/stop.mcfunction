@@ -1,1 +1,1 @@
-function pvp:util/uuid/owner/stop_tag {"tag":"uuidowner"}
+tag @n[predicate=pvp:fighter,tag=uuidowner] remove uuidowner

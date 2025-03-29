@@ -1,1 +1,0 @@
-execute positioned ^ ^ ^3 run function pvp:entity/conductorground/_particle/ring3

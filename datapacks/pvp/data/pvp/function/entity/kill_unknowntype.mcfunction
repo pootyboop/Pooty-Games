@@ -1,1 +1,0 @@
-function pvp:entity/func_all {"function":"kill"}

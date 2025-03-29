@@ -1,1 +1,0 @@
-function pvp:component/houndkeeper/hound/kill

@@ -1,1 +1,0 @@
-execute if score @s bulwark.timer matches -1 run function pvp:component/bulwark/get_shield

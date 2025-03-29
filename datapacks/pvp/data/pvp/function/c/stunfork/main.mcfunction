@@ -1,0 +1,1 @@
+execute as @n[distance=..15,type=trident,tag=stunfork,tag=!paralyzed,tag=!tridentautoreturn,tag=!throwntrident] if score @s uuid0 = @n[predicate=pvp:fighter] uuid0 run function pvp:c/stunfork/trident

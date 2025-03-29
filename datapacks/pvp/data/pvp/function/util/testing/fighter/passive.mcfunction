@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Health:40f,Tags:["fighter"],attributes:[{id:"minecraft:max_health",base:40}]}

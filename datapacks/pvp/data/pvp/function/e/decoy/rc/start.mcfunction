@@ -1,0 +1,1 @@
+function pvp:loadout/nonplayer/rc/start

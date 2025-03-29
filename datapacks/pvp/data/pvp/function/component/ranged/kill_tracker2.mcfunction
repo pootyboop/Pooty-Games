@@ -1,1 +1,0 @@
-$execute positioned ~ ~.5 ~ as @n[predicate=pvp:projectile_tracker,distance=..1,scores={uuid0=$(uuid)}] at @s run function pvp:entity/kill {"entity":"projectiletracker"}

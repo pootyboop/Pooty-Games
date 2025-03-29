@@ -1,1 +1,0 @@
-function pvp:entity/spawn {"entity":"arrow","lifetime":"3"}

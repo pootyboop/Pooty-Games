@@ -1,0 +1,2 @@
+execute if entity @s[type=player] anchored eyes positioned ^ ^ ^2 positioned ~ ~-1 ~ run return run function pvp:c/rotaxe/slam/start
+execute anchored feet rotated ~ 0 positioned ^ ^ ^2 run return run function pvp:c/rotaxe/slam/start

@@ -1,0 +1,2 @@
+execute unless data storage pvp:storage temp.decoy.loadout run return run function pvp:e/decoy/loadout/set_from_owner
+function pvp:e/decoy/loadout/set_from_storage with storage pvp:storage temp.decoy.loadout

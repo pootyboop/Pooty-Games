@@ -1,1 +1,1 @@
-$function pvp:component/$(component)/$(function)
+$function pvp:c/$(component)/$(function)

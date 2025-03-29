@@ -1,0 +1,1 @@
+function pvp:e/projectiletracker/update_check {"hitcheck":0}

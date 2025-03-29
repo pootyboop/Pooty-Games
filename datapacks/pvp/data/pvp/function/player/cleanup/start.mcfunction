@@ -18,8 +18,8 @@ function pvp:player/cleanup/start2 with storage pvp:storage temp
 execute at @e[type=fireball,tag=fireball] if score @s uuid0 = @n[type=fireball,tag=fireball] uuid0 run kill @n[type=fireball,tag=fireball]
 execute at @e[type=minecart,tag=prospectorcart] if score @s uuid0 = @n[type=minecart,tag=prospectorcart] uuid0 run kill @n[type=minecart,tag=prospectorcart]
 
-execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:component/chaingun/stopchaining
-function pvp:component/twinscythes/rush/marker/kill
+execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:c/chaingun/stopchaining
+function pvp:c/twinscythes/rush/marker/kill
 
 tag @s remove nearideasguy
 tag @s remove spectatingingame

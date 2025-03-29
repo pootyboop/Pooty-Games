@@ -1,0 +1,1 @@
+$execute as @n[type=silverfish,tag=phlogistonspin,scores={uuid0=$(uuid)}] run function pvp:c/phlogiston/spin/stop3

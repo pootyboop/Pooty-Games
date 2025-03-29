@@ -1,1 +1,0 @@
-function pvp:component/salvo/get

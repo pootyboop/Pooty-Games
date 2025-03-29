@@ -1,1 +1,0 @@
-execute as @n[predicate=pvp:fighter,tag=dmg] run function pvp:component/warpshot/tp_start

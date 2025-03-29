@@ -1,0 +1,1 @@
+execute as @e[distance=..10,type=#pvp:projectile,tag=gravityfieldprojectile] at @s unless entity @n[distance=..4,type=marker,tag=gravityfieldground] run function pvp:e/gravityfieldground/inside_projectile_stop

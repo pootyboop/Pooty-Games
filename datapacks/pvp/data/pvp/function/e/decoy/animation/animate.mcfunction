@@ -1,0 +1,1 @@
+$data merge entity @s {Pose:{LeftArm:[$(positive)f,0f,0f],RightArm:[$(negative)f,0f,0f],LeftLeg:[$(negative)f,0f,0f],RightLeg:[$(positive)f,0f,0f]}}

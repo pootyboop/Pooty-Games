@@ -1,0 +1,1 @@
+$execute as @e[type=#pvp:fakeblock,tag=fakeblock,distance=..3,scores={uuid0=$(uuid)}] at @s run function pvp:e/iceshield/kill3

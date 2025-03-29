@@ -1,1 +1,0 @@
-execute if score @s trifecta.mode matches 1 run function pvp:component/trifecta/slowness_inflicted

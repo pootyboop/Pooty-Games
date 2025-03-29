@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ #minecraft:weird_collision run return run function pvp:component/ridge/projectile/ground_solve_direction2 {"dist":0.45}
-function pvp:component/ridge/projectile/ground_solve_direction2 {"dist":0.1}

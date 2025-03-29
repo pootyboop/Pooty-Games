@@ -1,2 +1,0 @@
-#execute unless items entity @s weapon.offhand * run function pvp:component/twinscythes/get_offhand
-execute if items entity @s weapon.mainhand *[custom_data~{component:"twinscythes"}] run function pvp:component/twinscythes/get_offhand

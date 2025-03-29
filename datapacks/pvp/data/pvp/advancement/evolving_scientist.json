@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "pvp:component/evolving/scientist/start"
+    "function": "pvp:c/evolving/scientist/start"
   }
 }

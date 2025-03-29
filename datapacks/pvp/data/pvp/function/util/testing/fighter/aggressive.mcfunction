@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Health:40f,Johnny:1b,Tags:["fighter"],attributes:[{id:"minecraft:max_health",base:40}]}

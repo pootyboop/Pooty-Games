@@ -1,1 +1,1 @@
-$function pvp:component/$(component)/dmg/ranged/taken {"dmg":"$(dmg)"}
+$function pvp:c/$(component)/dmg/ranged/taken {"dmg":"$(dmg)"}

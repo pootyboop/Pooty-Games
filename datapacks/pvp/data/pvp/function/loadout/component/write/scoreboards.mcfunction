@@ -13,4 +13,4 @@ scoreboard players operation dummy dummy += dummy2 dummy
 $execute if score dummy dummy matches 1.. run function pvp:loadout/component/write/scoreboard_add {"component":"$(component)","name":"timer.autoreload"}
 $execute if score dummy dummy matches 1.. run function pvp:loadout/component/write/scoreboard_add {"component":"$(component)","name":"timer.reload"}
 $execute if score dummy dummy matches 1.. run function pvp:loadout/component/write/scoreboard_add {"component":"$(component)","name":"ammo"}
-$execute if score dummy dummy matches 1.. run function pvp:component/ranged/maxammo {"component":"$(component)"}
+$execute if score dummy dummy matches 1.. run function pvp:c/ranged/maxammo {"component":"$(component)"}

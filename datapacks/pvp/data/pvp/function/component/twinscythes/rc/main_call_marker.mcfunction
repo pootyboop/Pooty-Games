@@ -1,1 +1,0 @@
-execute at @e[type=marker,tag=rushtarget] if score @s uuid0 = @n[type=marker,tag=rushtarget] uuid0 as @n[type=marker,tag=rushtarget] at @s run function pvp:component/twinscythes/rush/marker/main

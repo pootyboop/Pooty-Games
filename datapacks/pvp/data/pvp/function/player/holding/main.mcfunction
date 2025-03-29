@@ -1,1 +1,1 @@
-$function pvp:component/$(componentnew)/held/main
+$function pvp:c/$(componentnew)/held/main

@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "pvp:entity/fire/start"
+    "function": "pvp:e/fire/start"
   }
 }

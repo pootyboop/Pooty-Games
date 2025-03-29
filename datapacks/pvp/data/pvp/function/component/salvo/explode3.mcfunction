@@ -1,1 +1,0 @@
-function pvp:component/shared/explosion/start {"dmg":5,"radius":2}

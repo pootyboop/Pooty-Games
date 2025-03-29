@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9968 {Tags:["needsdata","invertedpearl","item"],HandItems:[{id:"minecraft:ender_pearl",components:{"minecraft:enchantment_glint_override":true,"minecraft:custom_data":{component:"invertedpearl",category:"item",getter:1b}}},{}]}

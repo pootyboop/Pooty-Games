@@ -1,2 +1,0 @@
-$execute at @s run summon small_fireball ~ ~$(fireball_y) ~ {acceleration_power:1d,Motion:[0.0,-1.0,0.0],Tags:["firefireball","newfirefireball"],Item:{id:"minecraft:air",count:1},Passengers:[{id:"minecraft:marker",Tags:["firefireballmarker"]}]}
-execute as @n[tag=newfirefireball] at @s run function pvp:player/fire/setonfire_fireball2

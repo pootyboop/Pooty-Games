@@ -1,0 +1,1 @@
+execute as @n[tag=dmg] run function pvp:c/slimey/absorption {"amount":"0"}

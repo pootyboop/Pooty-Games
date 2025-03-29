@@ -1,1 +1,0 @@
-$function pvp:component/$(armor)/projectile/enemy

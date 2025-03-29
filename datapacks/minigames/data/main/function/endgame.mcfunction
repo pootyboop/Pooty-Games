@@ -1,5 +1,8 @@
 schedule function main:endgame_2 5s
 
+scoreboard objectives remove dummy
+scoreboard objectives add dummy dummy
+
 scoreboard players operation dummy lastPlayedGameID = dummy gameID
 
 scoreboard players reset dummy roundcount

@@ -1,0 +1,1 @@
+execute positioned 0.0 0.0 0.0 run function pvp:c/prospector/ability/direction/update2

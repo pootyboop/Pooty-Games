@@ -7,7 +7,7 @@ scoreboard players operation .dmg healthtracker -= @s healthtracker
 execute store result storage pvp:storage temp.dmg double 1 run scoreboard players get .dmg healthtracker
 execute store result storage pvp:storage temp.dmg_hearts double 0.5 run scoreboard players get .dmg healthtracker
 
-execute at @s as @e[type=area_effect_cloud,tag=projectiletracker,distance=..6] run function pvp:entity/projectiletracker/update_check {"hitcheck":1}
+execute at @s as @e[type=area_effect_cloud,tag=projectiletracker,distance=..6] run function pvp:e/projectiletracker/update_check {"hitcheck":1}
 
 execute on attacker run function pvp:ticked/dmgable/dealt/start with storage pvp:storage temp
 

@@ -1,0 +1,1 @@
+execute if score @s phlogiston.circle matches 0.. run return run function pvp:c/phlogiston/spin/main

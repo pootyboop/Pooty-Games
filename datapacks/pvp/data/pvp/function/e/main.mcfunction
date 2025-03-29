@@ -1,0 +1,1 @@
+$function pvp:e/$(entity)/main
