@@ -1,1 +1,1 @@
-$kill @n[type=arrow,tag=chaingun,scores={uuid0=$(uuid)}]
+$kill @n[sort=furthest,type=arrow,tag=chaingun,scores={uuid0=$(uuid)}]
