@@ -1,0 +1,1 @@
+execute unless entity @s[type=player] run function pvp:c/adder/lunge/start

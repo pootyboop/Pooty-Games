@@ -1,3 +1,3 @@
-$function pvp:c/ranged/consume_ammo {"component":"$(componentnew)"}
+$function pvp:c/ranged/consume_ammo {"component":"$(component)"}
 
-$function pvp:c/$(componentnew)/shoot
+$function pvp:c/$(component)/shoot

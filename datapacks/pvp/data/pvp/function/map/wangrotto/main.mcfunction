@@ -1,1 +1,0 @@
-execute as @a[tag=ingame,tag=!spawn] at @s run particle white_ash ~ ~2 ~ 5 2 5 0 2 normal @s

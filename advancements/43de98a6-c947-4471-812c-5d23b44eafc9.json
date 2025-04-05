@@ -8502,15 +8502,9 @@
     },
     "done": true
   },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2025-03-27 03:39:57 +0000"
-    },
-    "done": true
-  },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2025-03-27 03:41:52 +0000"
+      "requirement": "2025-04-04 20:50:18 +0100"
     },
     "done": true
   },

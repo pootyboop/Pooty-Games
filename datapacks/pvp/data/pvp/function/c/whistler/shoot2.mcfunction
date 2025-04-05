@@ -5,6 +5,6 @@ execute if score @s whistler.chargelevel >= whistler.maxchargelevel weaponStats 
 
 
 execute if predicate pvp:input/sneak run return 0
-execute if score @s whistler.chargelevel matches 3 run function pvp:c/shared/backstep/start_at_strength {"strength":"1000000"}
+execute if score @s whistler.chargelevel matches 3 run function pvp:c/shared/backstep/start_at_strength {"strength":"100"}
 execute if score @s whistler.chargelevel matches 4 run function pvp:c/shared/backstep/start
-execute if score @s whistler.chargelevel matches 5 run function pvp:c/shared/backstep/start_at_strength {"strength":"1800000"}
+execute if score @s whistler.chargelevel matches 5 run function pvp:c/shared/backstep/start_at_strength {"strength":"180"}

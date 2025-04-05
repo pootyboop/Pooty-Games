@@ -1,3 +1,5 @@
+tag @s add ramstop
+
 effect clear @s[tag=!spawn] resistance
 
 stopsound @a master entity.wolf.shake
@@ -12,5 +14,6 @@ scoreboard players set @s breachingram.timer -1
 execute unless block ~ ~ ~ #air run tp @s ~ ~1 ~
 
 tag @s remove ramming
+tag @s remove ramstop
 
 function pvp:c/breachingram/cooldown/start

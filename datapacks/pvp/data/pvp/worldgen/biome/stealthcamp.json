@@ -1,0 +1,23 @@
+{
+  "temperature": 100,
+  "downfall": 100,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 11984349,
+    "fog_color": 9218267,
+    "water_color": 6931624,
+    "water_fog_color": 10464255,
+    "grass_color": 9097041,
+    "foliage_color": 9097041,
+    "particle": {
+      "options": {
+        "type": "minecraft:cherry_leaves"
+      },
+      "probability": 0.002
+  }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

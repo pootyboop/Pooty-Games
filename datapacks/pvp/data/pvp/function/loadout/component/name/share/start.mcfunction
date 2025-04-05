@@ -20,7 +20,7 @@ function pvp:loadout/component/name/share/add_component {"slot":"3"}
 function pvp:loadout/component/name/share/add_component {"slot":"4"}
 function pvp:loadout/component/name/share/add_component {"slot":"5"}
 function pvp:loadout/component/name/share/add_component {"slot":"6"}
-function pvp:loadout/component/name/share/add_component {"slot":"7"}
+#function pvp:loadout/component/name/share/add_component {"slot":"7"}
 tellraw @a ""
 function pvp:loadout/component/name/share/share_id with storage pvp:storage temp
 tellraw @a {"text":"------------------------------","color":"dark_gray"}

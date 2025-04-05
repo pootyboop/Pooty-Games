@@ -1,0 +1,2 @@
+execute if entity @s[tag=active] run function pvp:map/sulfurcurrents/geyser/active
+execute if score @s sulfurcurrents.geyser.offset = dummy sulfurcurrents.timer run function pvp:map/sulfurcurrents/geyser/toggle

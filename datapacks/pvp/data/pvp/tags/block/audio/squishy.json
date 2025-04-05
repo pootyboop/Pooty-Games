@@ -1,6 +1,8 @@
 {
     "values":[
     "minecraft:slime_block",
-    "minecraft:honey_block"
+    "minecraft:honey_block",
+    "minecraft:sponge",
+    "minecraft:wet_sponge"
     ]
 }

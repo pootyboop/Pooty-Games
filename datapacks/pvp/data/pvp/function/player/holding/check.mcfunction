@@ -1,4 +1,5 @@
 $data modify storage pvp:storage loadout.$(uuid).held.component set from storage pvp:storage loadout.$(uuid).held.componentnew
+$data modify storage pvp:storage loadout.$(uuid).held.last.component set from storage pvp:storage loadout.$(uuid).held.componentnew
 
 data remove storage pvp:storage temp.held
 execute store success score empty dummy run data modify storage pvp:storage temp.held set from entity @s SelectedItem.components.minecraft:custom_data.component

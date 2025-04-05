@@ -1,1 +1,1 @@
-function pvp:c/shared/backstep/start_at_strength {"strength":"1200000"}
+function pvp:c/shared/backstep/start_at_strength {"strength":"120"}

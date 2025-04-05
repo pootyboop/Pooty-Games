@@ -7111,6 +7111,7 @@
       "minecraft:jungle": "2025-01-11 21:59:35 +0000",
       "minecraft:swamp": "2024-12-22 20:42:01 +0000",
       "minecraft:meadow": "2024-12-17 17:57:54 +0000",
+      "minecraft:savanna": "2025-04-04 20:49:43 +0100",
       "minecraft:plains": "2024-12-17 17:58:34 +0000",
       "minecraft:warm_ocean": "2024-09-22 16:13:08 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-12-17 18:01:55 +0000"
@@ -8415,13 +8416,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2025-03-14 19:19:39 +0000"
+      "requirement": "2025-04-04 20:50:09 +0100"
     },
     "done": true
   },
-  "interaction:right_click": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "requirement": "2025-03-14 20:03:53 +0000"
+      "crying_obsidian": "2025-04-04 19:41:03 +0100"
     },
     "done": true
   },

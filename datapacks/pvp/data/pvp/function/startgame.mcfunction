@@ -96,6 +96,8 @@ function pvp:map/set {"map":"gritpit"}
 function pvp:gm/set {"gm":"freeplay"}
 
 gamerule enderPearlsVanishOnDeath true
+gamerule disablePlayerMovementCheck true
+gamerule disableElytraMovementCheck true
 
 
 
