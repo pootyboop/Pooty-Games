@@ -8414,15 +8414,21 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-04-04 19:40:07 +0100"
+    },
+    "done": true
+  },
   "interaction:left_click": {
     "criteria": {
       "requirement": "2025-04-04 20:50:12 +0100"
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
+  "interaction:right_click": {
     "criteria": {
-      "crying_obsidian": "2025-04-04 19:40:07 +0100"
+      "requirement": "2025-04-06 22:19:17 +0100"
     },
     "done": true
   },
