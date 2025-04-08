@@ -17,9 +17,8 @@ execute if score dummy dummy matches 1 if score @s dummy matches 4 if items enti
 $execute store result score dummy dummy run function main:compare_string {"1":"$(category)","2":"item"}
 execute if score dummy dummy matches 0 run function pvp:loadout/component/write/verify2 with storage pvp:storage temp
 
+#$execute store result score dummy dummy run function main:compare_string {"1":"$(component)","2":"wright"}
+#execute if score dummy dummy matches 0 run function pvp:loadout/component/write/remove_3rd_weapon
 
-$execute store result score dummy dummy run function main:compare_string {"1":"$(component)","2":"wright"}
-execute if score dummy dummy matches 0 run function pvp:loadout/component/write/remove_3rd_weapon
-
-$execute store result score dummy dummy run function main:compare_string {"1":"$(component)","2":"hoarder"}
-execute if score dummy dummy matches 0 run function pvp:loadout/component/write/remove_3rd_item
+#$execute store result score dummy dummy run function main:compare_string {"1":"$(component)","2":"hoarder"}
+#execute if score dummy dummy matches 0 run function pvp:loadout/component/write/remove_3rd_item
