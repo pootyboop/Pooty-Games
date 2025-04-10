@@ -1,0 +1,1 @@
+$tellraw @s {"clickEvent":{"action":"run_command","value":"/$(cmd)"},"color":"$(color)","text":"$(text)"}

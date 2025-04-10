@@ -1,0 +1,2 @@
+#function pvp:misc/spawnstuff/info/chat/clickable {"text":"Go Back to Start","cmd":"function pvp:misc/spawnstuff/info/trigger"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function pvp:misc/spawnstuff/info/trigger"},"color":"yellow","text":"← Back to Start"}

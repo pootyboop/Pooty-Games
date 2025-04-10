@@ -35,7 +35,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":4,"category"
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":4,"category":"item2","component":"dynamite"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":4,"category":"item3","component":"fireball"}
 
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":5,"message":"Yank your enemies in and blast them with Point Blank! Slimey Armor will keep your Absorption hearts up to tank melee hits."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":5,"message":"Yank your enemies in and blast them with Point Blank! Slimecoat will keep your Absorption hearts up to tank melee hits."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"armor","component":"slimey"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"weapon","component":"chaingun"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"weapon2","component":"pointblank"}

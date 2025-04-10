@@ -1,0 +1,2 @@
+execute if predicate pred:grounded if predicate pvp:flight_regen run return run function pvp:c/flight/regen/stop
+execute unless predicate pred:grounded unless predicate pvp:flight_regen run return run function pvp:c/flight/regen/start

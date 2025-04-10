@@ -1,7 +1,7 @@
 execute as @p[tag=rushcurr] at @s run playsound minecraft:entity.chicken.egg master @s ~ ~ ~ .6 2
-playsound minecraft:entity.bogged.ambient master @a ~ ~ ~ 1 2 1
-playsound minecraft:block.sculk.place master @a ~ ~ ~ 1 2 1
-playsound minecraft:entity.chicken.egg master @a ~ ~ ~ 1 2 1
+playsound minecraft:entity.bogged.ambient master @a ~ ~ ~ 1 2
+playsound minecraft:block.sculk.place master @a ~ ~ ~ 1 2
+playsound minecraft:entity.chicken.egg master @a ~ ~ ~ 1 2
 
 particle sonic_boom ~ ~1 ~ 0 0 0 0 1 force
 particle flash ~ ~1 ~ 0 0 0 0 1 force

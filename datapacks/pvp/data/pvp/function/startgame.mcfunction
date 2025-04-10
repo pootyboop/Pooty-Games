@@ -108,8 +108,8 @@ title @a subtitle {"text":"Custom-loadout PvP"}
 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 tellraw @a {"text":"PvP Playground","color":"gold","bold":true}
-tellraw @a {"text":"-Create a custom loadout and kill other players!"}
-tellraw @a {"text":"-Pick a gamemode or just have fun in regular FFA"}
+tellraw @a {"text":"-Create a custom Loadout and fight other players!"}
+tellraw @a {"text":"-Pick a gamemode or just have fun in regular Free Play"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
 

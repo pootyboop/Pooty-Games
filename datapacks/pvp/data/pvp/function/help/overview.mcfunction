@@ -1,0 +1,3 @@
+function pvp:misc/spawnstuff/info/chat/clickable_custom {"text":"🗡 Components","cmd":"function pvp:help/components/category","color":"aqua"}
+function pvp:misc/spawnstuff/info/chat/clickable_custom {"text":"🧍 Loadouts","cmd":"function pvp:help/loadouts/category","color":"aqua"}
+function pvp:misc/spawnstuff/info/chat/clickable_custom {"text":"🕹 Gameplay","cmd":"function pvp:help/gameplay/category","color":"aqua"}

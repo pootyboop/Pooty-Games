@@ -9,4 +9,4 @@ execute if score dummy dummy matches 2 run data modify storage pvp:storage temp.
 function pvp:misc/spawnstuff/ideasguy/chat/complex with storage pvp:storage temp
 
 tellraw @s ""
-tellraw @s {"clickEvent":{"action":"run_command","value":"/trigger IdeasGuyLoadout"},"color":"aqua","text":"🛈 Click the Ideas Guy to equip one of his finest loadouts. 🛈"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/trigger IdeasGuyLoadout"},"color":"gold","text":"🛈 Click the Ideas Guy to equip one of his finest loadouts."}
