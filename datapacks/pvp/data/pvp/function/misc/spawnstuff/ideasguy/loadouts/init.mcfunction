@@ -148,9 +148,9 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":20,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":20,"category":"item2","component":"rewind"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":21,"message":"Here's the perfect kit for maximum aerial mobility."}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"armor","component":"geokinetic"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"armor","component":"flight"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon","component":"vaulter"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon2","component":"cryolauncher"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon2","component":"adder"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"item","component":"rewind"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"item2","component":"fireball"}
 
@@ -209,3 +209,10 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon2","component":"phlogiston"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item","component":"platform"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item2","component":"smokebomb"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":30,"message":"Balance melee and ranged with this all-purpose hybrid build."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"armor","component":"crossduelist"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"weapon","component":"trifecta"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"weapon2","component":"divinearc"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"item","component":"fireball"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"item2","component":"windcharge"}
