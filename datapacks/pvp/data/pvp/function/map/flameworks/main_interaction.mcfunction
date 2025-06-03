@@ -1,0 +1,2 @@
+execute if data entity @s interaction run return run function pvp:map/flameworks/platforms/state_toggle
+execute if data entity @s attack run return run function pvp:map/flameworks/platforms/state_toggle

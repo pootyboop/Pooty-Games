@@ -1,2 +1,2 @@
 clear @s firework_rocket[custom_data~{component:"flight"}]
-item replace entity @s hotbar.8 with firework_rocket[item_name='{"italic":false,"color":"#a0faff","text":"Elytra Rocket"}',consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={component:"flight",category:"armor"}] 1
+function pvp:c/flight/restore_rocket_amount {"amount":1}

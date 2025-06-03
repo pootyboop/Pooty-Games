@@ -7,4 +7,4 @@ $function pvp:c/shared/volley/charging_message_alt {"component":"$(component)"}
 
 execute if score @s volley.timer matches 16 run playsound minecraft:item.crossbow.loading_middle master @a ~ ~ ~ 1 0
 execute if score @s volley.timer matches 10.. run playsound block.note_block.hat master @s ~ ~ ~ .3 2
-$execute if score @s volley.timer >= $(component).volleytime weaponStats run function pvp:c/shared/volley/apply
+$execute if score @s volley.timer >= $(component).volleytime weaponStats run function pvp:c/shared/volley/apply {"component":$(component)}

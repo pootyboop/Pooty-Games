@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.8 with firework_rocket[item_name='{"italic":false,"color":"#a0faff","text":"Elytra Rocket"}',custom_data={component:"flight",category:"armor"}] $(amount)

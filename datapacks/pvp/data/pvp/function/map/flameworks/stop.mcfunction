@@ -1,0 +1,1 @@
+execute positioned -10000 60 -35000 run kill @e[distance=..50,type=interaction,tag=platformtoggle,tag=flameworks]

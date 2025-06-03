@@ -1,0 +1,2 @@
+execute if function pvp:map/flameworks/platforms/is_entity_above_platform run return run tp @s ~ 65 ~
+execute if function pvp:map/flameworks/platforms/is_entity_on_top_platform run return run tp @s ~ 60 ~

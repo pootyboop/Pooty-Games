@@ -240,3 +240,10 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"weapon2","component":"twinscythes"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item","component":"sugar"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":35,"message":"Rain down fire from the sky with this dive-bombing Flight Suit loadout."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"armor","component":"flight"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"weapon","component":"phlogiston"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"weapon2","component":"vaulter"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"item","component":"fireball"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"item2","component":"fireball"}

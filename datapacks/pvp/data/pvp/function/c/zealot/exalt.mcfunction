@@ -13,6 +13,8 @@ particle white_smoke ~ ~10 ~ 0 5 0 0 100 force
 particle dust{color:[1.000,0.918,0.502],scale:1} ~ ~1 ~ .4 .6 .4 0 14
 particle dust{color:[1.000,0.918,0.502],scale:2} ~ ~1 ~ .3 .5 .3 0 2
 
+title @s actionbar {"text":"☀ EXALTED ☀","color":"#fff2c1"}
+
 
 gamemode spectator
 gamemode adventure

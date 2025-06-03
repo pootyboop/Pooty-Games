@@ -1,0 +1,1 @@
+execute as @n[type=trident,tag=!nimbus] at @s run function pvp:c/nimbus/shoot2

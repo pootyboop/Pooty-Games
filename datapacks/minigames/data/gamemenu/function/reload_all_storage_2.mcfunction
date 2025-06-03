@@ -193,6 +193,21 @@ $$(1) dance.settings.mode.3.slot $(2) "14"
 
 
 
+#EWOK HUNT
+#$$(3) ewok
+$$(1) ewok.tag $(2) "ewok"
+$$(1) ewok.name $(2) "Ewok Hunt"
+$$(1) ewok.color $(2) "#ceae90"
+$$(1) ewok.item $(2) "spruce_sapling"
+#$$(1) ewok.slot $(2) "25"
+$$(1) ewok.desc1 $(2) "Ewoks fight Stormtroopers"
+$$(1) ewok.desc2 $(2) "in this Battlefront 2 remake!"
+$$(1) ewok.playtime $(2) "5-10"
+$$(1) ewok.players $(2) "3+"
+$$(1) ewok.genre $(2) "Horror"
+
+
+
 #FINE DINING
 #$$(3) fine
 $$(1) fine.tag $(2) "fine"

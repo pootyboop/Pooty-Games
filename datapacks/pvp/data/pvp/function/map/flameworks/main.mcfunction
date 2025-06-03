@@ -1,0 +1,1 @@
+execute positioned -10000 60 -35000 run function pvp:map/flameworks/main2

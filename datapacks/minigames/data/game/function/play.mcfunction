@@ -28,6 +28,8 @@ execute if score dummy playercount matches 1.. run tellraw @a {"text":"Dance of 
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Delve","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function delve:startgame"}}
 
+execute if score dummy playercount matches 3.. run tellraw @a {"text":"Ewok Hunt","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function ewok:startgame"}}
+
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Fine Dining","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fine:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Flip Tag","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fliptag:startgame"}}
