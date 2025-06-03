@@ -39,7 +39,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":5,"message":"Y
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"armor","component":"slimey"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"weapon","component":"chaingun"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"weapon2","component":"pointblank"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"item","component":"enderpearl"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"item","component":"callusingpaste"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":5,"category":"item2","component":"ammopack"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":6,"message":"Set everything on fire and outrun incoming attacks. Just don't get hit!"}
@@ -138,7 +138,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category":"weapon","component":"cleaver"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category":"weapon2","component":"whistler"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category":"item","component":"fireball"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category":"item2","component":"dynamite"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":19,"category":"item2","component":"callusingpaste"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":20,"message":"Go old-school PvP Playground with this Backstab Knife + Paralysis combo. If someone's charging you head-on, use a Perplexer and backstab them!"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":20,"category":"armor","component":"slimey"}
@@ -165,7 +165,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":23,"message":"
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"armor","component":"evolving"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"weapon","component":"breachingram"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"weapon2","component":"pointblank"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"item","component":"fireball"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"item","component":"callusingpaste"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":23,"category":"item2","component":"enderpearl"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":24,"message":"Send in the Hounds! This lets you guard, Paralyze, and ruin enemies' visibility while your Hounds attack."}
@@ -216,3 +216,27 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"weapon2","component":"divinearc"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"item","component":"fireball"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"item2","component":"windcharge"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":31,"message":"Try this: high-mobility hit-and-run weapons with extra tools to disorient your enemies."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":31,"category":"armor","component":"wright"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":31,"category":"weapon","component":"resonators"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":31,"category":"weapon2","component":"vaulter"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":31,"category":"weapon3","component":"ridge"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":31,"category":"item","component":"perplexer"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":32,"message":"Bait out attacks from unsuspecting enemies while you charge Machine Bowgun - Zealot's ranged damage boost will take it from there."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":32,"category":"armor","component":"zealot"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":32,"category":"weapon","component":"machinebowgun"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":32,"category":"item","component":"ammopack"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":33,"message":"Straightforward and fast-paced: Adder gives you mobility and fast attack speed so you can capitalize on Zealot's Exalt ability."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":33,"category":"armor","component":"zealot"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":33,"category":"weapon","component":"adder"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":33,"category":"item","component":"sugar"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":34,"message":"Control the open field with these high-octane, close-quarters weapons."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"armor","component":"mercenary"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"weapon","component":"resonators"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"weapon2","component":"twinscythes"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item","component":"sugar"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item2","component":"enderpearl"}

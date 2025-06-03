@@ -11,5 +11,6 @@ execute if items entity @s armor.head *[minecraft:custom_data~{component:"flight
 execute if items entity @s armor.head *[minecraft:custom_data~{component:"houndkeeper"}] run function pvp:c/houndkeeper/update
 execute if items entity @s armor.head *[minecraft:custom_data~{component:"insight"}] run function pvp:c/insight/invis_on
 execute if items entity @s armor.head *[minecraft:custom_data~{component:"prospector"}] run function pvp:c/prospector/restore_cart
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"zealot"}] run function pvp:c/zealot/restore_exalt
 
 tag @s remove killreward

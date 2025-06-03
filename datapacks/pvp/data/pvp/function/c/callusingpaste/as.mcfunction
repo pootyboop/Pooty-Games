@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9968 {Tags:["needsdata","callusingpaste","item"],HandItems:[{id:"minecraft:magma_cream",components:{"minecraft:custom_data":{component:"callusingpaste",category:"item",getter:1b}}},{}]}

@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"exalt\"]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:context",
+          "target": "this"
+        },
+        "score": "health"
+      },
+      "range": {
+        "max": 8,
+        "min": 0
+      }
+    }
+  ]
+}

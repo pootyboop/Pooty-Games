@@ -1,0 +1,1 @@
+execute unless score @s resonators.timer matches -1 run scoreboard players remove @s resonators.timer 1

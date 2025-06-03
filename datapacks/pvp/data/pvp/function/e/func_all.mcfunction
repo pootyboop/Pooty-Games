@@ -22,6 +22,7 @@ $execute if entity @s[tag=mine] run return run function pvp:e/$(function) {"enti
 $execute if entity @s[tag=paralysisfield] run return run function pvp:e/$(function) {"entity":"paralysisfield"}
 $execute if entity @s[tag=smokebombent] run return run function pvp:e/$(function) {"entity":"smokebomb"}
 $execute if entity @s[tag=smokebombground] run return run function pvp:e/$(function) {"entity":"smokebombground"}
+$execute if entity @s[tag=sonicbeam] run return run function pvp:e/$(function) {"entity":"sonicbeam"}
 $execute if entity @s[tag=platform] run return run function pvp:e/$(function) {"entity":"platform"}
 $execute if entity @s[tag=portal] run return run function pvp:e/$(function) {"entity":"portal"}
 $execute if entity @s[tag=wireanchor] run return run function pvp:e/$(function) {"entity":"wireanchor"}

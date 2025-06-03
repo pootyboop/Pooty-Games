@@ -3,6 +3,8 @@ function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
 
 function pvp:util/loadout/is_using_armor_param {"component":"wright"}
 execute if function pvp:util/loadout/is_using_armor_call run return fail
+function pvp:util/loadout/is_using_armor_param {"component":"zealot"}
+execute if function pvp:util/loadout/is_using_armor_call run return fail
 function pvp:loadout/component/coc {"category":"item2","function":"equip"}
 function pvp:loadout/component/write/scoreboards with storage pvp:storage temp
 

@@ -1,0 +1,1 @@
+summon armor_stand -10012 59 -9968 {Tags:["needsdata","resonators","default"],HandItems:[{id:"minecraft:heavy_core",components:{"minecraft:custom_data":{component:"resonators",category:"weapon",getter:1b}}},{}]}

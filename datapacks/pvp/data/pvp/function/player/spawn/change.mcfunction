@@ -1,5 +1,6 @@
 advancement revoke @s only pvp:joingame
 
+title @s actionbar ""
 function pvp:loadout/equip
 
 
