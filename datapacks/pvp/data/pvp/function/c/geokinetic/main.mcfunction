@@ -1,1 +1,1 @@
-function geo:checksneak
+execute if entity @s[type=player] run function geo:checksneak

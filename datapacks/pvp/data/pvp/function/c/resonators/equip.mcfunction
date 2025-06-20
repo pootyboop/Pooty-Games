@@ -11,3 +11,5 @@ tag @s remove resonatorsvolley
 scoreboard objectives add resonators.charge dummy
 scoreboard players set @s resonators.charge 0
 scoreboard players set resonators.maxcharge weaponStats 5
+
+function pvp:c/resonators/non_player_charges

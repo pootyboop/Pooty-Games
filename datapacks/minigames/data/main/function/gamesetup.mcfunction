@@ -16,4 +16,6 @@ tag @a[tag=mix] add mixBypass
 scoreboard objectives remove dummy
 scoreboard objectives add dummy dummy
 
+scoreboard objectives add perGameDeaths deathCount
+
 function main:startbell1

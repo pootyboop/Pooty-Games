@@ -1,0 +1,1 @@
+execute if score @s rewind.timer matches 0.. run function pvp:c/rewind/stop

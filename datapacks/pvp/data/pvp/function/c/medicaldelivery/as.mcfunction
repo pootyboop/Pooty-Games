@@ -1,0 +1,1 @@
+summon armor_stand -9988 59 -9960 {Tags:["needsdata","medicaldelivery","item"],HandItems:[{id:"minecraft:red_glazed_terracotta",components:{"minecraft:custom_data":{component:"medicaldelivery",category:"item",getter:1b}}},{}]}

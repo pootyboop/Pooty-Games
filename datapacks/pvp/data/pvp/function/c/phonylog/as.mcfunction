@@ -1,0 +1,1 @@
+summon armor_stand -9984 59 -9960 {Tags:["needsdata","phonylog","item"],HandItems:[{id:"minecraft:oak_log",components:{"minecraft:custom_data":{component:"phonylog",category:"item",getter:1b}}},{}]}

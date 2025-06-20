@@ -16,7 +16,5 @@ execute store result storage pvp:storage temp.pitch double 0.0001 run scoreboard
 execute store result storage pvp:storage temp.x double 0.0001 run scoreboard players get @s breachingram.x
 execute store result storage pvp:storage temp.z double 0.0001 run scoreboard players get @s breachingram.z
 
-#function pvp:c/breachingram/ram/rotate with storage pvp:storage temp
-
 execute as @e[type=silverfish,tag=ramride] if score @s uuid0 = @n[predicate=pvp:fighter,tag=ramming] uuid0 run return run function pvp:c/breachingram/ram/main_as with storage pvp:storage temp
 function pvp:c/breachingram/ram/stop_hit

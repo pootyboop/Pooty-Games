@@ -1,0 +1,1 @@
+execute unless entity @s[type=player] run scoreboard players set @s resonators.charge 3

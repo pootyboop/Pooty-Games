@@ -7,4 +7,4 @@ execute if predicate pvp:enter_portal run function pvp:player/join_game
 execute if entity @s[tag=ingame] run return fail
 #effect give @s weakness 1 255 true
 effect give @s resistance 1 255 true
-effect give @s speed 1 1 true
+execute if data storage pvp:storage settings.spawnspeed run effect give @s speed 1 1 true

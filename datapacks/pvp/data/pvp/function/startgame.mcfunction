@@ -95,6 +95,8 @@ function pvp:misc/spawnstuff/spawn_all
 function pvp:map/set {"map":"gritpit"}
 function pvp:gm/set {"gm":"freeplay"}
 
+function pvp:player/settings/medicaldelivery/update_schedule
+
 gamerule enderPearlsVanishOnDeath true
 gamerule disablePlayerMovementCheck true
 gamerule disableElytraMovementCheck true

@@ -16,6 +16,6 @@ execute store result storage pvp:storage temp.pitch double .01 run scoreboard pl
 
 
 
-function pvp:status/paralysis/tp with storage pvp:storage temp
+function pvp:util/tp/xyz_yaw_pitch with storage pvp:storage temp
 
 execute positioned ~ ~1 ~ run function pvp:status/paralysis/fx

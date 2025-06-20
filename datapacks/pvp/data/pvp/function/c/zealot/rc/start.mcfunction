@@ -1,0 +1,1 @@
+execute if entity @s[type=!player,predicate=pvp:zealot_exaltable] run function pvp:c/zealot/exalt

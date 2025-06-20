@@ -3,4 +3,5 @@ execute if predicate pred:10percent anchored eyes positioned ^ ^.5 ^ run particl
 tag @a[tag=hotheadfire] remove hotheadfire
 
 #execute if predicate pvp:input/sprint run function pvp:c/hothead/increment_fire_trail_amount {"amount":"1"}
-execute if score @s hothead.sprint matches 1.. run function pvp:c/hothead/increment_fire_trail_amount {"amount":"1"}
+execute if score @s hothead.sprint matches 1.. run return run function pvp:c/hothead/increment_fire_trail_amount {"amount":"1"}
+execute unless entity @s[type=player] run return run function pvp:c/hothead/increment_fire_trail_amount {"amount":"1"}

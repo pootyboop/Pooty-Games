@@ -1,3 +1,4 @@
+execute unless score @s callusingpaste.timer matches -1 run return run title @s actionbar {"text":"Already active!","color":"#C6DB57"}
 clear @s[gamemode=!creative] *[minecraft:custom_data~{component:"callusingpaste"}] 1
 scoreboard players set @s callusingpaste.timer 100
 

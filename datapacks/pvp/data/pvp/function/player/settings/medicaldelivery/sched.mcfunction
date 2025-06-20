@@ -1,0 +1,2 @@
+execute as @p[tag=ingame,tag=!spawn] unless entity @n[type=block_display,tag=medicaldelivery] if predicate pvp:random_medical_delivery run function pvp:player/settings/medicaldelivery/spawn
+schedule function pvp:player/settings/medicaldelivery/sched 30s

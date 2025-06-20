@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -10036 {Tags:["needsdata","celebrator","crossbow"],HandItems:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{component:"celebrator",category:"weapon",getter:1b}}},{}]}

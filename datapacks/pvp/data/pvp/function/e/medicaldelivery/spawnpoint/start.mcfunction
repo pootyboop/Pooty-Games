@@ -1,0 +1,3 @@
+execute as @n[sort=random,distance=10..25,type=marker,tag=spawnpoint] run function pvp:e/medicaldelivery/spawnpoint/try_set
+execute unless entity @n[type=marker,tag=medicaldeliveryspawn] as @n[sort=random,distance=10..45,type=marker,tag=spawnpoint] run function pvp:e/medicaldelivery/spawnpoint/try_set
+execute unless entity @n[type=marker,tag=medicaldeliveryspawn] run tag @n[type=marker,tag=spawnpoint] add medicaldeliveryspawn

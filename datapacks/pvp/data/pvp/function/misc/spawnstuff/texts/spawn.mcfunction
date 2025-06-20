@@ -34,6 +34,9 @@ execute positioned -10009.0 64.5 -9998.8 facing -10000 ~ -10000 run summon item_
 
 
 
+#Settings
+summon text_display -10000 64 -10026.0 {shadow_radius:0f,shadow:1b,Rotation:[0F,0F],Tags:["pvptext","display","dontkill"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[4f,4f,4f]},text:'{"text":"Settings","color":"#ffffff"}',background:0}
+
 #Maps
 summon text_display -10000 64.5 -10009.0 {shadow_radius:0f,shadow:1b,Rotation:[0F,0F],Tags:["pvptext","display","dontkill"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[4f,4f,4f]},text:'{"text":"Maps &","color":"#ffffff"}',background:0}
 

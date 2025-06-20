@@ -2,7 +2,7 @@ execute store result storage pvp:storage temp.glacier.x double 0.0001 run scoreb
 execute store result storage pvp:storage temp.glacier.y double 0.0001 run scoreboard players get @s y
 execute store result storage pvp:storage temp.glacier.z double 0.0001 run scoreboard players get @s z
 
-function pvp:c/glacier/icewall/move2 with storage pvp:storage temp.glacier
+function pvp:util/tp/xyz with storage pvp:storage temp.glacier
 
 execute at @s if entity @e[predicate=pvp:fighter,distance=.1..3] run function pvp:c/glacier/icewall/damage
 execute at @s unless block ~ ~ ~ #air run function pvp:c/glacier/icewall/done

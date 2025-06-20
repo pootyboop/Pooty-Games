@@ -9,7 +9,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":1,"message":"M
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"armor","component":"insight"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"weapon","component":"backstabknife"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"weapon2","component":"whistler"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"item","component":"rewind"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"item","component":"phonylog"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":1,"category":"item2","component":"smokebomb"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":2,"message":"Here's a load of Mines, Dynamite, and Fireballs to explode everything in close proximity."}
@@ -119,7 +119,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":16,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":16,"category":"item","component":"conductor"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":16,"category":"item2","component":"rewind"}
 
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":17,"message":"A simple but effective ranged status build. Use the Stunfork and Wind Charges to keep your distance from enemies."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":17,"message":"A simple but effective ranged status build. Use Stunfork and Wind Charges to keep your distance from enemies."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":17,"category":"armor","component":"ranger"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":17,"category":"weapon","component":"blightbow"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":17,"category":"weapon2","component":"stunfork"}
@@ -172,7 +172,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":24,"message":"
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"armor","component":"houndkeeper"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"weapon","component":"bulwark"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"weapon2","component":"stunfork"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"item","component":"rewind"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"item","component":"phonylog"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":24,"category":"item2","component":"smokebomb"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":25,"message":"The ultimate explosion set. Try different weapons, too: the Salvo Suit has all kinds of synergies!"}
@@ -189,7 +189,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item","component":"conductor"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":26,"category":"item2","component":"rewind"}
 
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":27,"message":"Span the map with your mobility options while channeling Pylons across the field."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":27,"message":"Span the map with your mobility options while channeling Pylons across the field. (Works best in flat, open areas)"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"armor","component":"ranger"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"weapon","component":"breachingram"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":27,"category":"weapon2","component":"wirecaster"}
@@ -203,12 +203,12 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"item","component":"perplexer"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":28,"category":"item2","component":"enderpearl"}
 
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":29,"message":"Feeling lonely? Keep enemies at bay with your personal army of Hounds and Illusions!"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":29,"message":"Feeling lonely? Call in a personal army of Hounds, Illusions, and Decoys!"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"armor","component":"houndkeeper"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon","component":"mirage"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon2","component":"phlogiston"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item","component":"platform"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item2","component":"smokebomb"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"weapon2","component":"adder"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item","component":"decoy"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":29,"category":"item2","component":"decoy"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":30,"message":"Balance melee and ranged with this all-purpose hybrid build."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":30,"category":"armor","component":"crossduelist"}
@@ -239,7 +239,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"weapon","component":"resonators"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"weapon2","component":"twinscythes"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item","component":"sugar"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item2","component":"enderpearl"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":34,"category":"item2","component":"decoy"}
 
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":35,"message":"Rain down fire from the sky with this dive-bombing Flight Suit loadout."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"armor","component":"flight"}
@@ -247,3 +247,10 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"weapon2","component":"vaulter"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"item","component":"fireball"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":35,"category":"item2","component":"fireball"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":36,"message":"Did you know triggering a Phony Log restores Stalker invisibility? This loadout lets you Backstab enemies and disappear again like nothing happened!"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"armor","component":"insight"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"weapon","component":"backstabknife"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"weapon2","component":"ridge"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"item","component":"phonylog"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"item2","component":"phonylog"}

@@ -1,4 +1,5 @@
 schedule clear pvp:main
+schedule clear pvp:player/settings/medicaldelivery/sched
 
 function pvp:gm/stop with storage pvp:storage gm
 function pvp:map/stop with storage pvp:storage map
