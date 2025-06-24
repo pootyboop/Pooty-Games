@@ -1,0 +1,1 @@
+execute unless predicate pvp:pueblo run function pvp:player/died/leftbounds

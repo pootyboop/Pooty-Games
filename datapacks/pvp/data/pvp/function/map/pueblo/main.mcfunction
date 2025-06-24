@@ -1,0 +1,1 @@
+execute positioned -10000 60 -37000 as @e[predicate=pvp:fighter,distance=..100] at @s run function pvp:map/pueblo/main_fighter
