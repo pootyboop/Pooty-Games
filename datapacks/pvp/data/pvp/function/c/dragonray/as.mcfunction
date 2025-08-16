@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -10040 {Tags:["needsdata","dragonray","default"],HandItems:[{id:"minecraft:dragon_head",components:{"minecraft:custom_data":{component:"dragonray",category:"weapon",getter:1b}}},{}]}

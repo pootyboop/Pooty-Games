@@ -1,0 +1,2 @@
+scoreboard players add @s[tag=!currdragonray] dragonray.timer 17
+execute if score @s dragonray.timer > dragonray.maxcharge weaponStats run scoreboard players operation @s dragonray.timer = dragonray.maxcharge weaponStats

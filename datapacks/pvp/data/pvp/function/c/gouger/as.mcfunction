@@ -1,0 +1,1 @@
+summon armor_stand -10016 59 -9964 {Tags:["needsdata","gouger","default"],HandItems:[{id:"minecraft:iron_shovel",components:{"minecraft:custom_data":{component:"gouger",category:"weapon",getter:1b}}},{}]}

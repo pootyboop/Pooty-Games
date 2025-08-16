@@ -1,0 +1,1 @@
+$execute rotated ~$(rotation) ~ run function pvp:player/launch/looking_custom {"strength":$(strength)}

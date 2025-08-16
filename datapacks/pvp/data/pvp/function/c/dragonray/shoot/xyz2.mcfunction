@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function pvp:c/dragonray/shoot/explosion

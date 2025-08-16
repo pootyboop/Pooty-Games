@@ -1,0 +1,1 @@
+execute if score @s dragonray.timer matches 0.. run title @s actionbar ""

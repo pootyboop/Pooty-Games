@@ -1,0 +1,2 @@
+scoreboard players set @s gouger.timer -1
+title @s actionbar [{"color":"gray","text":"« "},{"color":"#d6334b","score":{"name":"@s","objective":"gouger.charge"}},{"color":"#D6334B","text":" / "},{"color":"#D6334B","score":{"name":"gouger.maxcharge","objective":"weaponStats"}},{"color":"gray","text":" «"}]

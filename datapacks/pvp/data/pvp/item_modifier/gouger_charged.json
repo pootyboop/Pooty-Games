@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "attack_speed",
+        "id": "gouger_charged_attack_speed",
+        "amount": -3.7,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "attack_damage",
+        "id": "gouger_charged_attack_damage",
+        "amount": 9,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "attack_knockback",
+        "id": "gouger_charged_attack_knockback",
+        "amount": -0.9,
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "movement_speed",
+        "id": "gouger_charged_movement_speed",
+        "amount": -0.5,
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "custom_data": {
+        "component": "gouger",
+        "category": "weapon",
+        "gouger_charged": true
+      }
+    }
+  }
+]

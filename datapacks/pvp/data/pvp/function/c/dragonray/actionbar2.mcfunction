@@ -1,0 +1,2 @@
+scoreboard players set @s dragonray.timer -1
+title @s actionbar [{"color":"gray","text":"« "},{"color":"#d6334b","score":{"name":"@s","objective":"dragonray.timer"}},{"color":"#D6334B","text":" / "},{"color":"#D6334B","score":{"name":"dragonray.maxcharge","objective":"weaponStats"}},{"color":"gray","text":" «"}]
