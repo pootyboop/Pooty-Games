@@ -19,6 +19,7 @@ execute at @e[type=fireball,tag=fireball] if score @s uuid0 = @n[type=fireball,t
 execute at @e[type=minecart,tag=prospectorcart] if score @s uuid0 = @n[type=minecart,tag=prospectorcart] uuid0 run kill @n[type=minecart,tag=prospectorcart]
 
 execute at @s as @a if score @s chaingun.pulling.uuid0 = @p uuid0 at @s run function pvp:c/chaingun/stopchaining
+execute as @e[type=block_display,tag=mountedballistabody] if score @s owningUUID = @n[predicate=pvp:fighter] trueUUID at @s run function pvp:c/ballista/ballista/kill
 function pvp:c/twinscythes/rush/marker/kill
 function pvp:c/rewind/try_stop
 tag @s remove bleedwait

@@ -1,4 +1,4 @@
-function pvp:e/illusion/get_pos
+function pvp:util/position/get
 
 scoreboard players operation @s x -= @n[type=armor_stand,tag=as] x
 scoreboard players operation @s y -= @n[type=armor_stand,tag=as] y

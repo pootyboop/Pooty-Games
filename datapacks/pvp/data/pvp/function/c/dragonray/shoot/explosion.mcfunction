@@ -13,6 +13,10 @@ playsound minecraft:block.portal.travel master @a ~ ~ ~ .05 2 .01
 
 execute as @e[predicate=pvp:fighter,distance=..4] at @s run function pvp:c/dragonray/shoot/hit
 execute if entity @n[predicate=pvp:fighter,distance=..4,tag=!currdragonray] run function pvp:c/dragonray/shoot/explosionhit
+
+tag @s add explosionowner
+function pvp:c/shared/explosion/start {"radius":4,"dmg":9.5}
+
 effect clear @s speed
 effect give @s slowness 1 2 true
 execute at @s anchored eyes run particle flash ^ ^ ^1 0 0 0 0 1

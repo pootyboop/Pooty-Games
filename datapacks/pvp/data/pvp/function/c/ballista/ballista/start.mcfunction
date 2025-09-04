@@ -1,0 +1,22 @@
+summon block_display ~ ~ ~ {Tags:["newmountedballista","mountedballista","mountedballistabody"],Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:spruce_fence",Properties:{}},transformation:[0.5f,0f,0f,-0.25f,0f,1.3028174439f,-0.2113091309f,0.079375f,0f,0.6075137513f,0.4531538935f,-0.905f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:spruce_fence",Properties:{}},transformation:[0f,0.6075137513f,0.4531538935f,-0.905f,0f,1.3028174439f,-0.2113091309f,0.079375f,-0.5f,0f,0f,0.25f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:spruce_fence",Properties:{}},transformation:[-0.5f,0f,0f,0.25f,0f,1.3028174439f,-0.2113091309f,0.079375f,0f,-0.6075137513f,-0.4531538935f,0.905f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:spruce_fence",Properties:{}},transformation:[0f,-0.6075137513f,-0.4531538935f,0.905f,0f,1.3028174439f,-0.2113091309f,0.079375f,0.5f,0f,0f,-0.25f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:polished_tuff_wall",Properties:{up:"true"}},transformation:[0.375f,0f,0f,-0.1875f,0f,0.5f,0f,0f,0f,0f,0.375f,-0.1875f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:hopper",Properties:{facing:"down"}},transformation:[-0.3125f,0f,0f,0.15625f,0f,-0.3125f,0f,0.31f,0f,0f,0.3125f,-0.15625f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:polished_tuff_wall",Properties:{up:"true"}},transformation:[0.25f,0f,0f,-0.125f,0f,0.8125f,0f,0.46875f,0f,0f,0.25f,-0.125f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:hopper",Properties:{facing:"down"}},transformation:[0.3125f,0f,0f,-0.15625f,0f,0.1875f,0f,1.14875f,0f,0f,0.3125f,-0.15625f,0f,0f,0f,1f]},{id:"minecraft:item_display",item:{id:"minecraft:player_head",Count:1,components:{"minecraft:profile":{id:[I;-1657841639,-855251773,75959190,1468535069],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgzOTI2NTFhMWE0Y2JiNTk4MmIxM2FjZTA4MjlhNzViOThjMTFlMTNiNjg4NjhmZTM0OWFlYTI0MDE0ZmZiZCJ9fX0="}]}}},item_display:"none",transformation:[0.4960244705f,0f,-0.0629263432f,0.30375f,0f,0.5f,0f,0.25f,0.0629263432f,0f,0.4960244705f,0.23875f,0f,0f,0f,1f]}]}
+
+summon block_display ~ ~1.34 ~ {Tags:["newmountedballista","mountedballista","mountedballistahead"],Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:crossbow",Count:1},item_display:"none",transformation:[0.7071067812f,-0.7071067812f,0f,0.000625f,0f,0f,1.3125f,0.025f,-0.7071067812f,-0.7071067812f,0f,-0.15625f,0f,0f,0f,1f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:spruce_trapdoor",Properties:{facing:"east",half:"bottom",open:"false"}},transformation:[0f,0f,0.25f,-0.124375f,0f,0.1875f,0f,-0.065625f,-0.6875f,0f,0f,0.8125f,0f,0f,0f,1f]}]}
+
+summon slime ~ ~ ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:10000f,Size:0,Rotation:[0F,0F],Tags:["newmountedballista","mountedballista","mountedballistahitbox","trap","mountedballistaseat"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:10000},{id:"minecraft:scale",base:1.5}]}
+summon slime ~ ~1 ~ {Silent:1b,PersistenceRequired:1b,NoAI:1b,Health:10000f,Size:0,Rotation:[0F,0F],Tags:["newmountedballista","mountedballista","mountedballistahitbox","trap"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:10000},{id:"minecraft:scale",base:1.5}]}
+
+summon interaction ~ ~ ~ {Tags:["newmountedballista","mountedballista","mountedballistaseathitbox"],NoGravity:1b,width:.8f,height:2.6f}
+
+function pvp:c/ballista/ballista/arrow/start
+
+
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"ranger"}] run tag @n[distance=0.1..,type=block_display,tag=newmountedballista,tag=mountedballistabody] add rangerreload
+execute if items entity @s armor.head *[minecraft:custom_data~{component:"deception"}] run tag @n[distance=0.1..,type=block_display,tag=newmountedballista,tag=mountedballistabody] add deceptionreload
+
+execute as @e[distance=..2,tag=newmountedballista] run function pvp:c/ballista/ballista/generic/set_owner
+
+particle block{block_state:"spruce_fence"} ~ ~1 ~ .3 .4 .3 0 10
+
+playsound item.wolf_armor.repair master @a ~ ~ ~ .6 0
+playsound item.armor.equip_leather master @a ~ ~ ~ 1 0
+playsound block.basalt.break master @a ~ ~ ~ 1 1

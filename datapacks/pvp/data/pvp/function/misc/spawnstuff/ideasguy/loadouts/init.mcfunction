@@ -150,7 +150,7 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":20,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":21,"message":"Here's the perfect kit for maximum aerial mobility."}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"armor","component":"flight"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon","component":"vaulter"}
-function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon2","component":"adder"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"weapon2","component":"dragonray"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"item","component":"rewind"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":21,"category":"item2","component":"fireball"}
 
@@ -254,3 +254,24 @@ function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"weapon2","component":"ridge"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"item","component":"phonylog"}
 function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":36,"category":"item2","component":"phonylog"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":37,"message":"This one lets you safely charge up your Dragonray while keeping melee enemies at a comfortable distance."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":37,"category":"armor","component":"permafrost"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":37,"category":"weapon","component":"dragonray"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":37,"category":"weapon2","component":"ridge"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":37,"category":"item","component":"forcepowder"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":37,"category":"item2","component":"sugar"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":38,"message":"Never let your enemies escape with this nasty Gouger melee build."}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":38,"category":"armor","component":"slimey"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":38,"category":"weapon","component":"gouger"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":38,"category":"weapon2","component":"cryolauncher"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":38,"category":"item","component":"fishingrod"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":38,"category":"item2","component":"enderpearl"}
+
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_message {"id":39,"message":"Keep opponents bleeding with Gouger, then switch to Resonators to spam Sonic Beam Volleys!"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":39,"category":"armor","component":"ranger"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":39,"category":"weapon","component":"resonators"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":39,"category":"weapon2","component":"burnbow"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":39,"category":"item","component":"phonylog"}
+function pvp:misc/spawnstuff/ideasguy/loadouts/init_component {"id":39,"category":"item2","component":"windcharge"}

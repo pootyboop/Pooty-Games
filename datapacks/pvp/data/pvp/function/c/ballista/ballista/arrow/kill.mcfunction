@@ -1,0 +1,1 @@
+function pvp:util/kill/self_and_passengers

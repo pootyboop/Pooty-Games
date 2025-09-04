@@ -1,0 +1,1 @@
+function pvp:c/slimey/absorption {"amount":"0"}

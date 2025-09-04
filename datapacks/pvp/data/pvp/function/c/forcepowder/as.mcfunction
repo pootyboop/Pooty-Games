@@ -1,0 +1,1 @@
+summon armor_stand -9984 59 -9964 {Tags:["needsdata","forcepowder","item"],HandItems:[{id:"minecraft:blue_dye",components:{"minecraft:custom_data":{component:"forcepowder",category:"item",getter:1b}}},{}]}

@@ -1,0 +1,2 @@
+execute on attacker as @n[distance=..0.1,type=block_display,tag=mountedballistabody] at @s run return run function pvp:c/ballista/ballista/kill
+execute on target run function pvp:c/ballista/ballista/mount/start_interact

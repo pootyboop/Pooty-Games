@@ -1,7 +1,7 @@
 scoreboard players reset @s illusionTimer
 function pvp:util/uuid/owner/start
 
-function pvp:e/illusion/get_pos
+function pvp:util/position/get
 tag @s add as
 summon marker ^ ^ ^1 {Tags:["temp"]}
 execute as @n[type=marker,tag=temp] at @s run function pvp:e/illusion/shoot2

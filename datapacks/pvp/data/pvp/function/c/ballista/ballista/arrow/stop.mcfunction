@@ -1,0 +1,1 @@
+execute positioned ~ ~1.34 ~ as @n[distance=..2,tag=mountedballistaarrow] run function pvp:util/kill/self_and_passengers

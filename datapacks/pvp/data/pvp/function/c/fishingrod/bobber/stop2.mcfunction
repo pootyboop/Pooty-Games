@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) positioned ~ ~-1.7 ~ as @n[distance=..0.5,predicate=pvp:fighter,tag=!currfishingroder] at @s run function pvp:c/fishingrod/bobber/launch

@@ -1,0 +1,1 @@
+execute facing entity @n[predicate=pvp:fighter,tag=currforcepowder] eyes rotated ~180 ~ run function pvp:util/motion/launch/looking {"strength":300}

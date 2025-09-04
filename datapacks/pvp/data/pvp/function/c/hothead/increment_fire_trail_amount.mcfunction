@@ -9,4 +9,4 @@ execute if score @s hothead.timer matches ..16 run return fail
 scoreboard players set @s hothead.timer 0
 
 tag @s add owner
-function pvp:e/spawn {"entity":"fire","lifetime":"50"}
+function pvp:e/spawn {"entity":"fire","lifetime":"30"}

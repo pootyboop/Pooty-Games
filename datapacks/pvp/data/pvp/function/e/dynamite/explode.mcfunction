@@ -10,7 +10,7 @@ summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:0,Owner:[I;0,0,0,0],ShotAtAngle
 
 execute as @n[type=firework_rocket,tag=dynamiteexplosion] run function pvp:e/dynamite/explode_uuid
 
-execute as @e[distance=..4.5,type=marker,tag=conductor] at @s run function pvp:e/conductorground/explosion/start
+execute as @e[distance=..4.5,type=marker,tag=conductorground] at @s run function pvp:e/conductorground/explosion/start
 execute as @e[distance=..2,type=marker,tag=mine,tag=!explodingmine] at @s run function pvp:e/mine/explode
 
 tag @a remove dynamiteowner

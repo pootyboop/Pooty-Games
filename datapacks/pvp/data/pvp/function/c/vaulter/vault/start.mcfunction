@@ -2,7 +2,7 @@ tag @s add newvault
 execute positioned ~ ~-1.5 ~ run function pvp:c/salvo/explode
 effect give @s strength infinite 0 true
 
-execute as @e[distance=..4.5,type=marker,tag=conductor] at @s run function pvp:e/conductorground/wind/start
+execute as @e[distance=..4.5,type=marker,tag=conductorground] at @s run function pvp:e/conductorground/wind/start
 
 clear @s *[minecraft:custom_data~{component:"vaulter"}]
 function pvp:c/vaulter/get2
