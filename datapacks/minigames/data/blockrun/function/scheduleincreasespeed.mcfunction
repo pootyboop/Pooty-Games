@@ -1,0 +1,1 @@
+execute if score dummy blockrun.tickspermove matches 3.. run schedule function blockrun:increasespeed 10s

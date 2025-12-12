@@ -7078,11 +7078,13 @@
       "minecraft:frozen_ocean": "2024-12-17 17:46:29 +0000",
       "minecraft:desert": "2024-12-17 19:54:53 +0000",
       "minecraft:frozen_river": "2024-12-17 19:03:03 +0000",
+      "minecraft:deep_frozen_ocean": "2025-11-18 21:27:36 +0000",
       "minecraft:ocean": "2024-12-17 19:47:16 +0000",
       "minecraft:jungle": "2025-01-11 21:59:35 +0000",
       "minecraft:snowy_beach": "2024-12-17 19:14:06 +0000",
       "minecraft:warm_ocean": "2024-09-22 16:13:07 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-12-17 18:01:55 +0000",
+      "minecraft:savanna_plateau": "2025-11-18 21:28:45 +0000",
       "minecraft:beach": "2024-12-17 17:52:57 +0000",
       "minecraft:dark_forest": "2024-12-17 19:03:07 +0000",
       "minecraft:sparse_jungle": "2024-12-17 19:29:00 +0000",
@@ -8422,13 +8424,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2025-04-04 20:50:12 +0100"
+      "requirement": "2025-11-17 21:04:27 +0000"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2025-04-06 22:19:17 +0100"
+      "requirement": "2025-11-17 21:31:56 +0000"
     },
     "done": true
   },

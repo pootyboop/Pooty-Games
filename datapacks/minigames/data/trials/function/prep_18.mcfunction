@@ -1,1 +1,1 @@
-tp @a[tag=trialing] -608 60 600 -90 0
+tp @a[tag=trialing] -608 66 601 -90 0

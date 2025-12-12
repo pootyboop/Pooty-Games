@@ -7096,6 +7096,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-12-17 17:46:36 +0000",
+      "minecraft:savanna_plateau": "2025-11-18 21:28:34 +0000",
       "minecraft:beach": "2024-12-17 18:15:17 +0000",
       "minecraft:forest": "2024-07-23 20:21:29 +0100",
       "minecraft:taiga": "2024-12-17 17:49:14 +0000",
@@ -7108,6 +7109,7 @@
       "minecraft:old_growth_birch_forest": "2024-12-27 11:02:01 +0000",
       "minecraft:frozen_ocean": "2024-12-17 17:46:29 +0000",
       "minecraft:desert": "2025-01-11 21:59:25 +0000",
+      "minecraft:deep_frozen_ocean": "2025-11-18 21:27:36 +0000",
       "minecraft:jungle": "2025-01-11 21:59:35 +0000",
       "minecraft:swamp": "2024-12-22 20:42:01 +0000",
       "minecraft:meadow": "2024-12-17 17:57:54 +0000",

@@ -1,10 +1,7 @@
 schedule clear trials:main
 schedule clear trials:newround
-schedule clear trials:count3
-schedule clear trials:count2
-schedule clear trials:count1
-schedule clear trials:start
 schedule clear trials:button
+schedule clear trials:trap_21_inactive
 
 tp @a[tag=trialing] -600 61 609 180 0
 

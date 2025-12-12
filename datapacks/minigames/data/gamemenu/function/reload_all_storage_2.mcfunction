@@ -103,6 +103,21 @@ $$(1) amuse.genre $(2) "Party Games"
 
 
 
+#BLOCK RUN
+#$$(3) blockrun
+$$(1) blockrun.tag $(2) "blockrun"
+$$(1) blockrun.name $(2) "Block Run"
+$$(1) blockrun.color $(2) "red"
+$$(1) blockrun.item $(2) "magenta_glazed_terracotta"
+$$(1) blockrun.slot $(2) "25"
+$$(1) blockrun.desc1 $(2) "Dodge through walls of"
+$$(1) blockrun.desc2 $(2) "blocks and keep moving!"
+$$(1) blockrun.playtime $(2) "<5"
+$$(1) blockrun.players $(2) "1+"
+$$(1) blockrun.genre $(2) "Party Game, Parkour"
+
+
+
 #BRIDGE
 #$$(3) bridge
 $$(1) bridge.tag $(2) "bridge"
@@ -214,7 +229,7 @@ $$(1) fine.tag $(2) "fine"
 $$(1) fine.name $(2) "Fine Dining"
 $$(1) fine.color $(2) "#DA7420"
 $$(1) fine.item $(2) "pumpkin_pie"
-$$(1) fine.slot $(2) "25"
+#$$(1) fine.slot $(2) "25"
 $$(1) fine.desc1 $(2) "Work together to serve"
 $$(1) fine.desc2 $(2) "dishes as fast as you can!"
 $$(1) fine.playtime $(2) "5-10"

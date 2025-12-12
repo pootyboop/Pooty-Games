@@ -1,0 +1,8 @@
+execute positioned -599 64 597 run fill ~ ~ ~ ~1 ~ ~ purpur_slab[type=top]
+execute positioned -595 64 597 run fill ~ ~ ~ ~1 ~ ~ purpur_slab[type=top]
+execute positioned -596 58 600 run fill ~ ~ ~ ~2 ~ ~ purpur_slab[type=top]
+setblock -596 58 599 purpur_slab[type=top]
+setblock -600 60 601 purpur_slab[type=top]
+setblock -600 60 599 purpur_slab[type=top]
+execute positioned -607 58 597 run fill ~ ~ ~ ~1 ~ ~ purpur_slab[type=top]
+execute positioned -604 58 599 run fill ~ ~ ~ ~ ~ ~1 purpur_slab[type=top]
