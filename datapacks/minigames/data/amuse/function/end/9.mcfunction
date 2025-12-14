@@ -1,0 +1,1 @@
+execute as @a unless predicate pred:died run function amuse:pass

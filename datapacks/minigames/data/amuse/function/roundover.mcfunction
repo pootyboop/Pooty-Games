@@ -11,11 +11,10 @@ effect give @a regeneration 2 255 true
 
 #execute as @a if score @s amuseCriteria matches 1.. run function amuse:roundover_addscore
 scoreboard objectives remove amuseCriteria
+scoreboard objectives remove amuseTemp
 tag @a remove completed
 
-fill -30009 60 -9991 -29991 65 -10009 air
-
-function amuse:killstuff
+function amuse:clearfield
 
 function amuse:king_say {"say":"Hmmm...","sound":"no"}
 

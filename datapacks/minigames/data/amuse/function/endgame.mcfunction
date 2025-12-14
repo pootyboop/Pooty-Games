@@ -9,6 +9,7 @@ scoreboard objectives remove amuseCriteria
 
 kill @n[type=armor_stand,tag=king,tag=dontkill]
 function amuse:killstuff
+schedule function amuse:clearfield 4.8s
 
 forceload remove ~ ~
 forceload remove ~-16 ~-16

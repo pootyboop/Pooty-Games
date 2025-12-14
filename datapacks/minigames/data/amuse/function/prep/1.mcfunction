@@ -1,1 +1,1 @@
-function amuse:init {"title":"JUMP!","time":"20","criteria":"minecraft.custom:minecraft.jump"}
+function amuse:init {"title":"JUMP!","time":"14","criteria":"minecraft.custom:minecraft.jump"}

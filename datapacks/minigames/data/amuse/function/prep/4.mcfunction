@@ -1,7 +1,10 @@
-function amuse:init {"title":"SUMMON HEROBRINE!","time":"60","criteria":"dummy"}
-setblock ~ ~ ~ netherrack
-setblock ~ ~1 ~ netherrack
-setblock ~ ~2 ~ gold_block
-setblock ~ ~3 ~ gold_block
+function amuse:init {"title":"SUMMON HEROBRINE!","time":"60","criteria":"minecraft.used:minecraft.flint_and_steel"}
+fill ~ ~ ~ ~ ~1 ~ gold_block
+fill ~ ~2 ~ ~ ~3 ~ netherrack
 
-give @a flint_and_steel[can_place_on={predicates:[{blocks:"netherrack"}]}]
+setblock ~2 ~ ~ stripped_oak_log
+setblock ~-2 ~ ~ stripped_oak_log
+fill ~ ~ ~2 ~ ~1 ~2 stripped_oak_log
+fill ~ ~ ~-2 ~ ~1 ~-2 stripped_oak_log
+
+give @a flint_and_steel[can_place_on={predicates:[{blocks:"netherrack"}]}] 1

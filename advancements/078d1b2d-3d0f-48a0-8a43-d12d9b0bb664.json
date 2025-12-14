@@ -6282,15 +6282,16 @@
     "criteria": {
       "minecraft:skeleton": "2024-08-21 23:36:07 +0100",
       "minecraft:zoglin": "2024-09-14 20:45:31 +0100",
+      "minecraft:witch": "2023-11-01 18:46:45 +0000",
+      "minecraft:husk": "2024-12-22 20:34:53 +0000",
+      "minecraft:bogged": "2024-10-05 11:58:31 +0100",
+      "minecraft:guardian": "2025-12-13 20:12:53 +0000",
       "minecraft:vindicator": "2024-09-18 20:50:26 +0100",
       "minecraft:creaking": "2025-03-01 14:44:54 +0000",
       "minecraft:silverfish": "2024-08-21 23:26:12 +0100",
-      "minecraft:witch": "2023-11-01 18:46:45 +0000",
       "minecraft:zombie": "2024-08-21 23:30:36 +0100",
       "minecraft:creeper": "2024-11-01 20:36:54 +0000",
       "minecraft:drowned": "2024-11-01 21:34:31 +0000",
-      "minecraft:husk": "2024-12-22 20:34:53 +0000",
-      "minecraft:bogged": "2024-10-05 11:58:31 +0100",
       "minecraft:slime": "2024-09-15 00:39:49 +0100"
     },
     "done": false

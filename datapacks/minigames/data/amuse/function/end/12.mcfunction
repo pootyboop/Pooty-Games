@@ -1,0 +1,1 @@
+execute as @a if items entity @s inventory.* netherite_chestplate run function amuse:pass

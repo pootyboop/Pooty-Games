@@ -6,7 +6,7 @@ scoreboard players reset @a died
 
 
 execute unless score dummy amuseforceID matches -1 store result score dummy dummy run scoreboard players get dummy amuseforceID
-execute if score dummy amuseforceID matches -1 store result score dummy dummy run random value 1..3
+execute if score dummy amuseforceID matches -1 store result score dummy dummy run random value 1..13
 execute store result storage minigames:temp amuse.x int 1 run scoreboard players get dummy dummy
 
 execute store result score dummy amuseroomID run scoreboard players get dummy dummy
