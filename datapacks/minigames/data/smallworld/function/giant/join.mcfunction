@@ -7,4 +7,4 @@ attribute @s minecraft:movement_speed base set .7
 
 effect give @s slowness infinite 5 true
 
-tp @s 16 44 -10000 90 25
+tp @s 16.901 44 -10000 90 25
