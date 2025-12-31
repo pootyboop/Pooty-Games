@@ -9,13 +9,7 @@ function main:seat_resetall
 function main:playercount
 function main:pnum
 
-execute as @a run attribute @s max_health base set 20
-execute as @a run attribute @s minecraft:scale base set 1
-execute as @a run function main:jumpheight_reset
-execute as @a run function main:gravity_reset
-
-effect give @a minecraft:instant_health 1 0 true
-effect give @a regeneration 2 255 true
+execute as @a run function main:reset_attributes
 effect give @a weakness 4 255 true
 
 title @a times 0 40 20

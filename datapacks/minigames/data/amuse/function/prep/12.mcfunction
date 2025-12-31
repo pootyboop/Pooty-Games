@@ -1,4 +1,4 @@
-function amuse:init {"title":"UPGRADE!","time":"40","criteria":"dummy"}
+function amuse:init {"title":"UPGRADE!","time":"50","criteria":"dummy"}
 give @a diamond_chestplate
 give @a netherite_ingot
 give @a netherite_upgrade_smithing_template

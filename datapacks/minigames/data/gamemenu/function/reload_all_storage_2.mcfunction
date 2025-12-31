@@ -107,7 +107,7 @@ $$(1) amuse.genre $(2) "Party Games"
 #$$(3) blockrun
 $$(1) blockrun.tag $(2) "blockrun"
 $$(1) blockrun.name $(2) "Block Run"
-$$(1) blockrun.color $(2) "red"
+$$(1) blockrun.color $(2) "#ff7af3"
 $$(1) blockrun.item $(2) "magenta_glazed_terracotta"
 $$(1) blockrun.slot $(2) "25"
 $$(1) blockrun.desc1 $(2) "Dodge through walls of"
@@ -304,7 +304,7 @@ $$(1) hamsoccer.tag $(2) "hamsoccer"
 $$(1) hamsoccer.name $(2) "Ham Soccer"
 $$(1) hamsoccer.color $(2) "#FF7777"
 $$(1) hamsoccer.item $(2) "porkchop"
-$$(1) hamsoccer.slot $(2) "23"
+#$$(1) hamsoccer.slot $(2) "23"
 $$(1) hamsoccer.desc1 $(2) "Score goals with the pig"
 $$(1) hamsoccer.desc2 $(2) "and defend your goal!"
 $$(1) hamsoccer.playtime $(2) "1-2"
@@ -339,7 +339,7 @@ $$(1) hideseek.desc1 $(2) "Turn into a fake block"
 $$(1) hideseek.desc2 $(2) "and hide from the seekers!"
 $$(1) hideseek.playtime $(2) "<5"
 $$(1) hideseek.players $(2) "2+"
-$$(1) hideseek.genre $(2) "Disguise"
+$$(1) hideseek.genre $(2) "Hiding"
 
 $$(1) hideseek.settings.map.name $(2) "Map"
 $$(1) hideseek.settings.map.value $(2) "1"
@@ -463,6 +463,21 @@ $$(1) slideout.genre $(2) "PvP, Racing"
 
 
 
+#SMALL WORLD
+#$$(3) smallworld
+$$(1) smallworld.tag $(2) "smallworld"
+$$(1) smallworld.name $(2) "Small World"
+$$(1) smallworld.color $(2) "gray"
+$$(1) smallworld.item $(2) "player_head"
+$$(1) smallworld.slot $(2) "23"
+$$(1) smallworld.desc1 $(2) "Hide from the giant and"
+$$(1) smallworld.desc2 $(2) "outlast other players!"
+$$(1) smallworld.playtime $(2) "<5"
+$$(1) smallworld.players $(2) "2+"
+$$(1) smallworld.genre $(2) "Hiding"
+
+
+
 #SURFACE TENSION
 #$$(3) surface
 $$(1) surface.tag $(2) "surface"
@@ -534,4 +549,4 @@ $$(1) witchhunt.desc1 $(2) "Pretend to be a villager"
 $$(1) witchhunt.desc2 $(2) "or catch the fakes!"
 $$(1) witchhunt.playtime $(2) "<5"
 $$(1) witchhunt.players $(2) "2+"
-$$(1) witchhunt.genre $(2) "Disguise"
+$$(1) witchhunt.genre $(2) "Hiding"

@@ -1,0 +1,1 @@
+playsound block.note_block.xylophone master @a ~ ~ ~ 1 1 1

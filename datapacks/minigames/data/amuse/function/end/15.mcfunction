@@ -1,0 +1,1 @@
+execute as @a unless items entity @s inventory.* #minecraft:small_flowers run function amuse:pass

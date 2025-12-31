@@ -1,0 +1,7 @@
+function main:maxhealth_reset
+function main:jumpheight_reset
+function main:gravity_reset
+function main:scale_reset
+function main:stepheight_reset
+function main:interactionrange_reset
+function main:movementspeed_reset

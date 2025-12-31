@@ -30,9 +30,9 @@ execute if score dummy playercount matches 1.. run tellraw @a {"text":"Dance of 
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Delve","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function delve:startgame"}}
 
-execute if score dummy playercount matches 3.. run tellraw @a {"text":"Ewok Hunt","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function ewok:startgame"}}
+#execute if score dummy playercount matches 3.. run tellraw @a {"text":"Ewok Hunt","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function ewok:startgame"}}
 
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Fine Dining","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fine:startgame"}}
+#execute if score dummy playercount matches 2.. run tellraw @a {"text":"Fine Dining","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fine:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Flip Tag","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fliptag:startgame"}}
 
@@ -55,6 +55,8 @@ execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Prospero
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"PvP Playground","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pvp:startgame"}}
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Shopping","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function shopping:startgame"}}
+
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Small World","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function smallworld:startgame"}}
 
 execute if score dummy playercount matches 2..10 run tellraw @a {"text":"Slideout","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function slideout:startgame"}}
 

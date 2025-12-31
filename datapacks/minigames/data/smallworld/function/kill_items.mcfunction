@@ -1,0 +1,1 @@
+execute positioned 0 60 -10000 run kill @e[type=item,distance=..40]

@@ -1,0 +1,1 @@
+$function smallworld:ability/$(ability)/start

@@ -22,6 +22,7 @@ $$(1) paulheist
 $$(1) pillars
 $$(1) shopping
 $$(1) slideout
+$$(1) smallworld
 $$(1) surface
 $$(1) trackracing
 $$(1) trials

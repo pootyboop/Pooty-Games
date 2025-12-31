@@ -1,0 +1,1 @@
+summon falling_block ~ ~10 ~ {Tags:["smallworldnetblock"],BlockState:{Name:"minecraft:cobweb"},Time:1,DropItem:0b}

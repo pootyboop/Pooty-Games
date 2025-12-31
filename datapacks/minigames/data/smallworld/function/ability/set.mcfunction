@@ -1,0 +1,1 @@
+$data modify storage minigames:temp smallworld.ability set value $(ability)

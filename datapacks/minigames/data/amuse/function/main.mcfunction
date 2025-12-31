@@ -1,4 +1,4 @@
-function amuse:main_level with storage minigames:temp amuse
+execute if entity @n[type=armor_stand,tag=king,tag=dontkill,tag=inround] run function amuse:main_level with storage minigames:temp amuse
 
 execute as @a at @s run kill @s[y=0,dy=58]
 
