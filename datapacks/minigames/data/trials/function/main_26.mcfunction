@@ -1,0 +1,1 @@
+title @a actionbar {"text":"Trial: Open the Right Chest"}
