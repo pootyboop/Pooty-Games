@@ -20,9 +20,15 @@ execute if function map:if_call run fill -910 60 343 -889 62 343 air replace iro
 function map:if_params {"map":"blockfactory"}
 execute if function map:if_call run spawnpoint @a -899 60 344 180
 
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call run tp @a[tag=seeker] -1480 57 292 90 0
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call run spawnpoint @a -1480 57 292 90
+
 
 
 effect clear @a[tag=seeker] blindness
+effect clear @a[tag=seeker] weakness
 effect clear @a[tag=hider] speed
 scoreboard players operation dummy minigametimer = dummy hideseektime
 scoreboard players operation dummy minigametimer *= 20 num

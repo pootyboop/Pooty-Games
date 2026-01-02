@@ -13,7 +13,7 @@ scoreboard objectives add smallworld.coinget minecraft.picked_up:minecraft.gold_
 scoreboard objectives add smallworld.coins dummy
 scoreboard objectives modify smallworld.coins displayname {"text":"Coins","color":"gold"}
 scoreboard players set @a[team=Tiny] smallworld.coins 0
-execute if entity @a[team=Tiny] run scoreboard objectives setdisplay sidebar smallworld.coins
+execute if entity @p[team=Tiny] run scoreboard objectives setdisplay sidebar smallworld.coins
 
 scoreboard objectives add smallworld.coinsforbow dummy
 scoreboard players set dummy smallworld.coinsforbow 5

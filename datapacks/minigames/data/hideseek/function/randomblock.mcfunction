@@ -5,6 +5,9 @@ execute store result score dummy dummy run random value 0..8
 function map:if_params {"map":"blockfactory"}
 execute if function map:if_call store result score dummy dummy run random value 100..105
 
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call store result score dummy dummy run random value 200..205
+
 execute store result storage minigames:temp hideseekID.x double 1 run scoreboard players get dummy dummy
 
 scoreboard players operation @s hideseekblockID = dummy dummy
@@ -27,6 +30,13 @@ execute if score @s hideseekblockID matches 102 run function hideseek:randombloc
 execute if score @s hideseekblockID matches 103 run function hideseek:randomblock_2 {"block":"Dried Kelp Block"}
 execute if score @s hideseekblockID matches 104 run function hideseek:randomblock_2 {"block":"Jukebox"}
 execute if score @s hideseekblockID matches 105 run function hideseek:randomblock_2 {"block":"Redstone Lamp"}
+
+execute if score @s hideseekblockID matches 200 run function hideseek:randomblock_2 {"block":"Barrel"}
+execute if score @s hideseekblockID matches 201 run function hideseek:randomblock_2 {"block":"Beehive"}
+execute if score @s hideseekblockID matches 202 run function hideseek:randomblock_2 {"block":"Hay Bale"}
+execute if score @s hideseekblockID matches 203 run function hideseek:randomblock_2 {"block":"Melon"}
+execute if score @s hideseekblockID matches 204 run function hideseek:randomblock_2 {"block":"Pumpkin"}
+execute if score @s hideseekblockID matches 205 run function hideseek:randomblock_2 {"block":"Packed Mud"}
 
 
 

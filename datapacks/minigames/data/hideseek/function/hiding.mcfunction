@@ -19,13 +19,19 @@ execute if function map:if_call run tp @a[tag=seeker] -899.0 60 344 180 0
 function map:if_params {"map":"blockfactory"}
 execute if function map:if_call run fill -910 60 343 -889 62 343 iron_bars replace air
 
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call run tp @a[tag=hider] -1480 57 292 90 0
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call run tp @a[tag=seeker] -1476 57 292 90 0
+
 
 
 execute as @a[tag=hider] at @s run function hideseek:randomblock
 
-effect give @a[tag=hider] minecraft:invisibility infinite 1 true
+effect give @a[tag=hider] minecraft:invisibility infinite 0 true
 effect give @a[tag=hider] speed 15 2 true
 effect give @a[tag=seeker] blindness 15 0 true
+effect give @a[tag=seeker] weakness 15 0 true
 
 schedule function hideseek:count3 7s
 function hideseek:main

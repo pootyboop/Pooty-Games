@@ -20,32 +20,22 @@ execute if function setting:if_call run function map:set {"map":"frozenlodge"}
 function setting:if_params {"tag":"hideseek","setting":"map","value":"4"}
 execute if function setting:if_call run function map:set {"map":"blockfactory"}
 
+function setting:if_params {"tag":"hideseek","setting":"map","value":"5"}
+execute if function setting:if_call run function map:set {"map":"fairstables"}
+
 
 
 function map:if_params {"map":"gardenmarket"}
-execute if function map:if_call positioned -289 64 10 run spreadplayers -283 328 2 2 false @a
-function map:if_params {"map":"gardenmarket"}
-execute if function map:if_call positioned -283 67 324 run function hideseek:setup
+execute if function map:if_call run function hideseek:gardenmarket/setup
 
 function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call positioned -594 56 295 run spreadplayers -593 297 2 2 false @a
-function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call positioned -594 56 295 as @a at @s run tp @s ~ ~-19 ~
-function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call run function hideseek:frozenlodge
-function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call positioned -594 56 295 run function hideseek:setup
+execute if function map:if_call run function hideseek:frozenlodge/setup
 
 function map:if_params {"map":"blockfactory"}
-execute if function map:if_call run tp @a -899.0 60 344 180 0
-function map:if_params {"map":"blockfactory"}
-execute if function map:if_call run fill -910 60 343 -889 62 343 air replace iron_bars
-function map:if_params {"map":"blockfactory"}
-execute if function map:if_call run function hideseek:factory
-function map:if_params {"map":"blockfactory"}
-execute if function map:if_call run time set 3000
-function map:if_params {"map":"blockfactory"}
-execute if function map:if_call positioned -594 56 295 run function hideseek:setup
+execute if function map:if_call run function hideseek:blockfactory/setup
+
+function map:if_params {"map":"fairstables"}
+execute if function map:if_call run function hideseek:fairstables/setup
 
 
 

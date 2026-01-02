@@ -29,5 +29,5 @@ tellraw @a {"text":"-Last one standing wins"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
 function blockrun:scheduleincreasespeed
-schedule function blockrun:main 5s
-schedule function blockrun:updatewall 5s
+schedule function blockrun:main 1
+schedule function blockrun:start 5s

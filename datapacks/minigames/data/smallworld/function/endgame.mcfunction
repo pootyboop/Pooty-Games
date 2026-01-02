@@ -1,8 +1,5 @@
-schedule clear smallworld:main
-schedule clear smallworld:count3
-schedule clear smallworld:count2
-schedule clear smallworld:count1
-schedule clear smallworld:start
+schedule clear smallworld:ability/sneak/stop
+schedule clear smallworld:coin/spawn
 
 function smallworld:kill_items
 function smallworld:ability/net/supercleanup

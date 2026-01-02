@@ -28,3 +28,18 @@ execute if score dummy dummy matches 1 run return 1
 execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"104","block":"jukebox"}
 execute if score dummy dummy matches 1 run return 1
 execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"105","block":"redstone_lamp"}
+execute if score dummy dummy matches 1 run return 1
+
+
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"200","block":"barrel"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"201","block":"beehive"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"202","block":"hay_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"203","block":"melon"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"204","block":"pumpkin"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider_block_spawn {"id":"205","block":"packed_mud"}
+execute if score dummy dummy matches 1 run return 1

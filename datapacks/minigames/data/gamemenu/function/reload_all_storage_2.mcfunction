@@ -347,18 +347,26 @@ $$(1) hideseek.settings.map.1.name $(2) "Random Map"
 $$(1) hideseek.settings.map.1.value $(2) "1"
 $$(1) hideseek.settings.map.1.item $(2) "glass"
 $$(1) hideseek.settings.map.1.slot $(2) "13"
+
 $$(1) hideseek.settings.map.2.name $(2) "Garden Market"
 $$(1) hideseek.settings.map.2.value $(2) "2"
 $$(1) hideseek.settings.map.2.item $(2) "oak_leaves"
-$$(1) hideseek.settings.map.2.slot $(2) "12"
+$$(1) hideseek.settings.map.2.slot $(2) "11"
+
 $$(1) hideseek.settings.map.3.name $(2) "Frozen Lodge"
 $$(1) hideseek.settings.map.3.value $(2) "3"
 $$(1) hideseek.settings.map.3.item $(2) "snowball"
-$$(1) hideseek.settings.map.3.slot $(2) "14"
+$$(1) hideseek.settings.map.3.slot $(2) "12"
+
 $$(1) hideseek.settings.map.4.name $(2) "Block Factory"
 $$(1) hideseek.settings.map.4.value $(2) "4"
 $$(1) hideseek.settings.map.4.item $(2) "netherite_block"
-$$(1) hideseek.settings.map.4.slot $(2) "15"
+$$(1) hideseek.settings.map.4.slot $(2) "14"
+
+$$(1) hideseek.settings.map.5.name $(2) "Fair Stables"
+$$(1) hideseek.settings.map.5.value $(2) "5"
+$$(1) hideseek.settings.map.5.item $(2) "oak_fence"
+$$(1) hideseek.settings.map.5.slot $(2) "15"
 
 
 

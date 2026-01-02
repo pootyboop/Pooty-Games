@@ -1,0 +1,1 @@
+$summon $(animal) ~ ~ ~ {Invulnerable:1b,Tags:["hideseekmob"]}

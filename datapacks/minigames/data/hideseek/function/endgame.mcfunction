@@ -1,6 +1,6 @@
 schedule clear hideseek:main
-schedule clear hideseek:frozenlodge
-schedule clear hideseek:factory
+schedule clear hideseek:frozenlodge/main
+schedule clear hideseek:blockfactory/main
 schedule clear hideseek:hiding
 schedule clear hideseek:count3
 schedule clear hideseek:count2
@@ -14,6 +14,7 @@ tag @a remove hiding
 tag @a remove gotbow
 
 function hideseek:killallblocks
+kill @e[tag=hideseekmob]
 
 function main:score_places
 function main:endgame

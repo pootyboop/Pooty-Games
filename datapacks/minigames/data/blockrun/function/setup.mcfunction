@@ -7,6 +7,9 @@ spawnpoint @a ~ ~ ~
 
 tp @a ~ ~ ~ 90 0
 
+execute as @a run attribute @s jump_strength base set 0
+execute as @a run attribute @s movement_speed base set 0
+
 function blockrun:cleanupwalls
 
 function dance:music_start
