@@ -1,0 +1,1 @@
+execute store result bossbar minecraft:timer value run scoreboard players remove dummy minigametimer 1

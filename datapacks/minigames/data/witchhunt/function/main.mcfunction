@@ -6,16 +6,13 @@ execute as @e[tag=witchchar] at @s run function witchhunt:witchchar
 effect give @a[nbt=!{SelectedItem:{id:"minecraft:trident"}}] weakness 2 255 true
 effect clear @a[nbt={SelectedItem:{id:"minecraft:trident"}}] weakness
 
-execute store result bossbar minecraft:timer value run scoreboard players remove dummy minigametimer 1
-
-execute if score dummy minigametimer matches 1000 run function witchhunt:killvillagers
-execute if score dummy minigametimer matches 500 run function witchhunt:killvillagers
-
-execute if score dummy minigametimer matches 200 run title @a title {"text":""}
-execute if score dummy minigametimer matches 200 run title @a subtitle {"text":"10 Seconds Left!","color":"red"}
-execute if score dummy minigametimer matches 200 run playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1
-
-execute if score dummy minigametimer matches 0 unless entity @a[tag=hiding] run function witchhunt:endgame_witches
-execute if score dummy minigametimer matches 0 if entity @a[tag=hiding] run tag @a[tag=hiding] remove hiding
-
 schedule function witchhunt:main 1
+
+function main:timer/decrement_with_10sec
+
+execute if score dummy minigametimer matches 1000 run return run function witchhunt:killvillagers
+execute if score dummy minigametimer matches 500 run return run function witchhunt:killvillagers
+
+execute unless score dummy minigametimer matches 0 run return fail
+execute unless entity @a[tag=hiding] run return run function witchhunt:endgame_witches
+tag @a[tag=hiding] remove hiding

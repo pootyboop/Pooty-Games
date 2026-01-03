@@ -1,7 +1,7 @@
 schedule clear hideseek:main
-schedule clear hideseek:frozenlodge/main
-schedule clear hideseek:blockfactory/main
-schedule clear hideseek:hiding
+schedule clear hideseek:map/frozenlodge/main
+schedule clear hideseek:map/blockfactory/main
+schedule clear hideseek:hider/hiding
 schedule clear hideseek:count3
 schedule clear hideseek:count2
 schedule clear hideseek:count1

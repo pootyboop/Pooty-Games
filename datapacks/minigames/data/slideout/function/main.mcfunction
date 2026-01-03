@@ -6,5 +6,5 @@ execute as @e[type=block_display,tag=goldpoint] at @s positioned ~.5 ~.5 ~.5 run
 
 schedule function slideout:main 1
 
-execute store result bossbar minecraft:timer value run scoreboard players remove dummy minigametimer 1
+function main:timer/decrement_with_10sec
 execute if score dummy minigametimer matches 0 run function slideout:endgame

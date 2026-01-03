@@ -11,10 +11,6 @@ execute as @a at @s if entity @s[gamemode=!spectator,y=0,dy=54] run function ewo
 kill @e[type=arrow,nbt={inGround:1b}]
 
 
-execute store result bossbar minecraft:timer value run scoreboard players remove dummy minigametimer 1
-
-execute if score dummy minigametimer matches 200 run title @a title {"text":""}
-execute if score dummy minigametimer matches 200 run title @a subtitle {"text":"10 Seconds Left!","color":"red"}
-execute if score dummy minigametimer matches 200 run playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1
+function main:timer/decrement_with_10sec
 
 execute if score dummy minigametimer matches 0 run function ewok:endgame

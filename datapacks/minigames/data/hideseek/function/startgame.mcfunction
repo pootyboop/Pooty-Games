@@ -9,7 +9,7 @@ function hideseek:killallblocks
 
 
 function setting:if_params {"tag":"hideseek","setting":"map","value":"1"}
-execute if function setting:if_call run function hideseek:randommap
+execute if function setting:if_call run function hideseek:map/random
 
 function setting:if_params {"tag":"hideseek","setting":"map","value":"2"}
 execute if function setting:if_call run function map:set {"map":"gardenmarket"}
@@ -26,16 +26,16 @@ execute if function setting:if_call run function map:set {"map":"fairstables"}
 
 
 function map:if_params {"map":"gardenmarket"}
-execute if function map:if_call run function hideseek:gardenmarket/setup
+execute if function map:if_call run function hideseek:map/gardenmarket/setup
 
 function map:if_params {"map":"frozenlodge"}
-execute if function map:if_call run function hideseek:frozenlodge/setup
+execute if function map:if_call run function hideseek:map/frozenlodge/setup
 
 function map:if_params {"map":"blockfactory"}
-execute if function map:if_call run function hideseek:blockfactory/setup
+execute if function map:if_call run function hideseek:map/blockfactory/setup
 
 function map:if_params {"map":"fairstables"}
-execute if function map:if_call run function hideseek:fairstables/setup
+execute if function map:if_call run function hideseek:map/fairstables/setup
 
 
 
@@ -82,5 +82,5 @@ execute as @a store result score @s uuid1 run data get entity @s UUID[1]
 execute as @a store result score @s uuid2 run data get entity @s UUID[2]
 execute as @a store result score @s uuid3 run data get entity @s UUID[3]
 
-schedule function hideseek:hiding 5s
+schedule function hideseek:hider/hiding 5s
 

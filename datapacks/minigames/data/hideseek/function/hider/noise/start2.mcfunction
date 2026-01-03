@@ -1,0 +1,1 @@
+$function hideseek:hider/noise/play/$(ID)

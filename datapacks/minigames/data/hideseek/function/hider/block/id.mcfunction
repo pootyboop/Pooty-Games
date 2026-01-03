@@ -1,0 +1,45 @@
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"0","block":"barrel"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"1","block":"coal_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"2","block":"crafting_table"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"3","block":"flower_pot"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"4","block":"hay_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"5","block":"melon"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"6","block":"note_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"7","block":"oak_log"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"8","block":"smithing_table"}
+execute if score dummy dummy matches 1 run return 1
+
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"100","block":"ancient_debris"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"101","block":"blast_furnace"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"102","block":"cauldron"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"103","block":"dried_kelp_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"104","block":"jukebox"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"105","block":"redstone_lamp"}
+execute if score dummy dummy matches 1 run return 1
+
+
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"200","block":"barrel"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"201","block":"beehive"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"202","block":"hay_block"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"203","block":"melon"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"204","block":"pumpkin"}
+execute if score dummy dummy matches 1 run return 1
+execute store result score dummy dummy run function hideseek:hider/block/spawn {"id":"205","block":"packed_mud"}
+execute if score dummy dummy matches 1 run return 1
