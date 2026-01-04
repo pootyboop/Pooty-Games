@@ -1,1 +1,0 @@
-execute positioned -608 59 -608 run function dance:clearfloor_3

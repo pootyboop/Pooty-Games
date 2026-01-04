@@ -15,6 +15,7 @@ clear @a
 xp set @a 0
 xp set @a 0 levels
 effect clear @a
+execute as @a run function main:reset_attributes
 team leave @a
 gamemode spectator @a
 

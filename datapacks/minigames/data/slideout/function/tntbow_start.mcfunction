@@ -1,3 +1,3 @@
 tag @s add tntbow
 
-function slideout:item_tntarrow
+function slideout:item/tntarrow

@@ -1,4 +1,3 @@
-gamemode adventure @a
 spreadplayers 10006 -6 2 2 false @a
 
 effect give @a weakness 10 255 true

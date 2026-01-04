@@ -14,5 +14,5 @@ execute as @a at @s if score @s uuid0 = @n[type=area_effect_cloud,tag=room] uuid
 
 execute as @a at @s unless score @s uuid0 = @n[type=area_effect_cloud,tag=room] uuid0 run function build:view_build_rateit
 
-schedule function build:dont_forget_to_vote 15s
+schedule function build:rate/reminder 15s
 schedule function build:view_build_end 20s

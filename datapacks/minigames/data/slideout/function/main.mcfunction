@@ -1,6 +1,6 @@
 execute as @a at @s run function slideout:player
-execute as @e[type=arrow] at @s run function slideout:arrow
-execute as @e[type=block_display,tag=goldpoint] at @s positioned ~.5 ~.5 ~.5 run function slideout:goldpoint
+execute as @e[type=arrow] at @s run function slideout:arrow/main
+execute as @e[type=block_display,tag=goldpoint] at @s positioned ~.5 ~.5 ~.5 run function slideout:goldpoint/main
 
 
 

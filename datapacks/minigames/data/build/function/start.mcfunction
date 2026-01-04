@@ -20,6 +20,6 @@ bossbar set minecraft:timer players @a
 
 execute at @e[type=area_effect_cloud,tag=room] run fill 899 61 ~1 901 61 ~-1 air
 
-schedule function build:room_marker_uuid_sched 1
+schedule function build:rooms/marker_uuid_sched 1
 
 function build:main

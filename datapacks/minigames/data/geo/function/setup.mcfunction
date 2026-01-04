@@ -12,12 +12,9 @@ scoreboard objectives setdisplay sidebar
 scoreboard players set @a died 0
 scoreboard players reset @a flingCooldown
 
-gamemode adventure @a
 tag @a add geopause
 
 execute as @a run attribute @s minecraft:max_health base set 10
 effect give @a regeneration 2 255 true
-
-clear @a
 
 schedule function geo:count3 3s

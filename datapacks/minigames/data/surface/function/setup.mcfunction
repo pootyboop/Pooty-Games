@@ -1,4 +1,3 @@
-gamemode adventure @a
 time set 2000
 
 tp @a 0 59 10000

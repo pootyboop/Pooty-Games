@@ -1,7 +1,5 @@
 #gamerule fallDamage true
 
-gamemode adventure @a
-
 effect give @a weakness infinite 255 true
 effect give @a resistance infinite 255 true
 

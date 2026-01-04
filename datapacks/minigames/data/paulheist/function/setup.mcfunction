@@ -16,5 +16,3 @@ gamemode spectator @a
 function paulheist:observepaul
 
 effect give @a resistance 10000 255 true
-
-clear @a

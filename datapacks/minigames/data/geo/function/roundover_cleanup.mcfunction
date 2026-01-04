@@ -4,7 +4,7 @@ gamemode spectator @a
 title @a times 0 40 20
 
 scoreboard players set @a flingCooldown 0
-schedule clear geo:fling_cooldown
+schedule clear geo:fling/cooldown
 tag @a remove ripple
 tag @a remove slam
 

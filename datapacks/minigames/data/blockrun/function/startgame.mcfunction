@@ -28,6 +28,6 @@ tellraw @a {"text":"-Dodge through the walls of blocks to survive"}
 tellraw @a {"text":"-Last one standing wins"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
-function blockrun:scheduleincreasespeed
+function blockrun:wall/speed/increase_sched
 schedule function blockrun:main 1
 schedule function blockrun:start 5s

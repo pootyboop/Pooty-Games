@@ -1,1 +1,0 @@
-execute as @n[sort=random,type=marker,tag=goldpointspawn,tag=!used] at @s run function slideout:goldpoint_spawn

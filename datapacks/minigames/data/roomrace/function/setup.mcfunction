@@ -1,5 +1,3 @@
-gamemode adventure @a
-
 scoreboard players operation dummy minigametimer = dummy roomracetime
 scoreboard players operation dummy minigametimer *= 20 num
 scoreboard players operation dummy minigametimer *= 60 num
@@ -19,5 +17,3 @@ forceload add -896 0
 forceload add -896 -1
 forceload add -912 0
 forceload add -912 -1
-
-clear @a

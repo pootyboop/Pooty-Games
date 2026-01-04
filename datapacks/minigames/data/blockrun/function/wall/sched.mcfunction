@@ -1,0 +1,1 @@
+$schedule function blockrun:wall/update $(tickspermove)t

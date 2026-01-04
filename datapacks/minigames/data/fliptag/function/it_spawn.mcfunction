@@ -1,9 +1,7 @@
 function fliptag:it
 
-effect give @s weakness 3 255 true
 effect give @s blindness 4 255 true
-effect give @s slowness 3 255 true
-attribute @s minecraft:jump_strength base set 0
+function main:movement_freeze
 
 schedule function fliptag:it_release 3s
 

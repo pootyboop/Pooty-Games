@@ -5,4 +5,4 @@ playsound minecraft:block.basalt.break master @a ~ ~ ~ 1 1 1
 
 tag @a remove geopause
 
-execute as @a run function geo:fling_cooldown_over
+execute as @a run function geo:fling/cooldown_over

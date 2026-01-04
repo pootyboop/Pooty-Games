@@ -1,9 +1,9 @@
-execute as @a[scores={buildrating=5}] at @s run function build:rate_5
-execute as @a[scores={buildrating=4}] at @s run function build:rate_4
-execute as @a[scores={buildrating=3}] at @s run function build:rate_3
-execute as @a[scores={buildrating=2}] at @s run function build:rate_2
-execute as @a[scores={buildrating=1}] at @s run function build:rate_1
-execute as @a unless score @s buildrating matches 1..5 run function build:rate_3
+execute as @a[scores={buildrating=5}] at @s run function build:rate/5
+execute as @a[scores={buildrating=4}] at @s run function build:rate/4
+execute as @a[scores={buildrating=3}] at @s run function build:rate/3
+execute as @a[scores={buildrating=2}] at @s run function build:rate/2
+execute as @a[scores={buildrating=1}] at @s run function build:rate/1
+execute as @a unless score @s buildrating matches 1..5 run function build:rate/3
 
 scoreboard players reset @a buildrating
 

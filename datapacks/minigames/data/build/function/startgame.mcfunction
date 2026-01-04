@@ -34,5 +34,5 @@ tellraw @a {"text":"-Players vote on the best builds"}
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
 schedule function build:nomovement 4s
-schedule function build:rooms_setup 5s
+schedule function build:rooms/setup 5s
 

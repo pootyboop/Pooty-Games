@@ -1,8 +1,6 @@
 kill @e[type=item,distance=..30]
 time set 2000
 
-gamemode adventure @a
-
 
 bossbar set minecraft:timer players @a
 #bossbar set minecraft:timer max 2400

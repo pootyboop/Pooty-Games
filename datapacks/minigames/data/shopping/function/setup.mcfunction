@@ -6,8 +6,6 @@ execute positioned 303 70 -1 run forceload add ~ ~
 
 kill @e[type=item,distance=..20]
 
-gamemode adventure @a
-
 tag @a remove passed
 
 spreadplayers ~ ~ .3 1 false @a
@@ -24,7 +22,6 @@ execute store result bossbar minecraft:timer value run scoreboard players get du
 
 effect give @a resistance infinite 255 true
 effect give @a speed infinite 0 true
-clear @a
 
 scoreboard players reset @a dark_oak_planks
 scoreboard players reset @a dark_oak_log

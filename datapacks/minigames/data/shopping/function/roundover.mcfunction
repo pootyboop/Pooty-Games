@@ -1,7 +1,7 @@
 schedule clear shopping:main
 
 tag @a[tag=passed] remove passed
-
+clear @a
 gamemode spectator @a
 
 title @a title {"text":""}

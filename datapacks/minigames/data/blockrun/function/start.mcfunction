@@ -1,4 +1,3 @@
-function blockrun:updatewall
+function blockrun:wall/update
 
-execute as @a run function main:jumpheight_reset
-execute as @a run function main:movementspeed_reset
+execute as @a run function main:movement_unfreeze

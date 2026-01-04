@@ -15,7 +15,3 @@ setblock -307 66 -267 minecraft:gold_block
 setblock -284 48 -299 minecraft:gold_block
 
 function goldrush:grave_cleanup
-
-gamemode adventure @a
-
-clear @a

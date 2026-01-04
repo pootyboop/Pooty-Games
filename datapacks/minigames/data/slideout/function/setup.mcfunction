@@ -1,8 +1,5 @@
 kill @e[type=item,distance=..30]
 
-gamemode adventure @a
-clear @a
-
 execute as @a run function slideout:setmaxhealth
 
 tag @e[type=marker,tag=goldpointspawn] remove used

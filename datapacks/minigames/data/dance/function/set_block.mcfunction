@@ -1,1 +1,0 @@
-$function dance:give_block {"color":"$(color)"}

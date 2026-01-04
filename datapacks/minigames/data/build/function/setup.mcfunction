@@ -1,4 +1,3 @@
-gamemode adventure @a
 time set 6000
 
 #bossbar set minecraft:timer players @a
@@ -22,5 +21,3 @@ forceload add 896 0
 forceload add 896 -1
 forceload add 912 0
 forceload add 912 -1
-
-clear @a

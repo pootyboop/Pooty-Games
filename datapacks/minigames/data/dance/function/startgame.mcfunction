@@ -10,7 +10,10 @@ scoreboard players set @a minigamescore 0
 
 scoreboard objectives setdisplay sidebar
 
+scoreboard objectives add dancetimepertimer dummy
 scoreboard players set dummy dancetimepertimer 22
+
+scoreboard objectives add dancecount dummy
 scoreboard players set dummy dancecount -1
 
 team join nocollision @a
@@ -26,5 +29,5 @@ tellraw @a {"text":"-Turn off music with the Jukebox/Note Blocks slider in your 
 tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
 
 schedule function dance:main 5s
-schedule function dance:initfloor 5s
+schedule function dance:floor/init 5s
 

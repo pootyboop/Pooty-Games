@@ -1,4 +1,2 @@
-effect clear @a weakness
-effect clear @a blindness
-effect clear @a slowness
-execute as @a run function main:jumpheight_reset
+effect clear @a[tag=it] blindness
+execute as @a[tag=it] run function main:movement_unfreeze

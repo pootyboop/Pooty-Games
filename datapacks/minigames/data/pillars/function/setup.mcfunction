@@ -2,7 +2,6 @@ gamemode spectator @a
 tp @a ~ ~ ~
 
 kill @e[type=item,distance=..50]
-clear @a
 
 setworldspawn 900 310 -900
 spawnpoint @a 900 310 -900

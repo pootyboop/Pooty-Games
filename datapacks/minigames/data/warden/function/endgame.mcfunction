@@ -1,5 +1,5 @@
 schedule clear warden:main
-schedule clear warden:spawnwarden
+schedule clear warden:warden/spawn
 schedule clear warden:count3
 schedule clear warden:count2
 schedule clear warden:count1

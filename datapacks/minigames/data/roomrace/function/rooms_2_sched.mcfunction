@@ -1,1 +1,1 @@
-execute at @e[type=area_effect_cloud,tag=room] run function build:rooms_2
+execute at @e[type=area_effect_cloud,tag=room] run function build:rooms/2

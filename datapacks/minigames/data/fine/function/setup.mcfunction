@@ -1,4 +1,3 @@
-gamemode adventure @a
 time set 0
 
 tp @a 300 60 -600

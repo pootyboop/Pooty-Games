@@ -1,5 +1,5 @@
-schedule clear build:rooms_setup
-schedule clear build:ready_check_sched
+schedule clear build:rooms/setup
+schedule clear build:topic/check
 schedule clear build:nomovement
 schedule clear build:view_build_end
 schedule clear build:main

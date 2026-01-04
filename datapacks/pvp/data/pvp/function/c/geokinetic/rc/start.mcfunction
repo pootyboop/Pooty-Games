@@ -1,1 +1,1 @@
-execute unless entity @s[type=player] run function geo:ripplehit
+execute unless entity @s[type=player] run function geo:ripple/hit

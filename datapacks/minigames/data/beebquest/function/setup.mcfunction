@@ -1,5 +1,3 @@
-gamemode adventure @a
-
 tp @a 0 60 -603 0 0
 execute as @a run attribute @s minecraft:max_health base set 6
 

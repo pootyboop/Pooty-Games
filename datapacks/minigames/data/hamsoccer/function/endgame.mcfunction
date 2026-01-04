@@ -7,7 +7,7 @@ schedule clear hamsoccer:newround
 
 kill @e[type=pig,tag=ball]
 
-execute at @a[tag=!login] run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace barrier
+execute as @a run function main:movement_unfreeze
 
 tag @a remove midair
 tag @a remove pause
