@@ -15,8 +15,8 @@ particle block{block_state:"minecraft:terracotta"} ~ ~1.1 ~ 1.5 1 1.5 0 20 force
 
 execute if entity @n[predicate=pred:dummy,tag=geomoves] run title @s actionbar {"text":"Ground Slam","color":"#FFEAC9"}
 
-execute as @a[distance=0.1..3,predicate=pred:grounded] at @s run function geo:slam_hit
-execute as @e[distance=..3,type=villager,predicate=pred:grounded] at @s run function geo:slam_hit
-execute as @e[distance=..3,type=armor_stand,predicate=pred:grounded] at @s run function geo:slam_hit
+execute as @a[distance=0.1..3,predicate=pred:grounded] at @s run function geo:slam/hit
+execute as @e[distance=..3,type=villager,predicate=pred:grounded] at @s run function geo:slam/hit
+execute as @e[distance=..3,type=armor_stand,predicate=pred:grounded] at @s run function geo:slam/hit
 
 tag @s remove this

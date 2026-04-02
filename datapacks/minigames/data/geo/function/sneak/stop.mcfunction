@@ -8,4 +8,4 @@ execute if entity @s[tag=ripple,predicate=pred:grounded] if block ~ ~-.1 ~ air r
 
 
 
-execute if entity @s[tag=slam] run function geo:slam_stop
+execute if entity @s[tag=slam] run function geo:slam/stop

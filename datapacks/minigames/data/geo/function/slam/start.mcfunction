@@ -7,4 +7,4 @@ execute if entity @n[predicate=pred:dummy,tag=geomoves] run title @s actionbar {
 
 playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 1 2
 
-execute unless entity @a[tag=slam,distance=0.1..] run function geo:slam_main
+execute unless entity @a[tag=slam,distance=0.1..] run function geo:slam/main

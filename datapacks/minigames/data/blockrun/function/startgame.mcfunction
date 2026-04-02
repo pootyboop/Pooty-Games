@@ -30,4 +30,4 @@ tellraw @a {"text":"----------------------------------------------","color":"dar
 
 function blockrun:wall/speed/increase_sched
 schedule function blockrun:main 1
-schedule function blockrun:start 5s
+schedule function blockrun:ready 3s
