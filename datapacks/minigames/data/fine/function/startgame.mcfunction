@@ -11,11 +11,11 @@ scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 
 team add Waiter {"text":"Waiter"}
-team modify Waiter prefix {"text":"Waiter "}
+team modify Waiter prefix {"text":"Waiter ","color":"dark_aqua"}
 team modify Waiter color dark_aqua
 
 team add Chef {"text":"Chef"}
-team modify Chef prefix {"text":"Chef "}
+team modify Chef prefix {"text":"Chef ","color":"yellow"}
 team modify Chef color yellow
 
 bossbar set minecraft:timer players @a

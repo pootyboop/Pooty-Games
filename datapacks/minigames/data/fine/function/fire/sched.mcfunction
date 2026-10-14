@@ -1,0 +1,1 @@
+$schedule function fine:fire/start $(fire_start_time)s

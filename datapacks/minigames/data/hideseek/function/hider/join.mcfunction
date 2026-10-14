@@ -4,3 +4,5 @@ scoreboard players add Hiders minigamescore 1
 
 title @s title {"text":""}
 title @s subtitle [{"text":"PRESS F5","color":"red","bold":false},{"text":" (recommended)","color":"gray","bold":false}]
+
+tag @s add hiding

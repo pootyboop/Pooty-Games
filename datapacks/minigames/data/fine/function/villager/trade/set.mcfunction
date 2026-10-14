@@ -1,0 +1,1 @@
+$data modify entity @s Offers.Recipes set value [{buy:{id:"$(item)",count:$(buy_count)},sell:{id:"minecraft:emerald",count:$(sell_count)},maxUses:1,uses:0,xp:9999,rewardExp:0b,priceMultiplier:0.0f,demand:0,specialPrice:0}]

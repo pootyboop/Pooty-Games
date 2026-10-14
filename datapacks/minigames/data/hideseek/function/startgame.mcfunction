@@ -70,7 +70,6 @@ tag @a remove hiderdead
 
 effect give @a weakness 10000 255 true
 
-tag @a add hiding
 scoreboard players set dummy gameID 6
 title @a title {"text":"Hide and Seek","color":"gold"}
 
@@ -89,4 +88,3 @@ execute as @a store result score @s uuid2 run data get entity @s UUID[2]
 execute as @a store result score @s uuid3 run data get entity @s UUID[3]
 
 schedule function hideseek:hider/hiding 5s
-

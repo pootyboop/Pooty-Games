@@ -1,0 +1,1 @@
+execute positioned 299 60 -602 as @n[type=villager,tag=unseated,distance=..2] at @s run function fine:villager/seat

@@ -7179,6 +7179,7 @@
       "minecraft:deep_frozen_ocean": "2025-11-18 21:27:36 +0000",
       "minecraft:ocean": "2024-09-22 06:16:20 +0100",
       "minecraft:jungle": "2025-01-11 21:59:35 +0000",
+      "minecraft:cherry_grove": "2026-10-14 21:10:03 +0100",
       "minecraft:old_growth_spruce_taiga": "2025-08-17 13:44:09 +0100",
       "minecraft:snowy_beach": "2024-12-17 15:57:34 +0000",
       "minecraft:wooded_badlands": "2024-12-17 16:22:37 +0000",
@@ -8523,13 +8524,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2026-02-15 15:42:09 +0000"
+      "requirement": "2026-10-14 19:42:26 +0100"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2026-03-29 12:37:00 +0100"
+      "requirement": "2026-10-14 20:00:57 +0100"
     },
     "done": true
   },

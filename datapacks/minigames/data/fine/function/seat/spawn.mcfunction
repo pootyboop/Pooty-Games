@@ -1,0 +1,1 @@
+summon marker ~ ~.25 ~ {Tags:["fineSeat"]}

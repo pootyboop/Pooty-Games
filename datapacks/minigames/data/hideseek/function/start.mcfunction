@@ -41,6 +41,7 @@ scoreboard players operation dummy minigametimer = dummy hideseektime
 scoreboard players operation dummy minigametimer *= 20 num
 execute store result bossbar minecraft:timer max run scoreboard players get dummy minigametimer
 execute store result bossbar minecraft:timer value run scoreboard players get dummy minigametimer
+tag @a remove hiding
 
 
 

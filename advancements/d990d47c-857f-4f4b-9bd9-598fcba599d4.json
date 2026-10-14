@@ -8431,13 +8431,7 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2026-02-15 15:41:59 +0000"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2026-03-29 12:51:16 +0100"
+      "requirement": "2026-10-14 19:40:37 +0100"
     },
     "done": true
   },

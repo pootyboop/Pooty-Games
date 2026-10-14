@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.bell master @a 300.0 60 -604.5 1 0.7 .8
