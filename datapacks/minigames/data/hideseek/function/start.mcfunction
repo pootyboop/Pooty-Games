@@ -25,6 +25,13 @@ execute if function map:if_call run tp @a[tag=seeker] -1480 57 292 90 0
 function map:if_params {"map":"fairstables"}
 execute if function map:if_call run spawnpoint @a -1480 57 292 90
 
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run tp @a[tag=seeker] -1796 60 308 180 0
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run spawnpoint @a -1796 60 308 180
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run function hideseek:map/fredminers/securitycam/setbutton
+
 
 
 effect clear @a[tag=seeker] blindness

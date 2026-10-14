@@ -8,8 +8,10 @@ execute if function map:if_call store result score dummy dummy run random value 
 function map:if_params {"map":"fairstables"}
 execute if function map:if_call store result score dummy dummy run random value 200..205
 
-execute store result storage minigames:temp hideseekID.x double 1 run scoreboard players get dummy dummy
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call store result score dummy dummy run random value 300..309
 
+execute store result storage minigames:temp hideseekID.x double 1 run scoreboard players get dummy dummy
 scoreboard players operation @s hideseekblockID = dummy dummy
 
 
@@ -37,6 +39,17 @@ execute if score @s hideseekblockID matches 202 run function hideseek:hider/bloc
 execute if score @s hideseekblockID matches 203 run function hideseek:hider/block/random_2 {"block":"Melon"}
 execute if score @s hideseekblockID matches 204 run function hideseek:hider/block/random_2 {"block":"Pumpkin"}
 execute if score @s hideseekblockID matches 205 run function hideseek:hider/block/random_2 {"block":"Packed Mud"}
+
+execute if score @s hideseekblockID matches 300 run function hideseek:hider/block/random_2 {"block":"Barrel"}
+execute if score @s hideseekblockID matches 301 run function hideseek:hider/block/random_2 {"block":"Block of Coal"}
+execute if score @s hideseekblockID matches 302 run function hideseek:hider/block/random_2 {"block":"Crafting Table"}
+execute if score @s hideseekblockID matches 303 run function hideseek:hider/block/random_2 {"block":"Flower Pot"}
+execute if score @s hideseekblockID matches 304 run function hideseek:hider/block/random_2 {"block":"Hay Bale"}
+execute if score @s hideseekblockID matches 305 run function hideseek:hider/block/random_2 {"block":"Melon"}
+execute if score @s hideseekblockID matches 306 run function hideseek:hider/block/random_2 {"block":"Oak Leaves"}
+execute if score @s hideseekblockID matches 307 run function hideseek:hider/block/random_2 {"block":"Pumpkin"}
+execute if score @s hideseekblockID matches 308 run function hideseek:hider/block/random_2 {"block":"Redstone Lamp"}
+execute if score @s hideseekblockID matches 309 run function hideseek:hider/block/random_fredminers_subcategory
 
 
 

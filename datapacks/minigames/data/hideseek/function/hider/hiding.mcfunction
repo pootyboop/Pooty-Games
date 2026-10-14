@@ -24,6 +24,11 @@ execute if function map:if_call run tp @a[tag=hider] -1480 57 292 90 0
 function map:if_params {"map":"fairstables"}
 execute if function map:if_call run tp @a[tag=seeker] -1476 57 292 90 0
 
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run tp @a[tag=hider] -1796 60 308 180 0
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run tp @a[tag=seeker] -1796 60 310 180 0
+
 
 
 execute as @a[tag=hider] at @s run function hideseek:hider/block/random

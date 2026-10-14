@@ -346,7 +346,7 @@ $$(1) hideseek.settings.map.value $(2) "1"
 $$(1) hideseek.settings.map.1.name $(2) "Random Map"
 $$(1) hideseek.settings.map.1.value $(2) "1"
 $$(1) hideseek.settings.map.1.item $(2) "glass"
-$$(1) hideseek.settings.map.1.slot $(2) "13"
+$$(1) hideseek.settings.map.1.slot $(2) "4"
 
 $$(1) hideseek.settings.map.2.name $(2) "Garden Market"
 $$(1) hideseek.settings.map.2.value $(2) "2"
@@ -361,12 +361,17 @@ $$(1) hideseek.settings.map.3.slot $(2) "12"
 $$(1) hideseek.settings.map.4.name $(2) "Block Factory"
 $$(1) hideseek.settings.map.4.value $(2) "4"
 $$(1) hideseek.settings.map.4.item $(2) "netherite_block"
-$$(1) hideseek.settings.map.4.slot $(2) "14"
+$$(1) hideseek.settings.map.4.slot $(2) "13"
 
 $$(1) hideseek.settings.map.5.name $(2) "Fair Stables"
 $$(1) hideseek.settings.map.5.value $(2) "5"
 $$(1) hideseek.settings.map.5.item $(2) "oak_fence"
-$$(1) hideseek.settings.map.5.slot $(2) "15"
+$$(1) hideseek.settings.map.5.slot $(2) "14"
+
+$$(1) hideseek.settings.map.6.name $(2) "Fred Miners"
+$$(1) hideseek.settings.map.6.value $(2) "6"
+$$(1) hideseek.settings.map.6.item $(2) "white_concrete"
+$$(1) hideseek.settings.map.6.slot $(2) "15"
 
 
 

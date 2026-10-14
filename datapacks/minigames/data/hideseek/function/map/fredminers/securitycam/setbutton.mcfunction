@@ -1,0 +1,1 @@
+setblock -1794 61 312 bamboo_button[face=floor]

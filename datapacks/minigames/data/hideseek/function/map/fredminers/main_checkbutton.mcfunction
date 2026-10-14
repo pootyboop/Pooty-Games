@@ -1,0 +1,2 @@
+execute unless entity @p[distance=..4,tag=seeker] run return run function hideseek:map/fredminers/securitycam/setbutton
+execute as @p[distance=..4,tag=seeker] run function hideseek:map/fredminers/securitycam/start

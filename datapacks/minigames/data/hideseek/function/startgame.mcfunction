@@ -23,6 +23,9 @@ execute if function setting:if_call run function map:set {"map":"blockfactory"}
 function setting:if_params {"tag":"hideseek","setting":"map","value":"5"}
 execute if function setting:if_call run function map:set {"map":"fairstables"}
 
+function setting:if_params {"tag":"hideseek","setting":"map","value":"6"}
+execute if function setting:if_call run function map:set {"map":"fredminers"}
+
 
 
 function map:if_params {"map":"gardenmarket"}
@@ -36,6 +39,9 @@ execute if function map:if_call run function hideseek:map/blockfactory/setup
 
 function map:if_params {"map":"fairstables"}
 execute if function map:if_call run function hideseek:map/fairstables/setup
+
+function map:if_params {"map":"fredminers"}
+execute if function map:if_call run function hideseek:map/fredminers/setup
 
 
 
