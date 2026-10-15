@@ -2,6 +2,7 @@ $team add massacre$(title)
 $team modify massacre$(title) collisionRule always
 $team modify massacre$(title) deathMessageVisibility never
 $team modify massacre$(title) nametagVisibility never
+$team modify massacre$(title) seeFriendlyInvisibles true
 $team modify massacre$(title) color gold
 $team modify massacre$(title) suffix [{"text":", the ","color":"gray"},{"text":"$(title)","color":"$(color)"}]
 

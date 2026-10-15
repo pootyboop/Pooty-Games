@@ -7,4 +7,5 @@ execute as @r at @s run function massacre:role/generate
 
 execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ .8 0 .8
 
+effect clear @a weakness
 function massacre:main

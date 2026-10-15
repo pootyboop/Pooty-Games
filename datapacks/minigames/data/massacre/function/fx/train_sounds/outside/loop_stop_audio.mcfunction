@@ -1,0 +1,1 @@
+stopsound @s ambient minecraft:entity.minecart.inside

@@ -1,0 +1,1 @@
+execute if predicate pred:cointoss run playsound minecraft:entity.breeze.idle_air master @a[tag=outsideTrain] ~ ~ ~ .5 0 .7

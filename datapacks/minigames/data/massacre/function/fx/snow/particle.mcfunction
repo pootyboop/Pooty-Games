@@ -1,0 +1,1 @@
+$particle snowflake ~$(x) ~$(y) ~ ^ ^ ^1000000 0.0000025 0 force $(selector)

@@ -4,6 +4,9 @@ scoreboard players set dummy gameID 29
 
 execute positioned -900 60 -300 run function massacre:setup
 
+gamerule playersSleepingPercentage 200
+gamerule showDeathMessages false
+
 scoreboard players set @a died 0
 scoreboard objectives remove massacreRoleID
 scoreboard objectives add massacreRoleID dummy
