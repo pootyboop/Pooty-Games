@@ -80,13 +80,13 @@ scoreboard players set dummy gameID 8
 
 title @a title {"text":"Paul Heist","color":"gold"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Paul Heist","color":"gold","bold":true}
 tellraw @a {"text":"-Thieves must steal Paul and escape to the portal"}
 tellraw @a {"text":"-Guardians must kill all of the thieves"}
 tellraw @a {"text":"-Thieves can break glass windows and hide in tall grass"}
 tellraw @a {"text":"-Guardians can lock doors and place alarm traps"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function paulheist:count3 5s
 

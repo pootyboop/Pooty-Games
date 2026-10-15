@@ -22,12 +22,12 @@ scoreboard players reset dummy roundcount
 title @a title {"text":"Shopping","color":"gold"}
 title @a subtitle {"text":"Mine resources to craft items!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Shopping","color":"gold","bold":true}
 tellraw @a {"text":"-You will be told the names of items you need to craft"}
 tellraw @a {"text":"-Break the blocks on the shelves to get materials"}
 tellraw @a {"text":"-Each round lasts 40 seconds"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function shopping:newround 5s
 

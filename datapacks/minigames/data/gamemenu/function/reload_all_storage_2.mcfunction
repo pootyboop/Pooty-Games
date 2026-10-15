@@ -390,6 +390,21 @@ $$(1) kinghill.genre $(2) "PvP"
 
 
 
+#MASSACRE ON THE NIGHTINGALE
+#$$(3) massacre
+$$(1) massacre.tag $(2) "massacre"
+$$(1) massacre.name $(2) "Massacre on the Nightingale"
+$$(1) massacre.color $(2) "#EB0000"
+$$(1) massacre.item $(2) "iron_sword"
+#$$(1) massacre.slot $(2) "26"
+$$(1) massacre.desc1 $(2) "Survive a lethal train ride"
+$$(1) massacre.desc2 $(2) "and catch the murderer!"
+$$(1) massacre.playtime $(2) "10-20"
+$$(1) massacre.players $(2) "4+"
+$$(1) massacre.genre $(2) "Hidden Role"
+
+
+
 #PAUL HEIST
 #$$(3) paulheist
 $$(1) paulheist.tag $(2) "paulheist"

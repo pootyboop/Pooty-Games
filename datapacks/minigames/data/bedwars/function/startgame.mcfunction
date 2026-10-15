@@ -118,7 +118,7 @@ execute if function setting:if_call as @a at @s run playsound minecraft:entity.c
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
 execute unless function setting:if_call run title @a subtitle {"text":"Break other players\' beds!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
 execute unless function setting:if_call run tellraw @a {"text":"Bedwars","color":"red","bold":true}
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
@@ -128,4 +128,4 @@ tellraw @a {"text":"-Players without a bed cannot respawn after dying"}
 tellraw @a {"text":"-Ores can be spent on items/upgrades at the shop"}
 tellraw @a {"text":"-Break other players\' beds; last one standing wins!"}
 tellraw @a [{"text":"Bedwars Castle by "},{"text":"Morozov Architect","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/bedwarp-castle/"}},{"text":" (click to visit)","color":"gray"}]
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline

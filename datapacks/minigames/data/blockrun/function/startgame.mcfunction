@@ -22,11 +22,11 @@ team join nocollision @a
 title @a title {"text":"Block Run","color":"gold"}
 title @a subtitle {"text":"Dodge the block walls!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Block Run","color":"gold","bold":true}
 tellraw @a {"text":"-Dodge through the walls of blocks to survive"}
 tellraw @a {"text":"-Last one standing wins"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 function blockrun:wall/speed/increase_sched
 schedule function blockrun:main 1

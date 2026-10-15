@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["massacreSnowSpawner"],PersistenceRequired:1b,Rotation:[-180F,0F]}

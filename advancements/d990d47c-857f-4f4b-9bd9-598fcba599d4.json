@@ -7082,7 +7082,9 @@
       "minecraft:deep_frozen_ocean": "2025-11-18 21:27:36 +0000",
       "minecraft:ocean": "2024-12-17 19:47:16 +0000",
       "minecraft:jungle": "2025-01-11 21:59:35 +0000",
+      "minecraft:cherry_grove": "2026-10-14 23:00:41 +0100",
       "minecraft:snowy_beach": "2024-12-17 19:14:06 +0000",
+      "minecraft:bamboo_jungle": "2026-10-14 23:24:11 +0100",
       "minecraft:warm_ocean": "2024-09-22 16:13:07 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-12-17 18:01:55 +0000",
       "minecraft:savanna_plateau": "2025-11-18 21:28:45 +0000",
@@ -8432,6 +8434,12 @@
   "interaction:left_click": {
     "criteria": {
       "requirement": "2026-10-14 19:40:37 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2026-10-14 23:03:18 +0100"
     },
     "done": true
   },

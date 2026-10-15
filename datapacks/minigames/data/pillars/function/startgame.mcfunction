@@ -25,11 +25,11 @@ scoreboard players set @a died 0
 title @a title {"text":"Prosperous Pillars","color":"gold"}
 title @a subtitle {"text":"Don't fall!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Prosperous Pillars","color":"gold","bold":true}
 tellraw @a {"text":"-Use random items and blocks to survive"}
 tellraw @a {"text":"-Knock other players into the void"}
 tellraw @a {"text":"-The last one standing wins"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function pillars:count3 5s

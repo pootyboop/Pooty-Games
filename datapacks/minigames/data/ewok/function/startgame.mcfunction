@@ -15,12 +15,12 @@ scoreboard objectives setdisplay sidebar minigamescore
 title @a title {"text":"King of the Hill","color":"gold"}
 title @a subtitle {"text":"Stay on top of the hill!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"King of the Hill","color":"gold","bold":true}
 tellraw @a {"text":"-Get points by staying on top of the hill"}
 tellraw @a {"text":"-The game ends after 2 minutes"}
 tellraw @a {"text":"-Use knockback to keep other players away"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function ewok:count3 5s
 

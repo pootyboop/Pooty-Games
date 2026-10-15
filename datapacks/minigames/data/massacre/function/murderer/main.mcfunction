@@ -1,0 +1,2 @@
+execute at @a[gamemode=!spectator,tag=murderer,distance=0.1..] run particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~2.2 ~ 0 0 0 0 1 force @s
+#execute at @a[gamemode=!spectator,tag=!murderer,distance=0.1..] run particle dust{color:[0.000,1.000,0.000],scale:1} ~ ~2.2 ~ 0 0 0 0 1 force @s

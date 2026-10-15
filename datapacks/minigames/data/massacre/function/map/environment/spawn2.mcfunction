@@ -1,0 +1,1 @@
+$execute positioned -916.0 56 $(currFrontEdge).0 run function massacre:map/environment/spawn_iterate

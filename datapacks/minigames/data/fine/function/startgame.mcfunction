@@ -23,11 +23,11 @@ bossbar set minecraft:timer players @a
 title @a title {"text":"Fine Dining","color":"#DA7420"}
 title @a subtitle {"text":"Chef up mad flavors!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Fine Dining","color":"#DA7420"}
 tellraw @a {"text":"-Work with your team across the counter to prepare meals"}
 tellraw @a {"text":"-Diners craft, gather from the garden, and serve customers"}
 tellraw @a {"text":"-Chefs cook and grab ingredients from the freezer and pantry"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function fine:start 5s

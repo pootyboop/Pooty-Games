@@ -54,12 +54,12 @@ item replace entity @a[team=blue] armor.feet with leather_boots[dyed_color=55925
 title @a title {"text":"Ham Soccer","color":"gold"}
 title @a subtitle {"text":"Score goals with the pig!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Ham Soccer","color":"gold","bold":true}
 tellraw @a {"text":"-Hit the pig into the other team's goal"}
 tellraw @a {"text":"-The game ends after 2 minutes"}
 tellraw @a {"text":"-The team with the most goals wins"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function hamsoccer:newround 5s
 

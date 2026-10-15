@@ -7165,6 +7165,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-09-22 06:16:29 +0100",
+      "minecraft:snowy_slopes": "2026-10-15 04:59:04 +0100",
       "minecraft:old_growth_pine_taiga": "2024-12-17 19:03:07 +0000",
       "minecraft:mushroom_fields": "2024-12-17 15:49:17 +0000",
       "minecraft:forest": "2024-07-23 02:02:32 +0100",
@@ -7183,6 +7184,7 @@
       "minecraft:old_growth_spruce_taiga": "2025-08-17 13:44:09 +0100",
       "minecraft:snowy_beach": "2024-12-17 15:57:34 +0000",
       "minecraft:wooded_badlands": "2024-12-17 16:22:37 +0000",
+      "minecraft:bamboo_jungle": "2026-10-14 23:24:04 +0100",
       "minecraft:warm_ocean": "2024-09-22 06:16:37 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-12-17 15:19:24 +0000",
       "minecraft:badlands": "2024-12-17 15:48:18 +0000",
@@ -8524,13 +8526,13 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2026-10-14 19:42:26 +0100"
+      "requirement": "2026-10-14 23:33:38 +0100"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2026-10-14 20:00:57 +0100"
+      "requirement": "2026-10-15 02:42:29 +0100"
     },
     "done": true
   },

@@ -46,12 +46,12 @@ tag @a remove witchdead
 tag @a remove needswitch
 title @a title {"text":"Witch Hunt","color":"gold"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Witch Hunt","color":"gold","bold":true}
 tellraw @a {"text":"-Witches win by hiding and surviving for 2 minutes"}
 tellraw @a {"text":"-Hunters win by finding and killing all the witches"}
 tellraw @a {"text":"-Witches can blend in by crouching"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 
 

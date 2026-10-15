@@ -13,12 +13,12 @@ scoreboard objectives setdisplay sidebar
 title @a title {"text":"Chunk Fight","color":"gold"}
 title @a subtitle {"text":"Free for all survival!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Chunk Fight","color":"gold","bold":true}
 tellraw @a {"text":"-Prepare yourself survival-style and defeat other players"}
 tellraw @a {"text":"-Last one standing wins"}
 tellraw @a {"text":"-NOTE: Going through a Nether/End portal will kill you."}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 tellraw @a {"text":"\n\n","color":"dark_gray"}
 

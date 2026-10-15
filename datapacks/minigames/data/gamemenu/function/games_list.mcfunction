@@ -18,6 +18,7 @@ $$(1) goldrush
 $$(1) hamsoccer
 $$(1) hideseek
 $$(1) kinghill
+$$(1) massacre
 $$(1) paulheist
 $$(1) pillars
 $$(1) shopping

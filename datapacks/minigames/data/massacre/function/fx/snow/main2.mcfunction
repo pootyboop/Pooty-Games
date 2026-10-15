@@ -1,0 +1,1 @@
+$execute as @e[limit=3,sort=random,type=area_effect_cloud,tag=massacreSnowSpawner] at @s positioned ~ ~2 ~ run particle minecraft:snowflake ~$(x) ~$(y) ~ ^ ^ ^1000000 0.000002 0 force

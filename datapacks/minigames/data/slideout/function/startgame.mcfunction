@@ -37,14 +37,14 @@ title @a title {"text":"Slideout","color":"gold"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run title @a subtitle {"text":"Gold Points"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run title @a subtitle {"text":"FFA"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run tellraw @a {"text":"Slideout - Gold Points","color":"gold","bold":true}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run tellraw @a {"text":"Slideout - FFA","color":"gold","bold":true}
 tellraw @a {"text":"-Double jump with spacebar, sneak to slide"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run tellraw @a {"text":"-Get points from gold blocks"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run tellraw @a {"text":"-Get points by killing players"}
 tellraw @a {"text":"-Most points wins"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function slideout:count3 5s
 

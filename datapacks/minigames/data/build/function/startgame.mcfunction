@@ -26,12 +26,12 @@ execute unless score dummy roundcount matches 0.. run scoreboard players set dum
 title @a title {"text":"Build Comp","color":"gold"}
 title @a subtitle {"text":"Build the best build!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Build Comp","color":"gold","bold":true}
 tellraw @a {"text":"-Create a theme for other players to build"}
 tellraw @a [{"text":"-The round ends after "},{"score":{"name":"dummy","objective":"buildtime"}},{"text":" minutes"}]
 tellraw @a {"text":"-Players vote on the best builds"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function build:nomovement 4s
 schedule function build:rooms/setup 5s

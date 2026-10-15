@@ -31,12 +31,12 @@ tag @a remove flipping
 title @a title [{"text":"Flip ","color":"dark_purple"},{"text":"Tag","color":"gold"}]
 title @a subtitle {"text":"Flip dimensions and don\'t get tagged!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a [{"text":"Flip ","color":"dark_purple"},{"text":"Tag","color":"gold"}]
 tellraw @a {"text":"-Right Click your item to flip dimensions"}
 tellraw @a {"text":"-Flip dimensions to hide and open doors"}
 tellraw @a {"text":"-Tag others if you\'re it and don\'t get tagged"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function fliptag:newround 5s
 

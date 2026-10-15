@@ -24,7 +24,7 @@ title @a title {"text":"Small World","color":"gold"}
 title @a[team=Giant] subtitle {"text":"Take out the Tinies!"}
 title @a[team=Tiny] subtitle {"text":"Shoot down the Giant!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Small World","color":"gold","bold":true}
 tellraw @a[team=Giant] {"text":"-Use your abilities to take out the Tinies"}
 tellraw @a[team=Giant] {"text":"-The Tinies will try to make a bow to shoot you - watch out!"}
@@ -32,6 +32,6 @@ tellraw @a[team=Giant] {"text":"-Kill all the Tinies to win!"}
 tellraw @a[team=Tiny] {"text":"-Hide from the Giant's attacks"}
 tellraw @a[team=Tiny] {"text":"-Collect coins to get the Giant Slayer bow"}
 tellraw @a[team=Tiny] {"text":"-Shoot down the Giant to win!"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function smallworld:count3 5s

@@ -1,0 +1,2 @@
+function massacre:role/announce {"title":"Doctor","desc":"Your medical skills can make the difference between life and death.","color":"#FF8AF7"}
+item replace entity @s hotbar.8 with phantom_membrane[consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={massacre_item:1b,medical_supplies:1b},item_name='{"color":"#FF8AF7","text":"Medical Supplies"}'] 1

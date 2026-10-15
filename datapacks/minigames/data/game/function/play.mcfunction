@@ -48,6 +48,8 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Hide and 
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"King of the Hill","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function kinghill:startgame"}}
 
+execute if score dummy playercount matches 4.. run tellraw @a {"text":"Massacre on the Nightingale","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function massacre:startgame"}}
+
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Paul Heist","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function paulheist:startgame"}}
 
 execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Prosperous Pillars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pillars:startgame"}}
@@ -80,5 +82,5 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Witch Hun
 tellraw @a {"text":""}
 tellraw @a {"text":"Click any of the games above to play!","color":"white"}
 tellraw @a {"text":""}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":""}

@@ -25,12 +25,12 @@ execute unless score dummy roundcount matches 0.. run scoreboard players set dum
 title @a title {"text":"Room Race","color":"green"}
 title @a subtitle {"text":"Build and complete rooms!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Room Race","color":"green","bold":true}
 tellraw @a {"text":"-Create parkour, a maze, etc. for other players to complete"}
 tellraw @a [{"text":"-The round ends after "},{"score":{"name":"dummy","objective":"roomracetime"}},{"text":" minutes"}]
 tellraw @a {"text":"-Race to finish each room the fastest"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function roomrace:nomovement 4s
 schedule function roomrace:rooms_setup 5s

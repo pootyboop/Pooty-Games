@@ -49,11 +49,11 @@ scoreboard players set @a minigamescore 0
 title @a title {"text":"FPS","color":"gold"}
 title @a subtitle {"text":"Kill other players!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"FPS","color":"gold","bold":true}
 tellraw @a {"text":"-Pick your favorite gun"}
 tellraw @a {"text":"-Get the most kills to win"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 tag @a remove sniper
 

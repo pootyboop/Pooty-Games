@@ -36,7 +36,7 @@ title @a actionbar {"text":""}
 
 
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 function main:endgame_tag with storage minigames:settings currGame
 execute if score dummy dummy matches 0 run tellraw @a {"text":"No Winner","color":"gray"}
 execute if score dummy dummy matches 1 run tellraw @a {"text":"Winner:"}
@@ -46,7 +46,7 @@ execute if entity @a[tag=secondplace] run tellraw @a {"text":"Second Place: "}
 execute if entity @a[tag=secondplace] run tellraw @a {"selector":"@a[tag=secondplace]","color":"gold"}
 execute if entity @a[tag=thirdplace] run tellraw @a {"text":"Third Place: "}
 execute if entity @a[tag=thirdplace] run tellraw @a {"selector":"@a[tag=thirdplace]","color":"yellow"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 tag @n[predicate=pred:dummy] remove playagain
 tellraw @a {"text":""}

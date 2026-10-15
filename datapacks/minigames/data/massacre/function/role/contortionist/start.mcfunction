@@ -1,0 +1,1 @@
+function massacre:role/announce {"title":"Contortionist","desc":"Your slender frame can slip through small openings.","color":"#FFE600"}

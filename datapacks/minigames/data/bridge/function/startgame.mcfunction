@@ -16,11 +16,11 @@ scoreboard players reset dummy roundcount
 title @a title {"text":"Bridge","color":"#373b9f"}
 title @a subtitle {"text":"Cross the bridge to the enemy portal!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Bridge","color":"#373b9f"}
 tellraw @a {"text":"-Jump into the portal in the other team\'s portal to score a point"}
 tellraw @a {"text":"-Use your items to outsmart the other team"}
 tellraw @a {"text":"-First team to 3 points wins"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function bridge:newround 5s

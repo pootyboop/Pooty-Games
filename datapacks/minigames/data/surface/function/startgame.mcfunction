@@ -15,11 +15,11 @@ bossbar set minecraft:timer players @a
 title @a title {"text":"Surface Tension","color":"#345fdc"}
 title @a subtitle {"text":"Keep the ball from other players!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Surface Tension","color":"#345fdc"}
 tellraw @a {"text":"-Use your trident and elytra to navigate the floating water orbs"}
 tellraw @a {"text":"-Steal the ball from a player by attacking"}
 tellraw @a {"text":"-Gain points while holding the ball"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function surface:start 5s

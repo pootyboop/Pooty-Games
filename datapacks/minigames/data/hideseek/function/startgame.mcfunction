@@ -73,12 +73,12 @@ effect give @a weakness 10000 255 true
 scoreboard players set dummy gameID 6
 title @a title {"text":"Hide and Seek","color":"gold"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Hide and Seek","color":"gold","bold":true}
 tellraw @a {"text":"-Hiders win by surviving for 2 minutes"}
 tellraw @a {"text":"-Seekers win by killing all the hiders"}
 tellraw @a {"text":"-Hiders can blend in by crouching"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 
 

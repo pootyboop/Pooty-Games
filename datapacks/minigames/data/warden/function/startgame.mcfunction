@@ -26,13 +26,13 @@ scoreboard objectives setdisplay sidebar
 title @a title {"text":"Warden\'s Dungeon","color":"gold"}
 title @a subtitle {"text":"Hide from the Warden!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Warden\'s Dungeon","color":"gold","bold":true}
 tellraw @a {"text":"-Stay quiet!"}
 tellraw @a {"text":"-Last player standing wins"}
 tellraw @a {"text":"-Watch out for traps"}
 tellraw @a {"text":"-Use your items to distract the Warden"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function warden:count3 5s
 

@@ -25,10 +25,10 @@ function amuse:king_say {"say":"Amuse Me!","sound":"yes"}
 title @a title {"text":"Amuse Me!","color":"gold"}
 title @a subtitle {"text":""}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Amuse Me!","color":"gold","bold":true}
 tellraw @a {"text":"-Complete rapid-fire challenges to amuse the King!"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function amuse:roundover 5s
 function amuse:main

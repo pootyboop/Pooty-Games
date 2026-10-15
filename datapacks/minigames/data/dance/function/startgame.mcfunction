@@ -21,12 +21,12 @@ team join nocollision @a
 title @a title {"text":"Dance of the Block","color":"gold"}
 title @a subtitle {"text":"Stand on the right color!"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Dance of the Block","color":"gold","bold":true}
 tellraw @a {"text":"-Stand on the right color to stay alive"}
 tellraw @a {"text":"-Last one standing wins"}
 tellraw @a {"text":"-Turn off music with the Jukebox/Note Blocks slider in your audio settings"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 schedule function dance:main 5s
 schedule function dance:floor/init 5s

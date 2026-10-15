@@ -23,13 +23,13 @@ scoreboard players set dummy gameID 3
 
 title @a title {"text":"Geokinesis","color":"#FFEAC9"}
 
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 tellraw @a {"text":"Geokinesis","color":"#FFEAC9","bold":true}
 tellraw @a {"text":"-Last player standing wins"}
 tellraw @a {"text":"-Fling (Right Click)"}
 tellraw @a {"text":"-Spike (Sneak on Ground)"}
 tellraw @a {"text":"-Slam (Sneak in Air)"}
-tellraw @a {"text":"----------------------------------------------","color":"dark_gray"}
+function main:descline
 
 
 

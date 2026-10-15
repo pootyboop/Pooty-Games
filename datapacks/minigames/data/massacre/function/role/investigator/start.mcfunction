@@ -1,0 +1,3 @@
+function massacre:role/announce {"title":"Investigator","desc":"Your sharp eye can spot dead bodies' cause of death.","color":"#7154FF"}
+
+item replace entity @s hotbar.8 with spyglass[consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={massacre_item:1b,spyglass:1b},item_name='{"color":"#7154FF","text":"Spyglass"}']
