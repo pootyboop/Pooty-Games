@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=massacreMap,tag=!massacreEnvMover] run function massacre:map/environment/scroll/reset_one

@@ -1,4 +1,4 @@
-schedule clear massacre:map/environment/move
+schedule clear massacre:map/environment/main
 schedule clear massacre:fx/snow/main
 schedule clear massacre:fx/smoke/main
 

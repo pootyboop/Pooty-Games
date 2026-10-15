@@ -13,7 +13,7 @@ setworldspawn -900 60 -279
 spreadplayers -900 -279 2 1 false @a
 execute as @a at @s run tp @s ~ 60 ~
 
-function massacre:map/environment/spawn
+schedule function massacre:map/environment/spawn 5
 
 effect give @a weakness infinite 255 true
 effect give @a resistance infinite 255 true

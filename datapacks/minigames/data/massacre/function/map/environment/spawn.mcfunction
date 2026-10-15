@@ -1,6 +1,6 @@
 scoreboard players set 2 num 2
 
-scoreboard players set massacreEnvIterations dummy 11
+scoreboard players set massacreEnvIterations dummy 12
 
 scoreboard players set massacreEnvChunkSize dummy 32
 
@@ -27,8 +27,14 @@ function massacre:map/environment/spawn2 with storage minigames:temp massacre.en
 execute as @e[tag=massacreEnv] run data modify entity @s teleport_duration set value 0
 
 
+scoreboard objectives add envBase dummy
+execute as @e[type=block_display,tag=massacreMap,tag=!massacreEnvMover] store result score @s envBase run data get entity @s transformation.translation[2] 1000
+scoreboard players set #dist envBase -64000
+scoreboard players set #phase envBase 65
+scoreboard players set #lead envBase -4000
+scoreboard players set #dist envBase -68000
 
-function massacre:map/environment/move
+function massacre:map/environment/main
 
 
 
