@@ -1,0 +1,1 @@
+execute align xyz run summon interaction ~.5 ~ ~.5 {width:1.001f,height:2.001f,response:1b,Tags:["massacreIE","massacreInteraction","massacreDoor"]}

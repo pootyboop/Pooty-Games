@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #minecraft:doors[open=false] run return run function massacre:interaction/door/set_open {"open":"true","sound":"open"}
+function massacre:interaction/door/set_open {"open":"false","sound":"close"}

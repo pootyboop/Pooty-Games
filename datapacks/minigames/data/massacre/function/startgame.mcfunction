@@ -7,9 +7,16 @@ execute positioned -900 60 -300 run function massacre:setup
 gamerule playersSleepingPercentage 200
 gamerule showDeathMessages false
 
+advancement revoke @a only massacre:enter_bed
+function massacre:clear_tags
+
 scoreboard players set @a died 0
 scoreboard objectives remove massacreRoleID
 scoreboard objectives add massacreRoleID dummy
+scoreboard objectives remove massacreRoomID
+scoreboard objectives add massacreRoomID dummy
+scoreboard objectives remove massacreSleepTime
+scoreboard objectives add massacreSleepTime dummy
 scoreboard objectives add massacreDay dummy
 scoreboard players set dummy massacreDay 0
 scoreboard objectives add massacreNight dummy

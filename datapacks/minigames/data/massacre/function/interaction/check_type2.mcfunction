@@ -1,0 +1,1 @@
+execute if entity @s[tag=massacreDoor] run return run function massacre:interaction/door/check

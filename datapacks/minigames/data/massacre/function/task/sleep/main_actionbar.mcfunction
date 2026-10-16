@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"Getting some rest... ($(time)s)","color":"gray"}

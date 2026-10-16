@@ -1,0 +1,1 @@
+kill @n[type=minecraft:interaction,tag=massacreBlocker,distance=..4]

@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.7 with trial_key[item_name='{"color":"#FFE3E3","text":"Suite 0$(roomID) Key"}',custom_data={massacre_item:1b,keyID:$(roomID)}] 1

@@ -9,6 +9,8 @@ forceload add -912 -100 -881 -500
 #bossbar set minecraft:timer value 1200
 scoreboard players set dummy minigametimer 2400
 
+function massacre:interaction/door/lock_all
+
 setworldspawn -900 60 -279
 spreadplayers -900 -279 2 1 false @a
 execute as @a at @s run tp @s ~ 60 ~

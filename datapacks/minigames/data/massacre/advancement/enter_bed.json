@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "rewards": {
+        "function": "massacre:task/sleep/start"
+    }
+}

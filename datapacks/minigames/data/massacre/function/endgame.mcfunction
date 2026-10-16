@@ -7,8 +7,7 @@ schedule clear massacre:fx/motif/you_are
 
 schedule function massacre:map/environment/kill 4.9s
 
-tag @a remove murderer
-tag @a remove outsideTrain
+function massacre:clear_tags
 
 function main:score_places
 function main:endgame

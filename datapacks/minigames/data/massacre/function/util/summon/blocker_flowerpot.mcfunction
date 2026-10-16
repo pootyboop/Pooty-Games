@@ -1,0 +1,1 @@
+function massacre:util/summon/blocker {"xz":.41,"y":.41}
