@@ -1,18 +1,20 @@
 gamemode spectator @s
 scoreboard players set @s died 0
 
+title @s times 0 50 10
 title @s title {"text":"DEAD","color":"red"}
-title @s subtitle {"text":""}
 
 particle block{block_state:"minecraft:redstone_block"} ~ ~1 ~ .2 .4 .2 0 10
 execute at @s run playsound minecraft:entity.horse.death master @s ~ ~ ~ .2 1.7 .2
-execute at @s run playsound minecraft:entity.horse.death master @s ~ ~ ~ .7 .6 .7
+execute at @s run playsound minecraft:entity.horse.death master @s ~ ~ ~ .5 .6 .5
 execute at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ .6 2 .6
 execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ .8 0.8 .8
+
+effect clear @s weakness
 
 effect give @s blindness 2 0 true
 effect clear @s slowness
 effect give @s slowness 1 4 true
 
-execute unless entity @s[tag=diedByFall] at @s run function massacre:player/body
+execute unless entity @s[tag=diedByFall] at @s run function massacre:player/dmgkill/body
 tag @s remove diedByFall

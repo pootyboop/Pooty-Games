@@ -1,4 +1,6 @@
+gamerule sendCommandFeedback false
 function main:gamesetup {"tag":"massacre"}
+gamerule sendCommandFeedback false
 
 scoreboard players set dummy gameID 29
 
@@ -24,6 +26,8 @@ scoreboard players set dummy massacreNight 0
 scoreboard players operation remainingDays dummy = dummy playercount
 execute unless score dummy playercount matches ..1 run scoreboard players remove remainingDays dummy 1
 
+execute as @a run function massacre:interaction/rc/stop
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 #scoreboard objectives modify minigamescore displayname {"text":"Time on Hill","color":"gold"}
@@ -32,11 +36,17 @@ scoreboard objectives add minigamescore dummy
 scoreboard objectives setdisplay sidebar
 
 title @a times 40 60 40
-title @a title {"text":"Massacre","color":"#ff6868","shadow_color":-13762560}
+function massacre:fx/title/typewriter/start {text:"Massacre","color":"#ff6868","mode":"title"}
+#title @a title {"text":"Massacre","color":"#ff6868","shadow_color":-13762560}
 title @a subtitle ""
+title @a actionbar ""
+
 schedule function massacre:fx/motif/intro_subtitle 2s
 
-effect give @a blindness 3 0 true
+effect give @a blindness 5 0 true
+effect give @a darkness 8 0 true
+schedule function massacre:fx/motif/you_are 8s
+
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .5 1
 #execute as @a at @s run playsound minecraft:block.beehive.shear master @s ~ ~ ~ 1 .5 1
 execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ .7 2 .7
@@ -44,12 +54,11 @@ execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ 
 
 execute as @a at @s run playsound minecraft:entity.wither.shoot master @s ~ ~ ~ .3 0 .3
 
-function main:descline
-tellraw @a {"text":"Massacre on the Nightingale","color":"red","bold":true}
-tellraw @a {"text":"-One passenger aboard this train is a murderer"}
-tellraw @a {"text":"-Survive the ride and complete tasks"}
-tellraw @a {"text":"-Vote out the murderer when you suspect who they are"}
-function main:descline
+#function main:descline
+#tellraw @a {"text":"Massacre on the Nightingale","color":"red","bold":true}
+#tellraw @a {"text":"-One passenger aboard this train is a murderer"}
+#tellraw @a {"text":"-Survive the ride and stay healthy"}
+#tellraw @a {"text":"-Vote out the murderer when you suspect who they are"}
+#function main:descline
 
-schedule function massacre:fx/motif/you_are 7s
-schedule function massacre:start 11s
+function massacre:main

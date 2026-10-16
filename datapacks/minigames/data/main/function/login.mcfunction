@@ -11,7 +11,9 @@ execute store result score @s uuid2 run data get entity @s UUID[2]
 execute store result score @s uuid3 run data get entity @s UUID[3]
 
 team leave @s
+gamerule sendCommandFeedback false
 gamemode adventure
+gamerule sendCommandFeedback true
 effect give @s blindness 1 0 true
 title @s title {"text":"Pooty Games"}
 title @s subtitle [{"text":"Welcome, ","color":"gray"},{"selector":"@s","color":"gold"},{"text":"!","color":"gray"}]

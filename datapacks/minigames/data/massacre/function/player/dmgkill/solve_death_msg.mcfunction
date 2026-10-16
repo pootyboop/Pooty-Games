@@ -1,0 +1,3 @@
+execute unless entity @p[tag=killer] run return run title @s subtitle {"text":"Killed by unknown forces.","color":"gray"}
+execute if entity @s[tag=killer] run return run title @s subtitle {"text":"Killed by your own hand.","color":"gray"}
+execute unless entity @s[tag=killer] run return run title @s subtitle [{"text":"Killed by","color":"gray"},{"selector":"@p[tag=killer]"},{"text":".","color":"gray"}]

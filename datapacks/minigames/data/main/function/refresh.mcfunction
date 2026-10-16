@@ -1,3 +1,4 @@
+gamerule sendCommandFeedback false
 clear @a
 xp set @a 0
 xp set @a 0 levels

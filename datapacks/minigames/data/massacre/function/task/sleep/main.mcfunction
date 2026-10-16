@@ -1,6 +1,6 @@
 execute store result score #sleep dummy run data get entity @s SleepTimer
 
-execute if score #sleep dummy matches 1.. run tag @s add bedConfirmed
+execute if score #sleep dummy matches 1.. run function massacre:task/sleep/bed_confirmed
 execute unless entity @s[tag=bedConfirmed] run return 0
 
 scoreboard players add @s massacreSleepTime 1

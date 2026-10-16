@@ -5,4 +5,6 @@ tag @s remove bedConfirmed
 effect clear @s blindness
 effect clear @s darkness
 
-$title @s actionbar {"text":"Rested for $(time) seconds."}
+title @s times 0 30 10
+title @s title ""
+$title @s subtitle {"text":"Rested for $(time) seconds."}

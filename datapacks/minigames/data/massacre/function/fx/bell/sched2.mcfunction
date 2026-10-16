@@ -1,0 +1,1 @@
+$schedule function massacre:fx/bell/play $(time)s

@@ -1,5 +1,5 @@
 playsound minecraft:block.chest.locked master @a ~ ~ ~ 1 2
 
-title @s times 0 15 10
+function massacre:fx/title/times_quick
 title @s title ""
-title @s subtitle {"text":"It's locked.","color":"gray"}
+title @s subtitle {"text":"🔒","color":"gray"}
