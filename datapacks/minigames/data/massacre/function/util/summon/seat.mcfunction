@@ -1,0 +1,1 @@
+execute align xyz run summon interaction ~.5 ~ ~.5 {width:1.001f,height:.501f,response:1b,Tags:["massacreIE","massacreSeat","seat","dontkill"]}

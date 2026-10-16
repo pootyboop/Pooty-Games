@@ -4,7 +4,7 @@ tag @s remove respawn
 title @s title {"text":"Respawned!"}
 title @s subtitle {"text":""}
 title @s actionbar {"text":""}
-gamemode adventure @s
+function main:set_gamemode_silent {"gm":"adventure"}
 
 
 scoreboard players remove @s[scores={tierPick=2..}] tierPick 1

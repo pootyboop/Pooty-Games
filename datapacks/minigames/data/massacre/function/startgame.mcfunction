@@ -1,6 +1,4 @@
-gamerule sendCommandFeedback false
 function main:gamesetup {"tag":"massacre"}
-gamerule sendCommandFeedback false
 
 scoreboard players set dummy gameID 29
 
@@ -10,15 +8,35 @@ gamerule playersSleepingPercentage 200
 gamerule showDeathMessages false
 
 advancement revoke @a only massacre:enter_bed
-function massacre:clear_tags
+function massacre:clear_tags_and_advancements
 
 scoreboard players set @a died 0
 scoreboard objectives remove massacreRoleID
 scoreboard objectives add massacreRoleID dummy
 scoreboard objectives remove massacreRoomID
 scoreboard objectives add massacreRoomID dummy
+scoreboard objectives remove massacreTaskID
+scoreboard objectives add massacreTaskID dummy
+scoreboard players set @a massacreTaskID -1
+scoreboard objectives remove massacreLastTaskID
+scoreboard objectives add massacreLastTaskID dummy
+scoreboard players set @a massacreLastTaskID -1
+
+
+scoreboard objectives remove massacreTaskTimer
+scoreboard objectives add massacreTaskTimer dummy
+scoreboard players set @a massacreTaskTimer -1
+scoreboard objectives remove massacreHealthDownTimer
+scoreboard objectives add massacreHealthDownTimer dummy
+scoreboard players set @a massacreHealthDownTimer 0
+scoreboard objectives remove massacreTaskProgress
+scoreboard objectives add massacreTaskProgress dummy
+
 scoreboard objectives remove massacreSleepTime
 scoreboard objectives add massacreSleepTime dummy
+scoreboard objectives remove massacreRestCount
+scoreboard objectives add massacreRestCount dummy
+
 scoreboard objectives add massacreDay dummy
 scoreboard players set dummy massacreDay 0
 scoreboard objectives add massacreNight dummy
@@ -35,17 +53,19 @@ scoreboard objectives add minigamescore dummy
 #scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives setdisplay sidebar
 
-title @a times 40 60 40
-function massacre:fx/title/typewriter/start {text:"Massacre","color":"#ff6868","mode":"title"}
-#title @a title {"text":"Massacre","color":"#ff6868","shadow_color":-13762560}
+
+
+#---------------------------------------------------------------------------#
+
+title @a title ""
 title @a subtitle ""
 title @a actionbar ""
 
-schedule function massacre:fx/motif/intro_subtitle 2s
+title @a times 0 115 5
+function main:typewriter/start {text:"Massacre","color":"#FF6868","edgeColor":"#A63030","mode":"title"}
 
-effect give @a blindness 5 0 true
-effect give @a darkness 8 0 true
-schedule function massacre:fx/motif/you_are 8s
+#title @a times 40 60 40
+#title @a title {"text":"Massacre","color":"#ff6868","shadow_color":-13762560}
 
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .5 1
 #execute as @a at @s run playsound minecraft:block.beehive.shear master @s ~ ~ ~ 1 .5 1
@@ -53,6 +73,20 @@ execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ 
 execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ .7 1.8 .7
 
 execute as @a at @s run playsound minecraft:entity.wither.shoot master @s ~ ~ ~ .3 0 .3
+
+
+
+schedule function massacre:intro/on_the_nightingale 2s
+
+
+
+schedule function massacre:intro/you_are 8s
+effect give @a blindness 5 0 true
+effect give @a darkness 8 0 true
+
+#---------------------------------------------------------------------------#
+
+
 
 #function main:descline
 #tellraw @a {"text":"Massacre on the Nightingale","color":"red","bold":true}

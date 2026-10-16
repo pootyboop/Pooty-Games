@@ -1,0 +1,6 @@
+execute store result score inv dummy run clear @s *[custom_data~{massacreBook:1b}] 0
+execute if score inv dummy matches 1.. run return run function massacre:fx/title/already_holding {"text":"You already have a book to read."}
+
+$execute unless data entity @s SelectedItem run return run item replace entity @s weapon.mainhand with book[minecraft:food={nutrition:4,saturation:2.4f,can_always_eat:true},minecraft:consumable={consume_seconds:3,animation:"block",sound:"item.book.page_turn",has_consume_particles:true,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.villager.yes"}]},custom_data={massacreBook:1b},max_stack_size=1,item_name='"$(name)"']
+
+$give @s book[minecraft:food={nutrition:4,saturation:2.4f,can_always_eat:true},minecraft:consumable={consume_seconds:3,animation:"block",sound:"item.book.page_turn",has_consume_particles:true,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.villager.yes"}]},custom_data={massacreBook:1b},max_stack_size=1,item_name='"$(name)"']

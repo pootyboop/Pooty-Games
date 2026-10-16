@@ -7,4 +7,7 @@ effect clear @s darkness
 
 title @s times 0 30 10
 title @s title ""
-$title @s subtitle {"text":"Rested for $(time) seconds."}
+title @s subtitle ""
+#$title @s subtitle {"text":"Rested for $(time) seconds."}
+
+execute if predicate massacre:task/rest run function massacre:player/dmgkill/healthdown_restart

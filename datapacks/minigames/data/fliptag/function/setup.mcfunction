@@ -1,4 +1,4 @@
-gamemode adventure @a[tag=!out]
+execute as @a[tag=!out] run function main:set_gamemode_silent {"gm":"adventure"}
 
 tp @a -319 110 -604 facing -318 110 -604
 clear @a

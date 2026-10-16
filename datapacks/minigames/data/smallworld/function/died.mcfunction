@@ -1,5 +1,5 @@
 scoreboard players reset @s died
-gamemode spectator
+function main:set_gamemode_silent {"gm":"spectator"}
 clear @s
 effect clear @s slowness
 function main:reset_attributes

@@ -1,6 +1,6 @@
 execute if block -600 62 606 minecraft:polished_blackstone_button[powered=true] run function trials:trap with storage minigames:temp trial
 
-function main:seat
+function main:seat/main
 
 # unless entity @a[tag=prepping]
 execute if entity @a[tag=trialing] run function trials:main_level with storage minigames:temp trial

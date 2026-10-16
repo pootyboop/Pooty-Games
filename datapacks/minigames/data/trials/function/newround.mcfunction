@@ -2,7 +2,7 @@ playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 
 execute as @r[tag=!played] at @s run function trials:trialing
 
-function main:seat_resetall
+function main:seat/reset_all
 
 function trials:newroom
 

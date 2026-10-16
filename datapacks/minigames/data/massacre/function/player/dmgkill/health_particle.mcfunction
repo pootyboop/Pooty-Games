@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^1 run particle heart ~ ~ ~ 0 0 0 0 1 force @s

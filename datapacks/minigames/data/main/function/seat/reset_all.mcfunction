@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=seat,nbt={interaction:{}}] run data remove entity @s interaction

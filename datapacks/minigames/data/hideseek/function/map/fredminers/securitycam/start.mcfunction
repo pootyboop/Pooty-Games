@@ -1,6 +1,6 @@
 execute unless entity @n[type=area_effect_cloud,tag=fredminersSC] run summon area_effect_cloud -1776 66 280 {Tags:["fredminersSC"],Duration:2147483647,PersistenceRequired:1b}
 tag @s add infredminersSC
-gamemode spectator @s
+function main:set_gamemode_silent {"gm":"spectator"}
 ride @s mount @n[type=area_effect_cloud,tag=fredminersSC]
 
 effect give @s blindness 1 0 true

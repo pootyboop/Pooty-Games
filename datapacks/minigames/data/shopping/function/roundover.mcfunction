@@ -2,7 +2,7 @@ schedule clear shopping:main
 
 tag @a[tag=passed] remove passed
 clear @a
-gamemode spectator @a
+execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 
 title @a title {"text":""}
 title @a subtitle {"text":"Round Over!"}

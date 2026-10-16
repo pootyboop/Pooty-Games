@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{attributes:[{id:\"minecraft:max_health\",base:20.0d}]}"
+  }
+}

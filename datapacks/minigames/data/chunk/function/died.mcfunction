@@ -1,5 +1,5 @@
 scoreboard players reset @s died
-gamemode spectator
+function main:set_gamemode_silent {"gm":"spectator"}
 clear @s
 
 execute at @s run scoreboard players add @a[gamemode=!spectator,distance=0.1..] minigamescore 1

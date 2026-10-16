@@ -1,0 +1,2 @@
+$data modify storage minigames:temp massacre.hp.red set string storage minigames:temp massacre.hp.full 0 $(red)
+$data modify storage minigames:temp massacre.hp.gray set string storage minigames:temp massacre.hp.full 0 $(gray)

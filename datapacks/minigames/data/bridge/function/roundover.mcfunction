@@ -3,7 +3,7 @@ schedule clear bridge:main
 tp @a 600 60 600
 
 clear @a
-gamemode spectator @a
+execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 
 title @a title {"text":"Round Over!"}
 execute if entity @s[team=Red] run title @a subtitle [{"text":"Red","color":"red"},{"text":" scored!","color":"white"}]

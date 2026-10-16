@@ -12,4 +12,4 @@ execute on attacker run tag @s add currKiller
 function massacre:player/dmgkill/kill
 function massacre:player/dmgkill/solve_death_msg
 
-tag @p[tag=killer] remove currKiller
+tag @p[tag=currKiller] remove currKiller

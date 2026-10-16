@@ -1,6 +1,6 @@
 schedule clear build:main
 
-gamemode spectator @a
+execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 
 bossbar set minecraft:timer players
 

@@ -6,8 +6,7 @@ playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 
 
 tag @a remove starting
-
-gamemode adventure @a
+execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
 
 
 

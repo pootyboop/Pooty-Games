@@ -11,4 +11,4 @@ tag @s add passed
 playsound entity.villager.celebrate master @s ~ ~ ~ 1 1.2 1
 
 clear @s
-gamemode spectator
+function main:set_gamemode_silent {"gm":"spectator"}

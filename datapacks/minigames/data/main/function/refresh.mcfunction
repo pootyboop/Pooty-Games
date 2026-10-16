@@ -5,7 +5,7 @@ xp set @a 0 levels
 effect clear @a
 gamemode adventure @a
 team leave @a[team=piglin]
-function main:seat_resetall
+function main:seat/reset_all
 
 function main:playercount
 function main:pnum

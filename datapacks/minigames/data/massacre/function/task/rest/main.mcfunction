@@ -1,0 +1,2 @@
+execute if score @s massacreRestCount matches 30.. run return run function massacre:task/rest/reward
+execute if score @s massacreRestCount matches 10.. if predicate massacre:max_health run return run function massacre:task/rest/reward

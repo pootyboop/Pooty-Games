@@ -3,6 +3,8 @@ execute as @a at @s run tp @s -600 60 0 facing -600 60 0
 
 kill @e[type=item,distance=..30]
 
+execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
+
 setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~
 #fill -612 60 12 -588 64 -12 air

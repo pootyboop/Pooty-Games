@@ -1,0 +1,1 @@
+$title @a $(mode) {"storage":"minigames:temp","nbt":"text","color":"$(color)","shadow_color":-13762560}

@@ -1,5 +1,5 @@
 scoreboard players remove Thieves minigamescore 1
-gamemode spectator
+function main:set_gamemode_silent {"gm":"spectator"}
 execute if data entity @s Inventory[{"id":"minecraft:pufferfish"}] run function paulheist:paul_return
 clear @s
 xp set @s 0

@@ -12,4 +12,7 @@ execute as @r at @s run function massacre:murderer/generate
 function massacre:role/generate
 function massacre:room/generate
 
+schedule function massacre:task/generate_all 12s
+schedule function massacre:task/generate_murderer 40s
+
 execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ .8 0 .8

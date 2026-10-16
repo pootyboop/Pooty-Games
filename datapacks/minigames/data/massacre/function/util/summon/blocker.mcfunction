@@ -1,1 +1,1 @@
-$execute align xyz run summon interaction ~.5 ~ ~.5 {width:$(xz)f,height:$(y)f,response:1b,Tags:["massacreIE","massacreBlocker"]}
+$execute align xyz run summon interaction ~.5 ~ ~.5 {width:$(xz)f,height:$(y)f,response:1b,Tags:["massacreIE","massacreBlocker","dontkill"]}

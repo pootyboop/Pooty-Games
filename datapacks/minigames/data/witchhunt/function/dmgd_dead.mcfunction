@@ -2,7 +2,7 @@ playsound minecraft:entity.witch.death master @a ~ ~ ~ 1 1 .7
 tag @s add witchdead
 tag @s remove dmgd
 
-gamemode spectator @s
+function main:set_gamemode_silent {"gm":"spectator"}
 
 execute positioned ~ ~-6 ~ as @n[tag=witchchar] at @s run function witchhunt:killwitchchar
 

@@ -1,4 +1,4 @@
-title @s[tag=murderer] title {"text":"Everyone"}
+title @s[predicate=massacre:is_murderer] title {"text":"Everyone"}
 title @s[tag=!murderer] title {"text":"Everyone else"}
 title @s subtitle [{"text":"is a ","color":"white"},{"text":"Murderer","color":"red"}]
 

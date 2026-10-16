@@ -1,7 +1,7 @@
 execute as @a run function spawn:player
 
 execute as @n[type=interaction,tag=slippyseat] at @n[type=slime,tag=slippy] run tp @s ~ ~.51 ~
-function main:seat
+function main:seat/main
 
 execute as @n[type=minecraft:item_display,tag=gamemenuitem] at @s run rotate @s ~2 ~
 

@@ -69,7 +69,7 @@ team empty Blue
 
 fill 9999 58 -1 10001 60 1 air
 tp @a[tag=winner] 10000 58 0 90 0
-gamemode adventure @a[tag=winner]
+execute as @a[tag=winner] run function main:set_gamemode_silent {"gm":"adventure"}
 tp @a[gamemode=spectator] 9994 59 0 -90 0
 
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}

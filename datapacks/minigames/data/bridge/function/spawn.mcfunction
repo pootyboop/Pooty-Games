@@ -1,5 +1,5 @@
 clear @s
-gamemode adventure
+function main:set_gamemode_silent {"gm":"adventure"}
 effect give @s regeneration 2 255 true
 
 give @s iron_sword[unbreakable={show_in_tooltip:false}]

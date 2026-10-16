@@ -1,7 +1,7 @@
 function goldrush:grave
 
 clear @s
-gamemode spectator @s
+function main:set_gamemode_silent {"gm":"spectator"}
 effect give @s blindness 3 0 true
 title @s title {"text":"DEAD","color":"red"}
 tag @s add died

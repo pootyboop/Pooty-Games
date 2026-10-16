@@ -2,7 +2,7 @@ tp @a[tag=trialing] -600 61 609 180 0
 
 clear @a
 effect clear @a
-gamemode adventure @a
+execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
 effect give @a weakness infinite 255 true
 
 #effect give @a instant_health 1 3 true

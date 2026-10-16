@@ -6,7 +6,7 @@ tellraw @a {"text":"Place the sign on the white wool and write a build theme on 
 tellraw @a {"text":"Right click the sign to change your theme."}
 tellraw @a {"text":"Click here when finished.","color":"aqua","clickEvent":{"action":"run_command","value":"/function build:topic/done/check"}}
 
-gamemode survival @a
+execute as @a run function main:set_gamemode_silent {"gm":"survival"}
 
 kill @e[type=area_effect_cloud,tag=room]
 

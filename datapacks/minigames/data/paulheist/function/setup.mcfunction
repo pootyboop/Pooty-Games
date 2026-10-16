@@ -12,7 +12,7 @@ execute if function map:if_call run function paulheist:setup_map2
 
 function paulheist:paul_spawn
 
-gamemode spectator @a
+execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 function paulheist:observepaul
 
 effect give @a resistance 10000 255 true

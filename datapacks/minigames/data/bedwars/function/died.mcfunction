@@ -9,8 +9,7 @@ clear @s
 function bedwars:armor
 
 
-gamemode spectator
-
+function main:set_gamemode_silent {"gm":"spectator"}
 tp @s 10000 100 0
 
 title @s title {"text":"Dead!","color":"gray"}

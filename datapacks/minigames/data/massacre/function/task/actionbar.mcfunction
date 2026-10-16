@@ -1,0 +1,2 @@
+$title @s[predicate=massacre:is_murderer] actionbar [{"text":"[Fake Task] ","color":"gray"},{"text":"$(text)","color":"red"}]
+$title @s[tag=!murderer] actionbar [{"text":"[Task] ","color":"gray"},{"text":"$(text)","color":"yellow"}]

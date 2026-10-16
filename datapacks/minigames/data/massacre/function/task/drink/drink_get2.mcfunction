@@ -1,0 +1,6 @@
+execute store result score inv dummy run clear @s *[custom_data~{massacreDrink:1b}] 0
+execute if score inv dummy matches 1.. run return run function massacre:fx/title/already_holding {"text":"You already have a drink."}
+
+$execute unless data entity @s SelectedItem run return run item replace entity @s weapon.mainhand with $(item)[minecraft:food={nutrition:4,saturation:2.4f,can_always_eat:true},consumable={sound:"entity.generic.drink",has_consume_particles:false},custom_data={massacreDrink:1b},max_stack_size=1,item_name='"$(name)"',custom_name='{"color":"white","italic":false,"text":"$(name)"}',!minecraft:ominous_bottle_amplifier,!minecraft:use_remainder]
+
+$give @s $(item)[minecraft:food={nutrition:4,saturation:2.4f,can_always_eat:true},consumable={sound:"entity.generic.drink",has_consume_particles:false},custom_data={massacreDrink:1b},max_stack_size=1,item_name='"$(name)"',custom_name='{"color":"white","italic":false,"text":"$(name)"}',!minecraft:ominous_bottle_amplifier,!minecraft:use_remainder]

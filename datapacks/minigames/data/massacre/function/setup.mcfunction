@@ -26,5 +26,5 @@ effect give @a slowness infinite 1 true
 execute as @a run attribute @s minecraft:jump_strength base set 0
 
 
-function massacre:enter_intro_shot_waiting
-schedule function massacre:enter_intro_shot 2s
+function massacre:intro/intro_shot_waiting
+schedule function massacre:intro/intro_shot 2s

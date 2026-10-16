@@ -1,5 +1,5 @@
 scoreboard players set @s died 2
-gamemode spectator @s
+function main:set_gamemode_silent {"gm":"spectator"}
 
 tellraw @a [{"text":"☠ ","color":"gray"},{"selector":"@s","color":"white"},{"text":" got rocked","color":"white"}]
 playsound minecraft:entity.generic.death master @a ~ ~ ~ 1 0 1

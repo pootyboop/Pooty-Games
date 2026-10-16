@@ -17,12 +17,12 @@ xp set @a 0 levels
 effect clear @a
 execute as @a run function main:reset_attributes
 team leave @a
-gamemode spectator @a
+execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 
 execute as @e[type=marker] at @s unless data entity @s Tags run kill @s
 
 function main:worldborder/freeze
-
+function main:typewriter/clear_sched
 
 
 scoreboard players set dummy dummy 0
