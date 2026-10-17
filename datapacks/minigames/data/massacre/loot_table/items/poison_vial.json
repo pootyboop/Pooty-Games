@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "custom_name",
+                            "name": {
+                                "text": "Poison Vial",
+                                "color": "#00FF44",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Poisons",
+                                    "color": "#00FF44",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": " the next player",
+                                            "color": "white",
+                                            "italic": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "who eats/drinks from",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "the poisoned source.",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 65348
+                                },
+                                "minecraft:hide_additional_tooltip": {},
+                                "!minecraft:consumable": {},
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "massacre_item": true,
+                                    "massacre_poison": true,
+                                    "itemID": "poison_vial"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

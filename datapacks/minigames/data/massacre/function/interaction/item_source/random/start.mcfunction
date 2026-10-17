@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=massacreRandomItemSource] at @s run function massacre:interaction/item_source/random/generate

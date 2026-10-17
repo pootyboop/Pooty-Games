@@ -4,6 +4,7 @@ execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .5 
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .7 1
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .9 1
 #execute as @a at @s run playsound minecraft:entity.wither.ambient master @s ~ ~ ~ .3 0 .3
-#effect clear @a blindness
+effect clear @a blindness
+effect give @a blindness 1 0 true
 
 function massacre:fx/horn/2

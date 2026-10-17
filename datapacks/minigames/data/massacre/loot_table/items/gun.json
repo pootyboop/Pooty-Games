@@ -1,0 +1,79 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_horse_armor",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "custom_name",
+                            "name": {
+                                "text": "Gun",
+                                "color": "#5C8DFF",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Kills the shot player.",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Shoot a ",
+                                    "color": "white",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "Civilian",
+                                            "color": "green",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " and",
+                                            "color": "white",
+                                            "italic": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "you'll lose it.",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [],
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "sound": "minecraft:entity.turtle.shamble_baby",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "massacre_item": true,
+                                    "rc": true,
+                                    "gun": true,
+                                    "itemID": "gun"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

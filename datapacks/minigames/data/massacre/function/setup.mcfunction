@@ -1,6 +1,7 @@
 kill @e[type=item,distance=..30]
 time set 18000
 weather rain 99999999
+gamerule spectatorsGenerateChunks true
 
 forceload add -912 -100 -881 -500
 
@@ -13,6 +14,7 @@ setblock -900 61 -269 barrier
 scoreboard players set dummy minigametimer 2400
 
 function massacre:interaction/door/lock_all
+function massacre:interaction/item_source/random/start
 
 setworldspawn -900 60 -279
 

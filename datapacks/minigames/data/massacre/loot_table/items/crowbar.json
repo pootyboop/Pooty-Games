@@ -1,0 +1,57 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:breeze_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "custom_name",
+                            "name": {
+                                "text": "Crowbar",
+                                "color": "#96C0FF",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Permanently forces open",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "any lockable door on the",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "train, then breaks.",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "massacre_item": true,
+                                    "keyID": -1,
+                                    "crowbar": true,
+                                    "itemID": "crowbar"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

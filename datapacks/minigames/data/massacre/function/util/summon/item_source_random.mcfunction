@@ -1,0 +1,1 @@
+execute align xyz run summon interaction ~.5 ~ ~.5 {width:1f,height:.5f,response:1b,Tags:["massacreIE","massacreInteraction","massacreItemSource","massacreRandomItemSource","itemTaken","dontkill"]}

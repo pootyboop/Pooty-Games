@@ -20,6 +20,8 @@ execute as @a run function massacre:fx/train_sounds/outside/loop_stop_audio
 schedule clear massacre:fx/train_sounds/outside/wind
 
 
+kill @e[type=item_display,tag=massacreItemDisplay]
+
 
 execute as @e[tag=massacreEnvMover] run function massacre:map/environment/kill2
 kill @e[tag=massacreEnv]

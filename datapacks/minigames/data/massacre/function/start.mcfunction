@@ -1,9 +1,12 @@
 execute as @a run function main:jumpheight_reset
-
 setblock -900 61 -281 air
 setblock -900 61 -269 air
 
 kill @e[type=area_effect_cloud,tag=massacreIntroSpectate]
+
+#function massacre:map/environment/fish
+
+
 
 title @a times 0 70 20
 

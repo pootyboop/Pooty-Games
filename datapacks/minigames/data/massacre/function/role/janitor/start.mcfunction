@@ -1,3 +1,3 @@
 function massacre:role/announce {"title":"Janitor","desc":"Your master key allows you into any room on the train.","color":"#FFB082"}
 
-item replace entity @s hotbar.8 with ominous_trial_key[custom_data={massacre_item:1b,keyID:-1},item_name='{"color":"#FFB082","text":"Master Key"}',lore=['{"color":"white","italic":false,"text":"Locks/unlocks any"}','{"color":"white","italic":false,"text":"door on the train."}']]
+loot replace entity @s hotbar.8 loot massacre:items/master_key

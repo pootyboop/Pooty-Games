@@ -36,6 +36,7 @@ scoreboard players set #dist envBase -68000
 
 function massacre:map/environment/main
 
+function massacre:map/environment/fish
 
 
 # Environment FX

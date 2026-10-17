@@ -6,5 +6,6 @@ execute if entity @s[tag=massacreFoodFruit] on target at @s run function massacr
 execute if entity @s[tag=massacreFoodMeat] on target at @s run function massacre:task/eat/food_get_meat
 execute if entity @s[tag=massacreDrink] on target at @s run function massacre:task/drink/drink_get
 execute if entity @s[tag=massacreBook] on target at @s run function massacre:task/read/book_get
+execute if entity @s[tag=massacreRandomItemSource,tag=!itemTaken] run function massacre:interaction/item_source/random/pickup
 
 tag @s remove currItemSource

@@ -1,3 +1,3 @@
 function massacre:role/announce {"title":"Officer","desc":"Your gun can end lives, but shoot a civilian and you'll lose it.","color":"#5C8DFF"}
 
-item replace entity @s hotbar.8 with iron_horse_armor[consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={massacre_item:1b,gun:1b,rc:1b},item_name='{"color":"#5C8DFF","text":"Gun"}',attribute_modifiers={modifiers:[{id:"armor",type:"armor",amount:0,operation:"add_multiplied_base"}],show_in_tooltip:false},use_cooldown={seconds:10},lore=['{"color":"white","italic":false,"text":"Kills the shot player."}','[{"color":"white","italic":false,"text":"Shoot a "},{"color":"green","italic":false,"text":"Civilian"},{"color":"white","italic":false,"text":" and"}]','{"color":"white","italic":false,"text":"you\'ll lose it."}']]
+loot replace entity @s hotbar.8 loot massacre:items/gun
