@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "ate": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{massacreFoodFruit:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "massacre:task/eat/consume_fruit"
+    }
+}

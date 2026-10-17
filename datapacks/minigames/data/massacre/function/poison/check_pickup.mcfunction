@@ -1,0 +1,1 @@
+$execute if entity @n[type=interaction,tag=currItemSource,tag=massacrePoisonedSource] run function massacre:poison/pickup {"type":"$(type)"}

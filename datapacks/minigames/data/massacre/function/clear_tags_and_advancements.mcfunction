@@ -9,3 +9,5 @@ tag @a remove inBed
 tag @a remove justStartedSleeping
 tag @a remove bedConfirmed
 tag @a remove orbGuaranteed
+
+execute as @a run function massacre:poison/clear_tags

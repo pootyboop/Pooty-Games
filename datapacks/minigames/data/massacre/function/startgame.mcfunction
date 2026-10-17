@@ -36,6 +36,9 @@ scoreboard objectives remove massacreSleepTime
 scoreboard objectives add massacreSleepTime dummy
 scoreboard objectives remove massacreRestCount
 scoreboard objectives add massacreRestCount dummy
+scoreboard objectives remove massacrePoisonTimer
+scoreboard objectives add massacrePoisonTimer dummy
+scoreboard players set @a massacrePoisonTimer -1
 
 scoreboard objectives add massacreDay dummy
 scoreboard players set dummy massacreDay 0

@@ -5,13 +5,13 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": "{massacreFood:1b}"
+                        "minecraft:custom_data": "{massacreFoodMeat:1b}"
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "massacre:task/eat/consume"
+        "function": "massacre:task/eat/consume_meat"
     }
 }

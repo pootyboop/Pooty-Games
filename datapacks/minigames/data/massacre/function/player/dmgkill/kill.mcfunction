@@ -10,6 +10,8 @@ execute at @s run playsound minecraft:entity.horse.death master @s ~ ~ ~ .5 .6 .
 execute at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ .6 2 .6
 execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ .8 0.8 .8
 
+function massacre:poison/end
+
 effect give @s blindness 2 0 true
 effect clear @s slowness
 effect give @s slowness 1 4 true

@@ -1,5 +1,7 @@
 scoreboard objectives remove massacreRoleID
 
+tag @e[type=interaction,tag=massacrePoisonedSource] remove massacrePoisonedSource
+
 schedule clear massacre:main
 schedule clear massacre:start
 schedule clear massacre:intro/on_the_nightingale
