@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "knife_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{itemID:\"knife\"}"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "massacre:item/items/knife/kill"
+  }
+}

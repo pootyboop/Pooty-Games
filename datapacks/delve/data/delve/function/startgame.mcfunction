@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"delve"}
+function main:gamestate/startgame/setup {"tag":"delve"}
 
 scoreboard players set dummy gameID 101
 
@@ -29,7 +29,7 @@ team join delve @a
 gamerule fallDamage true
 gamerule doMobLoot true
 gamerule doEntityDrops true
-function main:itemdrops_enable
+function main:attribute/item_drop/enable
 
 time set 15000
 

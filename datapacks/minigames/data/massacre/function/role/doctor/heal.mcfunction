@@ -1,2 +1,2 @@
-execute unless entity @s[tag=usingMedicalSupplies] run function massacre:player/dmgkill/health/modify_by {"amount":"8"}
+execute unless entity @s[tag=usingMedicalSupplies] run function massacre:player/life_state/health/modify_by {"amount":"8"}
 execute if score @s massacrePoisonTimer matches 1.. run function massacre:poison/heal

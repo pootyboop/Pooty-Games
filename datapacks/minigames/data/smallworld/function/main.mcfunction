@@ -8,4 +8,7 @@ kill @e[type=arrow,nbt={inGround:1b}]
 
 function main:timer/decrement_with_10sec
 
-execute if score dummy minigametimer matches 0 run function smallworld:endgame
+execute unless score dummy minigametimer matches 0 run return 0
+
+scoreboard players add @a[team=Tiny] minigamescore 1000
+function smallworld:win

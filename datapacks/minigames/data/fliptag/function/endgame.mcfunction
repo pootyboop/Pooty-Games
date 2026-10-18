@@ -10,5 +10,5 @@ tag @a remove flipped
 tag @a remove flipbypass
 tag @a remove flipping
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

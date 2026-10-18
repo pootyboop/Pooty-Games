@@ -2,7 +2,7 @@ spreadplayers -1.0 300 .3 1 false @a
 
 forceload add -3 607 37 621
 
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 kill @e[type=minecart]
 
 schedule function trackracing:setup_1 5

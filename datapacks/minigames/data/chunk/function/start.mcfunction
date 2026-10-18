@@ -4,7 +4,7 @@ playsound block.note_block.chime master @a ~ ~ ~ 1 2 1
 
 gamemode survival @a
 effect clear @a
-function main:hunger_enable
+function main:attribute/hunger/enable
 
 team add grace_period
 team join grace_period @a

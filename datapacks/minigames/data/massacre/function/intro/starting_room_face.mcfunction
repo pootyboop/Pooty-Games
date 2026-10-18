@@ -1,0 +1,1 @@
+execute as @a at @s run rotate @s facing entity @p[limit=1,sort=furthest]

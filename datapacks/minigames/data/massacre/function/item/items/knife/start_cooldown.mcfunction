@@ -1,0 +1,1 @@
+execute if score @s massacreKnifeTimer matches -1 run scoreboard players set @s massacreKnifeTimer 1800

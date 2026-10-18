@@ -1,4 +1,4 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 
 execute if entity @n[predicate=pred:dummy,tag=dungeon] run tp @a -289 64 10
 execute if entity @n[predicate=pred:dummy,tag=mines] run tp @a -267 28 35

@@ -1,6 +1,6 @@
 
 
-function main:gamesetup {"tag":"warden"}
+function main:gamestate/startgame/setup {"tag":"warden"}
 
 scoreboard players set dummy gameID 11
 
@@ -23,16 +23,16 @@ scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives setdisplay sidebar
 
-title @a title {"text":"Warden\'s Dungeon","color":"gold"}
+function main:gamestate/startgame/title {"text":"Warden's Dungeon"}
 title @a subtitle {"text":"Hide from the Warden!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Warden\'s Dungeon","color":"gold","bold":true}
 tellraw @a {"text":"-Stay quiet!"}
 tellraw @a {"text":"-Last player standing wins"}
 tellraw @a {"text":"-Watch out for traps"}
 tellraw @a {"text":"-Use your items to distract the Warden"}
-function main:descline
+function main:ui/descline
 
 schedule function warden:count3 5s
 

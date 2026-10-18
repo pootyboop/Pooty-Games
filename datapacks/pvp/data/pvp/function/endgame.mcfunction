@@ -25,5 +25,5 @@ scoreboard objectives remove timeSinceJumpInputStarted
 data remove storage pvp:storage temp
 data remove storage pvp:storage e
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

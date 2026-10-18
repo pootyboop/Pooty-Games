@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"hamsoccer"}
+function main:gamestate/startgame/setup {"tag":"hamsoccer"}
 
 scoreboard players set dummy gameID 5
 
@@ -51,15 +51,15 @@ item replace entity @a[team=blue] armor.chest with leather_chestplate[dyed_color
 item replace entity @a[team=blue] armor.legs with leather_leggings[dyed_color=5592575,unbreakable={}]
 item replace entity @a[team=blue] armor.feet with leather_boots[dyed_color=5592575,unbreakable={}]
 
-title @a title {"text":"Ham Soccer","color":"gold"}
+function main:gamestate/startgame/title {"text":"Ham Soccer"}
 title @a subtitle {"text":"Score goals with the pig!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Ham Soccer","color":"gold","bold":true}
 tellraw @a {"text":"-Hit the pig into the other team's goal"}
 tellraw @a {"text":"-The game ends after 2 minutes"}
 tellraw @a {"text":"-The team with the most goals wins"}
-function main:descline
+function main:ui/descline
 
 schedule function hamsoccer:newround 5s
 

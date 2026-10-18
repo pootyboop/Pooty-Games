@@ -1,4 +1,4 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 
 setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~

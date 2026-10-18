@@ -1,0 +1,1 @@
+$function massacre:role/$(ID)/start

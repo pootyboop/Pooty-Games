@@ -1,8 +1,5 @@
 scoreboard players remove dummy mixcount 1
-function main:playercount
-
-#UNCOMMENT THIS LINE TO ENABLE ALL GAMES, REGARDLESS OF PLAYER COUNT
-#scoreboard players set dummy playercount 3
+function main:player/count_all
 
 tag @a remove mixBypass
 
@@ -31,6 +28,7 @@ execute if score dummy dummy matches 19 unless entity @a[tag=mixBypass] if score
 execute if score dummy dummy matches 20 unless entity @a[tag=mixBypass] if score dummy playercount matches 1.. run function blockrun:startgame
 execute if score dummy dummy matches 21 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function blockrun:startgame
 execute if score dummy dummy matches 22 unless entity @a[tag=mixBypass] if score dummy playercount matches 2.. run function fine:startgame
+execute if score dummy dummy matches 23 unless entity @a[tag=mixBypass] if score dummy playercount matches 4.. run function massacre:startgame
 #execute if score dummy dummy matches 21 unless entity @a[tag=mixBypass] if score dummy playercount matches 3.. run function ewok:startgame
 execute unless entity @a[tag=mixBypass] run function shopping:startgame
 

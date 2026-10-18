@@ -3,6 +3,6 @@ function massacre:task/generate2
 
 scoreboard players set @s massacreTaskTimer -1
 scoreboard players set @s massacreTaskProgress 0
-function massacre:player/dmgkill/healthdown_restart
+function massacre:player/life_state/healthdown_restart
 
 execute at @s run playsound minecraft:block.note_block.xylophone master @s ~ ~ ~ 1 0 1

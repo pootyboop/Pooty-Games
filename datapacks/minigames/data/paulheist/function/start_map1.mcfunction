@@ -5,7 +5,7 @@ spawnpoint @a[tag=guardian] 362 78 -300
 
 
 
-function paulheist:doors_foyer_unlock
-function paulheist:doors_sewing_unlock
+function paulheist:doors/foyer_unlock
+function paulheist:doors/sewing_unlock
 
 function paulheist:fixglass_map1

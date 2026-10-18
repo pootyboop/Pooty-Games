@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"geo"}
+function main:gamestate/startgame/setup {"tag":"geo"}
 
 team add geo
 team modify geo nametagVisibility never
@@ -21,15 +21,16 @@ scoreboard players set dummy roundcount 1
 
 scoreboard players set dummy gameID 3
 
-title @a title {"text":"Geokinesis","color":"#FFEAC9"}
+title @a times 0 40 20
+function main:ui/typewriter/start {text:"Geokinesis","color":"#FFEAC9","edgeColor":"#dbc299","mode":"title"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Geokinesis","color":"#FFEAC9","bold":true}
 tellraw @a {"text":"-Last player standing wins"}
 tellraw @a {"text":"-Fling (Right Click)"}
 tellraw @a {"text":"-Spike (Sneak on Ground)"}
 tellraw @a {"text":"-Slam (Sneak in Air)"}
-function main:descline
+function main:ui/descline
 
 
 

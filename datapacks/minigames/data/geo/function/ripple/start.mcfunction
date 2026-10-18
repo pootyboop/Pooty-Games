@@ -1,10 +1,5 @@
 tag @s add ripple
 
-execute as @s store result score @s uuid0 run data get entity @s UUID[0]
-execute as @s store result score @s uuid1 run data get entity @s UUID[1]
-execute as @s store result score @s uuid2 run data get entity @s UUID[2]
-execute as @s store result score @s uuid3 run data get entity @s UUID[3]
-
 #execute store result score @s x run data get entity @s Pos[0] 10000
 #execute store result score @s y run data get entity @s Pos[1] 10000
 #execute store result score @s z run data get entity @s Pos[2] 10000

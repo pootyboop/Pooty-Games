@@ -1,0 +1,1 @@
+function main:ui/typewriter/finish_show with storage minigames:temp

@@ -5,8 +5,8 @@ spawnpoint @a[tag=guardian] 625 90 -331
 
 
 
-function paulheist:doors_beebfrontdoor_unlock
-function paulheist:doors_beebbalcony_unlock
-function paulheist:doors_beebbridges_v1
+function paulheist:doors/beebfrontdoor_unlock
+function paulheist:doors/beebbalcony_unlock
+function paulheist:doors/beebbridges_v1
 
 function paulheist:fixglass_map2

@@ -17,5 +17,5 @@ tag @a remove sinking
 tag @a remove tntbow
 tag @a remove doublejumped
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

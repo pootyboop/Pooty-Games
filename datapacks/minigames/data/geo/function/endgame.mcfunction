@@ -16,5 +16,5 @@ kill @e[tag=ripplespike_2,type=minecraft:block_display]
 fill -612 60 12 -588 64 -12 air
 forceload remove -600 0
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

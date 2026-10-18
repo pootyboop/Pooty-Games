@@ -7,7 +7,7 @@ schedule clear hamsoccer:newround
 
 kill @e[type=pig,tag=ball]
 
-execute as @a run function main:movement_unfreeze
+execute as @a run function main:attribute/movement/unfreeze
 
 tag @a remove midair
 tag @a remove pause

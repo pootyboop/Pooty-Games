@@ -4,7 +4,7 @@ tp @a 300 60 -600
 effect give @a resistance infinite 255 true
 execute as @a run attribute @s minecraft:max_health base set 6
 
-function main:itemdrops_enable
+function main:attribute/item_drop/enable
 gamerule doEntityDrops true
 gamerule doTileDrops true
 gamerule naturalRegeneration true

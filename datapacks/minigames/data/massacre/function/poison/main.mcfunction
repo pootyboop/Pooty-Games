@@ -7,4 +7,4 @@ execute if score @s massacrePoisonTimer matches ..400 run effect give @s nausea 
 execute if score @s massacrePoisonTimer matches 370 run function massacre:poison/title
 execute if score @s massacrePoisonTimer matches ..350 if predicate pred:33percent run particle entity_effect{color:[0.267,1.000,0.000,1.00]} ~ ~1 ~ .4 .4 .4 0 1 force @s
 execute if score @s massacrePoisonTimer matches ..140 run effect give @s darkness infinite 0 true
-execute if score @s massacrePoisonTimer matches 0 run function massacre:player/dmgkill/kill_poison
+execute if score @s massacrePoisonTimer matches 0 run function massacre:player/life_state/kill/_kill

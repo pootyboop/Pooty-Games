@@ -10,7 +10,7 @@ execute if function map:if_call run function paulheist:setup_map2
 
 
 
-function paulheist:paul_spawn
+function paulheist:paul/spawn
 
 execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
 function paulheist:observepaul

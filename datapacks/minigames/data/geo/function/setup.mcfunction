@@ -1,7 +1,7 @@
 #spreadplayers -600 0 30 12 false @a
 execute as @a at @s run tp @s -600 60 0 facing -600 60 0
 
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 
 execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
 

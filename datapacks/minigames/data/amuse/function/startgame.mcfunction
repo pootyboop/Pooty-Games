@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"amuse"}
+function main:gamestate/startgame/setup {"tag":"amuse"}
 
 execute positioned -30000 60 -10000 run function amuse:setup
 
@@ -10,7 +10,7 @@ scoreboard players set dummy gameID 21
 
 scoreboard objectives add amuseroomID dummy
 
-function main:itemdrops_enable
+function main:attribute/item_drop/enable
 
 recipe give @a *
 
@@ -22,13 +22,13 @@ scoreboard objectives setdisplay sidebar minigamescore
 
 function amuse:king_say {"say":"Amuse Me!","sound":"yes"}
 
-title @a title {"text":"Amuse Me!","color":"gold"}
+function main:gamestate/startgame/title {"text":"Amuse Me!"}
 title @a subtitle {"text":""}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Amuse Me!","color":"gold","bold":true}
 tellraw @a {"text":"-Complete rapid-fire challenges to amuse the King!"}
-function main:descline
+function main:ui/descline
 
 schedule function amuse:roundover 5s
 function amuse:main

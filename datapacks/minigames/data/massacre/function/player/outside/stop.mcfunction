@@ -11,4 +11,4 @@ playsound minecraft:block.wood.step master @s ~ ~ ~ 1 1 1
 function massacre:fx/train_sounds/outside/restart
 function massacre:fx/train_sounds/inside/restart
 
-execute if predicate massacre:task/get_air run function massacre:player/dmgkill/healthdown_restart
+execute if predicate massacre:task/get_air run function massacre:player/life_state/healthdown_restart

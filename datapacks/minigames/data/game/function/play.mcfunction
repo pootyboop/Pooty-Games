@@ -1,4 +1,4 @@
-function main:playercount
+function main:player/count_all
 
 tellraw @a {"text":""}
 tellraw @a [{"text":"--------------------","color":"dark_gray"},{"text":"Games","color":"white"},{"text":"---------------------","color":"dark_gray"}]
@@ -82,5 +82,5 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Witch Hun
 tellraw @a {"text":""}
 tellraw @a {"text":"Click any of the games above to play!","color":"white"}
 tellraw @a {"text":""}
-function main:descline
+function main:ui/descline
 tellraw @a {"text":""}

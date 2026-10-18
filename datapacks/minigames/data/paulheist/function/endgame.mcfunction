@@ -4,7 +4,7 @@ schedule clear paulheist:count2
 schedule clear paulheist:count1
 schedule clear paulheist:start
 schedule clear paulheist:observepaul
-schedule clear paulheist:freeguardians
+schedule clear paulheist:guardian/release
 
 kill @e[tag=paulitem,type=item]
 kill @e[tag=alarm,type=magma_cube]
@@ -19,7 +19,7 @@ tag @a remove tallgrass
 tag @a remove tallgrasshidden
 tag @a remove tallgrasswither
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame
 
 team empty thieves

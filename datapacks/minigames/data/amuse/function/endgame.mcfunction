@@ -14,5 +14,5 @@ schedule function amuse:clearfield 4.8s
 forceload remove ~ ~
 forceload remove ~-16 ~-16
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

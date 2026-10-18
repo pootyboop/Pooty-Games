@@ -6,7 +6,7 @@ schedule clear roomrace:count2
 schedule clear roomrace:count1
 schedule clear roomrace:start
 
-function main:score_places
+function main:gamestate/score_places/run
 
 execute as @e[type=area_effect_cloud,tag=room] at @s run function roomrace:endgame_rooms
 execute as @n[type=area_effect_cloud,tag=room] at @a[tag=winner] if score @p uuid0 = @s uuid0 at @s run tp @a ~2 ~ ~ -90 0

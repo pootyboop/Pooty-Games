@@ -6,7 +6,7 @@ function map:if_params {"map":"hogsea"}
 execute if function map:if_call run spreadplayers 600 294 2 6 false @a[team=red]
 execute if function map:if_call run spreadplayers 600 306 2 6 false @a[team=blue]
 
-execute as @a run function main:movement_freeze
+execute as @a run function main:attribute/movement/freeze
 
 effect give @a weakness 10 255 true
 

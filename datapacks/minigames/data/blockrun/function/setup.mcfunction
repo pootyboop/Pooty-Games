@@ -1,4 +1,4 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 
 setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~
@@ -7,7 +7,7 @@ spawnpoint @a ~ ~ ~
 spreadplayers -600 -900 1 1 false @a
 execute as @a at @s run tp @s ~ 60 ~
 
-execute as @a run function main:movement_freeze
+execute as @a run function main:attribute/movement/freeze
 
 function blockrun:wall/cleanup
 

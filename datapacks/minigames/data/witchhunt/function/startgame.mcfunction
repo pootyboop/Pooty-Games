@@ -1,17 +1,12 @@
-
-
-function main:gamesetup {"tag":"witchhunt"}
+function main:gamestate/startgame/setup {"tag":"witchhunt"}
 
 spreadplayers 593 -602 2 2 false @a
 execute as @a at @s run tp @s ~ ~-6 ~
 
 gamerule maxEntityCramming 100
-
 difficulty hard
 
-tag @a remove witchdead
-
-kill @e[type=trident]
+function witchhunt:cleanup
 
 
 team add hunters {"text":"Hunters","color":"red"}
@@ -41,25 +36,13 @@ effect give @a weakness 10000 255 true
 
 tag @a add hiding
 scoreboard players set dummy gameID 12
-tag @a remove dmgd
-tag @a remove witchdead
-tag @a remove needswitch
-title @a title {"text":"Witch Hunt","color":"gold"}
+function main:gamestate/startgame/title {"text":"Witch Hunt"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Witch Hunt","color":"gold","bold":true}
 tellraw @a {"text":"-Witches win by hiding and surviving for 2 minutes"}
 tellraw @a {"text":"-Hunters win by finding and killing all the witches"}
 tellraw @a {"text":"-Witches can blend in by crouching"}
-function main:descline
-
-
-
-execute as @a store result score @s uuid0 run data get entity @s UUID[0]
-execute as @a store result score @s uuid1 run data get entity @s UUID[1]
-execute as @a store result score @s uuid2 run data get entity @s UUID[2]
-execute as @a store result score @s uuid3 run data get entity @s UUID[3]
-
+function main:ui/descline
 
 schedule function witchhunt:hiding 5s
-

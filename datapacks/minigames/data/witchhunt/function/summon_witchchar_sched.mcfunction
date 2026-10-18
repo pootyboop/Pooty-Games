@@ -1,2 +1,2 @@
-execute as @a[tag=needswitch] at @s run function witchhunt:summon_witchchar
-tag @a[tag=needswitch] remove needswitch
+execute as @a[tag=needsWitch] at @s run function witchhunt:witch/entity/summon
+tag @a[tag=needsWitch] remove needsWitch

@@ -34,7 +34,7 @@ item replace entity @a[tag=thief] hotbar.0 with iron_hoe[unbreakable={show_in_to
 
 item replace entity @a[tag=guardian] hotbar.0 with blaze_rod[enchantments={levels:{"minecraft:knockback":2},show_in_tooltip:0b},custom_name='{"text":"Baton","color":"gold","italic":false}',lore=['{"text":"Shoplifters will be prosecuted.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"attack_damage",slot:"mainhand",id:"attack_damage",amount:10,operation:"add_value"}],show_in_tooltip:0b},unbreakable={show_in_tooltip:0b}]
 
-function paulheist:alarm_item
+function paulheist:alarm/item
 
 item replace entity @a[tag=guardian] armor.head with minecraft:sea_lantern[custom_name='{"text":"Guardian Dome","color":"aqua","italic":false}']
 
@@ -48,7 +48,7 @@ item replace entity @a[tag=guardian] armor.feet with netherite_boots[unbreakable
 effect give @a[tag=guardian] slowness 100 255 true
 execute as @a[tag=guardian] run attribute @s minecraft:jump_strength base set 0
 effect give @a[tag=guardian] blindness 100 255 true
-schedule function paulheist:freeguardians 7.5s
+schedule function paulheist:guardian/release 7.5s
 
 
 

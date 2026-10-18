@@ -5,5 +5,5 @@ schedule clear chunk:shrink/warning
 data remove storage minigames:temp chunk
 team remove grace_period
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

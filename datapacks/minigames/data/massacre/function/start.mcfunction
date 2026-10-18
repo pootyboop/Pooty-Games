@@ -1,21 +1,33 @@
-execute as @a run function main:jumpheight_reset
+execute as @a run function main:attribute/jump_height/reset
 setblock -900 61 -281 air
 setblock -900 61 -269 air
 
 kill @e[type=area_effect_cloud,tag=massacreIntroSpectate]
 
-#function massacre:map/environment/fish
 
 
-
+# Create roles and assemble game blurb
 title @a times 0 70 20
+function main:ui/descline
+tellraw @a {"text":"Massacre on the Nightingale","color":"white","bold":true}
 
 # Assign murderer, roles, and rooms
-execute as @r at @s run function massacre:murderer/generate
+function massacre:murderer/generate
+execute as @a[predicate=!massacre:is_murderer] at @s run function massacre:civilian/announce
+execute as @a[predicate=massacre:is_murderer] at @s run function massacre:murderer/announce
+
 function massacre:role/generate
 function massacre:room/generate
 
-schedule function massacre:task/generate_all 12s
-schedule function massacre:task/generate_murderer 40s
+function main:ui/descline
+execute if score #murdererCount dummy matches 0 run return run tellraw @a [{"text":"\n[!] ","color":"dark_aqua"},{"text":"You are the only player, so there aren't any murderers. Enjoy the ride!","color":"yellow"}]
 
 execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ .8 0 .8
+
+# Assign the player that will be recognized by Oracle orbs
+function massacre:role/oracle/solve_orb
+
+#function main:timer/set_max {"time":"12000"}
+
+schedule function massacre:task/generate_all 12s
+schedule function massacre:task/generate_murderer 40s

@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"smallworld"}
+function main:gamestate/startgame/setup {"tag":"smallworld"}
 
 scoreboard players set dummy gameID 28
 
@@ -20,11 +20,11 @@ scoreboard players set dummy smallworld.coinsforbow 5
 
 tag @a remove giantsneak
 
-title @a title {"text":"Small World","color":"gold"}
+function main:gamestate/startgame/title {"text":"Small World"}
 title @a[team=Giant] subtitle {"text":"Take out the Tinies!"}
 title @a[team=Tiny] subtitle {"text":"Shoot down the Giant!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Small World","color":"gold","bold":true}
 tellraw @a[team=Giant] {"text":"-Use your abilities to take out the Tinies"}
 tellraw @a[team=Giant] {"text":"-The Tinies will try to make a bow to shoot you - watch out!"}
@@ -32,6 +32,6 @@ tellraw @a[team=Giant] {"text":"-Kill all the Tinies to win!"}
 tellraw @a[team=Tiny] {"text":"-Hide from the Giant's attacks"}
 tellraw @a[team=Tiny] {"text":"-Collect coins to get the Giant Slayer bow"}
 tellraw @a[team=Tiny] {"text":"-Shoot down the Giant to win!"}
-function main:descline
+function main:ui/descline
 
 schedule function smallworld:count3 5s

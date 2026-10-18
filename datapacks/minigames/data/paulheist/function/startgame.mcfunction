@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"paulheist"}
+function main:gamestate/startgame/setup {"tag":"paulheist"}
 
 difficulty hard
 
@@ -78,15 +78,15 @@ tag @a remove tallgrasshidden
 tag @a remove tallgrasswither
 scoreboard players set dummy gameID 8
 
-title @a title {"text":"Paul Heist","color":"gold"}
+function main:gamestate/startgame/title {"text":"Paul Heist"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Paul Heist","color":"gold","bold":true}
 tellraw @a {"text":"-Thieves must steal Paul and escape to the portal"}
 tellraw @a {"text":"-Guardians must kill all of the thieves"}
 tellraw @a {"text":"-Thieves can break glass windows and hide in tall grass"}
 tellraw @a {"text":"-Guardians can lock doors and place alarm traps"}
-function main:descline
+function main:ui/descline
 
 schedule function paulheist:count3 5s
 

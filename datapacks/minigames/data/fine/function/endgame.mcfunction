@@ -14,5 +14,5 @@ schedule clear fine:villager/new/create
 schedule clear fine:fire/start
 schedule clear fine:kill_drops
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

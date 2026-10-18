@@ -1,6 +1,5 @@
 execute positioned 614 64 14 run function shopping:setup
 
-
 execute store result score dummy recipeID run random value 0..19
 execute if score dummy recipeID matches 0 run schedule function shopping:recipe_diamond_sword_setup 1
 execute if score dummy recipeID matches 1 run schedule function shopping:recipe_enchanting_table_setup 1

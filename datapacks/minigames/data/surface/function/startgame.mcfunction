@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"surface"}
+function main:gamestate/startgame/setup {"tag":"surface"}
 
 function surface:setup
 
@@ -15,11 +15,11 @@ bossbar set minecraft:timer players @a
 title @a title {"text":"Surface Tension","color":"#345fdc"}
 title @a subtitle {"text":"Keep the ball from other players!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Surface Tension","color":"#345fdc"}
 tellraw @a {"text":"-Use your trident and elytra to navigate the floating water orbs"}
 tellraw @a {"text":"-Steal the ball from a player by attacking"}
 tellraw @a {"text":"-Gain points while holding the ball"}
-function main:descline
+function main:ui/descline
 
 schedule function surface:start 5s

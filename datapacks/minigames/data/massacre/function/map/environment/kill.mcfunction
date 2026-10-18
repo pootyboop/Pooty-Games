@@ -4,6 +4,9 @@ schedule clear massacre:fx/smoke/main
 
 schedule clear massacre:fx/fog/main
 
+schedule clear massacre:fx/music/play
+execute as @a run function massacre:fx/music/stop
+
 schedule clear massacre:fx/horn/1
 schedule clear massacre:fx/horn/2
 schedule clear massacre:fx/horn/play

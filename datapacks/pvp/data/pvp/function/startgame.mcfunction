@@ -1,5 +1,5 @@
 #Boilerplate for Pooty Games
-function main:gamesetup {"tag":"pvp"}
+function main:gamestate/startgame/setup {"tag":"pvp"}
 scoreboard players set dummy gameID 100
 
 

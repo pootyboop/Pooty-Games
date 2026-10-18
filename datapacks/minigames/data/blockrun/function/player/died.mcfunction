@@ -11,5 +11,5 @@ execute if entity @a[gamemode=!spectator] run tp @s @r[gamemode=!spectator]
 execute unless entity @a[gamemode=!spectator] run tp @s -600 60 -900
 
 execute unless entity @a[gamemode=!spectator] run return run function blockrun:endgame
-function main:playercount
+function main:player/count_all
 execute if score dummy playercount matches 2.. as @a[gamemode=!spectator] at @s unless entity @a[gamemode=!spectator,distance=0.1..] run function blockrun:endgame

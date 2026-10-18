@@ -1,13 +1,10 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 
-setworldspawn 593 60 -602
+setworldspawn ~ ~ ~
 
-bossbar set minecraft:timer players @a
-bossbar set minecraft:timer max 200
-bossbar set minecraft:timer value 200
-scoreboard players set dummy minigametimer 200
+function main:timer/set_max {"time":200}
 
 effect give @a resistance 10000 255 true
 
-function witchhunt:spawnatonofvillagers
-function witchhunt:setup_teams
+function witchhunt:villager/spawn_all
+function witchhunt:teams

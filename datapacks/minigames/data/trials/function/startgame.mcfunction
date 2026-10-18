@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"trials"}
+function main:gamestate/startgame/setup {"tag":"trials"}
 
 execute positioned -600 60 600 run function trials:setup
 
@@ -7,8 +7,7 @@ scoreboard players set @a died 0
 scoreboard players set dummy roundcount 0
 
 scoreboard players set dummy gameID 19
-
-function main:itemdrops_enable
+function main:attribute/item_drop/enable
 
 recipe give @a *
 
@@ -21,11 +20,11 @@ scoreboard objectives setdisplay sidebar minigamescore
 title @a title {"text":"Trials","color":"gold"}
 title @a subtitle {"text":""}
 
-function main:descline
-tellraw @a {"text":"Trials","color":"gold","bold":true}
+function main:ui/descline
+function main:gamestate/startgame/title {"text":"Trials"}
 tellraw @a {"text":"-One player completes a trial while the rest interfere"}
 tellraw @a {"text":"-Complete the objective or kill the player in the trial"}
-function main:descline
+function main:ui/descline
 
 schedule function trials:newround 5s
 schedule function trials:main 5s

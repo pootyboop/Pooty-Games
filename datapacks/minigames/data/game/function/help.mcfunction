@@ -8,7 +8,7 @@ tellraw @a [{"text":"/function game:info","color":"aqua","hoverEvent":{"action":
 tellraw @a [{"text":"/function game:play","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Run ","color":"white"},{"text":"/function game:play","color":"aqua"}]},"clickEvent":{"action":"run_command","value":"/function game:play"}},{"text":"   Recommends games based on how many players there are","color":"gray"}]
 tellraw @a [{"text":"/function game:end","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Run ","color":"white"},{"text":"/function game:end","color":"aqua"}]},"clickEvent":{"action":"run_command","value":"/function game:end"}},{"text":"   Ends the current game","color":"gray"}]
 tellraw @a [{"text":"/function game:skiptimer","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Run ","color":"white"},{"text":"/function game:skiptimer","color":"aqua"}]},"clickEvent":{"action":"run_command","value":"/function game:skiptimer"}},{"text":"   Immediately skips the timer at the top of the screen","color":"gray"}]
-function main:descline
+function main:ui/descline
 tellraw @a {"text":""}
 
 playsound minecraft:entity.villager.trade master @a ~ ~ ~ 1 1 1

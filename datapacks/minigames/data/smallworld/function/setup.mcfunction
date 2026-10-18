@@ -1,10 +1,7 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 time set 1500
 
-bossbar set minecraft:timer players @a
-bossbar set minecraft:timer max 6000
-bossbar set minecraft:timer value 6000
-scoreboard players set dummy minigametimer 6000
+function main:timer/set_max {"time":6000}
 
 setworldspawn 0 60 -10000
 spawnpoint @a 0 60 -10000

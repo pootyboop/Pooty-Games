@@ -2,7 +2,7 @@ tag @s add diedcleanup
 
 function pvp:status/func_all {"function":"clear"}
 
-function main:jumpheight_reset
+function main:attribute/jump_height/reset
 
 effect clear @s
 function pvp:player/maxhealth/restore

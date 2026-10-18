@@ -1,4 +1,4 @@
-execute store result score @s uuid0 run data get entity @s UUID[0]
+function main:store_uuid
 scoreboard players operation @s owningUUID = @s uuid0
 scoreboard players set @s entity.buildtimer 0
 

@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"hideseek"}
+function main:gamestate/startgame/setup {"tag":"hideseek"}
 
 
 
@@ -71,20 +71,13 @@ tag @a remove hiderdead
 effect give @a weakness 10000 255 true
 
 scoreboard players set dummy gameID 6
-title @a title {"text":"Hide and Seek","color":"gold"}
+function main:gamestate/startgame/title {"text":"Hide and Seek"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Hide and Seek","color":"gold","bold":true}
 tellraw @a {"text":"-Hiders win by surviving for 2 minutes"}
 tellraw @a {"text":"-Seekers win by killing all the hiders"}
 tellraw @a {"text":"-Hiders can blend in by crouching"}
-function main:descline
-
-
-
-execute as @a store result score @s uuid0 run data get entity @s UUID[0]
-execute as @a store result score @s uuid1 run data get entity @s UUID[1]
-execute as @a store result score @s uuid2 run data get entity @s UUID[2]
-execute as @a store result score @s uuid3 run data get entity @s UUID[3]
+function main:ui/descline
 
 schedule function hideseek:hider/hiding 5s

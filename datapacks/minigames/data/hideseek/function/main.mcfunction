@@ -5,5 +5,5 @@ execute unless entity @a[tag=hiding] run function main:timer/decrement_with_10se
 execute as @a[tag=hider] at @s run function hideseek:hider/main
 
 execute unless score dummy minigametimer matches 0 run return fail
-execute unless entity @a[tag=hiding] run return run function hideseek:endgame_hiders
+execute unless entity @a[tag=hiding] run return run function hideseek:hider/win
 tag @a[tag=hiding] remove hiding

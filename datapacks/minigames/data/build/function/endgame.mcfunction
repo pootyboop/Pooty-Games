@@ -13,7 +13,7 @@ schedule clear build:start
 effect clear @a blindness
 execute as @e[type=area_effect_cloud,tag=room] at @s run function build:endgame_rooms
 
-function main:score_places
+function main:gamestate/score_places/run
 execute as @n[type=area_effect_cloud,tag=room] at @a[tag=winner] if score @p uuid0 = @s uuid0 at @s run tp @a ~2 ~ ~ -90 0
 function main:endgame
 

@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {CanPickUpLoot:0b,Health:300f,Tags:["actualVillager"],attributes:[{id:"minecraft:max_health",base:300}],Offers:{}}

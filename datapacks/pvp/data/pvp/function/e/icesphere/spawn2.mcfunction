@@ -1,5 +1,4 @@
-#scoreboard players operation @s uuid0 = @n[predicate=pvp:fighter,tag=owner] uuid0
-execute store result score @s uuid0 run data get entity @s UUID[0] 1
+function main:store_uuid
 scoreboard players operation @s owningUUID = @s uuid0
 tag @s add newicesphere
 

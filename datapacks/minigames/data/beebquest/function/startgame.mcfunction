@@ -1,6 +1,6 @@
 
 
-function main:gamesetup {"tag":"beebquest"}
+function main:gamestate/startgame/setup {"tag":"beebquest"}
 
 function beebquest:setup
 
@@ -28,15 +28,15 @@ time set 4000
 
 
 
-title @a title {"text":"Beeb Quest","color":"aqua"}
+function main:gamestate/startgame/title {"text":"Beeb Quest"}
 title @a subtitle {"text":"The epic quest starring Stavie Beeb!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Beeb Quest","color":"aqua","bold":true}
 tellraw @a {"text":"-Helpers guide Stavie Beeb to a fabled treasure"}
 tellraw @a {"text":"-The saboteur discreetly tries to get Stavie killed in battle"}
 tellraw @a {"text":"-Any helper can accuse a player of being the saboteur"}
-function main:descline
+function main:ui/descline
 
 schedule function beebquest:start 5s
 

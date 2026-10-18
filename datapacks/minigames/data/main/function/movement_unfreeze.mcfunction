@@ -1,4 +1,0 @@
-function main:movementspeed_reset
-function main:jumpheight_reset
-
-function main:interactionrange_reset

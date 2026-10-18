@@ -1,4 +1,4 @@
-kill @e[type=item,distance=..30]
+function main:kill_nearby_items
 time set 18000
 weather rain 99999999
 gamerule spectatorsGenerateChunks true
@@ -7,11 +7,6 @@ forceload add -912 -100 -881 -500
 
 setblock -900 61 -281 barrier
 setblock -900 61 -269 barrier
-
-#bossbar set minecraft:timer players @a
-#bossbar set minecraft:timer max 1200
-#bossbar set minecraft:timer value 1200
-scoreboard players set dummy minigametimer 2400
 
 function massacre:interaction/door/lock_all
 function massacre:interaction/item_source/random/start

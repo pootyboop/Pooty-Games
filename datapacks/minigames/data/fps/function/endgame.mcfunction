@@ -12,5 +12,5 @@ tag @a remove ads
 tag @a remove shootable
 
 execute as @a store result score @s minigamescore run scoreboard players get @s fpsKills
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

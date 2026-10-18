@@ -19,7 +19,7 @@ function hideseek:killallblocks
 kill @e[tag=hideseekmob]
 kill @e[type=area_effect_cloud,tag=fredminersSC]
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame
 
 team empty hiders

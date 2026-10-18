@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {transformation:[0.5285770992f,0.1923863306f,0f,0f,0f,0f,-0.5625f,0.016875f,-0.1923863306f,0.5285770992f,0f,0f,0f,0f,0f,1f],Tags:["newMassacreItemDisplay","massacreItemDisplay"],item_display:"fixed"}

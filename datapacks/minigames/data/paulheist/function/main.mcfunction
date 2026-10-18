@@ -1,11 +1,11 @@
 schedule function paulheist:main 1
 
-execute as @n[tag=paulitem,type=item] at @s run function paulheist:paul_checknearby
+execute as @n[tag=paulitem,type=item] at @s run function paulheist:paul/checknearby
 
 execute as @a[predicate=pred:died] at @s run function paulheist:died
 
-execute as @a[tag=thief] at @s run function paulheist:thief
-execute as @a[tag=guardian] at @s run function paulheist:guardian
+execute as @a[tag=thief] at @s run function paulheist:thief/main
+execute as @a[tag=guardian] at @s run function paulheist:guardian/main
 
 
 
@@ -17,4 +17,4 @@ execute if function map:if_call run function paulheist:main_map2
 
 
 
-execute as @e[tag=alarm,type=magma_cube] at @s run function paulheist:alarm
+execute as @e[tag=alarm,type=magma_cube] at @s run function paulheist:alarm/main

@@ -10,5 +10,5 @@ function trials:killstuff
 tag @a remove trialing
 tag @a remove played
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

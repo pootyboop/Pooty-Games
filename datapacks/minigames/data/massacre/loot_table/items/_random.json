@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/crowbar",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/poison_vial",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/master_key",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/spyglass",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/knife",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/gun",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 30
+                }
+            ]
+        }
+    ]
+}

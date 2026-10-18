@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.components.minecraft:custom_data.spyglass run return run function massacre:item/items/spyglass/use

@@ -1,6 +1,5 @@
 function hamsoccer:slimes
 
-#execute store result score @s uuid0 run data get entity @s UUID[0]
 #execute as @e[type=slime,tag=leapslime,tag=newleapslime] store result score @s uuid0 run data get entity @p UUID[0]
 
 tag @e[type=slime,tag=newleapslime] remove newleapslime

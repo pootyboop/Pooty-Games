@@ -1,10 +1,10 @@
 
 
-function main:gamesetup {"tag":"pillars"}
+function main:gamestate/startgame/setup {"tag":"pillars"}
 
 scoreboard players set dummy gameID 17
 
-function main:itemdrops_enable
+function main:attribute/item_drop/enable
 
 execute positioned 900 310 -900 run function pillars:setup
 
@@ -22,14 +22,14 @@ scoreboard objectives setdisplay sidebar
 
 scoreboard players set @a died 0
 
-title @a title {"text":"Prosperous Pillars","color":"gold"}
+function main:gamestate/startgame/title {"text":"Prosperous Pillars"}
 title @a subtitle {"text":"Don't fall!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Prosperous Pillars","color":"gold","bold":true}
 tellraw @a {"text":"-Use random items and blocks to survive"}
 tellraw @a {"text":"-Knock other players into the void"}
 tellraw @a {"text":"-The last one standing wins"}
-function main:descline
+function main:ui/descline
 
 schedule function pillars:count3 5s

@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "main:rightclick"
+    "function": "main:input/right_click/on_performed"
   }
 }

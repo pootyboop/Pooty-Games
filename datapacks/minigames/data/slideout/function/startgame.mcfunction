@@ -1,6 +1,6 @@
 
 
-function main:gamesetup {"tag":"slideout"}
+function main:gamestate/startgame/setup {"tag":"slideout"}
 
 tag @a remove sliding
 tag @a remove sinking
@@ -33,18 +33,18 @@ scoreboard players set @a shotBow 0
 
 
 
-title @a title {"text":"Slideout","color":"gold"}
+function main:gamestate/startgame/title {"text":"Slideout"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run title @a subtitle {"text":"Gold Points"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run title @a subtitle {"text":"FFA"}
 
-function main:descline
+function main:ui/descline
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run tellraw @a {"text":"Slideout - Gold Points","color":"gold","bold":true}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run tellraw @a {"text":"Slideout - FFA","color":"gold","bold":true}
 tellraw @a {"text":"-Double jump with spacebar, sneak to slide"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutgp] run tellraw @a {"text":"-Get points from gold blocks"}
 execute if entity @n[predicate=pred:dummy,tag=slideoutffa] run tellraw @a {"text":"-Get points by killing players"}
 tellraw @a {"text":"-Most points wins"}
-function main:descline
+function main:ui/descline
 
 schedule function slideout:count3 5s
 

@@ -1,0 +1,2 @@
+$team modify $(team) prefix {"text":"                                                                                                                                                                                      ","italic":false}
+$team modify $(team) color white

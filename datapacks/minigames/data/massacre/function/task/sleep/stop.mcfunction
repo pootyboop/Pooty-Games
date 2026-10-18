@@ -10,4 +10,4 @@ title @s title ""
 title @s subtitle ""
 #$title @s subtitle {"text":"Rested for $(time) seconds."}
 
-execute if predicate massacre:task/rest run function massacre:player/dmgkill/healthdown_restart
+execute if predicate massacre:task/rest run function massacre:player/life_state/healthdown_restart

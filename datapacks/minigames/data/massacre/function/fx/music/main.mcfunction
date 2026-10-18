@@ -1,0 +1,2 @@
+execute if score @s massacreMusicTimer matches 1.. run return run scoreboard players remove @s massacreMusicTimer 1
+execute unless score @s massacreMusicTimer matches 1.. positioned -902 61 -273 if entity @s[distance=..16] run function massacre:fx/music/play

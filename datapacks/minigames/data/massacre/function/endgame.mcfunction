@@ -12,10 +12,11 @@ schedule clear massacre:intro/intro_shot_main
 schedule clear massacre:intro/starting_room
 schedule clear massacre:task/generate_all
 schedule clear massacre:task/generate_murderer
+schedule clear massacre:player/life_state/kill/check_players
 
 schedule function massacre:map/environment/kill 4.9s
 
 function massacre:clear_tags_and_advancements
 
-function main:score_places
+function main:gamestate/score_places/run
 function main:endgame

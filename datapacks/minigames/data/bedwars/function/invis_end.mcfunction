@@ -2,7 +2,6 @@ effect clear @s invisibility
 tag @s remove invis
 
 #setblock 9913 54 2 minecraft:redstone_block
-#tag @s add armorOn
 function bedwars:armor
 
 

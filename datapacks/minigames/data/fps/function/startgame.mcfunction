@@ -1,6 +1,6 @@
 
 
-function main:gamesetup {"tag":"fps"}
+function main:gamestate/startgame/setup {"tag":"fps"}
 
 #execute as @a run attribute @s minecraft:max_health base set 10
 #effect give @a minecraft:regeneration 2 255 true
@@ -46,14 +46,14 @@ scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"Kills","color":"gold"}
 scoreboard players set @a minigamescore 0
 
-title @a title {"text":"FPS","color":"gold"}
+function main:gamestate/startgame/title {"text":"FPS"}
 title @a subtitle {"text":"Kill other players!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"FPS","color":"gold","bold":true}
 tellraw @a {"text":"-Pick your favorite gun"}
 tellraw @a {"text":"-Get the most kills to win"}
-function main:descline
+function main:ui/descline
 
 tag @a remove sniper
 

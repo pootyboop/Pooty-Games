@@ -1,7 +1,7 @@
 scoreboard players add @a[scores={died=0}] minigamescore 1
 scoreboard objectives setdisplay sidebar minigamescore
 
-function main:startbell1
+function main:gamestate/startgame/bell
 
 tag @a add geopause
 tag @a add roundover

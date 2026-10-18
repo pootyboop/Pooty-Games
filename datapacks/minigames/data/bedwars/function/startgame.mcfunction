@@ -1,4 +1,4 @@
-function main:gamesetup {"tag":"bedwars"}
+function main:gamestate/startgame/setup {"tag":"bedwars"}
 
 execute positioned 10000 60 0 run function bedwars:setup
 
@@ -37,8 +37,8 @@ tag @a remove lastlife
 tag @a add bedwars
 scoreboard players set dummy gameID 1
 
-function main:itemdrops_enable
-execute as @a run function main:enderchest_clear
+function main:attribute/item_drop/enable
+execute as @a run function main:ui/enderchest_clear
 
 
 
@@ -110,7 +110,7 @@ scoreboard players reset @e[type=area_effect_cloud,tag=oreGen] oreTimer2
 scoreboard players reset @e[type=area_effect_cloud,tag=oreGen] oreTimer3
 scoreboard players reset @e[type=area_effect_cloud,tag=oreGen] oreTimer4
 
-title @a title {"text":"Bedwars","color":"gold"}
+function main:gamestate/startgame/title {"text":"Bedwars"}
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
 execute if function setting:if_call run title @a subtitle {"text":"CHICKEN MODE!"}
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
@@ -118,7 +118,7 @@ execute if function setting:if_call as @a at @s run playsound minecraft:entity.c
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
 execute unless function setting:if_call run title @a subtitle {"text":"Break other players\' beds!"}
 
-function main:descline
+function main:ui/descline
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
 execute unless function setting:if_call run tellraw @a {"text":"Bedwars","color":"red","bold":true}
 function setting:if_params {"tag":"bedwars","setting":"mode","value":"1"}
@@ -128,4 +128,4 @@ tellraw @a {"text":"-Players without a bed cannot respawn after dying"}
 tellraw @a {"text":"-Ores can be spent on items/upgrades at the shop"}
 tellraw @a {"text":"-Break other players\' beds; last one standing wins!"}
 tellraw @a [{"text":"Bedwars Castle by "},{"text":"Morozov Architect","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/bedwarp-castle/"}},{"text":" (click to visit)","color":"gray"}]
-function main:descline
+function main:ui/descline

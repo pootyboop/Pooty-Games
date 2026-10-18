@@ -1,0 +1,2 @@
+execute unless entity @p[predicate=massacre:is_murderer,distance=0.1..] run return run tellraw @s {"text":"(There are no other murderers.)","color":"dark_gray"}
+execute if entity @p[predicate=massacre:is_murderer,distance=0.1..] run return run tellraw @s [{"text":"(Your fellow murderers are: ","color":"dark_gray"},{"selector":"@a[predicate=massacre:is_murderer,distance=0.1..]"},{"text":".)","color":"dark_gray"}]

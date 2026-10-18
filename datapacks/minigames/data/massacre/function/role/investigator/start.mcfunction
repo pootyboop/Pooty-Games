@@ -1,3 +1,3 @@
-function massacre:role/announce {"title":"Investigator","desc":"Your spyglass can spot dead bodies' cause of death.","color":"#7154FF"}
+function massacre:role/announce {"title":"Investigator","desc":"Your spyglass can spot dead bodies' cause of death.","color":"#B545FF"}
 
-item replace entity @s hotbar.8 with spyglass[consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={massacre_item:1b,spyglass:1b,rc:1b},item_name='{"color":"#7154FF","text":"Spyglass"}',lore=['{"color":"white","italic":false,"text":"Identifies a dead body\'s"}','{"color":"white","italic":false,"text":"cause of death."}']]
+loot replace entity @s hotbar.8 loot massacre:items/spyglass

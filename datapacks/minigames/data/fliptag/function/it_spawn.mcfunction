@@ -1,7 +1,7 @@
 function fliptag:it
 
 effect give @s blindness 4 255 true
-function main:movement_freeze
+function main:attribute/movement/freeze
 
 schedule function fliptag:it_release 3s
 

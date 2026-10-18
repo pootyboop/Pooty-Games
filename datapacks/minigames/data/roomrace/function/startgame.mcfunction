@@ -1,6 +1,6 @@
 
 
-function main:gamesetup {"tag":"roomrace"}
+function main:gamestate/startgame/setup {"tag":"roomrace"}
 
 tag @a add roomrace
 scoreboard players set dummy gameID 14
@@ -22,15 +22,15 @@ scoreboard objectives add buildrating dummy
 
 execute unless score dummy roundcount matches 0.. run scoreboard players set dummy roundcount 0
 
-title @a title {"text":"Room Race","color":"green"}
+function main:gamestate/startgame/title {"text":"Room Race"}
 title @a subtitle {"text":"Build and complete rooms!"}
 
-function main:descline
+function main:ui/descline
 tellraw @a {"text":"Room Race","color":"green","bold":true}
 tellraw @a {"text":"-Create parkour, a maze, etc. for other players to complete"}
 tellraw @a [{"text":"-The round ends after "},{"score":{"name":"dummy","objective":"roomracetime"}},{"text":" minutes"}]
 tellraw @a {"text":"-Race to finish each room the fastest"}
-function main:descline
+function main:ui/descline
 
 schedule function roomrace:nomovement 4s
 schedule function roomrace:rooms_setup 5s

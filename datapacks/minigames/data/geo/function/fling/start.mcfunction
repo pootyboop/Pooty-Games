@@ -22,17 +22,7 @@ execute anchored eyes positioned ^ ^ ^1 run data modify entity @n[type=falling_b
 # clean up the tag
 tag @e[tag=newflingblock] remove newflingblock
 
-
-
-execute as @s store result score @s uuid0 run data get entity @s UUID[0]
-execute as @s store result score @s uuid1 run data get entity @s UUID[1]
-execute as @s store result score @s uuid2 run data get entity @s UUID[2]
-execute as @s store result score @s uuid3 run data get entity @s UUID[3]
-
 execute anchored eyes positioned ^ ^ ^1 run function geo:fling/uuid
-
-
-
 schedule function geo:fling/main 1
 
 

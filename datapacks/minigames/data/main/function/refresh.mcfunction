@@ -7,10 +7,11 @@ gamemode adventure @a
 team leave @a[team=piglin]
 function main:seat/reset_all
 
-function main:playercount
-function main:pnum
+function main:player/count_all
+function main:player/number_all/run
 
-execute as @a run function main:reset_attributes
+execute as @a run function main:store_uuid
+execute as @a run function main:attribute/reset_all
 effect give @a weakness 4 255 true
 
 title @a times 0 40 20
@@ -56,8 +57,8 @@ gamerule spawnRadius 0
 worldborder center 0 0
 worldborder set 59999968
 
-function main:hunger_disable
-function main:itemdrops_disable
+function main:attribute/hunger/disable
+function main:attribute/item_drop/disable
 
 setworldspawn 0 60 0
 spawnpoint @a 0 60 0

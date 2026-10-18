@@ -1,0 +1,2 @@
+execute as @p[tag=currWitchPlayer,tag=revealedWitch] at @s run return run function witchhunt:witch/dmg/dead
+execute as @p[tag=currWitchPlayer,tag=!revealedWitch] at @s run return run function witchhunt:witch/dmg/revealed
