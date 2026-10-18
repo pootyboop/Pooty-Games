@@ -4,3 +4,5 @@ execute if score @s massacreRoleID matches 2 run return run data modify storage 
 execute if score @s massacreRoleID matches 3 run return run data modify storage minigames:temp massacre.role set value {"ID":"contortionist","title":"Contortionist"}
 execute if score @s massacreRoleID matches 4 run return run data modify storage minigames:temp massacre.role set value {"ID":"janitor","title":"Janitor"}
 execute if score @s massacreRoleID matches 5 run return run data modify storage minigames:temp massacre.role set value {"ID":"oracle","title":"Oracle"}
+execute if score @s massacreRoleID matches 6 run return run data modify storage minigames:temp massacre.role set value {"ID":"sculptor","title":"Sculptor"}
+#execute if score @s massacreRoleID matches 7 run return run data modify storage minigames:temp massacre.role set value {"ID":"shapeshifter","title":"Shapeshifter"}

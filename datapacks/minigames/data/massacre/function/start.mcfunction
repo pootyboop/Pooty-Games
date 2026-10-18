@@ -23,11 +23,11 @@ function main:ui/descline
 execute if score #murdererCount dummy matches 0 run return run tellraw @a [{"text":"\n[!] ","color":"dark_aqua"},{"text":"You are the only player, so there aren't any murderers. Enjoy the ride!","color":"yellow"}]
 
 execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ .8 0 .8
+#effect clear @a darkness
 
 # Assign the player that will be recognized by Oracle orbs
 function massacre:role/oracle/solve_orb
 
-#function main:timer/set_max {"time":"12000"}
+schedule function massacre:intro/bossbar_reveal 5s
 
 schedule function massacre:task/generate_all 12s
-schedule function massacre:task/generate_murderer 40s

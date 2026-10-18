@@ -66,6 +66,8 @@ execute unless score dummy playercount matches ..1 run scoreboard players remove
 
 execute as @a run function massacre:interaction/rc/stop
 
+scoreboard players set dummy minigametimer 999999
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 #scoreboard objectives modify minigamescore displayname {"text":"Time on Hill","color":"gold"}

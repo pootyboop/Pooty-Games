@@ -23,6 +23,7 @@ scoreboard objectives add drop minecraft.custom:minecraft.drop
 scoreboard players reset @a openBarrel
 scoreboard players reset @a openchest
 
+bossbar remove minecraft:timer
 bossbar add minecraft:timer {"text":""}
 bossbar set minecraft:timer color white
 bossbar set minecraft:timer style progress

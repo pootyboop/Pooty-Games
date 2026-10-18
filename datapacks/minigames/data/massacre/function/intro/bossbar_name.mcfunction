@@ -1,0 +1,1 @@
+$bossbar set minecraft:timer name {"text":"Time Until Arrival ($(time)$(unit))","color":"gray"}

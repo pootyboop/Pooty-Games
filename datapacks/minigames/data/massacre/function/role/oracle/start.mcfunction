@@ -1,3 +1,3 @@
 function massacre:role/announce {"title":"Oracle","desc":"Your orb informs you of one player who is NOT the murderer.","color":"#36C273"}
 
-item replace entity @s hotbar.8 with ender_eye[consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false},custom_data={massacre_item:1b,oracle_orb:1b,rc:1b},item_name='{"color":"#36C273","text":"Orb"}',use_cooldown={seconds:4},lore=['{"color":"white","italic":false,"text":"Identifies one random"}','[{"color":"white","italic":false,"text":"non-"},{"color":"red","text":"Murderer"},{"color":"white","italic":false,"text":" player."}]']]
+loot replace entity @s hotbar.8 loot massacre:items/orb

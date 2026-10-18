@@ -1,4 +1,5 @@
-clear @s *[custom_data~{massacre_poison:1b}] 1
+item replace entity @s weapon.mainhand with air
+#clear @s *[custom_data~{massacre_poison:1b}] 1
 tag @n[type=interaction,tag=currItemSource] add massacrePoisonedSource
 
 scoreboard players operation @n[type=interaction,tag=currItemSource] owningUUID = @s uuid0

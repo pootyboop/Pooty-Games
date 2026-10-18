@@ -1,3 +1,6 @@
+# Murderer life totals never change
+execute if predicate massacre:is_murderer run return 0
+
 execute store result score dummy dummy run attribute @s max_health base get
 $scoreboard players set $(amount) num $(amount)
 $scoreboard players operation dummy dummy += $(amount) num

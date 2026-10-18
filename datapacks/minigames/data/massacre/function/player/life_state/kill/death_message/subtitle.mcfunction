@@ -1,0 +1,1 @@
+$title @s subtitle {"text":"$(reason)","color":"gray"}

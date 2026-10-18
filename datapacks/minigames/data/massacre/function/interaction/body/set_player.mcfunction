@@ -1,0 +1,2 @@
+$execute as @p[scores={pnum=$(PNum)}] at @n[type=interaction,tag=currBodyInteraction] run item modify entity @n[type=item_display,tag=body_head,distance=..1] contents {function:"minecraft:fill_player_head",entity:"this"}
+function massacre:item/items/clay/fx

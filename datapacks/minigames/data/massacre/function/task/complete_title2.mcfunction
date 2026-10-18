@@ -1,1 +1,1 @@
-$title @s actionbar {"text":"$(text)","color":"green"}
+$title @s actionbar [{"text":"[Task Complete] ","color":"green"},{"text":"$(text)","color":"white"}]

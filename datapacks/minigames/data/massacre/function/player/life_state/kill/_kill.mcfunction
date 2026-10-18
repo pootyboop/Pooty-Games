@@ -3,7 +3,8 @@ scoreboard players set @s died 0
 function main:set_gamemode_silent {"gm":"spectator"}
 
 function massacre:player/life_state/kill/death_message/solve
-function massacre:player/life_state/body with storage minigames:temp massacre.death
+function massacre:player/life_state/kill/body_create with storage minigames:temp massacre.death
+function massacre:player/life_state/kill/death_message/subtitle with storage minigames:temp massacre.death
 
 title @s times 0 50 10
 title @s title {"text":"DEAD","color":"red"}
@@ -17,8 +18,11 @@ execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ .35 0.
 
 function massacre:poison/end
 
-effect give @s blindness 2 0 true
+effect give @s blindness 3 0 true
 effect clear @s slowness
-effect give @s slowness 1 4 true
+effect give @s slowness 2 4 true
 
-schedule function massacre:player/life_state/kill/check_players 1s
+tag @p[tag=currKiller] remove usedKnife
+tag @p[tag=currKiller] remove usedGun
+
+schedule function massacre:player/life_state/kill/check_players 2s replace

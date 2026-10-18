@@ -8,5 +8,6 @@ function main:ui/typewriter/start {text:"You are a...","color":"gray","edgeColor
 
 execute as @a at @s run playsound minecraft:entity.wither.ambient master @s ~ ~ ~ .3 0 .3
 effect give @a blindness 1 0 true
+#effect give @a darkness infinite 0 true
 
 schedule function massacre:start 4s

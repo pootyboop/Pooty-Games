@@ -1,0 +1,2 @@
+execute if entity @s[tag=murderer] run return run function massacre:item/items/spyglass/reveal_cause_of_death {"reason":"\"Ripe for the kill.\""}
+function massacre:item/items/spyglass/reveal_cause_of_death {"reason":"\"Not dead.\""}

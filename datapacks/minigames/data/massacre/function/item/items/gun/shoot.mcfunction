@@ -1,4 +1,5 @@
 tag @s add shootingGun
+tag @s add rayAttack
 tag @s add usedGun
 
 execute positioned ~ ~1.5 ~ positioned ^ ^ ^.5 run particle smoke ~ ~ ~ .2 .2 .2 0 5 force
@@ -9,6 +10,7 @@ effect give @s slowness 1 3 true
 
 function massacre:interaction/hit/ray/start {"range":"400"}
 tag @s remove shootingGun
+tag @s remove rayAttack
 
 execute unless entity @s[tag=shotCivilian] run return 0
 tag @s remove shotCivilian

@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "custom_name",
+                            "name": {
+                                "text": "Medical Supplies",
+                                "color": "#FF8AF7",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Heals all nearby unwell",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "and ",
+                                    "color": "white",
+                                    "italic": false,
+                                    "extra": [
+                                        
+                                        {
+                                            "text": "Poisoned",
+                                            "color": "#00FF44",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " players.",
+                                            "color": "white",
+                                            "italic": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:use_cooldown": {
+                                    "seconds": 45
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "sound": "minecraft:entity.turtle.shamble_baby",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "massacre_item": true,
+                                    "rc": true,
+                                    "medical_supplies": true,
+                                    "itemID": "medical_supplies"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
