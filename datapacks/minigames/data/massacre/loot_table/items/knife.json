@@ -21,7 +21,12 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Kills players.",
+                                    "text": "Kills players, then goes",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " on cooldown for 1m30s.",
                                     "color": "white",
                                     "italic": false
                                 }

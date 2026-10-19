@@ -21,6 +21,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
+                                    "text": "Single Use.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
                                     "text": "Permanently forces open",
                                     "color": "white",
                                     "italic": false

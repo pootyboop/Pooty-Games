@@ -21,6 +21,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
+                                    "text": "Single Use.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
                                     "text": "Molds into a replica of",
                                     "color": "white",
                                     "italic": false

@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:filled_map",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "custom_name",
+                            "name": {
+                                "text": "Certificate of Authenticity",
+                                "color": "#f7e287",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Single Use.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Tells all players in a 5",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "block radius what your",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "role is.",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1000000,
+                                    "sound": "minecraft:entity.turtle.shamble_baby",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:custom_data": {
+                                    "massacre_item": true,
+                                    "rc": true,
+                                    "certificate_of_authenticity": true,
+                                    "itemID": "certificate_of_authenticity"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -12,7 +12,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "massacre:items/poison_vial",
-                    "weight": 15
+                    "weight": 17
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -33,6 +33,11 @@
                     "type": "minecraft:loot_table",
                     "value": "massacre:items/orb",
                     "weight": 7
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "massacre:items/certificate_of_authenticity",
+                    "weight": 11
                 },
                 {
                     "type": "minecraft:loot_table",

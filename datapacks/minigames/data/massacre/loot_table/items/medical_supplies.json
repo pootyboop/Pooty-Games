@@ -21,27 +21,31 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "text": "Heals all nearby unwell",
+                                    "text": "Single Use.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Heals all unwell and",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "text": "and ",
-                                    "color": "white",
+                                    "text": "Poisoned",
+                                    "color": "#00FF44",
                                     "italic": false,
                                     "extra": [
-                                        
                                         {
-                                            "text": "Poisoned",
-                                            "color": "#00FF44",
-                                            "italic": false
-                                        },
-                                        {
-                                            "text": " players.",
+                                            "text": " players in",
                                             "color": "white",
                                             "italic": false
                                         }
                                     ]
+                                },
+                                {
+                                    "text": "a 5 block radius.",
+                                    "color": "white",
+                                    "italic": false
                                 }
                             ]
                         },

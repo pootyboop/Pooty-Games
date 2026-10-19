@@ -21,6 +21,11 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
+                                    "text": "Single Use.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
                                     "text": "Poisons",
                                     "color": "#00FF44",
                                     "italic": false,
