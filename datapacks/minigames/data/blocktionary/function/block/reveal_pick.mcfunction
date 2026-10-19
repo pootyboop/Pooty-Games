@@ -1,0 +1,2 @@
+$execute store result storage minigames:temp blocktionary.a.r int 1 run random value 0..$(max)
+function blocktionary:block/reveal_get with storage minigames:temp blocktionary.a

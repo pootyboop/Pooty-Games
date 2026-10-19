@@ -1,0 +1,1 @@
+$title @s actionbar {"text":"$(name)","color":"aqua","underlined":true}

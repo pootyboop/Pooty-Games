@@ -1,0 +1,1 @@
+$data modify storage minigames:temp blocktionary.pick set from storage minigames:temp blocktionary.words[$(r)]

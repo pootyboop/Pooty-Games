@@ -5,6 +5,7 @@ $$(1) mix
 $$(1) amuse
 $$(1) chunk
 $$(1) blockrun
+$$(1) blocktionary
 $$(1) bridge
 $$(1) build
 $$(1) dance

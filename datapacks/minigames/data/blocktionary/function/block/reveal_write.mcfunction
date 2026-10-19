@@ -1,0 +1,1 @@
+$data modify storage minigames:temp blocktionary.tokens[$(i)] set value "$(c) "

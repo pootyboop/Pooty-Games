@@ -1,0 +1,2 @@
+function blocktionary:block/random_pick
+execute if data storage minigames:temp blocktionary.pick run data modify storage minigames:temp blocktionary.opts append from storage minigames:temp blocktionary.pick

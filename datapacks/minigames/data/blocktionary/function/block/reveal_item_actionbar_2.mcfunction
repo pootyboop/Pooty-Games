@@ -1,0 +1,1 @@
+$title @s actionbar [{"text":"Answer: ","color":"gray"},{"text":"$(name)","color":"aqua","underlined":true}]

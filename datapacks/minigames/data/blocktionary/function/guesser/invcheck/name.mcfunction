@@ -1,0 +1,1 @@
+$data modify storage minigames:temp blocktionary.firstName set value {translate:"item.minecraft.$(ID)",fallback:"%s",with:[{translate:"block.minecraft.$(ID)"}]}

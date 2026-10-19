@@ -1,0 +1,1 @@
+$data modify storage minigames:temp blocktionary.r.out set value "$(out)$(tok)"

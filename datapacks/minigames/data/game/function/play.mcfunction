@@ -22,6 +22,9 @@ execute if score dummy playercount matches 1.. run tellraw @a {"text":"Block Run
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Bridge","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bridge:startgame"}}
 
+execute if score dummy playercount matches 1.. run tellraw @a {"text":"Blocktionary","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function blocktionary:startgame"}}
+
+
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Build Comp","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function build:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chunk Fight","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chunk:startgame"}}

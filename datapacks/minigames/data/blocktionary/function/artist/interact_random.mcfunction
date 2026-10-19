@@ -1,0 +1,2 @@
+execute store result storage minigames:temp blocktionary.interaction.n int 1 run random value 1..3
+execute as @p[tag=artistChoosing] run return run function blocktionary:choice/resolve with storage minigames:temp blocktionary.interaction

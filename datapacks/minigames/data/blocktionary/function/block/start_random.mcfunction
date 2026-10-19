@@ -1,0 +1,2 @@
+function blocktionary:block/random_pick
+function blocktionary:block/start

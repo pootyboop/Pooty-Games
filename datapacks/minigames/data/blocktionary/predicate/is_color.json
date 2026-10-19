@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "position": {
+            "y": {
+                "min": 52,
+                "max": 55
+            }
+        },
+        "block": {
+            "blocks": "#minecraft:wool"
+        }
+    }
+}

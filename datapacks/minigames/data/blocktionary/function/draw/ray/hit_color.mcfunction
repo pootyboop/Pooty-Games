@@ -1,0 +1,16 @@
+$execute if block ~ ~ ~ red_wool run return run function blocktionary:draw/color/set {"color":"red","location":"$(location)"}
+$execute if block ~ ~ ~ orange_wool run return run function blocktionary:draw/color/set {"color":"orange","location":"$(location)"}
+$execute if block ~ ~ ~ yellow_wool run return run function blocktionary:draw/color/set {"color":"yellow","location":"$(location)"}
+$execute if block ~ ~ ~ lime_wool run return run function blocktionary:draw/color/set {"color":"lime","location":"$(location)"}
+$execute if block ~ ~ ~ green_wool run return run function blocktionary:draw/color/set {"color":"green","location":"$(location)"}
+$execute if block ~ ~ ~ cyan_wool run return run function blocktionary:draw/color/set {"color":"cyan","location":"$(location)"}
+$execute if block ~ ~ ~ light_blue_wool run return run function blocktionary:draw/color/set {"color":"light_blue","location":"$(location)"}
+$execute if block ~ ~ ~ blue_wool run return run function blocktionary:draw/color/set {"color":"blue","location":"$(location)"}
+$execute if block ~ ~ ~ purple_wool run return run function blocktionary:draw/color/set {"color":"purple","location":"$(location)"}
+$execute if block ~ ~ ~ magenta_wool run return run function blocktionary:draw/color/set {"color":"magenta","location":"$(location)"}
+$execute if block ~ ~ ~ pink_wool run return run function blocktionary:draw/color/set {"color":"pink","location":"$(location)"}
+$execute if block ~ ~ ~ brown_wool run return run function blocktionary:draw/color/set {"color":"brown","location":"$(location)"}
+$execute if block ~ ~ ~ white_wool run return run function blocktionary:draw/color/set {"color":"white","location":"$(location)"}
+$execute if block ~ ~ ~ light_gray_wool run return run function blocktionary:draw/color/set {"color":"light_gray","location":"$(location)"}
+$execute if block ~ ~ ~ gray_wool run return run function blocktionary:draw/color/set {"color":"gray","location":"$(location)"}
+$execute if block ~ ~ ~ black_wool run return run function blocktionary:draw/color/set {"color":"black","location":"$(location)"}

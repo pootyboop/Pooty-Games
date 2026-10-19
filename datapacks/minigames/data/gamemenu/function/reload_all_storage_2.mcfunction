@@ -109,12 +109,27 @@ $$(1) blockrun.tag $(2) "blockrun"
 $$(1) blockrun.name $(2) "Block Run"
 $$(1) blockrun.color $(2) "#ff7af3"
 $$(1) blockrun.item $(2) "magenta_glazed_terracotta"
-$$(1) blockrun.slot $(2) "25"
+$$(1) blockrun.slot $(2) "26"
 $$(1) blockrun.desc1 $(2) "Dodge through walls of"
 $$(1) blockrun.desc2 $(2) "blocks and keep moving!"
 $$(1) blockrun.playtime $(2) "<5"
 $$(1) blockrun.players $(2) "1+"
 $$(1) blockrun.genre $(2) "Party Game, Parkour"
+
+
+
+#BLOCKTIONARY
+#$$(3) blocktionary
+$$(1) blocktionary.tag $(2) "blocktionary"
+$$(1) blocktionary.name $(2) "Blocktionary"
+$$(1) blocktionary.color $(2) "#FFE7D6"
+$$(1) blocktionary.item $(2) "brush"
+$$(1) blocktionary.slot $(2) "8"
+$$(1) blocktionary.desc1 $(2) "Draw Minecraft items and guess"
+$$(1) blocktionary.desc2 $(2) "other player\\'s drawings!"
+$$(1) blocktionary.playtime $(2) "5"
+$$(1) blocktionary.players $(2) "1+"
+$$(1) blocktionary.genre $(2) "Drawing, Guessing"
 
 
 
@@ -124,12 +139,12 @@ $$(1) bridge.tag $(2) "bridge"
 $$(1) bridge.name $(2) "Bridge"
 $$(1) bridge.color $(2) "#8e60c1"
 $$(1) bridge.item $(2) "blue_terracotta"
-$$(1) bridge.slot $(2) "26"
+$$(1) bridge.slot $(2) "25"
 $$(1) bridge.desc1 $(2) "Race the enemy across the bridge"
 $$(1) bridge.desc2 $(2) "to reach their portal first!"
 $$(1) bridge.playtime $(2) "5-10"
 $$(1) bridge.players $(2) "2+"
-$$(1) bridge.genre $(2) "PvP"
+$$(1) bridge.genre $(2) "Team PvP"
 
 
 
@@ -399,7 +414,7 @@ $$(1) massacre.item $(2) "iron_sword"
 $$(1) massacre.slot $(2) "2"
 $$(1) massacre.desc1 $(2) "Survive a lethal train ride"
 $$(1) massacre.desc2 $(2) "and catch the murderer!"
-$$(1) massacre.playtime $(2) "10-20"
+$$(1) massacre.playtime $(2) "10"
 $$(1) massacre.players $(2) "4+"
 $$(1) massacre.genre $(2) "Hidden Role"
 
@@ -416,7 +431,7 @@ $$(1) paulheist.desc1 $(2) "Break in and steal Paul or"
 $$(1) paulheist.desc2 $(2) "defend him from the thieves!"
 $$(1) paulheist.playtime $(2) "<10"
 $$(1) paulheist.players $(2) "2+"
-$$(1) paulheist.genre $(2) "Team"
+$$(1) paulheist.genre $(2) "Team, Stealth"
 
 $$(1) paulheist.settings.map.name $(2) "Map"
 $$(1) paulheist.settings.map.value $(2) "1"
@@ -562,7 +577,7 @@ $$(1) warden.desc1 $(2) "Hide from the Warden as it hunts"
 $$(1) warden.desc2 $(2) "you down by sound and smell!"
 $$(1) warden.playtime $(2) "<5"
 $$(1) warden.players $(2) "2+"
-$$(1) warden.genre $(2) "Horror"
+$$(1) warden.genre $(2) "Horror, Stealth"
 
 
 

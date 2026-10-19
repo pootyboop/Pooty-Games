@@ -1,4 +1,6 @@
 advancement revoke @s only minecraft:rightclick
+advancement revoke @s only minecraft:rightclick_noanim
+advancement revoke @s only minecraft:rightclick_silent
 advancement revoke @s only minecraft:rightclick_sfx
 advancement revoke @s only minecraft:rightclick_spear
 advancement revoke @s only minecraft:rightclick_block

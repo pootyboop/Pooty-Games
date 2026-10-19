@@ -1,0 +1,1 @@
+function blocktionary:block/reveal_item_actionbar_artist

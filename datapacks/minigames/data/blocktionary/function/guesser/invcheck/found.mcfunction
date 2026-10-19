@@ -1,0 +1,2 @@
+data modify storage minigames:temp blocktionary.macro.ID set string storage minigames:temp blocktionary.inv[0].id 10
+function blocktionary:guesser/invcheck/name with storage minigames:temp blocktionary.macro

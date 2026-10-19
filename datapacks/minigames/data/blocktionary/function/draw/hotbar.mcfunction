@@ -1,0 +1,8 @@
+item replace entity @s hotbar.0 with brush[item_name='{"color":"red","text":"Brush"}',custom_data={brush:1b,tool:1b},consumable={consume_seconds:1000000,animation:"none",sound:"entity.turtle.shamble_baby",has_consume_particles:false}]
+item replace entity @s hotbar.1 with candle[item_name='{"color":"red","text":"Pencil"}',custom_data={pencil:1b,tool:1b},consumable={consume_seconds:1000000,animation:"none",sound:"entity.turtle.shamble_baby",has_consume_particles:false}]
+item replace entity @s hotbar.2 with hopper[item_name='{"color":"red","text":"Bucket Fill"}',custom_data={bucket:1b,tool:1b},consumable={consume_seconds:1000000,animation:"none",sound:"entity.turtle.shamble_baby",has_consume_particles:false}]
+item replace entity @s hotbar.3 with white_dye[item_name='{"color":"red","text":"Eraser"}',custom_data={eraser:1b,tool:1b},consumable={consume_seconds:1000000,animation:"none",sound:"entity.turtle.shamble_baby",has_consume_particles:false}]
+
+item replace entity @s hotbar.7 with player_head[item_name='{"color":"red","text":"Clear Canvas"}',custom_data={reset:1b,tool:1b},consumable={consume_seconds:1000000,animation:"none",sound:"entity.turtle.shamble_baby",has_consume_particles:false},profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZmYjkxMjYxMmEwNmU3ZWJmODY1YmU1MGNlOWZmNjA5MTk1ZWZkMTliYmU0OTdjNjFlMjI4YzczZWY3NzU3In19fQ=="}]}]
+
+$item replace entity @s hotbar.8 with $(id)[item_name='[{"color":"gray","text":"Draw: "},{"color":"aqua","text":"$(name)"}]',custom_data={item:1b}]

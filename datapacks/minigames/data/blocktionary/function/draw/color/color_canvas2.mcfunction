@@ -1,0 +1,2 @@
+$setblock ~ ~ ~ $(color)_wool replace
+$particle block{block_state:"minecraft:$(color)_wool"} ~1 ~ ~ 0 .5 .5 0 10 force @a
