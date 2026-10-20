@@ -13,6 +13,7 @@ kill @e[type=interaction,tag=slippyseat]
 kill @e[type=item_display,tag=pooty_boop_head]
 kill @e[type=item,tag=holyitem]
 kill @e[type=block_display,tag=fakewall]
+schedule clear spawn:gamemenutext/flash
 
 scoreboard objectives remove dummy
 scoreboard objectives add dummy dummy

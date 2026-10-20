@@ -51,11 +51,11 @@ item replace entity @a[team=blue] armor.chest with leather_chestplate[dyed_color
 item replace entity @a[team=blue] armor.legs with leather_leggings[dyed_color=5592575,unbreakable={}]
 item replace entity @a[team=blue] armor.feet with leather_boots[dyed_color=5592575,unbreakable={}]
 
-function main:gamestate/startgame/title {"text":"Ham Soccer"}
+function main:gamestate/startgame/title {"text":"Baconball"}
 title @a subtitle {"text":"Score goals with the pig!"}
 
 function main:ui/descline
-tellraw @a {"text":"Ham Soccer","color":"gold","bold":true}
+tellraw @a {"text":"Baconball","color":"gold","bold":true}
 tellraw @a {"text":"-Hit the pig into the other team's goal"}
 tellraw @a {"text":"-The game ends after 2 minutes"}
 tellraw @a {"text":"-The team with the most goals wins"}

@@ -1,0 +1,1 @@
+function spawn:gamemenutext/color {"color":"yellow"}

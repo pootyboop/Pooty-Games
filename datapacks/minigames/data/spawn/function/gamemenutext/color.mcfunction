@@ -1,0 +1,1 @@
+$data modify entity @n[type=text_display,tag=gameMenuText] text set value '{"text":"Game Menu","color":"$(color)"}'

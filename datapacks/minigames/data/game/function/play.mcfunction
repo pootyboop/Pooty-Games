@@ -45,7 +45,7 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Geokinesi
 
 execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Gold Rush","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function goldrush:startgame"}}
 
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Ham Soccer","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function hamsoccer:startgame"}}
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Baconball","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function hamsoccer:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Hide and Seek","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function hideseek:startgame"}}
 
