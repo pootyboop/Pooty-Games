@@ -8,10 +8,10 @@
 # mix/selectid
 
 # AND IF THEY USE A NEW KIND OF SETTING:
-# gamemenu/settings_setupcheck
+# gamemenu/settings/setupcheck
 
 # AND IF THEY USE 27+ SETTINGS, INCREASE THIS VALUE:
-# gamemenu/settings_setup_setting
+# gamemenu/settings/setup/setting
 # ========================================================== #
 
 
@@ -423,10 +423,11 @@ $$(1) massacre.genre $(2) "Hidden Role"
 
 #$$(1) massacre.settings.role.name $(2) "Role Enabled"
 #$$(1) massacre.settings.role.value $(2) "1"
-#$$(1) massacre.settings.role.0.name $(2) "Oracle"
+
+#$$(1) massacre.settings.role.0.name $(2) "Oracle Role"
 #$$(1) massacre.settings.role.0.value $(2) "1"
 #$$(1) massacre.settings.role.0.item $(2) "ender_eye"
-#$$(1) massacre.settings.role.0.slot $(2) "1"
+#$$(1) massacre.settings.role.0.slot $(2) "0"
 
 
 

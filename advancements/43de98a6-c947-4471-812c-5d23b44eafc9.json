@@ -8537,5 +8537,11 @@
     },
     "done": true
   },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2026-10-20 02:57:52 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

@@ -1,0 +1,29 @@
+$data modify storage minigames:settings tempsetting.settingvalue set from storage minigames:settings $(path).value
+
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).1"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).2"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).3"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).4"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).5"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).6"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).7"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).8"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).9"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).10"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).11"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).12"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).13"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).14"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).15"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).16"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).17"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).18"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).19"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).20"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).21"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).22"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).23"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).24"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).25"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).26"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).27"}

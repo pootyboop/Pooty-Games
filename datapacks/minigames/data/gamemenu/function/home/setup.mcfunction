@@ -8,4 +8,4 @@ tellraw @a [{"text":"You can check out games in the meantime by ","color":"white
 tellraw @a {"text":""}
 function main:ui/descline
 tellraw @a {"text":""}
-function gamemenu:home_setup_2
+function gamemenu:home/setup_2

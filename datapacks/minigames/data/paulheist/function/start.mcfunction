@@ -5,6 +5,8 @@ title @a[tag=thief] title {"text":"GO!","color":"gold"}
 title @a[tag=guardian] title {"text":"Get Ready...","color":"gold"}
 playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 
+effect give @a[tag=thief] blindness 1 0 true
+
 scoreboard objectives setdisplay sidebar.team.aqua minigamescore
 
 

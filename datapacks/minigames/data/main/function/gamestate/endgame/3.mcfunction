@@ -7,6 +7,6 @@ scoreboard players set dummy gameID 0
 execute if entity @p[tag=mix] run return 0
 
 setblock 6 60 -3 potted_cherry_sapling replace
-execute positioned 0 59 7 as @a run function gamemenu:home_setup_2
+execute positioned 0 59 7 as @a run function gamemenu:home/setup_2
 execute unless entity @n[type=slime,tag=slippy] run function spawn:slippy_spawn
 function spawn:dancing_ben/spawn_random
