@@ -1,4 +1,5 @@
-#function map:if_params {"map":"gardenmarket"}
+# Use like this:
+# function map:if_params {"map":"gardenmarket"}
 
 
 

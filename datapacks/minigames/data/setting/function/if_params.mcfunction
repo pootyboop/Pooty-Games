@@ -1,4 +1,5 @@
-#function setting:if_params {"tag":"hideseek","setting":"map","value":"2"}
+# Use like this:
+# function setting:if_params {"tag":"hideseek","setting":"map","value":"2"}
 
 
 

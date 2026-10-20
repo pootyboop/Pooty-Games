@@ -8533,13 +8533,7 @@
   },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2026-10-14 23:33:38 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2026-10-15 02:42:29 +0100"
+      "requirement": "2026-10-20 02:23:00 +0100"
     },
     "done": true
   },

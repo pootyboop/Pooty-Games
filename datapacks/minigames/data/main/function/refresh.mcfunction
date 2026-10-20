@@ -4,7 +4,8 @@ xp set @a 0
 xp set @a 0 levels
 effect clear @a
 gamemode adventure @a
-team leave @a[team=piglin]
+execute as @a[team=piglin] run function main:player/team_leave
+
 function main:seat/reset_all
 
 function main:player/count_all

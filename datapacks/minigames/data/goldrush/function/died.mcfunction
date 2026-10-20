@@ -6,7 +6,7 @@ effect give @s blindness 3 0 true
 title @s title {"text":"DEAD","color":"red"}
 tag @s add died
 
-team leave @s
+function main:player/team_leave
 
 scoreboard objectives remove playercount
 scoreboard objectives add playercount dummy

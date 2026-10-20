@@ -1,0 +1,1 @@
+execute as @n[type=armor_stand,tag=dancingBen] at @s run function spawn:dancing_ben/pose

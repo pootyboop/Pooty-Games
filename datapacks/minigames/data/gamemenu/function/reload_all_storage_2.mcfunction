@@ -1,15 +1,18 @@
-#Add minigames here
+# Add minigames here
 
-#=============ALSO ADD THEM TO THE FOLLOWING=============#
-#gamemenu:games_list
-#game:play
-#main:play_last
-#mix:pickgame2
-#mix:selectid
+# ============= ALSO ADD THEM TO THE FOLLOWING ============= #
+# gamemenu/games_list
+# game/play
+# main/play_last
+# mix/pickgame2
+# mix/selectid
 
-#AND IF THEY USE A NEW KIND OF SETTING:
-#gamemenu:settings_setupcheck
-#========================================================#
+# AND IF THEY USE A NEW KIND OF SETTING:
+# gamemenu/settings_setupcheck
+
+# AND IF THEY USE 27+ SETTINGS, INCREASE THIS VALUE:
+# gamemenu/settings_setup_setting
+# ========================================================== #
 
 
 
@@ -417,6 +420,13 @@ $$(1) massacre.desc2 $(2) "and catch the murderer!"
 $$(1) massacre.playtime $(2) "10"
 $$(1) massacre.players $(2) "4+"
 $$(1) massacre.genre $(2) "Hidden Role"
+
+#$$(1) massacre.settings.role.name $(2) "Role Enabled"
+#$$(1) massacre.settings.role.value $(2) "1"
+#$$(1) massacre.settings.role.0.name $(2) "Oracle"
+#$$(1) massacre.settings.role.0.value $(2) "1"
+#$$(1) massacre.settings.role.0.item $(2) "ender_eye"
+#$$(1) massacre.settings.role.0.slot $(2) "1"
 
 
 

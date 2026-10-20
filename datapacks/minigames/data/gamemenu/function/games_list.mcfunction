@@ -1,4 +1,4 @@
-#ADD GAMES HERE
+# ADD GAMES HERE
 $$(1) bedwars
 $$(1) pvp
 $$(1) mix

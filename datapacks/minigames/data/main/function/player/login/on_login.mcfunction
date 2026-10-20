@@ -7,8 +7,11 @@ scoreboard players reset @s openchest
 
 function main:store_uuid
 
-team leave @s
+function main:player/team_leave
+
 function main:set_gamemode_silent {"gm":"adventure"}
+clear @s
+
 effect give @s blindness 1 0 true
 title @s title {"text":"Pooty Games"}
 title @s subtitle [{"text":"Welcome, ","color":"gray"},{"selector":"@s","color":"gold"},{"text":"!","color":"gray"}]
