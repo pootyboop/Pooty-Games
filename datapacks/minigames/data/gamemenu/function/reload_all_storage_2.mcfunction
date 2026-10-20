@@ -424,10 +424,47 @@ $$(1) massacre.genre $(2) "Hidden Role"
 #$$(1) massacre.settings.role.name $(2) "Role Enabled"
 #$$(1) massacre.settings.role.value $(2) "1"
 
-#$$(1) massacre.settings.role.0.name $(2) "Oracle Role"
-#$$(1) massacre.settings.role.0.value $(2) "1"
-#$$(1) massacre.settings.role.0.item $(2) "ender_eye"
-#$$(1) massacre.settings.role.0.slot $(2) "0"
+$$(1) massacre.settings.role_0.toggle $(2) true
+$$(1) massacre.settings.role_0.name $(2) "Doctor Role"
+$$(1) massacre.settings.role_0.value $(2) "1"
+$$(1) massacre.settings.role_0.item $(2) "phantom_membrane"
+$$(1) massacre.settings.role_0.slot $(2) "10"
+
+$$(1) massacre.settings.role_1.toggle $(2) true
+$$(1) massacre.settings.role_1.name $(2) "Officer Role"
+$$(1) massacre.settings.role_1.value $(2) "1"
+$$(1) massacre.settings.role_1.item $(2) "iron_horse_armor"
+$$(1) massacre.settings.role_1.slot $(2) "11"
+
+$$(1) massacre.settings.role_2.toggle $(2) true
+$$(1) massacre.settings.role_2.name $(2) "Investigator Role"
+$$(1) massacre.settings.role_2.value $(2) "1"
+$$(1) massacre.settings.role_2.item $(2) "spyglass"
+$$(1) massacre.settings.role_2.slot $(2) "12"
+
+$$(1) massacre.settings.role_3.toggle $(2) true
+$$(1) massacre.settings.role_3.name $(2) "Contortionist Role"
+$$(1) massacre.settings.role_3.value $(2) "1"
+$$(1) massacre.settings.role_3.item $(2) "wind_charge"
+$$(1) massacre.settings.role_3.slot $(2) "13"
+
+$$(1) massacre.settings.role_4.toggle $(2) true
+$$(1) massacre.settings.role_4.name $(2) "Janitor Role"
+$$(1) massacre.settings.role_4.value $(2) "1"
+$$(1) massacre.settings.role_4.item $(2) "ominous_trial_key"
+$$(1) massacre.settings.role_4.slot $(2) "14"
+
+$$(1) massacre.settings.role_5.toggle $(2) true
+$$(1) massacre.settings.role_5.name $(2) "Oracle Role"
+$$(1) massacre.settings.role_5.value $(2) "1"
+$$(1) massacre.settings.role_5.item $(2) "ender_eye"
+$$(1) massacre.settings.role_5.slot $(2) "15"
+
+$$(1) massacre.settings.role_6.toggle $(2) true
+$$(1) massacre.settings.role_6.name $(2) "Sculptor Role"
+$$(1) massacre.settings.role_6.value $(2) "1"
+$$(1) massacre.settings.role_6.item $(2) "clay_ball"
+$$(1) massacre.settings.role_6.slot $(2) "16"
 
 
 

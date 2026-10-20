@@ -1,0 +1,1 @@
+playsound minecraft:entity.villager.work_mason master @a[distance=..6] ~ ~ ~ 1 1.4 1

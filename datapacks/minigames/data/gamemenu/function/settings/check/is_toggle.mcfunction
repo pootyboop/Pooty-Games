@@ -1,0 +1,1 @@
+$execute store result score dummy dummy run function main:compare_string {"1":"$(toggle)","2":"1"}

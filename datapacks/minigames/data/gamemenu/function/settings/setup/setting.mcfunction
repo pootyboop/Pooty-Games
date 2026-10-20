@@ -1,5 +1,7 @@
-$data modify storage minigames:settings tempsetting.settingvalue set from storage minigames:settings $(path).value
+$data modify storage minigames:settings temp_setting.setting_value set from storage minigames:settings $(path).value
 
+$function gamemenu:settings/setup/setting_2 {"path":"$(path)"}
+$function gamemenu:settings/setup/setting_2 {"path":"$(path).0"}
 $function gamemenu:settings/setup/setting_2 {"path":"$(path).1"}
 $function gamemenu:settings/setup/setting_2 {"path":"$(path).2"}
 $function gamemenu:settings/setup/setting_2 {"path":"$(path).3"}

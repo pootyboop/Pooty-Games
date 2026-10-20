@@ -3,10 +3,10 @@ data merge block ~ ~ ~ {Items:[{}]}
 
 playsound minecraft:block.dispenser.fail master @a[distance=..6] ~ ~ ~ 1 1.4
 
-data remove storage minigames:settings tempsetting
-$data modify storage minigames:settings tempsetting.tag set value "$(tag)"
-$data modify storage minigames:settings tempsetting.gamename set value "$(name)"
-$data modify storage minigames:settings tempsetting.color set value "$(color)"
+data remove storage minigames:settings temp_setting
+$data modify storage minigames:settings temp_setting.tag set value "$(tag)"
+$data modify storage minigames:settings temp_setting.gamename set value "$(name)"
+$data modify storage minigames:settings temp_setting.color set value "$(color)"
 
 scoreboard players set settingsSetup gamemenuMenu 1
 $function gamemenu:settings/setup/check {"tag":"$(tag)"}

@@ -1,1 +1,1 @@
-$execute if score dummy gamemenuMenu matches 1 unless block ~ ~ ~ chest{Items:[{Slot:$(slot)b,components:{"minecraft:custom_data":{menu:1b,$(value):1b}}}]} run function gamemenu:settings/setting_clicked with storage minigames:settings tempsetting
+$execute if score dummy gamemenuMenu matches 1 unless items block ~ ~ ~ container.$(slot) *[minecraft:custom_data~{menu:1b,$(value):1b}] run function gamemenu:settings/setting_clicked with storage minigames:settings temp_setting

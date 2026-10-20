@@ -1,3 +1,3 @@
 $function gamemenu:settings/setup/check {"tag":"$(tag)"}
 
-execute unless block ~ ~ ~ chest{Items:[{Slot:18b,components:{"minecraft:custom_data":{back:1b}}}]} run function gamemenu:home/setup_back
+execute unless items block ~ ~ ~ container.18 *[minecraft:custom_data~{back:1b}] run function gamemenu:home/setup_back
