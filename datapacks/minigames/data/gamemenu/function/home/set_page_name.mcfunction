@@ -1,0 +1,2 @@
+#$data merge block ~ ~ ~ {CustomName:'[{"text":"Game Menu","underlined":true},{"text":"                  Page $(page)","underlined":false}]',Items:[{}]}
+data merge block ~ ~ ~ {CustomName:'{"text":"          GAME MENU","bold":true,"color":"#2E2524"}',Items:[{}]}

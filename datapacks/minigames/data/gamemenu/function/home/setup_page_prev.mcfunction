@@ -1,0 +1,2 @@
+scoreboard players remove dummy gamemenuHomePage 1
+function gamemenu:home/setup_via_button
