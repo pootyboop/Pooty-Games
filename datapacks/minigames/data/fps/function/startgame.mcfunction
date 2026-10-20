@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"fps"}
 
 #execute as @a run attribute @s minecraft:max_health base set 10

@@ -4,8 +4,8 @@ setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~
 
 #tp @a ~ ~ ~ 90 0
-spreadplayers -600 -900 1 1 false @a
-execute as @a at @s run tp @s ~ 60 ~
+spreadplayers -600 -900 2 2 false @a
+execute as @a at @s run tp @s -599 60 ~ 90 0
 
 execute as @a run function main:attribute/movement/freeze
 

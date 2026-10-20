@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"build"}
 
 scoreboard players set dummy gameID 2

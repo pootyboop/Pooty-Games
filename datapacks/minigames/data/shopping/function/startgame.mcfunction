@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"shopping"}
 
 execute positioned 614 64 14 run function shopping:setup

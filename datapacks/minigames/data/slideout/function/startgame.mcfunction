@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"slideout"}
 
 tag @a remove sliding

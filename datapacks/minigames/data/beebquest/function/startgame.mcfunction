@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"beebquest"}
 
 function beebquest:setup

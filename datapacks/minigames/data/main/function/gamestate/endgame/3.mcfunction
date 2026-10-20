@@ -1,4 +1,4 @@
-execute if entity @p[tag=mix] run function mix:pickgame
+#execute if entity @p[tag=mix] run function mix:continue_to_next
 execute at @a run particle dust{color:[0.000,1.000,1.000],scale:1} ~ ~1 ~ .2 .4 .2 0 10
 
 execute unless entity @p[tag=login] unless score dummy gameID matches 0 run tp @a[tag=!mix] 0 60 0 0 0

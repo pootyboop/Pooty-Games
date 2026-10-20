@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"goldrush"}
 
 spreadplayers -300 -299 1 1.5 false @a

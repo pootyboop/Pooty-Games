@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"trackracing"}
 
 execute positioned 23 60 300 run function trackracing:setup

@@ -23,7 +23,7 @@ execute if score dummy lastPlayedGameID matches 22 run function chunk:startgame
 execute if score dummy lastPlayedGameID matches 23 run function bridge:startgame
 execute if score dummy lastPlayedGameID matches 24 run function surface:startgame
 execute if score dummy lastPlayedGameID matches 25 run function fine:startgame
-execute if score dummy lastPlayedGameID matches 26 run function ewok:startgame
+#execute if score dummy lastPlayedGameID matches 26 run function ewok:startgame
 execute if score dummy lastPlayedGameID matches 27 run function blockrun:startgame
 execute if score dummy lastPlayedGameID matches 28 run function smallworld:startgame
 execute if score dummy lastPlayedGameID matches 29 run function massacre:startgame

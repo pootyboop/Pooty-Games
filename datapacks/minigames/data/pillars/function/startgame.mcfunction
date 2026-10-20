@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"pillars"}
 
 scoreboard players set dummy gameID 17

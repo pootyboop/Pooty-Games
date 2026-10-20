@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"kinghill"}
 
 scoreboard players set dummy gameID 7

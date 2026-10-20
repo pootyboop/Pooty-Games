@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"roomrace"}
 
 tag @a add roomrace

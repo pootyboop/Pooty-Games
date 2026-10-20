@@ -4,11 +4,11 @@
 # gamemenu/games_list
 # game/play
 # main/play_last
-# mix/pickgame2
-# mix/selectid
+# mix/pick_game_2
+# mix/select_id
 
 # AND IF THEY USE A NEW KIND OF SETTING:
-# gamemenu/settings/setupcheck
+# gamemenu/settings/setup/check
 
 # AND IF THEY USE 27+ SETTINGS, INCREASE THIS VALUE:
 # gamemenu/settings/setup/setting
@@ -82,15 +82,15 @@ $$(1) pvp.genre $(2) "PvP"
 #MINIGAME MIX
 #$$(3) mix
 $$(1) mix.tag $(2) "mix"
-$$(1) mix.name $(2) "Minigame Mix"
+$$(1) mix.name $(2) "Random Minigame"
 $$(1) mix.color $(2) "red"
 $$(1) mix.item $(2) "apple"
 $$(1) mix.page $(2) "1"
 $$(1) mix.slot $(2) "0"
-$$(1) mix.desc1 $(2) "Play a random mix"
-$$(1) mix.desc2 $(2) "of all minigames!"
-$$(1) mix.playtime $(2) "5-15"
-$$(1) mix.players $(2) "1-10"
+$$(1) mix.desc1 $(2) "Play a random minigame made for"
+$$(1) mix.desc2 $(2) "the current number of players!"
+$$(1) mix.playtime $(2) "Up to 15"
+$$(1) mix.players $(2) "1+"
 $$(1) mix.genre $(2) "Party Games"
 
 

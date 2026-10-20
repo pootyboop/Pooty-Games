@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"fliptag"}
 
 function fliptag:setup

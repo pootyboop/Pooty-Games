@@ -1,5 +1,3 @@
-
-
 function main:gamestate/startgame/setup {"tag":"warden"}
 
 scoreboard players set dummy gameID 11
