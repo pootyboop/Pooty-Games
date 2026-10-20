@@ -3,3 +3,5 @@ spawnpoint @a 362 78 -300
 
 time set 14500
 weather clear
+
+function paulheist:paul/observe/start

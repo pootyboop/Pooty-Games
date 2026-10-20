@@ -9,6 +9,6 @@ fill 347 78 -303 347 79 -305 minecraft:iron_bars
 title @a actionbar [{"text":"Foyer doors: "},{"text":"Locked","color":"red"}]
 
 clear @a goat_horn[custom_data={foyer:1b}]
-item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.2 with goat_horn[custom_name='[{"text":"Unlock","color":"green","italic":false},{"text":" Foyer Doors","color":"white"}]',instrument="minecraft:sing_goat_horn",custom_data={foyer:1b}]
+item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.2 with goat_horn[custom_name='[{"text":"Unlock","color":"green","italic":false},{"text":" Foyer Doors","color":"white"}]',instrument="minecraft:sing_goat_horn",custom_data={foyer:1b},hide_additional_tooltip={}]
 
 tag @s add doorsBypass

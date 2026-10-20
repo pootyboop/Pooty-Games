@@ -1,20 +1,19 @@
 title @a title {"text":"GO!"}
 playsound minecraft:block.note_block.pling master @a ~ ~ ~ 1 1 1
+effect give @a blindness 1 0 true
 
-execute as @r at @s run function fine:teams
-tag @a remove teamed
-
-tp @a[team=Chef] 303 60 -588 180 0
+spreadplayers 303 -588 1 1 false @a[team=Chef]
+execute as @a[team=Chef] at @s run tp @s ~ 60 ~ 0 0
 spawnpoint @a[team=Chef] 303 60 -588 180
 recipe give @a[team=Chef] *
 
-tp @a[team=Waiter] 303 60 -593 180 0
+spreadplayers 303 -593 1 1 false @a[team=Waiter]
+execute as @a[team=Waiter] at @s run tp @s ~ 60 ~ 180 0
+execute as @a at @s run tp @s ~ 60 ~
 spawnpoint @a[team=Waiter] 303 60 -593 180
 effect give @a[team=Waiter] speed infinite 0 true
 
-clone 294 9 -595 310 14 -575 294 59 -595
-execute if score dummy playercount matches 1 run fill 302 60 -590 304 60 -590 air
-schedule function fine:kill_drops 1
+bossbar set minecraft:timer players @a
 
 function fine:main
 

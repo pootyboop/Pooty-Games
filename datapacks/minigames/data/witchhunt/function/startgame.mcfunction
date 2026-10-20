@@ -8,7 +8,6 @@ difficulty hard
 
 function witchhunt:cleanup
 
-
 team add hunters {"text":"Hunters","color":"red"}
 team modify hunters prefix {"text":"[H] ","color":"red"}
 team modify hunters friendlyFire false
@@ -18,21 +17,23 @@ team add witches {"text":"Witches","color":"light_purple"}
 team modify witches prefix {"text":"[W] ","color":"light_purple"}
 team modify witches friendlyFire false
 team modify witches seeFriendlyInvisibles false
-team modify witches collisionRule pushOwnTeam
+team modify witches collisionRule always
 team modify witches color light_purple
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Players","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"Players","color":"white"}
 scoreboard players set Witches minigamescore 0
+scoreboard players display name Witches minigamescore {"text":"Witches","color":"light_purple"}
 scoreboard players set Hunters minigamescore 0
+scoreboard players display name Hunters minigamescore {"text":"Hunters","color":"red"}
 scoreboard objectives setdisplay sidebar minigamescore
 
 execute positioned 593 60 -602 run function witchhunt:setup
 
 scoreboard players reset @a dmgd
 
-effect give @a weakness 10000 255 true
+effect give @a weakness infinite 255 true
 
 tag @a add hiding
 scoreboard players set dummy gameID 12

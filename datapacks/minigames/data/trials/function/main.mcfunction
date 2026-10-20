@@ -2,11 +2,10 @@ execute if block -600 62 606 minecraft:polished_blackstone_button[powered=true] 
 
 function main:seat/main
 
-# unless entity @a[tag=prepping]
-execute if entity @a[tag=trialing] run function trials:main_level with storage minigames:temp trial
+execute if entity @p[tag=trialing] run function trials:main_level with storage minigames:temp trial
 
-effect give @a[tag=!trialing] weakness 1 255 true
-effect give @a[tag=!trialing] resistance 1 255 true
+effect give @a[tag=!trialing] weakness infinite 255 true
+effect give @a[tag=!trialing] resistance infinite 255 true
 
 schedule function trials:main 1
 

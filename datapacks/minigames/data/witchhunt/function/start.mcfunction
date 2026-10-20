@@ -6,6 +6,7 @@ effect clear @a[tag=hunter] weakness
 
 title @a[tag=hunter] title {"text":"HUNT!","color":"gold"}
 tellraw @a[tag=witch] {"text":"Hunter(s) released!","color":"gold"}
+tellraw @a [{"text":"Hunters","color":"red"},{"text":" released!","color":"gray"}]
 
 playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 

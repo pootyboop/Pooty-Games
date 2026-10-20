@@ -2,7 +2,6 @@
   "values":[
   "minecraft:dark_oak_planks",
   "minecraft:warped_planks",
-  "minecraft:smooth_stone",
   "minecraft:grass_block",
   "minecraft:mud",
   "minecraft:iron_block",
@@ -16,8 +15,11 @@
   "minecraft:stone_bricks",
   "minecraft:cracked_stone_bricks",
   "minecraft:stone",
+  "minecraft:smooth_stone",
   "minecraft:smooth_stone_slab",
   "minecraft:tinted_glass",
-  "minecraft:glass"
+  "minecraft:glass",
+  "minecraft:observer",
+  "minecraft:polished_basalt"
   ]
 }

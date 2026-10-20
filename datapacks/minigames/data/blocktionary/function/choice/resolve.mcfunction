@@ -11,4 +11,5 @@ execute as @a[tag=!artist] at @s run playsound block.note_block.cow_bell master 
 execute as @a[tag=artist] at @s run playsound block.note_block.bell master @s ~ ~ ~ 1 .75 1
 execute as @a[tag=artist] at @s run playsound block.note_block.bell master @s ~ ~ ~ 1 2 1
 
+function blocktionary:draw/color/set {"color":"red","location":"color"}
 function blocktionary:draw/hotbar with storage minigames:temp blocktionary.pick

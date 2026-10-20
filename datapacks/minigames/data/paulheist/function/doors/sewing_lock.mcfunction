@@ -6,6 +6,6 @@ fill 361 72 -285 363 73 -285 minecraft:iron_bars
 title @a actionbar [{"text":"Southeast Wing doors: "},{"text":"Locked","color":"red"}]
 
 clear @a goat_horn[custom_data={sewing:1b}]
-item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.3 with goat_horn[custom_name='[{"text":"Unlock","color":"green","italic":false},{"text":" Southeast Wing Doors","color":"white"}]',instrument="minecraft:sing_goat_horn",custom_data={sewing:1b}]
+item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.3 with goat_horn[custom_name='[{"text":"Unlock","color":"green","italic":false},{"text":" Southeast Wing Doors","color":"white"}]',instrument="minecraft:sing_goat_horn",custom_data={sewing:1b},hide_additional_tooltip={}]
 
 tag @s add doorsBypass

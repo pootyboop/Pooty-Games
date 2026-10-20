@@ -9,6 +9,6 @@ fill 347 78 -303 347 79 -305 minecraft:cave_air
 title @a actionbar [{"text":"Foyer doors: "},{"text":"Unlocked","color":"green"}]
 
 clear @a goat_horn[custom_data={foyer:1b}]
-execute unless entity @a[tag=starting] run item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.2 with goat_horn[custom_name='[{"text":"Lock","color":"red","italic":false},{"text":" Foyer Doors","color":"white"}]',instrument="minecraft:seek_goat_horn",custom_data={foyer:1b}]
+execute unless entity @a[tag=starting] run item replace entity @a[tag=guardian,scores={respawntimer=0}] hotbar.2 with goat_horn[custom_name='[{"text":"Lock","color":"red","italic":false},{"text":" Foyer Doors","color":"white"}]',instrument="minecraft:seek_goat_horn",custom_data={foyer:1b},hide_additional_tooltip={}]
 
 tag @s add doorsBypass

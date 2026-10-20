@@ -1,0 +1,1 @@
+execute store result storage minigames:temp fine.trade.villID int 1 run scoreboard players get @s fineVillID

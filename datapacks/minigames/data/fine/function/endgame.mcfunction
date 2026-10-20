@@ -7,8 +7,14 @@ function fine:kill_drops
 # Kill any baby chickens created by accidental egg throws
 execute positioned 300 60 -600 run kill @e[type=chicken,distance=..50]
 
+data remove storage minigames:temp fine.villagers
+
+execute as @n[type=cow,tag=fineCow] at @s run tp @s ~ 0 ~
+kill @n[type=cow,tag=fineCow]
+
 function fine:update_doors
 
+schedule clear fine:prepare_map
 schedule clear fine:villager/new/create_sched
 schedule clear fine:villager/new/create
 schedule clear fine:fire/start

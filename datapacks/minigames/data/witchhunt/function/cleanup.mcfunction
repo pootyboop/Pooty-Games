@@ -2,7 +2,6 @@ tag @a remove witch
 tag @a remove hunter
 tag @a remove hiding
 tag @a remove revealedWitch
-tag @a remove needsWitch
 
 kill @e[type=trident,tag=!dontkill]
 
