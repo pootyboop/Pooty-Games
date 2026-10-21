@@ -12,7 +12,6 @@ playsound block.amethyst_block.resonate master @a ~ ~ ~ 1 1
 
 
 
-scoreboard players reset @s openchest
 #effect give @s blindness 2 0 true
 
 

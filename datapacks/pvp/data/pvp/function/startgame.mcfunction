@@ -27,6 +27,22 @@ scoreboard objectives add jumpDown dummy
 scoreboard objectives remove timeSinceJumpInputStarted
 scoreboard objectives add timeSinceJumpInputStarted minecraft.custom:minecraft.total_world_time
 
+# Tags, converted to scoreboards to allow predicate-ification of common selectors
+scoreboard objectives remove pvpFighter
+scoreboard objectives add pvpFighter dummy
+scoreboard objectives remove pvpSpectatingIngame
+scoreboard objectives add pvpSpectatingIngame dummy
+scoreboard objectives remove pvpNonDmgable
+scoreboard objectives add pvpNonDmgable dummy
+scoreboard objectives remove pvpEntity
+scoreboard objectives add pvpEntity dummy
+scoreboard objectives remove pvpArrowGrounded
+scoreboard objectives add pvpArrowGrounded dummy
+scoreboard objectives remove pvpProjectileTracker
+scoreboard objectives add pvpProjectileTracker dummy
+scoreboard objectives remove pvpTickSource
+scoreboard objectives add pvpTickSource dummy
+
 scoreboard objectives remove healthtracker
 scoreboard objectives add healthtracker dummy
 scoreboard objectives remove healthtracker2
@@ -78,19 +94,19 @@ advancement revoke @s only pvp:kill
 
 tag @a remove inflicter
 tag @a remove owner
-tag @a add fighter
+scoreboard players set @a pvpFighter 1
 
 execute as @a at @s run function pvp:player/new/start
 
 execute as @a run function pvp:player/team/add
 execute as @a at @s run function pvp:player/spawn/enter
 
-
-
 # Prepate spawn, map, and gamemode
 
 execute as @e[type=armor_stand,tag=needsdata] at @s run function pvp:loadout/component/write/asnew
 function pvp:misc/spawnstuff/spawn_all
+
+
 
 function pvp:map/set {"map":"gritpit"}
 function pvp:gm/set {"gm":"freeplay"}

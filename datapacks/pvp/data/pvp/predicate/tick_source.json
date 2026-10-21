@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:marker",
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "pvpTickSource": {
+          "max": 10,
+          "min": 1
+        }
+      }
+    }
+  ]
+}

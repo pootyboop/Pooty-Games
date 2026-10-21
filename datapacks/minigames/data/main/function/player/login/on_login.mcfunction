@@ -18,5 +18,6 @@ title @s subtitle [{"text":"Welcome, ","color":"gray"},{"selector":"@s","color":
 playsound minecraft:entity.enderman.teleport master @a ~ ~ ~1 1 1
 
 tag @s remove login
+tag @s remove playagain
 
 function spawn:return

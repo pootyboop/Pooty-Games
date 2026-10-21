@@ -1,6 +1,6 @@
 execute if entity @s[predicate=pred:fire] run return fail
 execute if entity @s[type=player,tag=!ingame] run return fail
-execute if entity @s[tag=nondmgable] run return fail
+execute if score @s pvpNonDmgable matches 1 run return fail
 execute if entity @s[tag=uuidowner] run return fail
 #function pvp:status/fire/extinguish
 effect give @s resistance 1 3 true

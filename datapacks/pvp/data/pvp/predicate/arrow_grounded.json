@@ -1,23 +1,23 @@
 {
-    "condition": "minecraft:all_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_scores",
         "entity": "this",
-        "predicate": {
-          "type": "#minecraft:arrows",
-          "nbt": "{inGround:1b}"
-        }
-      },
-      {
-        "condition": "minecraft:inverted",
-        "term": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"grounded\"]}"
-          }
+        "scores": {
+          "pvpArrowGrounded": 1
         }
       }
-    ]
-  }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#minecraft:arrows",
+        "nbt": "{inGround:1b}"
+      }
+    }
+  ]
+}

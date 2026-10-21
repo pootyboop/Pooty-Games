@@ -16,5 +16,5 @@ $execute at @s run function pvp:c/$(componentnew)/shoot_arrow
 
 tag @n[predicate=pvp:projectile_tracker,tag=newprojectiletracker] remove newprojectiletracker
 
-execute if entity @s[tag=allowgrounded] run data modify entity @s pickup set value 0b
+execute if entity @s[tag=allowGrounded] run data modify entity @s pickup set value 0b
 tag @s remove newshot

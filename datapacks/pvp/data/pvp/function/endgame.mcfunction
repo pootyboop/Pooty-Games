@@ -13,12 +13,16 @@ kill @e[type=#pvp:projectile,tag=!dontkill]
 kill @e[type=wolf,tag=hound,tag=!display]
 execute as @a at @s run function pvp:player/cleanup/start
 execute as @a run function pvp:player/team/remove
-execute as @e[tag=entity] at @s run function pvp:e/kill_unknowntype
+execute as @e[scores={pvpEntity=1}] at @s run function pvp:e/kill_unknowntype
 
 tag @a remove spawn
 tag @a remove ingame
-tag @a remove fighter
+scoreboard players reset @a pvpFighter
 tag @a remove trainingarea
+# This always sticks around for some reason
+tag @a remove rewindcooldown
+
+kill @e[type=marker,scores={pvpTickSource=1..}]
 
 scoreboard objectives remove timeSinceJumpInputStarted
 

@@ -1,6 +1,6 @@
 execute on origin run function pvp:c/chaingun/shoot_early
 
-tag @s add allowgrounded
+tag @s add allowGrounded
 data merge entity @s {NoGravity:1b}
 
 scoreboard players operation @n[predicate=pvp:fighter,tag=currshooter] chaingun.pulling.uuid0 = @s trueUUID

@@ -7,3 +7,10 @@ execute positioned -10018.0 63.5 -9999.5 run particle dust{color:[1.000,0.000,0.
 execute at @n[type=armor_stand,tag=ideasguy] run function pvp:misc/spawnstuff/ideasguy/main
 execute at @n[type=armor_stand,tag=infodesk] run function pvp:misc/spawnstuff/info/main
 execute if entity @a[tag=trainingarea] run function pvp:misc/trainingarea/main
+
+
+execute if entity @n[type=marker,scores={pvpTickSource=1}] run return 1
+
+#kill @n[type=marker,scores={pvpTickSource=1}]
+execute positioned -10000 60 -10000 run summon marker ~ ~ ~ {Tags:["pvpSpawnCenter"]}
+scoreboard players set @n[type=marker,tag=pvpSpawnCenter] pvpTickSource 1

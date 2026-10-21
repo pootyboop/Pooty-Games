@@ -8,5 +8,5 @@ execute if predicate pred:login run function main:player/login/on_login
 execute if predicate pred:dropped_item unless entity @n[predicate=pred:dummy,tag=allowdrop] run function main:attribute/item_drop/on_drop
 
 #inventory quick click stuff
-execute unless entity @s[nbt={Inventory:[{Slot:16b}]}] run return run function main:ui/compass_clicked
-execute unless entity @s[nbt={Inventory:[{Slot:17b}]}] run return run function main:ui/bed_clicked
+execute unless items entity @s inventory.7 * run return run function main:ui/compass_clicked
+execute unless items entity @s inventory.8 * run return run function main:ui/bed_clicked

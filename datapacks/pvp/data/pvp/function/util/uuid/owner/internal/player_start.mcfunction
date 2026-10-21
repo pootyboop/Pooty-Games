@@ -1,1 +1,1 @@
-$tag @n[predicate=pvp:fighter,tag=player,scores={trueUUID=$(uuid_internal)}] add uuidowner
+$tag @p[predicate=pvp:fighter,scores={trueUUID=$(uuid_internal)}] add uuidowner

@@ -27,12 +27,23 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "player",
-        "nbt": "{Tags:[\"spectatingingame\"]}"
-      }
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "player"
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pvpSpectatingIngame": 1
+          }
+        }
+      ]
     }
   ]
 }

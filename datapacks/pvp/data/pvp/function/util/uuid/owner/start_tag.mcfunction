@@ -1,1 +1,1 @@
-$execute at @e[predicate=pvp:fighter,tag=player] if score @s uuid0 = @n[predicate=pvp:fighter,tag=player] uuid0 run tag @n[predicate=pvp:fighter,tag=player] add $(tag)
+$execute at @a[predicate=pvp:fighter] if score @s uuid0 = @p[predicate=pvp:fighter] uuid0 run tag @p[predicate=pvp:fighter] add $(tag)

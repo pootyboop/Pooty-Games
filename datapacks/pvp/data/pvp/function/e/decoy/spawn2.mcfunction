@@ -1,3 +1,4 @@
+scoreboard players set @s pvpFighter 1
 scoreboard players operation @s uuid0 = @n[predicate=pvp:fighter,tag=owner] uuid0
 $team join $(uuid) @s
 data modify entity @s Rotation[0] set from entity @n[predicate=pvp:fighter,tag=owner] Rotation[0]
