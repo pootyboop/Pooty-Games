@@ -17,7 +17,7 @@ tellraw @a ""
 function build:rooms/finished_early_prompt
 function main:ui/descline
 
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
+function main:countdown/pling
 
 execute as @a run function main:gamemode/set_silent {"gm":"creative"}
 
@@ -25,6 +25,6 @@ bossbar set minecraft:timer players @a
 
 execute at @e[type=area_effect_cloud,tag=room] run fill 899 61 ~1 901 61 ~-1 air
 
-schedule function build:rooms/marker_uuid_sched 1
+schedule function build:rooms/marker/uuid_sched 1
 
 function build:main

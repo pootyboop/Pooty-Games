@@ -19,4 +19,4 @@ fill 9898 53 5 9898 64 5 ladder[facing=south]
 fill 10005 53 102 10005 64 102 ladder[facing=east]
 fill 10102 53 -5 10102 64 -5 ladder[facing=north]
 
-schedule function bedwars:count3 3s
+function main:countdown/start {"call":"bedwars:start","time":"3"}

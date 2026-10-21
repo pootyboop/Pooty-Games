@@ -1,0 +1,1 @@
+kill @e[type=pig,tag=ball]

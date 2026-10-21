@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"blockrun"}
-
 scoreboard players set dummy gameID 27
 
 execute positioned -600 60 -900 run function blockrun:setup

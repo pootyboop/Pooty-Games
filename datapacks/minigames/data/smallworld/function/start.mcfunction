@@ -1,5 +1,4 @@
-title @a title {"text":"GO!","color":"gold"}
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
+function main:countdown/go_title
 
 effect give @a[team=Giant] blindness infinite 255 true
 tellraw @a [{"text":"[!] "},{"selector":"@a[team=Giant]","color":"aqua"},{"text":" is blinded for 5 seconds!"}]

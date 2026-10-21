@@ -1,3 +1,4 @@
-execute if predicate pred:cointoss run function warden:map2
-tag @n[predicate=pred:dummy,tag=!mapBypass] add dungeon
-tag @n[predicate=pred:dummy,tag=mapBypass] remove mapBypass
+execute store result score dummy dummy run random value 0..1
+
+execute if score dummy dummy matches 0 run function map:set {"map":"dungeon"}
+execute if score dummy dummy matches 1 run function map:set {"map":"mines"}

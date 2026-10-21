@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"hamsoccer"}
-
 scoreboard players set dummy gameID 5
 
 
@@ -22,16 +21,20 @@ execute if function map:if_call positioned 600 60 300 run function hamsoccer:set
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Goals","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"GOALS","color":"white","bold":true}
 scoreboard players set Red minigamescore 0
+scoreboard players display name Red minigamescore {"text":"Red","color":"red"}
 scoreboard players set Blue minigamescore 0
+scoreboard players display name Blue minigamescore {"text":"Blue","color":"blue"}
 scoreboard objectives setdisplay sidebar minigamescore
 
+team remove red
 team add red {"text":"Red","color":"red"}
 team modify red prefix {"text":"[R] ","color":"red"}
 team modify red friendlyFire false
 team modify red color red
 
+team remove blue
 team add blue {"text":"Blue","color":"blue"}
 team modify blue prefix {"text":"[B] ","color":"blue"}
 team modify blue friendlyFire false

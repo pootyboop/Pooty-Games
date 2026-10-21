@@ -6,9 +6,11 @@ scoreboard players set dummy gameID 23
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Points","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"POINTS","color":"white","bold":true}
 scoreboard players set Red minigamescore 0
+scoreboard players display name Red minigamescore {"text":"Red","color":"red"}
 scoreboard players set Blue minigamescore 0
+scoreboard players display name Blue minigamescore {"text":"Blue","color":"blue"}
 scoreboard objectives setdisplay sidebar minigamescore
 
 scoreboard players reset dummy roundcount
@@ -23,4 +25,4 @@ tellraw @a {"text":"-Use your items to outsmart the other team"}
 tellraw @a {"text":"-First team to 3 points wins"}
 function main:ui/descline
 
-schedule function bridge:newround 5s
+function main:countdown/start {"call":"bridge:newround","time":"3"}

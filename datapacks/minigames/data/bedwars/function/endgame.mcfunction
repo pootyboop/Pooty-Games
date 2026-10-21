@@ -1,10 +1,4 @@
-schedule clear bedwars:main
-schedule clear bedwars:setup_2
 schedule clear bedwars:cleanup_sched
-schedule clear bedwars:count3
-schedule clear bedwars:count2
-schedule clear bedwars:count1
-schedule clear bedwars:start
 
 schedule function bedwars:wins_update 101
 

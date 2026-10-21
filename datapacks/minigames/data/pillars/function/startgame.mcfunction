@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"pillars"}
-
 scoreboard players set dummy gameID 17
 
 function main:attribute/item_drop/enable
@@ -30,4 +29,6 @@ tellraw @a {"text":"-Knock other players into the void"}
 tellraw @a {"text":"-The last one standing wins"}
 function main:ui/descline
 
-schedule function pillars:count3 5s
+schedule function pillars:cleanup 3s
+schedule function pillars:spawnplayers 3s
+function main:countdown/start {"call":"pillars:start","time":"3"}

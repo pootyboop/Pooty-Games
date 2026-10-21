@@ -7,7 +7,6 @@ execute as @e[type=minecart] at @s store result score @s uuid1 run scoreboard pl
 execute as @e[type=minecart] at @s store result score @s uuid2 run scoreboard players get @p[distance=..1.5] uuid2
 execute as @e[type=minecart] at @s store result score @s uuid3 run scoreboard players get @p[distance=..1.5] uuid3
 
-title @a title {"text":"GO!","color":"gold"}
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
+function main:countdown/go_title
 
 function trackracing:main

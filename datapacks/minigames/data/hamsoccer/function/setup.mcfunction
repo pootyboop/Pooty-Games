@@ -1,4 +1,5 @@
 function main:kill_nearby_items
+function hamsoccer:pig/kill
 time set 2000
 
 

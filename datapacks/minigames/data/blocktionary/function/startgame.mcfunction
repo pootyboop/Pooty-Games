@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"blocktionary"}
-
 scoreboard players set dummy gameID 30
 
 execute positioned -20000 70 0 run function blocktionary:setup

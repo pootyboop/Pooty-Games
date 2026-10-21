@@ -19,4 +19,4 @@ tag @a add geopause
 execute as @a run attribute @s minecraft:max_health base set 10
 effect give @a regeneration 2 255 true
 
-schedule function geo:count3 3s
+function main:countdown/start {"call":"geo:start","time":"3"}

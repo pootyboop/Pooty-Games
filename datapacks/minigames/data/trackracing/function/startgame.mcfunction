@@ -14,10 +14,9 @@ title @a subtitle {"text":"Move forward by placing tracks!"}
 
 function main:ui/descline
 tellraw @a {"text":"Track Racing","color":"gold","bold":true}
-tellraw @a {"text":"-You can place down tracks to move minecarts"}
+tellraw @a {"text":"-Place down tracks to move your minecart"}
 tellraw @a {"text":"-Get your minecart to the finish line first to win"}
 tellraw @a {"text":"-Redirect other players by blocking them"}
 function main:ui/descline
 
-schedule function trackracing:count3 5s
-
+function main:countdown/start {"call":"trackracing:start","time":"5"}

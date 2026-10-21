@@ -84,5 +84,4 @@ function main:ui/descline
 
 title @a times 0 80 0
 schedule function paulheist:teams 3s
-schedule function paulheist:count3 6s
-
+function main:countdown/start {"call":"paulheist:start","time":"6"}

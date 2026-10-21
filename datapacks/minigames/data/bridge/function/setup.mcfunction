@@ -9,4 +9,4 @@ execute as @r at @s run function bridge:teams
 tag @a remove teamed
 
 
-function bridge:chunk/start
+schedule function bridge:chunk/start 15

@@ -1,0 +1,1 @@
+execute as @a at @s run playsound block.note_block.pling master @s ~ ~ ~ .7 2 .7

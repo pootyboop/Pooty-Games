@@ -1,8 +1,8 @@
-playsound entity.player.levelup master @a ~ ~ ~ .6 1.1
-playsound entity.player.levelup master @a ~ ~ ~ 1 1.3
-playsound entity.player.levelup master @a ~ ~ ~ .6 1.6
-playsound block.amethyst_block.chime master @a ~ ~ ~ 1 1
-playsound block.amethyst_block.resonate master @a ~ ~ ~ 1 1
+playsound entity.player.levelup master @a ~ ~ ~ .5 1.1
+playsound entity.player.levelup master @a ~ ~ ~ .8 1.3
+playsound entity.player.levelup master @a ~ ~ ~ .5 1.6
+playsound block.amethyst_block.step master @a ~ ~ ~ 1 2
+playsound block.amethyst_block.resonate master @a ~ ~ ~ 1 0
 
 #tellraw @a [{"text":"\n------------------","color":"dark_gray"},{"text":"Game Menu","color":"white"},{"text":"-------------------\n","color":"dark_gray"}]
 #tellraw @a [{"selector":"@p","color":"gold"},{"text":" is using the Game Menu. Don't use it until they're done!","color":"gray"}]

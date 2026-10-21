@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"dance"}
-
 scoreboard players set dummy gameID 20
 
 execute positioned -600.0 60 -600.0 run function dance:setup

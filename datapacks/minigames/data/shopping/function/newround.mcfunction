@@ -1,3 +1,4 @@
+scoreboard objectives setdisplay sidebar minigamescore
 execute positioned 614 64 14 run function shopping:setup
 
 execute store result score dummy recipeID run random value 0..19
@@ -22,7 +23,7 @@ execute if score dummy recipeID matches 17 run schedule function shopping:recipe
 execute if score dummy recipeID matches 18 run schedule function shopping:recipe_tripwire_hook_setup 1
 execute if score dummy recipeID matches 19 run schedule function shopping:recipe_bricks_setup 1
 
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
+function main:countdown/pling
 
 give @a diamond_pickaxe[can_break={predicates:[{blocks:"#shopping_destroy"}],show_in_tooltip:false},unbreakable={},enchantments={levels:{"minecraft:efficiency":6}}]
 

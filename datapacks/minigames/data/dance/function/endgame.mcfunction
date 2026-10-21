@@ -1,7 +1,3 @@
-schedule clear dance:main
-schedule clear dance:count3
-schedule clear dance:count2
-schedule clear dance:count1
 schedule clear dance:floor/new
 schedule clear dance:floor/init
 

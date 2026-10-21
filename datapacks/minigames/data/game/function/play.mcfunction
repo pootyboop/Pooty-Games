@@ -59,6 +59,8 @@ execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Prospero
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"PvP Playground","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pvp:startgame"}}
 
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Room Race","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function roomrace:startgame"}}
+
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Shopping","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function shopping:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Small World","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function smallworld:startgame"}}

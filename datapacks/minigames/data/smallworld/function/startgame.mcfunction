@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"smallworld"}
-
 scoreboard players set dummy gameID 28
 
 execute positioned 0 60 -10000 run function smallworld:setup
@@ -34,4 +33,4 @@ tellraw @a[team=Tiny] {"text":"-Collect coins to get the Giant Slayer bow"}
 tellraw @a[team=Tiny] {"text":"-Shoot down the Giant to win!"}
 function main:ui/descline
 
-schedule function smallworld:count3 5s
+function main:countdown/start {"call":"smallworld:start","time":"5"}

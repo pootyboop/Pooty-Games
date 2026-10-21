@@ -1,7 +1,7 @@
 # Add minigames here
 
 # ============= ALSO ADD THEM TO THE FOLLOWING ============= #
-# gamemenu/games_list
+# gamemenu/games/list
 # game/play
 # main/play_last
 # mix/pick_game_2
@@ -43,7 +43,7 @@ $$(1) bedwars.settings.mode.2.item $(2) "egg"
 $$(1) bedwars.settings.mode.2.slot $(2) "13"
 $$(1) bedwars.settings.mode.3.name $(2) "Sudden Death"
 $$(1) bedwars.settings.mode.3.value $(2) "2"
-$$(1) bedwars.settings.mode.3.item $(2) "red_stained_glass"
+$$(1) bedwars.settings.mode.3.item $(2) "stone_sword"
 $$(1) bedwars.settings.mode.3.slot $(2) "14"
 
 
@@ -276,7 +276,7 @@ $$(1) fine.page $(2) "1"
 $$(1) fine.slot $(2) "13"
 $$(1) fine.desc1 $(2) "Work together to serve"
 $$(1) fine.desc2 $(2) "dishes as fast as you can!"
-$$(1) fine.playtime $(2) "5-10"
+$$(1) fine.playtime $(2) "<5"
 $$(1) fine.players $(2) "1+"
 $$(1) fine.genre $(2) "Crafting"
 
@@ -567,6 +567,23 @@ $$(1) pillars.settings.mode.2.slot $(2) "14"
 
 
 
+#ROOM RACE
+#$$(3) roomrace
+$$(1) roomrace.tag $(2) "roomrace"
+$$(1) roomrace.name $(2) "Room Race"
+$$(1) roomrace.color $(2) "#40EE81"
+$$(1) roomrace.item $(2) "emerald_block"
+$$(1) roomrace.itemnbt $(2) ''
+$$(1) roomrace.page $(2) "2"
+$$(1) roomrace.slot $(2) "4"
+$$(1) roomrace.desc1 $(2) "Build challenge rooms, then"
+$$(1) roomrace.desc2 $(2) "race to complete them!"
+$$(1) roomrace.playtime $(2) "5-10"
+$$(1) roomrace.players $(2) "2+"
+$$(1) roomrace.genre $(2) "Party Games, Building, Racing"
+
+
+
 #SHOPPING
 #$$(3) shopping
 $$(1) shopping.tag $(2) "shopping"
@@ -598,6 +615,21 @@ $$(1) slideout.desc2 $(2) "sliding at mach speed!"
 $$(1) slideout.playtime $(2) "<5"
 $$(1) slideout.players $(2) "1+"
 $$(1) slideout.genre $(2) "PvP, Racing"
+
+$$(1) slideout.settings.gm.name $(2) "Gamemode"
+$$(1) slideout.settings.gm.value $(2) "1"
+$$(1) slideout.settings.gm.1.name $(2) "Random Gamemode"
+$$(1) slideout.settings.gm.1.value $(2) "1"
+$$(1) slideout.settings.gm.1.item $(2) "glass"
+$$(1) slideout.settings.gm.1.slot $(2) "13"
+$$(1) slideout.settings.gm.2.name $(2) "Free-For-All"
+$$(1) slideout.settings.gm.2.value $(2) "2"
+$$(1) slideout.settings.gm.2.item $(2) "spectral_arrow"
+$$(1) slideout.settings.gm.2.slot $(2) "12"
+$$(1) slideout.settings.gm.3.name $(2) "Gold Points"
+$$(1) slideout.settings.gm.3.value $(2) "3"
+$$(1) slideout.settings.gm.3.item $(2) "sunflower"
+$$(1) slideout.settings.gm.3.slot $(2) "14"
 
 
 
@@ -672,7 +704,7 @@ $$(1) trackracing.genre $(2) "Racing, Strategy"
 #WARDEN'S DUNGEON
 #$$(3) warden
 $$(1) warden.tag $(2) "warden"
-$$(1) warden.name $(2) "Warden\\'s Dungeon"
+$$(1) warden.name $(2) "Warden’s Dungeon"
 $$(1) warden.color $(2) "#458593"
 $$(1) warden.item $(2) "sculk_shrieker"
 $$(1) warden.itemnbt $(2) ',profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExYmE2YjJiNDlmM2MxMmJhZTIyMzUxM2JlOGE4ZTk2MDU1ZTM4ZWM2OGFiMTNmYjg5ZGIxYjJlZjY2NDMyMSJ9fX0="}]}'
@@ -683,6 +715,21 @@ $$(1) warden.desc2 $(2) "you down by sound and smell!"
 $$(1) warden.playtime $(2) "<5"
 $$(1) warden.players $(2) "2+"
 $$(1) warden.genre $(2) "Horror, Stealth"
+
+$$(1) warden.settings.map.name $(2) "Map"
+$$(1) warden.settings.map.value $(2) "1"
+$$(1) warden.settings.map.1.name $(2) "Random Map"
+$$(1) warden.settings.map.1.value $(2) "1"
+$$(1) warden.settings.map.1.item $(2) "glass"
+$$(1) warden.settings.map.1.slot $(2) "13"
+$$(1) warden.settings.map.2.name $(2) "Dungeon"
+$$(1) warden.settings.map.2.value $(2) "2"
+$$(1) warden.settings.map.2.item $(2) "cracked_polished_blackstone_bricks"
+$$(1) warden.settings.map.2.slot $(2) "12"
+$$(1) warden.settings.map.3.name $(2) "Mines"
+$$(1) warden.settings.map.3.value $(2) "3"
+$$(1) warden.settings.map.3.item $(2) "rail"
+$$(1) warden.settings.map.3.slot $(2) "14"
 
 
 

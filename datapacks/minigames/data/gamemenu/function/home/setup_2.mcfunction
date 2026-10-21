@@ -4,7 +4,7 @@ tag @n[type=text_display,tag=sidemenu] remove sidemenu
 scoreboard objectives add gamemenuMenu dummy
 scoreboard players set dummy gamemenuMenu 0
 
-execute as @a[distance=..6] run function main:ui/menu_clear
+execute as @a[distance=..6] run function main:player/clear_inv
 
 execute store result storage minigames:temp gamemenu.page int 1 run scoreboard players get dummy gamemenuHomePage
 function gamemenu:home/set_page_name with storage minigames:temp gamemenu

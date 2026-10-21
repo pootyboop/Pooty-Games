@@ -1,9 +1,3 @@
-schedule clear goldrush:main
-schedule clear goldrush:count3
-schedule clear goldrush:count2
-schedule clear goldrush:count1
-schedule clear goldrush:start
-
 schedule function goldrush:grave_cleanup 4s
 
 tag @a remove miner

@@ -2,6 +2,7 @@
 schedule function main:gamestate/endgame/2 5s
 
 # Cleanup
+function main:countdown/clear_schedules
 scoreboard objectives remove dummy
 scoreboard objectives add dummy dummy
 scoreboard objectives remove perGameDeaths
@@ -35,7 +36,7 @@ title @a actionbar {"text":""}
 
 # Chat blurb
 function main:ui/descline
-function main:gamestate/endgame/tag with storage minigames:settings currGame
+function main:gamestate/endgame/tag_functions with storage minigames:settings currGame
 execute if score dummy dummy matches 0 run tellraw @a {"text":"No Winner","color":"gray"}
 execute if score dummy dummy matches 1 run tellraw @a {"text":"Winner:"}
 execute if score dummy dummy matches 2.. run tellraw @a {"text":"Winners:"}

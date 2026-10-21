@@ -1,4 +1,4 @@
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
+function main:countdown/pling
 
 title @a actionbar {"text":"Accusations now permitted.","color":"red"}
 

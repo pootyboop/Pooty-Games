@@ -44,5 +44,4 @@ gamerule sendCommandFeedback false
 
 effect give @a weakness 100 255 true
 
-schedule function goldrush:count3 5s
-
+function main:countdown/start {"call":"goldrush:start","time":"5"}

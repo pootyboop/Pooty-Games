@@ -1,7 +1,6 @@
-title @a title {"text":"Shhh.","color":"gray"}
-#playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
-execute as @a at @s run playsound minecraft:entity.warden.tendril_clicks master @s ~ ~ ~ 1 1
-execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ 1 1
+title @a times 0 20 0
+function main:ui/typewriter/start {text:"Shhh.","color":"gray","edgeColor":"dark_gray","mode":"title"}
+execute as @a at @s run function warden:warden/fx
 
 item replace entity @a hotbar.0 with snowball[custom_name='{"text":"Extremely Distracting Snowball","color":"white","italic":false}'] 3
 item replace entity @a hotbar.1 with bow[damage=383,custom_name='{"text":"Slimeshot","color":"green","italic":false}']

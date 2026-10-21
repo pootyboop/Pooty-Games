@@ -10,6 +10,6 @@ execute as @a run function main:gamemode/set_silent {"gm":"survival"}
 
 kill @e[type=area_effect_cloud,tag=room]
 
-schedule function build:rooms/marker 1
-schedule function build:rooms/2_sched 2
+schedule function build:rooms/marker/spawn 1
+schedule function build:rooms/sign_pedestal_sched 2
 schedule function build:topic/check 1

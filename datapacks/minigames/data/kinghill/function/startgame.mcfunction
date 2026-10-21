@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"kinghill"}
-
 scoreboard players set dummy gameID 7
 
 execute positioned 23 60 300 run function kinghill:setup
@@ -20,5 +19,4 @@ tellraw @a {"text":"-The game ends after 2 minutes"}
 tellraw @a {"text":"-Use knockback to keep other players away"}
 function main:ui/descline
 
-schedule function kinghill:count3 5s
-
+function main:countdown/start {"call":"kinghill:start","time":"5"}

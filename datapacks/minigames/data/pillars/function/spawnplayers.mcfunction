@@ -1,5 +1,3 @@
-#execute positioned 900 310 -900 run function pillars:cleanup
-
 execute positioned 900 310 -908 run function pillars:spawnplayer
 execute positioned 900 310 -892 run function pillars:spawnplayer
 

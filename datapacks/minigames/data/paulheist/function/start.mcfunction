@@ -2,8 +2,8 @@ function paulheist:paul/observe/stop
 
 title @a times 0 40 20
 title @a[tag=thief] title {"text":"GO!","color":"gold"}
+function main:countdown/pling
 title @a[tag=guardian] title {"text":"Get Ready...","color":"gold"}
-playsound block.note_block.pling master @a ~ ~ ~ .7 2 .7
 
 effect give @a[tag=thief] blindness 1 0 true
 

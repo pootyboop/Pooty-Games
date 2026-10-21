@@ -1,5 +1,4 @@
 function main:gamestate/startgame/setup {"tag":"delve"}
-
 scoreboard players set dummy gameID 101
 
 tag @a remove ingame

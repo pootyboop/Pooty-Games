@@ -12,7 +12,7 @@ execute if entity @s[team=Blue] run title @a subtitle [{"text":"Blue","color":"b
 execute if entity @s[team=Blue] run scoreboard players add Blue minigamescore 1
 title @a actionbar {"text":""}
 
-
+execute as @a at @s run playsound minecraft:entity.zombie.attack_iron_door master @s ~ ~ ~ .6 .6 .6
 
 execute if score Red minigamescore matches 3.. run return run schedule function bridge:endgame 3s
 execute if score Blue minigamescore matches 3.. run return run schedule function bridge:endgame 3s

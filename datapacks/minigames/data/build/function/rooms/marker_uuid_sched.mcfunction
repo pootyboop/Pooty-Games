@@ -1,1 +1,0 @@
-execute as @e[type=area_effect_cloud,tag=room] at @s run function build:rooms/marker_uuid

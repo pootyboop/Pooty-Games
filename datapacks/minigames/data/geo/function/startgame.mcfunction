@@ -34,8 +34,5 @@ function main:ui/descline
 
 
 
-
 function geo:main
-
 schedule function geo:block_cleanup 2s
-

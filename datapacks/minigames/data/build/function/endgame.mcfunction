@@ -1,7 +1,7 @@
 schedule clear build:rooms/setup
-schedule clear build:rooms/2_sched
-schedule clear build:rooms/marker_uuid_sched
-schedule clear build:rooms/marker
+schedule clear build:rooms/sign_pedestal_sched
+schedule clear build:rooms/marker/uuid_sched
+schedule clear build:rooms/marker/spawn
 schedule clear build:topic/check
 schedule clear build:disable_movement
 schedule clear build:view_build/setup
@@ -9,12 +9,6 @@ schedule clear build:view_build/select_random
 schedule clear build:view_build/end
 schedule clear build:rate/reminder
 schedule clear build:results
-
-schedule clear build:main
-schedule clear build:count3
-schedule clear build:count2
-schedule clear build:count1
-schedule clear build:start
 
 
 

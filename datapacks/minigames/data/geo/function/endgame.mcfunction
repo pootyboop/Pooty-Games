@@ -1,10 +1,4 @@
-schedule clear geo:main
 schedule clear geo:block_cleanup
-schedule clear geo:newround
-schedule clear geo:count3
-schedule clear geo:count2
-schedule clear geo:count1
-schedule clear geo:start
 
 execute unless entity @a[tag=roundover] run function geo:roundover_cleanup
 tag @a remove roundover
