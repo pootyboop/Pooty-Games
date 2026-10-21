@@ -1,7 +1,7 @@
 scoreboard players operation @s healthtracker2 = @s healthtracker
 
 data modify storage pvp:storage temp.currFighter set from entity @s
-execute store result score @s healthtracker run data get storage pvp:storage temp.currFighter.Health 10
+execute store result score @s healthtracker run data get storage pvp:storage temp.currFighter.Health 1
 execute store result score .hurttime healthtracker run data get storage pvp:storage temp.currFighter.HurtTime
 
 #execute store result score @s healthtracker run data get entity @s Health
