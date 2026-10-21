@@ -1,7 +1,7 @@
 tag @s remove infredminersSC
 tp @s -1794 60 313 -135 5
 ride @s dismount
-function main:set_gamemode_silent {"gm":"adventure"}
+function main:gamemode/set_silent {"gm":"adventure"}
 
 effect give @s blindness 1 0 true
 execute at @s run playsound minecraft:block.dispenser.fail master @s ~ ~ ~ 1 0

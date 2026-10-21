@@ -11,7 +11,7 @@ scoreboard objectives setdisplay sidebar.team.aqua minigamescore
 
 
 tag @a remove starting
-execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
+execute as @a run function main:gamemode/set_silent {"gm":"adventure"}
 
 
 

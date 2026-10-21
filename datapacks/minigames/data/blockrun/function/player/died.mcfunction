@@ -1,5 +1,5 @@
 scoreboard players reset @s died
-function main:set_gamemode_silent {"gm":"spectator"}
+function main:gamemode/set_silent {"gm":"spectator"}
 clear @s
 
 tellraw @a [{"selector":"@s","color":"red"},{"text":" dropped out!","color":"gray"}]

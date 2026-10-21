@@ -11,13 +11,15 @@ execute positioned 900 60 0 run function build:setup
 #function setting:if_params {"tag":"build","setting":"mode","value":"1"}
 #execute if function setting:if_call run function 
 
+tag @a remove lastRoom
+tag @a remove firstRoom
+tag @a remove topicDone
+
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"Build Points","color":"gold"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar
-
-scoreboard objectives add buildrating dummy
 
 execute unless score dummy roundcount matches 0.. run scoreboard players set dummy roundcount 0
 
@@ -31,6 +33,5 @@ tellraw @a [{"text":"-The round ends after "},{"score":{"name":"dummy","objectiv
 tellraw @a {"text":"-Players vote on the best builds"}
 function main:ui/descline
 
-schedule function build:nomovement 4s
+schedule function build:disable_movement 4s
 schedule function build:rooms/setup 5s
-

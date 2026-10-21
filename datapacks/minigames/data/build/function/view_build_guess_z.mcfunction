@@ -1,1 +1,0 @@
-execute at @a at @n[type=area_effect_cloud,tag=room] positioned 900 ~ ~300 as @n[type=area_effect_cloud,tag=room] at @s run function build:view_build_guess_2

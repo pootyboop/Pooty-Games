@@ -1,5 +1,5 @@
 schedule clear roomrace:ready_check_sched
-schedule clear roomrace:view_build_end
+schedule clear roomrace:view_build/end
 schedule clear roomrace:main
 schedule clear roomrace:count3
 schedule clear roomrace:count2

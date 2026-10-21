@@ -4,7 +4,7 @@ playsound entity.villager.celebrate master @s ~ ~ ~ 1 1.2 1
 tag @s add winner
 
 clear @a
-execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 
 
 

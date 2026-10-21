@@ -3,7 +3,7 @@ clear @s
 effect clear @s slowness
 function main:attribute/reset_all
 
-function main:set_gamemode_silent {"gm":"spectator"}
+function main:gamemode/set_silent {"gm":"spectator"}
 spectate @r[team=Giant,gamemode=!spectator] @s
 
 execute if entity @s[team=Tiny] run tellraw @a [{"selector":"@s","color":"red"},{"text":" got squashed!","color":"gray"}]

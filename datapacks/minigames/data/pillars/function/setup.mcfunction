@@ -1,4 +1,4 @@
-execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 tp @a ~ ~ ~
 
 kill @e[type=item,distance=..50]

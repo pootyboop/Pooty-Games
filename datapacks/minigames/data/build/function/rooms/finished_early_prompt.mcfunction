@@ -1,0 +1,1 @@
+tellraw @a[tag=!finishedBuilding] [{"text":"If you finish before time runs out, ","color":"white"},{"text":"click here to vote to skip the timer","color":"aqua","clickEvent":{"action":"run_command","value":"/function build:rooms/finished_early"}},{"text":".","color":"white"}]

@@ -1,4 +1,4 @@
-execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 
 summon armor_stand ~ ~ ~ {Tags:["paulObserve"],Invisible:1b,PersistenceRequired:1b}
 tp @n[type=armor_stand,tag=paulObserve] ~ ~ ~ facing entity @n[type=item,tag=paulitem]

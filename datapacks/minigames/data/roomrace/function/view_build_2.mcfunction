@@ -8,7 +8,7 @@ title @a subtitle {"selector":"@n[type=area_effect_cloud,tag=room]","color":"aqu
 tp @a ~ ~ ~ -90 0
 execute as @a at @s if score @s uuid0 = @n[type=area_effect_cloud,tag=room] uuid0 run tellraw @a [{"selector":"@n[type=area_effect_cloud,tag=room]","color":"aqua"},{"text":" by ","color":"white"},{"selector":"@s","color":"gold"}]
 
-execute as @a at @s unless score @s uuid0 = @n[type=area_effect_cloud,tag=room] uuid0 run function build:view_build_rateit
+execute as @a at @s unless score @s uuid0 = @n[type=area_effect_cloud,tag=room] uuid0 run function build:view_build/rateit
 
 schedule function build:rate/reminder 15s
-schedule function build:view_build_end 20s
+schedule function build:view_build/end 20s

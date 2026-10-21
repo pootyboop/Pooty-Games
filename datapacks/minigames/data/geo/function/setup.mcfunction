@@ -3,7 +3,7 @@ execute as @a at @s run tp @s -600 60 0 facing -600 60 0
 
 function main:kill_nearby_items
 
-execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
+execute as @a run function main:gamemode/set_silent {"gm":"adventure"}
 
 setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~

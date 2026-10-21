@@ -9,7 +9,7 @@ function main:store_uuid
 
 function main:player/team_leave
 
-function main:set_gamemode_silent {"gm":"adventure"}
+function main:gamemode/set_silent {"gm":"adventure"}
 clear @s
 
 effect give @s blindness 1 0 true

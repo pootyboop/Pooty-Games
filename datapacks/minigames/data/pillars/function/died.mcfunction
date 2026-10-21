@@ -1,5 +1,5 @@
 scoreboard players set @s died 0
-function main:set_gamemode_silent {"gm":"spectator"}
+function main:gamemode/set_silent {"gm":"spectator"}
 clear @s
 tp @s @r[gamemode=!spectator]
 

@@ -1,1 +1,0 @@
-execute as @n[sort=random,type=area_effect_cloud,tag=room,tag=!viewed] at @s run function build:view_build_2

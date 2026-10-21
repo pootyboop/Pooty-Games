@@ -7,7 +7,7 @@ title @s subtitle [{"text":"Spectating ","color":"gray"},{"selector":"@p[tag=spe
 
 tellraw @a [{"selector":"@s","color":"light_purple"},{"text":" was found and killed!","color":"gray"}]
 
-function main:set_gamemode_silent {"gm":"spectator"}
+function main:gamemode/set_silent {"gm":"spectator"}
 spectate @r[limit=1,tag=hunter]
 tag @p[tag=spectateThis] remove spectateThis
 

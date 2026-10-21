@@ -21,3 +21,5 @@ forceload add 896 0
 forceload add 896 -1
 forceload add 912 0
 forceload add 912 -1
+
+function build:rooms/cleanup

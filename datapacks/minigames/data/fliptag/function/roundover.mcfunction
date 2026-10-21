@@ -17,7 +17,7 @@ title @a actionbar {"text":""}
 tag @a[tag=it] add out
 tag @a remove it
 
-execute as @a[tag=out] run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a[tag=out] run function main:gamemode/set_silent {"gm":"spectator"}
 
 scoreboard players add @a[tag=!out] minigamescore 1
 

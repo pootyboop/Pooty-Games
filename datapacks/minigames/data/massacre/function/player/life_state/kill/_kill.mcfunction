@@ -1,6 +1,6 @@
 scoreboard players set @s died 0
 
-function main:set_gamemode_silent {"gm":"spectator"}
+function main:gamemode/set_silent {"gm":"spectator"}
 
 function massacre:player/life_state/kill/death_message/solve
 function massacre:player/life_state/kill/body_create with storage minigames:temp massacre.death

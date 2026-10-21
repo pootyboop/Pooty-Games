@@ -7,7 +7,7 @@ execute positioned 303 70 -1 run forceload add ~ ~
 kill @e[type=item,distance=..20]
 
 tag @a remove passed
-execute as @a run function main:set_gamemode_silent {"gm":"adventure"}
+execute as @a run function main:gamemode/set_silent {"gm":"adventure"}
 
 spreadplayers ~ ~ .3 1 false @a
 schedule function shopping:setup_1 5

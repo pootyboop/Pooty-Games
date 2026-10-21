@@ -15,7 +15,7 @@ xp set @a 0 levels
 effect clear @a
 execute as @a run function main:attribute/reset_all
 execute as @a run function main:player/team_leave
-execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 
 execute as @e[type=marker] unless data entity @s Tags run kill @s
 function main:worldborder/freeze

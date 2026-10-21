@@ -1,5 +1,5 @@
 clear @a
-execute as @a run function main:set_gamemode_silent {"gm":"spectator"}
+execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 
 title @a times 0 40 20
 

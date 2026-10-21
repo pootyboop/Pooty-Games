@@ -1,5 +1,5 @@
 tag @s add artist
-function main:set_gamemode_silent {"gm":"adventure"}
+function main:gamemode/set_silent {"gm":"adventure"}
 function main:attribute/interaction_range/reset
 attribute @s minecraft:entity_interaction_range base set 6.0
 
