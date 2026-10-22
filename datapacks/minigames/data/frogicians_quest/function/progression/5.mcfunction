@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"I'm quite glad to make your acquaintance. You see, I've been looking for some capable help..."}

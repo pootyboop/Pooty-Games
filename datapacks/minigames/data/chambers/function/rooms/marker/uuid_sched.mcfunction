@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=room] at @s run function chambers:rooms/marker/uuid

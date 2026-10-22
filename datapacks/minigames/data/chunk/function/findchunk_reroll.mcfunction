@@ -1,6 +1,6 @@
 schedule clear chunk:count3
 
-tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+function main:ui/clear_chat
 title @a title {"text":"Rerolled chunk!"}
 
 worldborder set 59999968

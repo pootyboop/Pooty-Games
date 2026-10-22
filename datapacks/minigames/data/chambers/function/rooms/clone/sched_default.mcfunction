@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=room] run function chambers:rooms/clone/default

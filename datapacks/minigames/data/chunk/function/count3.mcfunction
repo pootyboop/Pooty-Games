@@ -1,4 +1,4 @@
-tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+function main:ui/clear_chat
 
 title @a title {"text":"3","color":"green"}
 title @a subtitle {"text":""}

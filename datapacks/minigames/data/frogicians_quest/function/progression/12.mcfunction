@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"Ah, a canvas! Show me your drawing skills, and prove your merit as true adventurers!"}

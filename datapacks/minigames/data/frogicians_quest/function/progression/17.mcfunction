@@ -1,0 +1,2 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"Whoo... I am quite famished. This dancing is quite tiresome!"}
+execute positioned -50042 60 4 rotated -45 0 run function spawn:dancing_ben/spawn

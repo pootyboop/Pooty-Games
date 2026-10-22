@@ -1,0 +1,2 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"Now that our bellies are full and our spirits strong, let us continue forth!"}
+execute positioned -50060 60 -8 rotated 90 0 run function spawn:dancing_ben/spawn

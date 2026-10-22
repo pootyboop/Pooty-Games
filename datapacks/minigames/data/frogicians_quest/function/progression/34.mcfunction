@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"My friends."}

@@ -1,0 +1,2 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"The truth is, I've brought you here because I sense a dark energy in one of you. A murderous intent."}
+execute positioned -50080 61 -32 rotated 0 0 run function spawn:dancing_ben/spawn

@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"pooty_boop","t":"But there's no other path. We have to go through!"}

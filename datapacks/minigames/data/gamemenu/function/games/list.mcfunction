@@ -8,6 +8,7 @@ $$(1) blockrun
 $$(1) blocktionary
 $$(1) bridge
 $$(1) build
+$$(1) chambers
 $$(1) dance
 $$(1) delve
 #$$(1) ewok
@@ -22,7 +23,6 @@ $$(1) kinghill
 $$(1) massacre
 $$(1) paulheist
 $$(1) pillars
-$$(1) roomrace
 $$(1) shopping
 $$(1) slideout
 $$(1) smallworld

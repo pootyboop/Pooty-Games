@@ -1,4 +1,4 @@
-execute if entity @n[type=marker,tag=newDancingBenPosCheck,distance=..1] run return run function spawn:dancing_ben/spawn_random
+execute if entity @n[type=marker,tag=newDancingBenPosCheck,distance=..1] unless entity @n[predicate=pred:dummy,tag=frogiciansQuest] run return run function spawn:dancing_ben/spawn_random
 kill @e[type=marker,tag=newDancingBenPosCheck]
 
 function spawn:dancing_ben/kill

@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"PlumLettuce","t":"My friend, you're in the presence of the best chef in the land."}

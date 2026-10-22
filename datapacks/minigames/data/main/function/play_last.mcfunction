@@ -11,7 +11,7 @@ execute if score dummy lastPlayedGameID matches 10 run function trackracing:star
 execute if score dummy lastPlayedGameID matches 11 run function warden:startgame
 execute if score dummy lastPlayedGameID matches 12 run function witchhunt:startgame
 execute if score dummy lastPlayedGameID matches 13 run function fliptag:startgame
-execute if score dummy lastPlayedGameID matches 14 run function roomrace:startgame
+execute if score dummy lastPlayedGameID matches 14 run function chambers:startgame
 execute if score dummy lastPlayedGameID matches 15 run function fps:startgame
 execute if score dummy lastPlayedGameID matches 16 run function beebquest:startgame
 execute if score dummy lastPlayedGameID matches 17 run function pillars:startgame

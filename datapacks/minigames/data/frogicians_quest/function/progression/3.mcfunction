@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"pooty_boop","t":"Come on guys, let's look around!"}

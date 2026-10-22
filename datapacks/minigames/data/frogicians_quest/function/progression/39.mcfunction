@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"We stand before the Nightingale Express. It will take you back to your world, and it is here that your true colors will be laid plain."}

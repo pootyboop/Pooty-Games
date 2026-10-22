@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"My friend, we stand before the Chambers of Challenge. A strange place with rooms that turned even the closest of kin against one another."}

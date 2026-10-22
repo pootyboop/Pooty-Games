@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"What luck! A campfire! Say, I don't imagine you fine folk are skilled chefs?"}

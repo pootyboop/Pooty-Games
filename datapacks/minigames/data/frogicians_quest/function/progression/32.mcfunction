@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"PlumLettuce","t":"Wait, what happened to Dancing Frogician?"}

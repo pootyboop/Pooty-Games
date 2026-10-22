@@ -27,6 +27,8 @@ execute if score dummy playercount matches 1.. run tellraw @a {"text":"Blocktion
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Build Comp","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function build:startgame"}}
 
+execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chambers of Challenge","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chambers:startgame"}}
+
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chunk Fight","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chunk:startgame"}}
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Dance of the Block","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function dance:startgame"}}
@@ -58,8 +60,6 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Paul Heis
 execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Prosperous Pillars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pillars:startgame"}}
 
 execute if score dummy playercount matches 2.. run tellraw @a {"text":"PvP Playground","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pvp:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Room Race","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function roomrace:startgame"}}
 
 execute if score dummy playercount matches 1.. run tellraw @a {"text":"Shopping","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function shopping:startgame"}}
 

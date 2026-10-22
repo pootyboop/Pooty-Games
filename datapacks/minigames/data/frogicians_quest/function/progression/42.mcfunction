@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"But for now, I wish you all the best. Board the Nightingale. Find and stop this fiend before something horrible happens!"}

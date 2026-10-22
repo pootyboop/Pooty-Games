@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand target[!custom_data] run item modify entity @s weapon.mainhand chambers:win_block
+execute if items entity @s weapon.mainhand nether_wart_block[!custom_data] run item modify entity @s weapon.mainhand chambers:kill_block

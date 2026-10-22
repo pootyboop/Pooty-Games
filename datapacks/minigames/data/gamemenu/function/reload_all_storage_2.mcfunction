@@ -162,7 +162,7 @@ $$(1) bridge.slot $(2) "24"
 $$(1) bridge.desc1 $(2) "Race the enemy across the bridge"
 $$(1) bridge.desc2 $(2) "to reach their portal first!"
 $$(1) bridge.playtime $(2) "5-10"
-$$(1) bridge.players $(2) "2+"
+$$(1) bridge.players $(2) "Even Number of"
 $$(1) bridge.genre $(2) "Team PvP"
 
 
@@ -567,20 +567,20 @@ $$(1) pillars.settings.mode.2.slot $(2) "14"
 
 
 
-#ROOM RACE
-#$$(3) roomrace
-$$(1) roomrace.tag $(2) "roomrace"
-$$(1) roomrace.name $(2) "Room Race"
-$$(1) roomrace.color $(2) "#40EE81"
-$$(1) roomrace.item $(2) "emerald_block"
-$$(1) roomrace.itemnbt $(2) ''
-$$(1) roomrace.page $(2) "2"
-$$(1) roomrace.slot $(2) "4"
-$$(1) roomrace.desc1 $(2) "Build challenge rooms, then"
-$$(1) roomrace.desc2 $(2) "race to complete them!"
-$$(1) roomrace.playtime $(2) "5-10"
-$$(1) roomrace.players $(2) "2+"
-$$(1) roomrace.genre $(2) "Party Games, Building, Racing"
+#CHAMBERS OF CHALLENGE
+#$$(3) chambers
+$$(1) chambers.tag $(2) "chambers"
+$$(1) chambers.name $(2) "Chambers of Challenge"
+$$(1) chambers.color $(2) "#FCF5CF"
+$$(1) chambers.item $(2) "cracked_stone_bricks"
+$$(1) chambers.itemnbt $(2) ''
+$$(1) chambers.page $(2) "2"
+$$(1) chambers.slot $(2) "4"
+$$(1) chambers.desc1 $(2) "Build challenge chambers,"
+$$(1) chambers.desc2 $(2) "then race to complete them!"
+$$(1) chambers.playtime $(2) "5-10"
+$$(1) chambers.players $(2) "2+"
+$$(1) chambers.genre $(2) "Party Games, Building, Racing"
 
 
 
@@ -622,11 +622,11 @@ $$(1) slideout.settings.gm.1.name $(2) "Random Gamemode"
 $$(1) slideout.settings.gm.1.value $(2) "1"
 $$(1) slideout.settings.gm.1.item $(2) "glass"
 $$(1) slideout.settings.gm.1.slot $(2) "13"
-$$(1) slideout.settings.gm.2.name $(2) "Free-For-All"
+$$(1) slideout.settings.gm.2.name $(2) "Free-For-All (2+ Players)"
 $$(1) slideout.settings.gm.2.value $(2) "2"
 $$(1) slideout.settings.gm.2.item $(2) "spectral_arrow"
 $$(1) slideout.settings.gm.2.slot $(2) "12"
-$$(1) slideout.settings.gm.3.name $(2) "Gold Points"
+$$(1) slideout.settings.gm.3.name $(2) "Gold Points (1+ Players)"
 $$(1) slideout.settings.gm.3.value $(2) "3"
 $$(1) slideout.settings.gm.3.item $(2) "sunflower"
 $$(1) slideout.settings.gm.3.slot $(2) "14"

@@ -1,2 +1,6 @@
 #$data merge block ~ ~ ~ {CustomName:'[{"text":"Game Menu","underlined":true},{"text":"                  Page $(page)","underlined":false}]',Items:[{}]}
-data merge block ~ ~ ~ {CustomName:'{"text":"          GAME MENU","bold":true,"color":"#2E2524"}',Items:[{}]}
+#data merge block ~ ~ ~ {CustomName:'{"text":"          GAME MENU","bold":true,"color":"#2E2524"}',Items:[{}]}
+
+#data merge block ~ ~ ~ {CustomName:'[{"color":"#FF0000","text":"          G","bold":true},{"color":"#D58000","text":"A","bold":true},{"color":"#AAFF00","text":"M","bold":true},{"color":"#55FF6F","text":"E ","bold":true},{"color":"#00FFDD","text":"M","bold":true},{"color":"#4880EE","text":"E","bold":true},{"color":"#9000FF","text":"N","bold":true},{"color":"#FF0000","text":"U","bold":true}]',Items:[{}]}
+
+data merge block ~ ~ ~ {CustomName:'[{"color":"#2E2524","text":"          G","bold":true},{"color":"#312A29","text":"A","bold":true},{"color":"#352E2E","text":"M","bold":true},{"color":"#383332","text":"E ","bold":true},{"color":"#3B3737","text":"M","bold":true},{"color":"#383332","text":"E","bold":true},{"color":"#352E2E","text":"N","bold":true},{"color":"#2E2524","text":"U","bold":true}]',Items:[{}]}

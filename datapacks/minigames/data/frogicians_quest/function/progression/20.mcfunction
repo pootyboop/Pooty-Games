@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"Well, aren't I lucky! Perhaps you could prepare a feast!"}

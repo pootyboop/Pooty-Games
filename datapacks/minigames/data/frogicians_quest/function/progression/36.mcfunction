@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"We've overcome many challenges together. The time has come for one more."}

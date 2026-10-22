@@ -16,8 +16,8 @@ effect clear @a blindness
 execute as @e[type=area_effect_cloud,tag=room] at @s if score @a[tag=winner,limit=1,sort=random] uuid0 = @s uuid0 run function build:rooms/winner
 
 function main:gamestate/score_places/run
-execute unless entity @p[tag=winner] run tag @r add winner
-execute as @n[type=area_effect_cloud,tag=room] at @a[tag=winner] if score @p uuid0 = @s uuid0 at @s run tp @a ~2 60 ~ -90 0
+execute unless entity @p[tag=winner] run tag @a add winner
+execute as @n[type=area_effect_cloud,tag=room] at @r[tag=winner] if score @p uuid0 = @s uuid0 at @s run tp @a ~2 60 ~ -90 0
 
 function main:endgame
 

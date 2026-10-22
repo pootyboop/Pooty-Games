@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"I have my ways. Perhaps I'll come visit your world!"}

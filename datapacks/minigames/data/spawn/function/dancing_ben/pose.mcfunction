@@ -1,4 +1,5 @@
-execute if entity @p[gamemode=!spectator,distance=..3] run return run function spawn:dancing_ben/spawn_random
+execute if entity @p[gamemode=!spectator,distance=..3] unless entity @n[predicate=pred:dummy,tag=frogiciansQuest] run return run function spawn:dancing_ben/spawn_random
+schedule function spawn:dancing_ben/sched 5 replace
 
 scoreboard players add @s dummy 1
 execute if score @s dummy matches 5.. run scoreboard players set @s dummy 1
@@ -18,5 +19,3 @@ execute if score @s dummy matches 4 run tp @s ~ ~.1 ~
 
 execute if predicate pred:10percent run playsound entity.frog.ambient master @a ~ ~ ~ 1 1.4
 execute if entity @p[gamemode=!spectator,distance=..16] run function spawn:dancing_ben/head_turn
-
-schedule function spawn:dancing_ben/sched 5

@@ -1,0 +1,1 @@
+function main:ui/typewriter/start {text:"of Challenge","color":"#B09174","edgeColor":"#78634F","mode":"subtitle"}

@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"Dancing Frogician","t":"Almost as though the poor victims of this foul dungeon were creating its challenges themselves..."}

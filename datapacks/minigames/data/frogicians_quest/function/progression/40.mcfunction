@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"frogician","t":"But what about you, twin?"}
