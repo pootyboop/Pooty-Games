@@ -1,4 +1,4 @@
-execute if entity @n[predicate=pred:dummy,tag=frogiciansQuest] run return 0
+execute unless entity @n[predicate=pred:dummy,tag=frogiciansQuestComplete] run return 0
 
 execute unless entity @n[type=marker,tag=newDancingBenPosCheck,distance=..1] run summon marker ~ ~ ~ {Tags:["newDancingBenPosCheck"]}
 

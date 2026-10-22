@@ -3,8 +3,8 @@ execute as @a at @s run function spawn:player
 execute as @n[type=interaction,tag=slippyseat] at @n[type=slime,tag=slippy] run tp @s ~ ~.51 ~
 function main:seat/main
 
-
-#execute positioned 0 45 -3 if entity @p[distance=..20] run function spawn:return
+particle witch 0 45 -3 .2 .4 .2 0 1
+execute positioned 0 45 -3 if entity @p[distance=..1] run function spawn:return
 
 execute as @e[type=item_display,tag=pooty_boop_head] at @s run function spawn:pooty_boop_head_rotate
 

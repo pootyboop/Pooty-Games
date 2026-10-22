@@ -1,0 +1,2 @@
+clear pooty_boop torch
+item replace entity pooty_boop weapon.mainhand with torch[unbreakable={show_in_tooltip:false},item_name='{"italic":false,"color":"#DE2147","text":"Frogician\'s Quest Progressor"}',consumable={consume_seconds:1000000,sound:"entity.turtle.shamble_baby",has_consume_particles:false}]

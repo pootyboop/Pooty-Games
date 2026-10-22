@@ -1,0 +1,1 @@
+function frogicians_quest:next
