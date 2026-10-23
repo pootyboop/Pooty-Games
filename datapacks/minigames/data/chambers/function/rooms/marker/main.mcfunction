@@ -4,4 +4,4 @@ execute unless block ~ ~-1 ~ emerald_block run setblock ~ ~-1 ~ emerald_block re
 execute unless block ~ ~ ~ air run setblock ~ ~ ~ air replace
 execute unless block ~ ~1 ~ air run setblock ~ ~1 ~ air replace
 
-#execute align xyz positioned ~13 70 -900 as @a[distance=..100] if entity @s[distance=50..] at @n[type=marker,tag=room] run tp @s ~ ~ ~ 90 0
+#execute align xyz positioned ~13 70 -900 as @a[distance=..100] if entity @s[distance=50..] at @n[type=area_effect_cloud,tag=room] run tp @s ~ ~ ~ 90 0

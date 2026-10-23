@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=room] at @s run function chambers:rooms/marker/uuid
+execute as @e[type=area_effect_cloud,tag=room] at @s run function chambers:rooms/marker/uuid

@@ -1,1 +1,2 @@
 function frogicians_quest:say {"p":"Dancing Frogician","t":"We stand before the Nightingale Express. It will take you back to your world, and it is here that your true colors will be laid plain."}
+execute positioned -50080 61 -32 rotated 180 0 run function spawn:dancing_ben/spawn

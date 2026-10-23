@@ -1,0 +1,1 @@
+function frogicians_quest:say {"p":"xenia_p","t":"What is this place?"}

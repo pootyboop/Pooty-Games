@@ -12,9 +12,9 @@ item replace entity @s weapon.mainhand with oak_sign[custom_name='{"text":"Place
 effect give @s slowness 1 255 true
 effect give @s jump_boost 1 200 true
 
-execute unless entity @a[tag=room] run tag @s add firstRoom
+execute unless entity @p[tag=room] run tag @s add firstRoom
 tag @s add room
-execute unless entity @a[tag=!room] run tag @s add lastRoom
+execute unless entity @p[tag=!room] run tag @s add lastRoom
 execute positioned ~ ~ ~300 run function build:rooms/tp
 
 execute as @r[tag=!room] at @s run function build:rooms/create

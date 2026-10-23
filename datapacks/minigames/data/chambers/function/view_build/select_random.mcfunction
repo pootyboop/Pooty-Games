@@ -1,1 +1,0 @@
-execute as @n[sort=random,type=marker,tag=room,tag=!viewed] at @s run function chambers:view_build/start

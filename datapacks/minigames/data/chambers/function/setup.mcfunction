@@ -1,4 +1,4 @@
-time set 6000
+time set night
 
 scoreboard players operation dummy minigametimer = dummy chambersTime
 scoreboard players operation dummy minigametimer *= 20 num
@@ -6,11 +6,17 @@ scoreboard players operation dummy minigametimer *= 20 num
 execute store result bossbar minecraft:timer max run scoreboard players get dummy minigametimer
 execute store result bossbar minecraft:timer value run scoreboard players get dummy minigametimer
 
-#ROT: -90 -15
-#summon armor_stand -40002 59.15 0
-tp @a -40002 59.15 0 -90 -15
-execute as @a run function main:gamemode/set_silent {"gm":"spectator"}
 
+# Room templates
 forceload add -40012 -912 -39988 -888
+# Intro area
+forceload add -39994 0
+# Hall area
+forceload add -401067 0
+
+
+execute positioned -40002 61.15 0 rotated -90 20 run function chambers:cinematic/camera/start
+schedule function chambers:party/create 2.5s
+function chambers:cinematic/fx
 
 function chambers:rooms/cleanup

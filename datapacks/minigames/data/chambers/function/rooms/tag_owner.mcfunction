@@ -1,0 +1,1 @@
+execute as @n[type=area_effect_cloud,tag=room] at @a if score @p uuid0 = @s owningUUID run tag @p add currRoomOwner

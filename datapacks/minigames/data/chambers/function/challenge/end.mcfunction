@@ -1,0 +1,2 @@
+execute unless entity @e[type=area_effect_cloud,tag=room,tag=!chamberCompleted] run schedule function chambers:endgame 3s
+execute if entity @e[type=area_effect_cloud,tag=room,tag=!chamberCompleted] run schedule function chambers:cinematic/hall 3s

@@ -1,4 +1,5 @@
-execute as @e[type=marker,tag=room] at @s run function chambers:rooms/marker/main
+execute as @e[type=area_effect_cloud,tag=room] at @s run function chambers:rooms/marker/main
+execute as @a at @s run function chambers:player/main
 schedule function chambers:main 1
 
 function main:timer/decrement_with_10sec

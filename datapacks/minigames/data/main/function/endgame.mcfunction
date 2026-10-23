@@ -54,8 +54,12 @@ tellraw @a {"text":"Click here to play again!","color":"aqua","hoverEvent":{"act
 
 # Add final scores
 scoreboard objectives setdisplay sidebar totalscore
-execute as @a[tag=winner] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ .8 .8 1
 scoreboard players add @a[tag=winner] totalscore 3
 scoreboard players add @a[tag=secondplace] totalscore 2
 scoreboard players add @a[tag=thirdplace] totalscore 1
+
+execute as @a[tag=winner] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ .4 1 .4
+execute as @a[tag=winner] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ .4 .75 .4
+execute as @a[tag=winner] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ .4 .5 .4
+execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ .8 .8 1
 execute as @a at @s run playsound minecraft:entity.ender_dragon.hurt master @s ~ ~ ~ .8 .7 .8

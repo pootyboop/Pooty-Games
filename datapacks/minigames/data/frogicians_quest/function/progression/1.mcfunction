@@ -1,1 +1,1 @@
-function frogicians_quest:say {"p":"frogician","t":"Something about this place... I feel some sort of connection to it."}
+function frogicians_quest:say {"p":"frogician","t":"Something about this place... I feel some sort of... familiarity towards it. Like some part of me is here."}

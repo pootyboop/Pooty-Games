@@ -6,6 +6,8 @@ tag @a remove loser
 stopsound @a record
 function main:ui/typewriter/clear_sched
 
+forceload remove all
+forceload add 0 0
 function main:refresh
 
 execute if entity @n[predicate=pred:dummy,tag=playagain] in minecraft:overworld run function main:play_last

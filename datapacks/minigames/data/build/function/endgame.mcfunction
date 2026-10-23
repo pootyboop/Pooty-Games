@@ -26,4 +26,3 @@ tag @a remove firstRoom
 tag @a remove topicDone
 
 schedule function build:rooms/cleanup 4.9s
-forceload remove all

@@ -37,7 +37,6 @@ tag @a remove shears
 
 
 execute as @n[type=armor_stand,tag=bedwarsCleanup] at @s run function bedwars:cleanup_finish
-forceload remove all
 
 kill @e[type=area_effect_cloud,tag=base]
 tag @e[type=area_effect_cloud,tag=spawnEmeralds] remove spawnEmeralds

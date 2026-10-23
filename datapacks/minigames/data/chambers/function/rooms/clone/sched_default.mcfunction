@@ -1,1 +1,1 @@
-execute at @e[type=marker,tag=room] run function chambers:rooms/clone/default
+execute at @e[type=area_effect_cloud,tag=room] run function chambers:rooms/clone/default

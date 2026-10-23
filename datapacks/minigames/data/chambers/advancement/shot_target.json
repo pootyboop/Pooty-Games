@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:target_hit",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "chambers:player/shot_target"
+    }
+}
