@@ -11,6 +11,7 @@ schedule clear chambers:challenge/end
 function chambers:rooms/cleanup
 tag @a remove lastRoom
 tag @a remove firstRoom
+tag @a remove completedPhase
 
 schedule function chambers:party/kill_all 4.9s
 schedule function chambers:cinematic/camera/stop 4.9s

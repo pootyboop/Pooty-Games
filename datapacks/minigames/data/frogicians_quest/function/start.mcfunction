@@ -11,6 +11,7 @@ function spawn:dancing_ben/kill
 title @a times 60 40 40
 title @a title {"text":"Dancing Frogician"}
 title @a subtitle {"text":"The Epic Quest","color":"gray"}
+scoreboard objectives setdisplay sidebar
 
 effect give @a blindness 3 0 true
 execute as @a at @s run playsound block.portal.travel master @s ~ ~ ~ .5 1.4 .5

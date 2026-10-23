@@ -7,7 +7,7 @@ scoreboard objectives remove amuseroomID
 tag @a remove completed
 scoreboard objectives remove amuseCriteria
 
-kill @n[type=armor_stand,tag=king,tag=dontkill]
+schedule function amuse:king_kill 4.9s
 function amuse:killstuff
 schedule function amuse:clearfield 4.8s
 

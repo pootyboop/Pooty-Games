@@ -10,6 +10,7 @@ execute positioned -40000 60 0 run function chambers:setup
 
 tag @a remove lastRoom
 tag @a remove firstRoom
+tag @a remove completedPhase
 advancement revoke @a only chambers:shot_target
 
 team add ChambersChallenge

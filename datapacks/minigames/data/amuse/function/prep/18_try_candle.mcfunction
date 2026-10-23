@@ -1,0 +1,1 @@
+execute unless block ~ ~-1 ~ air unless block ~ ~ ~ barrier run setblock ~ ~ ~ candle[candles=3]

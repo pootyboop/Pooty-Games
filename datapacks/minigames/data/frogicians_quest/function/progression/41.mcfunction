@@ -1,1 +1,1 @@
-function frogicians_quest:say {"p":"Dancing Frogician","t":"I have my ways. Perhaps I'll come visit your world!"}
+function frogicians_quest:say {"p":"Dancing Frogician","t":"I have my ways. Perhaps I'll come visit your world! I've caught wind you've got a meddlesome locked chest you need a hand with, so the least I can do is return the favor."}

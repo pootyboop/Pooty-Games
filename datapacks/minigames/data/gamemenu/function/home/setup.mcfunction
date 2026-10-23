@@ -1,3 +1,5 @@
+execute if data block ~ ~ ~ lock run return run function frogicians_quest:hint
+
 playsound entity.player.levelup master @a ~ ~ ~ .5 1.1
 playsound entity.player.levelup master @a ~ ~ ~ .8 1.3
 playsound entity.player.levelup master @a ~ ~ ~ .5 1.6

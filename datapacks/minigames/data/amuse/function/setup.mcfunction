@@ -1,6 +1,7 @@
 kill @e[type=item,distance=..20]
 
-tp @a ~ ~ ~ 180 0
+spreadplayers ~ ~ 2 2 false @a
+execute as @a at @s run tp @s ~ ~ ~ 180 0
 
 function amuse:1heart
 

@@ -1,0 +1,1 @@
+kill @n[type=armor_stand,tag=king,tag=dontkill]

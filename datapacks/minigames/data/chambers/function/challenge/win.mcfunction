@@ -15,8 +15,8 @@ function main:gamemode/set_silent {"gm":"spectator"}
 
 # Score points
 execute unless entity @s[tag=currRoomOwner] at @a[tag=!completedPhase,tag=!currRoomOwner] run scoreboard players add @s minigamescore 1
-function chambers:rooms/untag_owner
 
 
 # Progress phase if everyone's done
-execute unless entity @p[tag=!completedPhase] run function chambers:timer/end_solve
+execute unless entity @p[tag=!completedPhase,tag=!currRoomOwner] run function chambers:timer/end_solve
+function chambers:rooms/untag_owner
