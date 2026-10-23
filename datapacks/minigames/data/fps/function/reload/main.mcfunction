@@ -17,4 +17,4 @@ execute if score @s reloadTime matches 700.. run title @s actionbar [{"text":"Re
 execute if score @s reloadTime matches 800.. run title @s actionbar [{"text":"Reloadi","color":"gold"},{"text":"n","color":"yellow"},{"text":"g","color":"gray"}]
 execute if score @s reloadTime matches 900.. run title @s actionbar [{"text":"Reloadin","color":"gold"},{"text":"g","color":"yellow"}]
 
-execute if score @s reloadTime matches 1000.. run function fps:reload_done
+execute if score @s reloadTime matches 1000.. run function fps:reload/done

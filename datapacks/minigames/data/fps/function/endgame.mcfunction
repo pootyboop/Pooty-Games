@@ -1,7 +1,7 @@
 schedule clear fps:main
 schedule clear fps:newround
 schedule clear fps:reloading_sched
-schedule clear fps:ads_check_sched
+schedule clear fps:ads/check_sched
 
 execute as @a at @s run function interaction:stop_tracking
 

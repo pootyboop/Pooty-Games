@@ -12,7 +12,7 @@ effect clear @s invisibility
 effect clear @s speed
 effect clear @s resistance
 
-function fps:get_gun
-function fps:refill_ammo
+function fps:gun/get
+function fps:reload/refill_ammo
 
 function interaction:start_tracking

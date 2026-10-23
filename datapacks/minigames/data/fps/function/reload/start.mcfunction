@@ -1,6 +1,6 @@
 item replace entity @s weapon.offhand with air
 
-function fps:get_gun
+function fps:gun/get
 
 
 
@@ -19,4 +19,4 @@ scoreboard players set @s reloadTime 0
 
 tag @s add reloading
 
-schedule function fps:reloading_sched 1
+schedule function fps:reload/sched 1

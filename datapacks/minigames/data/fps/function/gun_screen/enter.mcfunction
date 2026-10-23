@@ -1,6 +1,6 @@
 function interaction:stop_tracking
 
-function fps:ads_stop
+function fps:ads/stop
 
 tp @s -600 20 -296 180 0
 tag @s remove ingame
@@ -29,4 +29,4 @@ effect give @a weakness infinite 255 true
 #attribute @s minecraft:max_health base set 10
 #effect give @s minecraft:regeneration 2 255 true
 
-schedule function fps:gun_screen 1
+schedule function fps:gun_screen/main 1

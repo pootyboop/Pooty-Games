@@ -1,3 +1,3 @@
 $scoreboard players set @s lastUsedGunID $(gunID)
 
-function fps:gun_screen_exit
+function fps:gun_screen/exit

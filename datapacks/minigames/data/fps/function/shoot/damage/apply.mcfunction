@@ -1,0 +1,1 @@
+$damage @s $(dmg) minecraft:player_attack by @p from @p

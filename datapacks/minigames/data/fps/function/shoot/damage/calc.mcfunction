@@ -8,4 +8,4 @@ execute if score @p lastUsedGunID matches 4 run scoreboard players operation @s 
 
 
 execute store result storage minecraft:macro input.dmg int 1 run scoreboard players get @s raycastHits
-function fps:damage with storage minecraft:macro input
+function fps:shoot/damage/apply with storage minecraft:macro input
