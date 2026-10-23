@@ -12,9 +12,7 @@ gamerule showDeathMessages false
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard players set dummy minigamescore 0
-#scoreboard objectives modify minigamescore displayname {"text":"Time on Hill","color":"gold"}
 scoreboard players set @a minigamescore 100
-#scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives setdisplay sidebar
 
 scoreboard players set @a died 0

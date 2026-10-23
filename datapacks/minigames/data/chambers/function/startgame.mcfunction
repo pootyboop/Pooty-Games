@@ -23,6 +23,7 @@ team modify ChambersChallenge prefix ""
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"POINTS","color":"#FCF5CF","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar
 
@@ -31,7 +32,7 @@ execute unless score dummy roundcount matches 0.. run scoreboard players set dum
 effect give @a blindness 2 0 true
 
 title @a times 0 140 20
-function main:ui/typewriter/start {text:"Chambers","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"title"}
+function main:ui/typewriter/start {"text":"Chambers","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"title"}
 schedule function chambers:cinematic/subtitle 1s
 
 schedule function chambers:rooms/setup 6s

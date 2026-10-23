@@ -22,7 +22,8 @@ team modify witches color light_purple
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Players","color":"white"}
+scoreboard objectives modify minigamescore displayname {"text":"PLAYERS","color":"white","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set Witches minigamescore 0
 scoreboard players display name Witches minigamescore {"text":"Witches","color":"light_purple"}
 scoreboard players set Hunters minigamescore 0

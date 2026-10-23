@@ -70,9 +70,6 @@ scoreboard players set dummy minigametimer 999999
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-#scoreboard objectives modify minigamescore displayname {"text":"Time on Hill","color":"gold"}
-#scoreboard players set @a minigamescore 0
-#scoreboard objectives setdisplay sidebar minigamescore
 scoreboard objectives setdisplay sidebar
 
 
@@ -84,13 +81,9 @@ title @a subtitle ""
 title @a actionbar ""
 
 title @a times 0 115 5
-function main:ui/typewriter/start {text:"Massacre","color":"#FF6868","edgeColor":"#A63030","mode":"title"}
-
-#title @a times 40 60 40
-#title @a title {"text":"Massacre","color":"#ff6868","shadow_color":-13762560}
+function main:ui/typewriter/start {"text":"Massacre","color":"#FF6868","edgeColor":"#A63030","mode":"title"}
 
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 1 .5 1
-#execute as @a at @s run playsound minecraft:block.beehive.shear master @s ~ ~ ~ 1 .5 1
 execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ .7 2 .7
 execute as @a at @s run playsound minecraft:block.bell.resonate master @s ~ ~ ~ .7 1.8 .7
 
@@ -107,14 +100,5 @@ effect give @a blindness 5 0 true
 effect give @a darkness 8 0 true
 
 #---------------------------------------------------------------------------#
-
-
-
-#function main:ui/descline
-#tellraw @a {"text":"Massacre on the Nightingale","color":"#FF6868","bold":true}
-#tellraw @a {"text":"-One passenger aboard this train is a murderer"}
-#tellraw @a {"text":"-Survive the ride and stay healthy"}
-#tellraw @a {"text":"-Vote out the murderer when you suspect who they are"}
-#function main:ui/descline
 
 function massacre:main

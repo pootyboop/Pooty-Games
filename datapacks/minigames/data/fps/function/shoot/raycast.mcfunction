@@ -1,16 +1,16 @@
-#playsound minecraft:entity.ghast.shoot master @a ~ ~ ~ .6 2
-#playsound minecraft:entity.wither.shoot master @a ~ ~ ~ .6 2
-#playsound minecraft:entity.iron_golem.damage master @a ~ ~ ~ 1 2
-#playsound minecraft:item.shield.break master @a ~ ~ ~ .4 .7
-#playsound minecraft:item.axe.scrape master @a ~ ~ ~ 1 1.2
-#playsound minecraft:enchant.thorns.hit master @a ~ ~ ~ .7 1.2
+#playsound entity.ghast.shoot master @a ~ ~ ~ .6 2
+#playsound entity.wither.shoot master @a ~ ~ ~ .6 2
+#playsound entity.iron_golem.damage master @a ~ ~ ~ 1 2
+#playsound item.shield.break master @a ~ ~ ~ .4 .7
+#playsound item.axe.scrape master @a ~ ~ ~ 1 1.2
+#playsound enchant.thorns.hit master @a ~ ~ ~ .7 1.2
 
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ .1 1.5
-playsound minecraft:entity.iron_golem.hurt master @a ~ ~ ~ .4 2
-playsound minecraft:enchant.thorns.hit master @a ~ ~ ~ .2 2
-playsound minecraft:block.anvil.land master @a ~ ~ ~ .05 1.5
-playsound minecraft:block.basalt.break master @a ~ ~ ~ .6 0
-playsound minecraft:block.dispenser.fail master @a ~ ~ ~ .4 2
+playsound entity.generic.explode master @a ~ ~ ~ .1 1.5
+playsound entity.iron_golem.hurt master @a ~ ~ ~ .4 2
+playsound enchant.thorns.hit master @a ~ ~ ~ .2 2
+playsound block.anvil.land master @a ~ ~ ~ .05 1.5
+playsound block.basalt.break master @a ~ ~ ~ .6 0
+playsound block.dispenser.fail master @a ~ ~ ~ .4 2
 
 
 

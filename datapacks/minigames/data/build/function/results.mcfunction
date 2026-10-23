@@ -1,6 +1,6 @@
 title @a times 0 80 0
 title @a title {"text":""}
-function main:ui/typewriter/start {text:"The results are in...","color":"white","edgeColor":"gray","mode":"subtitle"}
+function main:ui/typewriter/start {"text":"The results are in...","color":"white","edgeColor":"gray","mode":"subtitle"}
 
 scoreboard objectives setdisplay sidebar
 effect give @a blindness 10000 0 true

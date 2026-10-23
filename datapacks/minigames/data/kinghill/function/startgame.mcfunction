@@ -5,7 +5,8 @@ execute positioned 23 60 300 run function kinghill:setup
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Time on Hill","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"TIME ON HILL","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 

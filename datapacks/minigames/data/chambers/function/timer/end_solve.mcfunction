@@ -7,8 +7,8 @@ clear @a
 
 
 title @a title {"text":""}
-execute if entity @p[tag=!completedPhase] run function main:ui/typewriter/start {text:"Time's Up!","color":"white","edgeColor":"gray","mode":"subtitle"}
-execute unless entity @p[tag=!completedPhase] run function main:ui/typewriter/start {text:"Complete!","color":"white","edgeColor":"gray","mode":"subtitle"}
+execute if entity @p[tag=!completedPhase] run function main:ui/typewriter/start {"text":"Time's Up!","color":"white","edgeColor":"gray","mode":"subtitle"}
+execute unless entity @p[tag=!completedPhase] run function main:ui/typewriter/start {"text":"Complete!","color":"white","edgeColor":"gray","mode":"subtitle"}
 
 tag @a remove completedPhase
 

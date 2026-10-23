@@ -6,7 +6,6 @@ scoreboard players set dummy gameID 25
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-#scoreboard objectives modify minigamescore displayname {"text":"Points","color":"gold"}
 scoreboard players set @a minigamescore 0
 
 scoreboard objectives setdisplay sidebar
@@ -21,6 +20,7 @@ scoreboard objectives add finePatience dummy
 scoreboard objectives remove fineOrders
 scoreboard objectives add fineOrders dummy
 scoreboard objectives modify fineOrders displayname {"text":"ORDERS","color":"#e7a9df","bold":true}
+scoreboard objectives modify fineOrders numberformat blank
 
 team add Waiter {"text":"Waiter"}
 team modify Waiter prefix {"text":"Waiter ","color":"dark_aqua"}

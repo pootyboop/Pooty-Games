@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure] at @s run rotate @s facing 900 310 -900

@@ -89,6 +89,7 @@ function bedwars:teams
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"BEDWARS","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard objectives setdisplay sidebar minigamescore
 
 execute as @a[team=Red] run scoreboard players add Red minigamescore 1

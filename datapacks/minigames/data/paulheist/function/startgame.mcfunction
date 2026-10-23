@@ -49,7 +49,8 @@ execute if function map:if_call positioned 617 83 -323 run function paulheist:se
 scoreboard players set @a respawntimer 0
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Thieves Remaining","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"THIEVES REMAINING","color":"light_purple","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 
 scoreboard players set @a minigametimer 0
 

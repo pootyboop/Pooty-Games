@@ -2,7 +2,7 @@ scoreboard players add dummy roundcount 1
 tag @n[type=armor_stand,tag=king,tag=dontkill] add inround
 
 scoreboard players reset @a died
-
+clear @a
 
 
 execute unless score dummy amuseforceID matches -1 store result score dummy dummy run scoreboard players get dummy amuseforceID

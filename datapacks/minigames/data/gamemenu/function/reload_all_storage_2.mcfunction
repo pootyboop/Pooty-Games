@@ -314,6 +314,28 @@ $$(1) fps.playtime $(2) "<5"
 $$(1) fps.players $(2) "2+"
 $$(1) fps.genre $(2) "PvP"
 
+$$(1) fps.settings.map.name $(2) "Map"
+$$(1) fps.settings.map.value $(2) "1"
+$$(1) fps.settings.map.1.name $(2) "Random Map"
+$$(1) fps.settings.map.1.value $(2) "1"
+$$(1) fps.settings.map.1.item $(2) "glass"
+$$(1) fps.settings.map.1.slot $(2) "4"
+
+$$(1) fps.settings.map.2.name $(2) "Explosive Settlement"
+$$(1) fps.settings.map.2.value $(2) "2"
+$$(1) fps.settings.map.2.item $(2) "tnt"
+$$(1) fps.settings.map.2.slot $(2) "12"
+
+$$(1) fps.settings.map.3.name $(2) "Block Factory"
+$$(1) fps.settings.map.3.value $(2) "3"
+$$(1) fps.settings.map.3.item $(2) "netherite_block"
+$$(1) fps.settings.map.3.slot $(2) "13"
+
+$$(1) fps.settings.map.4.name $(2) "Small World"
+$$(1) fps.settings.map.4.value $(2) "4"
+$$(1) fps.settings.map.4.item $(2) "oak_sapling"
+$$(1) fps.settings.map.4.slot $(2) "14"
+
 
 
 #GEOKINESIS
@@ -664,6 +686,21 @@ $$(1) surface.desc2 $(2) "to keep the ball from enemies!"
 $$(1) surface.playtime $(2) "<5"
 $$(1) surface.players $(2) "2+"
 $$(1) surface.genre $(2) "Tag"
+
+$$(1) surface.settings.mode.name $(2) "Mode"
+$$(1) surface.settings.mode.value $(2) "1"
+$$(1) surface.settings.mode.1.name $(2) "Clear Skies"
+$$(1) surface.settings.mode.1.value $(2) "0"
+$$(1) surface.settings.mode.1.item $(2) "glass_bottle"
+$$(1) surface.settings.mode.1.slot $(2) "12"
+$$(1) surface.settings.mode.2.name $(2) "Gray Skies"
+$$(1) surface.settings.mode.2.value $(2) "1"
+$$(1) surface.settings.mode.2.item $(2) "potion"
+$$(1) surface.settings.mode.2.slot $(2) "13"
+$$(1) surface.settings.mode.3.name $(2) "Hurricane"
+$$(1) surface.settings.mode.3.value $(2) "2"
+$$(1) surface.settings.mode.3.item $(2) "water_bucket"
+$$(1) surface.settings.mode.3.slot $(2) "14"
 
 
 

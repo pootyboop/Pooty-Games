@@ -9,5 +9,5 @@ tag @s remove this
 
 
 
-execute if score dummy gameID matches 15 run function fps:shoot
+execute if score dummy gameID matches 15 run function fps:shoot/start
 #execute if score dummy gameID matches 16 run function beebquest:leftclick

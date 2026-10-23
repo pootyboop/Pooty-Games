@@ -22,6 +22,7 @@ execute if function map:if_call positioned 600 60 300 run function hamsoccer:set
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"GOALS","color":"white","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set Red minigamescore 0
 scoreboard players display name Red minigamescore {"text":"Red","color":"red"}
 scoreboard players set Blue minigamescore 0

@@ -20,4 +20,5 @@ scoreboard objectives add dummy dummy
 
 scoreboard objectives add perGameDeaths deathCount
 
+effect give @a blindness 1 0 true
 function main:gamestate/startgame/bell

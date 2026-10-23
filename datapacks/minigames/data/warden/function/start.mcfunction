@@ -1,5 +1,5 @@
 title @a times 0 20 0
-function main:ui/typewriter/start {text:"Shhh.","color":"gray","edgeColor":"dark_gray","mode":"title"}
+function main:ui/typewriter/start {"text":"Shhh.","color":"gray","edgeColor":"dark_gray","mode":"title"}
 execute as @a at @s run function warden:warden/fx
 
 item replace entity @a hotbar.0 with snowball[custom_name='{"text":"Extremely Distracting Snowball","color":"white","italic":false}'] 3

@@ -1,3 +1,4 @@
+scoreboard objectives setdisplay sidebar
 schedule function spawn:gamemenutext/flash 1s replace
 setblock 6 60 -3 potted_cherry_sapling replace
 execute positioned 0 59 7 as @a run function gamemenu:home/setup_2

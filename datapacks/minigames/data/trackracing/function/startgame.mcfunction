@@ -5,7 +5,8 @@ scoreboard players set dummy gameID 10
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Blocks Travelled","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"BLOCKS TRAVELLED","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 

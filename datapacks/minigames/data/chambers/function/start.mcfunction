@@ -4,7 +4,7 @@ execute as @a run function main:gamemode/set_silent {"gm":"creative"}
 
 title @a times 0 40 20
 title @a title {"text":"Build Phase","color":"#FCF5CF"}
-function main:ui/typewriter/start {text:"Build Your Chamber!","color":"#B09174","edgeColor":"#78634F","mode":"subtitle"}
+function main:ui/typewriter/start {"text":"Build Your Chamber!","color":"#B09174","edgeColor":"#78634F","mode":"subtitle"}
 function main:countdown/pling
 
 bossbar set minecraft:timer players @a

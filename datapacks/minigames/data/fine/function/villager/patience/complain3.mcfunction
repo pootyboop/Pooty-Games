@@ -20,4 +20,4 @@ $execute if score dummy dummy matches 8 run tellraw @a [{"text":"<$(name)> Excus
 $execute if score dummy dummy matches 9 run tellraw @a [{"text":"<$(name)> I'm losing my appetite...","color":"white"}]
 $execute if score dummy dummy matches 10 run tellraw @a [{"text":"<$(name)> I'm giving you exactly 15 seconds to bring my $(item_name) out!","color":"white"}]
 
-$scoreboard players display name $(name)_$(item_ID) fineOrders [{"text":"$(name)","color":"red","bold":true},{"text":" - ","color":"gray","bold":false},{"text":"$(item_name)","color":"aqua","bold":false},{"text":" x$(buy_count)","color":"gray","bold":false}]
+$scoreboard players display name $(name)_$(item_ID) fineOrders [{"text":"$(name)","color":"red","bold":true},{"text":" - ","color":"gray","bold":false},{"text":"$(item_name)","color":"aqua","bold":false},{"text":" x$(buy_count)","color":"white","bold":false}]

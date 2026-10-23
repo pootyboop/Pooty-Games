@@ -7,6 +7,7 @@ scoreboard players set dummy gameID 23
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
 scoreboard objectives modify minigamescore displayname {"text":"POINTS","color":"white","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"white"}
 scoreboard players set Red minigamescore 0
 scoreboard players display name Red minigamescore {"text":"Red","color":"red"}
 scoreboard players set Blue minigamescore 0

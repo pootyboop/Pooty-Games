@@ -10,7 +10,8 @@ team join fliptag @a
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Rounds Survived","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"ROUNDS SURVIVED","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"light_purple"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 

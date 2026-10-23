@@ -8,7 +8,7 @@ $data modify entity @s Offers.Recipes set value [{buy:{id:"$(item_ID)",count:$(b
 scoreboard objectives setdisplay sidebar fineOrders
 
 $scoreboard players add $(name)_$(item_ID) fineOrders 0
-$scoreboard players display name $(name)_$(item_ID) fineOrders [{"text":"$(name)","color":"white"},{"text":" - ","color":"gray"},{"text":"$(item_name)","color":"aqua"},{"text":" x$(buy_count)","color":"gray"}]
+$scoreboard players display name $(name)_$(item_ID) fineOrders [{"text":"$(name)","color":"white"},{"text":" - ","color":"gray"},{"text":"$(item_name)","color":"aqua"},{"text":" x$(buy_count)","color":"white"}]
 
 
 

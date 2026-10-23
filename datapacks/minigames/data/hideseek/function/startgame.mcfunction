@@ -1,6 +1,5 @@
 function main:gamestate/startgame/setup {"tag":"hideseek"}
-
-
+scoreboard players set dummy gameID 6
 
 function hideseek:killallblocks
 
@@ -50,7 +49,8 @@ execute if function map:if_call run function hideseek:map/fredminers/setup
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-scoreboard objectives modify minigamescore displayname {"text":"Players","color":"gold"}
+scoreboard objectives modify minigamescore displayname {"text":"PLAYERS","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set Hiders minigamescore 0
 scoreboard players set Seekers minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
@@ -70,7 +70,6 @@ tag @a remove hiderdead
 
 effect give @a weakness 10000 255 true
 
-scoreboard players set dummy gameID 6
 function main:gamestate/startgame/title {"text":"Hide and Seek"}
 
 function main:ui/descline

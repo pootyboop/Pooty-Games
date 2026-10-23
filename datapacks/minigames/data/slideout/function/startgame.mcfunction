@@ -28,8 +28,9 @@ scoreboard players reset @a kills
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy
-execute if entity @n[predicate=pred:dummy,tag=slideoutFFA] run scoreboard objectives modify minigamescore displayname {"text":"Kills","color":"gold"}
-execute if entity @n[predicate=pred:dummy,tag=slideoutGP] run scoreboard objectives modify minigamescore displayname {"text":"Points","color":"gold"}
+execute if entity @n[predicate=pred:dummy,tag=slideoutFFA] run scoreboard objectives modify minigamescore displayname {"text":"KILLS","color":"gold","bold":true}
+execute if entity @n[predicate=pred:dummy,tag=slideoutGP] run scoreboard objectives modify minigamescore displayname {"text":"POINTS","color":"gold","bold":true}
+scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 

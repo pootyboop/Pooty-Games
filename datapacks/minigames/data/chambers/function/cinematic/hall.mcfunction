@@ -11,9 +11,9 @@ title @a title ""
 
 scoreboard players set dummy dummy 0
 execute as @e[type=area_effect_cloud,tag=room,tag=chamberCompleted] run scoreboard players add dummy dummy 1
-execute if score dummy dummy matches 0 run function main:ui/typewriter/start {text:"The Party Ventures Inside...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
-execute if score dummy dummy matches 1 run function main:ui/typewriter/start {text:"The Party Ventures Deeper...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
-execute if score dummy dummy matches 2.. run function main:ui/typewriter/start {text:"The Party Continues On...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
+execute if score dummy dummy matches 0 run function main:ui/typewriter/start {"text":"The Party Ventures Inside...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
+execute if score dummy dummy matches 1 run function main:ui/typewriter/start {"text":"The Party Ventures Deeper...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
+execute if score dummy dummy matches 2.. run function main:ui/typewriter/start {"text":"The Party Continues On...","color":"#FCF5CF","edgeColor":"#C9C4A5","mode":"subtitle"}
 
 schedule function chambers:challenge/select_random 5s
 

@@ -8532,17 +8532,5 @@
     },
     "done": true
   },
-  "interaction:left_click": {
-    "criteria": {
-      "requirement": "2026-10-21 20:16:11 +0100"
-    },
-    "done": true
-  },
-  "interaction:right_click": {
-    "criteria": {
-      "requirement": "2026-10-21 22:43:02 +0100"
-    },
-    "done": true
-  },
   "DataVersion": 4189
 }
