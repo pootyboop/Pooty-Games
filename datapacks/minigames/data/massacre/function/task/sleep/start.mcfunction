@@ -1,4 +1,5 @@
 advancement revoke @s only massacre:enter_bed
+execute unless score dummy gameID matches 29 run return 0
 
 scoreboard players set @s massacreRestCount 0
 scoreboard players set @s massacreSleepTime 0

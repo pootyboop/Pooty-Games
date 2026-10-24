@@ -1,4 +1,6 @@
 advancement revoke @s only massacre:knife_kill
+execute unless score dummy gameID matches 29 run return 0
+
 tag @s add usedKnife
 
 function massacre:item/items/knife/start_cooldown
