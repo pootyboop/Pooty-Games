@@ -1,7 +1,7 @@
 function main:gamestate/startgame/setup {"tag":"chambers"}
 scoreboard players set dummy gameID 14
 
-kill @e[type=area_effect_cloud,tag=room]
+kill @e[type=area_effect_cloud,tag=roomOriginal]
 
 execute positioned -40000 60 0 run function chambers:setup
 
@@ -19,6 +19,10 @@ team modify ChambersChallenge friendlyFire false
 team modify ChambersChallenge seeFriendlyInvisibles true
 #team modify ChambersChallenge prefix {"text":"[In Chamber] ","color":"#FCF5CF"}
 team modify ChambersChallenge prefix ""
+
+scoreboard objectives remove chambersPhase
+scoreboard objectives add chambersPhase dummy
+scoreboard players set dummy chambersPhase 0
 
 scoreboard objectives remove minigamescore
 scoreboard objectives add minigamescore dummy

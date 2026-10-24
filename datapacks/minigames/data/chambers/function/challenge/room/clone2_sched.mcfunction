@@ -1,0 +1,2 @@
+execute at @e[type=area_effect_cloud,tag=clone2Queued] unless function chambers:challenge/room/check_loads run return run schedule function chambers:challenge/room/clone2_sched 1 replace
+execute as @e[type=area_effect_cloud,tag=clone2Queued] at @s positioned ~-300 ~ ~ run function chambers:challenge/room/clone2

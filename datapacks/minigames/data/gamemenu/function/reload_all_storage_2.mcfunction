@@ -487,7 +487,7 @@ $$(1) massacre.genre $(2) "Hidden Role"
 
 $$(1) massacre.settings.fx.toggle $(2) true
 $$(1) massacre.settings.fx.name $(2) "Environment FX (May Cause Lag)"
-$$(1) massacre.settings.fx.value $(2) "1"
+$$(1) massacre.settings.fx.value $(2) "0"
 $$(1) massacre.settings.fx.item $(2) "command_block_minecart"
 $$(1) massacre.settings.fx.slot $(2) "4"
 

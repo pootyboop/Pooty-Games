@@ -7,6 +7,8 @@ title @a title {"text":"Build Phase","color":"#FCF5CF"}
 function main:ui/typewriter/start {"text":"Build Your Chamber!","color":"#B09174","edgeColor":"#78634F","mode":"subtitle"}
 function main:countdown/pling
 
+scoreboard players set dummy chambersPhase 1
+
 bossbar set minecraft:timer players @a
 effect give @a blindness 1 0 true
 

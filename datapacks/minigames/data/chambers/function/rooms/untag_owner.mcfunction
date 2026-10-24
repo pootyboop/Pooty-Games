@@ -1,1 +1,1 @@
-tag @p[tag=currRoomOwner] remove currRoomOwner
+tag @a remove currRoomOwner

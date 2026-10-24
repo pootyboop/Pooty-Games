@@ -1,4 +1,3 @@
-execute if entity @p[gamemode=creative] run return run function chambers:timer/end_build_phase
-execute if entity @n[type=area_effect_cloud,tag=room,tag=selfTesting] run return run function chambers:timer/end_test_phase
-execute if entity @n[type=area_effect_cloud,tag=room,tag=chamberCompleted] run return run function chambers:challenge/end
-say WARNING!!! NO PHASE END CONDITIONS MET!!!
+execute if score dummy chambersPhase matches 1 run return run function chambers:timer/end_build_phase
+execute if score dummy chambersPhase matches 2 run return run function chambers:timer/end_test_phase
+execute if score dummy chambersPhase matches 3.. run return run function chambers:challenge/end
