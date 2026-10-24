@@ -10,7 +10,8 @@ tag @a remove wasArtist
 tag @a remove artistChoosing
 tag @a remove guesserCorrect
 
-schedule function blocktionary:kill_cat 4.9s
+schedule function blocktionary:logo/draw 4.999s
+schedule function blocktionary:kill_cat 4.999s
 
 function main:gamestate/score_places/run
 function main:endgame

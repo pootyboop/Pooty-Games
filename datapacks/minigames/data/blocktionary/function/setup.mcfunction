@@ -14,3 +14,5 @@ effect give @a resistance infinite 255 true
 execute as @a run function blocktionary:guesser/join
 
 summon cat -19995 71 9 {Silent:1b,Sitting:1b,variant:"minecraft:persian",CollarColor:12b,Tags:["blocktionaryCat"],attributes:[{id:"minecraft:movement_speed",base:0}],Rotation:[135F,0F]}
+
+function blocktionary:logo/draw
