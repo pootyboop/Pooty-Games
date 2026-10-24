@@ -1,4 +1,5 @@
 function main:gamestate/startgame/setup {"tag":"witchhunt"}
+scoreboard players set dummy gameID 12
 
 spreadplayers 593 -602 2 2 false @a
 execute as @a at @s run tp @s ~ ~-6 ~
@@ -34,10 +35,11 @@ execute positioned 593 60 -602 run function witchhunt:setup
 
 scoreboard players reset @a dmgd
 
+execute as @a at @s run playsound entity.witch.celebrate master @s ~ ~ ~ 1 1 1
+execute as @a at @s run playsound entity.witch.drink master @s ~ ~ ~ 1 1 1
 effect give @a weakness infinite 255 true
 
 tag @a add hiding
-scoreboard players set dummy gameID 12
 function main:gamestate/startgame/title {"text":"Witch Hunt"}
 
 function main:ui/descline

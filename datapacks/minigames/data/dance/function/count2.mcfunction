@@ -1,4 +1,5 @@
-title @a title {"text":"2","color":"yellow"}
+title @a title ""
+title @a subtitle {"text":"2","color":"yellow"}
 playsound block.note_block.chime master @a ~ ~ ~ 1 1.5 1
 
 scoreboard players set dummy dancecount 2

@@ -11,7 +11,6 @@ forceload add 0 0
 function main:refresh
 
 execute if entity @n[predicate=pred:dummy,tag=playagain] in minecraft:overworld run function main:play_last
-
 execute unless entity @n[predicate=pred:dummy,tag=playagain] in minecraft:overworld run function main:gamestate/endgame/3
 
 tag @n[predicate=pred:dummy,tag=playagain] remove playagain

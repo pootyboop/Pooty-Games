@@ -2,7 +2,7 @@ scoreboard players reset @s died
 function main:gamemode/set_silent {"gm":"spectator"}
 clear @s
 
-tellraw @a [{"selector":"@s","color":"red"},{"text":" couldn't keep up :(","color":"gray"}]
+tellraw @a [{"selector":"@s","color":"red"},{"text":" lost the beat","color":"gray"}]
 
 execute at @s run scoreboard players add @a[gamemode=!spectator,distance=0.1..] minigamescore 1
 

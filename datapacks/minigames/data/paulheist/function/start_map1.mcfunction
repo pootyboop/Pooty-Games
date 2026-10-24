@@ -8,4 +8,4 @@ spawnpoint @a[tag=guardian] 362 78 -300
 function paulheist:doors/foyer_unlock
 function paulheist:doors/sewing_unlock
 
-function paulheist:fixglass_map1
+function paulheist:fix_glass/map1

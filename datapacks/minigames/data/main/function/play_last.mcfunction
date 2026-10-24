@@ -1,3 +1,5 @@
+function main:ui/clear_chat
+
 execute if score dummy lastPlayedGameID matches 1 run function bedwars:startgame
 execute if score dummy lastPlayedGameID matches 2 run function build:startgame
 execute if score dummy lastPlayedGameID matches 3 run function geo:startgame

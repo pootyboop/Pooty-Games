@@ -9,4 +9,4 @@ function paulheist:doors/beebfrontdoor_unlock
 function paulheist:doors/beebbalcony_unlock
 function paulheist:doors/beebbridges_v1
 
-function paulheist:fixglass_map2
+function paulheist:fix_glass/map2

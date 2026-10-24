@@ -1,7 +1,7 @@
 execute if score dummy dancetimepertimer matches 4.. run scoreboard players remove dummy dancetimepertimer 1
 
-title @a title {"text":"3","color":"green"}
-title @a subtitle {"text":""}
+title @a title ""
+title @a subtitle {"text":"3","color":"green"}
 playsound block.note_block.chime master @a ~ ~ ~ 1 1 1
 
 scoreboard players set dummy dancecount 3

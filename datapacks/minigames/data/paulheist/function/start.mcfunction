@@ -1,54 +1,39 @@
 function paulheist:paul/observe/stop
+tag @a remove starting
+scoreboard objectives setdisplay sidebar.team.aqua minigamescore
+
+
+
+function map:if_params {"map":"manor"}
+execute if function map:if_call run function paulheist:start_map1
+function map:if_params {"map":"beebbanking"}
+execute if function map:if_call run function paulheist:start_map2
+
+
+
+effect give @a[tag=thief] blindness 1 0 true
+item replace entity @a[tag=thief] hotbar.0 with iron_hoe[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Window Smasher","color":"white","italic":false}',can_break={predicates:[{blocks:["minecraft:glass_pane","minecraft:glass"]}],show_in_tooltip:0b}]
+
+execute as @a[tag=guardian] at @s run function paulheist:guardian/equipment
+function paulheist:alarm/item
+
+
+
+execute as @a run function main:gamemode/set_silent {"gm":"adventure"}
+effect clear @a resistance
+effect clear @a weakness
+
+
 
 title @a times 0 40 20
 title @a[tag=thief] title {"text":"GO!","color":"gold"}
 function main:countdown/pling
 title @a[tag=guardian] title {"text":"Get Ready...","color":"gold"}
 
-effect give @a[tag=thief] blindness 1 0 true
-
-scoreboard objectives setdisplay sidebar.team.aqua minigamescore
-
-
-tag @a remove starting
-execute as @a run function main:gamemode/set_silent {"gm":"adventure"}
-
-
-
-function map:if_params {"map":"manor"}
-execute if function map:if_call run function paulheist:start_map1
-
-function map:if_params {"map":"beebbanking"}
-execute if function map:if_call run function paulheist:start_map2
-
-
-
-item replace entity @a[tag=thief] hotbar.0 with iron_hoe[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Window Smasher","color":"white","italic":false}',can_break={predicates:[{blocks:["minecraft:glass_pane","minecraft:glass"]}],show_in_tooltip:0b}]
-
-item replace entity @a[tag=guardian] hotbar.0 with blaze_rod[enchantments={levels:{"minecraft:knockback":2},show_in_tooltip:0b},custom_name='{"text":"Baton","color":"gold","italic":false}',lore=['{"text":"Shoplifters will be prosecuted.","color":"gray","italic":false}'],attribute_modifiers={modifiers:[{type:"attack_damage",slot:"mainhand",id:"attack_damage",amount:10,operation:"add_value"}],show_in_tooltip:0b},unbreakable={show_in_tooltip:0b}]
-
-function paulheist:alarm/item
-
-item replace entity @a[tag=guardian] armor.head with minecraft:sea_lantern[custom_name='{"text":"Guardian Dome","color":"aqua","italic":false}',enchantment_glint_override=false,enchantments={levels:{"minecraft:binding_curse":1}},hide_tooltip={}]
-
-item replace entity @a[tag=guardian] armor.chest with netherite_chestplate[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Chestplate","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"},enchantment_glint_override=false,enchantments={levels:{"minecraft:binding_curse":1}},hide_tooltip={}]
-
-item replace entity @a[tag=guardian] armor.legs with netherite_leggings[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Leggings","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"},enchantment_glint_override=false,enchantments={levels:{"minecraft:binding_curse":1}},hide_tooltip={}]
-
-item replace entity @a[tag=guardian] armor.feet with netherite_boots[unbreakable={show_in_tooltip:0b},custom_name='{"text":"Guardian Boots","color":"aqua","italic":false}',attribute_modifiers={modifiers:[{type:"armor",id:"armor",amount:0,operation:"add_value"},{type:"armor_toughness",id:"armor_toughness",amount:0,operation:"add_value"}],show_in_tooltip:0b},trim={material:"minecraft:diamond",pattern:"minecraft:eye"},enchantment_glint_override=false,enchantments={levels:{"minecraft:binding_curse":1}},hide_tooltip={}]
-
-
-effect give @a[tag=guardian] slowness 100 255 true
-execute as @a[tag=guardian] run attribute @s minecraft:jump_strength base set 0
-effect give @a[tag=guardian] blindness 100 255 true
-schedule function paulheist:guardian/release 7.5s
-
-
-
-effect clear @a resistance
-effect clear @a weakness
-
 # Hide the initial "____: Unlocked" prompts from the goat horn functions
 title @a actionbar ""
 
+
+
+schedule function paulheist:guardian/release 7.5s
 function paulheist:main

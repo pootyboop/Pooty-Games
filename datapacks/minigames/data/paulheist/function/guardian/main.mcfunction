@@ -1,5 +1,5 @@
-execute if score @s respawntimer matches 1.. run function paulheist:respawntimer
-execute if score @s elevatorcooldown matches 1.. run function paulheist:elevatorcooldown
+execute if score @s respawntimer matches 1.. run function paulheist:guardian/respawn_timer
+execute if score @s elevatorcooldown matches 1.. run function paulheist:bankportal/cooldown
 execute if score @s goathorn matches 1.. run function paulheist:doors/main
 
 function map:if_params {"map":"manor"}
