@@ -1,0 +1,25 @@
+# Y
+execute if block ~ ~ ~ #chambers:restockable run summon marker ~ ~ ~ {Tags:["chambersContainer"]}
+execute if block ~ ~1 ~ #chambers:restockable run summon marker ~ ~1 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~2 ~ #chambers:restockable run summon marker ~ ~2 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~3 ~ #chambers:restockable run summon marker ~ ~3 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~4 ~ #chambers:restockable run summon marker ~ ~4 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~5 ~ #chambers:restockable run summon marker ~ ~5 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~6 ~ #chambers:restockable run summon marker ~ ~6 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~7 ~ #chambers:restockable run summon marker ~ ~7 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~8 ~ #chambers:restockable run summon marker ~ ~8 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~9 ~ #chambers:restockable run summon marker ~ ~9 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~10 ~ #chambers:restockable run summon marker ~ ~10 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~11 ~ #chambers:restockable run summon marker ~ ~11 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~12 ~ #chambers:restockable run summon marker ~ ~12 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~13 ~ #chambers:restockable run summon marker ~ ~13 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~14 ~ #chambers:restockable run summon marker ~ ~14 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~15 ~ #chambers:restockable run summon marker ~ ~15 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~16 ~ #chambers:restockable run summon marker ~ ~16 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~17 ~ #chambers:restockable run summon marker ~ ~17 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~18 ~ #chambers:restockable run summon marker ~ ~18 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~19 ~ #chambers:restockable run summon marker ~ ~19 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~20 ~ #chambers:restockable run summon marker ~ ~20 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~21 ~ #chambers:restockable run summon marker ~ ~21 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~22 ~ #chambers:restockable run summon marker ~ ~22 ~ {Tags:["chambersContainer"]}
+execute if block ~ ~23 ~ #chambers:restockable run summon marker ~ ~23 ~ {Tags:["chambersContainer"]}

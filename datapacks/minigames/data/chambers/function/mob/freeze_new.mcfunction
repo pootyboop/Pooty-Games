@@ -1,0 +1,1 @@
+execute positioned ~-24 ~-10 ~-13 as @e[dx=26,dy=23,dz=26,type=!#chambers:no_copy,tag=!chambersMob] run function chambers:mob/freeze_one

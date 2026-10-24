@@ -1,1 +1,1 @@
-execute at @n[type=area_effect_cloud,tag=roomOriginal] as @a if score @s uuid0 = @n[type=area_effect_cloud,tag=roomOriginal] owningUUID run tag @s add currRoomOwner
+execute as @a if score @s uuid0 = @n[type=area_effect_cloud,tag=roomCopy,distance=..50] owningUUID run tag @s add currRoomOwner

@@ -7,6 +7,11 @@ schedule clear chambers:challenge/setup
 schedule clear chambers:challenge/select_random
 schedule clear chambers:cinematic/hall
 schedule clear chambers:challenge/end
+schedule clear chambers:challenge/room/clone2_sched
+schedule clear chambers:challenge/room/relight_remove
+schedule clear chambers:challenge/room/relight_restore
+schedule clear chambers:restock/scan_next
+schedule clear chambers:timer/end_solve
 
 function chambers:rooms/cleanup
 tag @a remove lastRoom

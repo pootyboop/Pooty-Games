@@ -1,7 +1,9 @@
+# Only allow call under certain conditions and only once per player per phase/challenge
 execute if entity @s[tag=completedPhase] run return 0
-execute at @s positioned ~300 ~ ~ run function chambers:rooms/tag_owner
+execute at @s run function chambers:rooms/tag_owner
 execute unless score dummy chambersPhase matches 2 if entity @s[tag=currRoomOwner] run return 0
 
+# Complete phase (and pass test phase)
 tag @s add completedPhase
 execute if score dummy chambersPhase matches 2 at @s positioned ~300 ~ ~ run tag @n[type=area_effect_cloud,tag=roomOriginal,distance=..100,tag=selfTesting] add testPassed
 
