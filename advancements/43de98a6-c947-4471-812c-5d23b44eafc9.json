@@ -8532,5 +8532,23 @@
     },
     "done": true
   },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-10-23 21:30:49 +0100"
+    },
+    "done": false
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2026-10-23 23:26:44 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2026-10-23 23:39:28 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

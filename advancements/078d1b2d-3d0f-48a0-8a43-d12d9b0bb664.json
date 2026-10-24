@@ -4771,10 +4771,15 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2026-10-23 21:51:39 +0100",
+      "apple": "2026-10-23 21:42:02 +0100",
       "golden_apple": "2021-01-16 22:56:55 +0000",
       "enchanted_golden_apple": "2021-01-17 08:11:16 +0000",
+      "glow_berries": "2026-10-23 21:50:04 +0100",
+      "sweet_berries": "2026-10-23 22:11:52 +0100",
       "chorus_fruit": "2024-08-21 22:58:15 +0100",
-      "cooked_beef": "2024-12-27 11:07:32 +0000"
+      "cooked_beef": "2024-12-27 11:07:32 +0000",
+      "melon_slice": "2026-10-23 21:42:46 +0100"
     },
     "done": false
   },
@@ -6283,6 +6288,7 @@
       "minecraft:skeleton": "2024-08-21 23:36:07 +0100",
       "minecraft:zoglin": "2024-09-14 20:45:31 +0100",
       "minecraft:witch": "2023-11-01 18:46:45 +0000",
+      "minecraft:ravager": "2026-10-23 23:55:23 +0100",
       "minecraft:husk": "2024-12-22 20:34:53 +0000",
       "minecraft:bogged": "2024-10-05 11:58:31 +0100",
       "minecraft:guardian": "2025-12-13 20:12:53 +0000",
@@ -8428,21 +8434,33 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-10-14 23:34:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2026-10-23 21:41:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-10-23 21:45:17 +0100"
+    },
+    "done": true
+  },
   "interaction:left_click": {
     "criteria": {
-      "requirement": "2026-10-14 19:44:45 +0100"
+      "requirement": "2026-10-23 23:26:44 +0100"
     },
     "done": true
   },
   "interaction:right_click": {
     "criteria": {
-      "requirement": "2026-10-14 20:00:59 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2026-10-14 23:34:21 +0100"
+      "requirement": "2026-10-23 23:40:34 +0100"
     },
     "done": true
   },

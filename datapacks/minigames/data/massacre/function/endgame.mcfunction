@@ -1,6 +1,7 @@
 scoreboard objectives remove massacreRoleID
 
 tag @e[type=interaction,tag=massacrePoisonedSource] remove massacrePoisonedSource
+team leave @a
 
 schedule clear massacre:main
 schedule clear massacre:start

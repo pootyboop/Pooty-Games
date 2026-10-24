@@ -309,7 +309,8 @@
     "criteria": {
       "minecraft:forest": "2026-10-19 23:18:07 +0100",
       "minecraft:jungle": "2026-10-20 00:21:23 +0100",
-      "minecraft:cherry_grove": "2026-10-19 17:35:38 +0100"
+      "minecraft:cherry_grove": "2026-10-19 17:35:38 +0100",
+      "minecraft:snowy_taiga": "2026-10-23 20:53:42 +0100"
     },
     "done": false
   },
@@ -8176,6 +8177,54 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2026-10-20 02:03:55 +0100"
+    },
+    "done": true
+  },
+  "interaction:left_click": {
+    "criteria": {
+      "requirement": "2026-10-23 20:14:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-10-23 20:14:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-10-23 20:15:37 +0100"
+    },
+    "done": true
+  },
+  "interaction:right_click": {
+    "criteria": {
+      "requirement": "2026-10-23 20:23:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-10-23 20:24:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2026-10-23 20:24:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-23 20:59:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-10-23 21:31:30 +0100"
     },
     "done": true
   },

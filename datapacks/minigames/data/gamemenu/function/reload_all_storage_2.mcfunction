@@ -485,6 +485,12 @@ $$(1) massacre.playtime $(2) "10"
 $$(1) massacre.players $(2) "4+"
 $$(1) massacre.genre $(2) "Hidden Role"
 
+$$(1) massacre.settings.fx.toggle $(2) true
+$$(1) massacre.settings.fx.name $(2) "Environment FX (May Cause Lag)"
+$$(1) massacre.settings.fx.value $(2) "1"
+$$(1) massacre.settings.fx.item $(2) "command_block_minecart"
+$$(1) massacre.settings.fx.slot $(2) "4"
+
 $$(1) massacre.settings.role_0.toggle $(2) true
 $$(1) massacre.settings.role_0.name $(2) "Doctor Role"
 $$(1) massacre.settings.role_0.value $(2) "1"
