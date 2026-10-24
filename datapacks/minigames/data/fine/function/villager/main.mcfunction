@@ -1,8 +1,3 @@
-# Check if traded, if so they've been served and will leave
-execute if entity @s[nbt={Offers:{Recipes:[{uses:1}]}}] run return run function fine:villager/served
-
-
-
 # Infinitely patient until being seated
 execute if entity @s[tag=unseated] run return 0
 
