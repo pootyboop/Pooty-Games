@@ -11,77 +11,38 @@ execute if function main:player/is_singleplayer run tellraw @a [{"text":"With ",
 execute unless function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" players, you can play:\n"}]
 
 
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Amuse Me!","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function amuse:startgame"}}
-
-execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Bedwars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bedwars:startgame"}}
-
-#execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Beeb Quest","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function beebquest:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Block Run","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function blockrun:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Bridge","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function bridge:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Blocktionary","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function blocktionary:startgame"}}
-
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Build Comp","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function build:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chambers of Challenge","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chambers:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Chunk Fight","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function chunk:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Dance of the Block","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function dance:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Delve","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function delve:startgame"}}
-
-#execute if score dummy playercount matches 3.. run tellraw @a {"text":"Ewok Hunt","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function ewok:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Fine Dining","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fine:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Flip Tag","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fliptag:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"FPS","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function fps:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Geokinesis","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function geo:startgame"}}
-
-execute if score dummy playercount matches 3..10 run tellraw @a {"text":"Gold Rush","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function goldrush:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Baconball","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function hamsoccer:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Hide and Seek","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function hideseek:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"King of the Hill","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function kinghill:startgame"}}
-
-execute if score dummy playercount matches 4.. run tellraw @a {"text":"Massacre on the Nightingale","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function massacre:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Paul Heist","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function paulheist:startgame"}}
-
-execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Prosperous Pillars","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pillars:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"PvP Playground","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function pvp:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Shopping","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function shopping:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Small World","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function smallworld:startgame"}}
-
-execute if score dummy playercount matches 2..10 run tellraw @a {"text":"Slideout","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function slideout:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Surface Tension","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function surface:startgame"}}
-
-execute if score dummy playercount matches 2..4 run tellraw @a {"text":"Track Racing","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function trackracing:startgame"}}
-
-execute if score dummy playercount matches 1.. run tellraw @a {"text":"Trials","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function trials:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Warden\'s Dungeon","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function warden:startgame"}}
-
-execute if score dummy playercount matches 2.. run tellraw @a {"text":"Witch Hunt","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play!"}]},"clickEvent":{"action":"run_command","value":"/function witchhunt:startgame"}}
-
-
-
-
-
-
+function main:ui/prompt_play_game {"name":"Amuse Me","tag":"amuse","players":"1.."}
+function main:ui/prompt_play_game {"name":"Baconball","tag":"hamsoccer","players":"2.."}
+function main:ui/prompt_play_game {"name":"Bedwars","tag":"bedwars","players":"2..4"}
+#function main:ui/prompt_play_game {"name":"Beeb Quest","tag":"beebquest","players":"3..10"}
+function main:ui/prompt_play_game {"name":"Block Run","tag":"blockrun","players":"1.."}
+function main:ui/prompt_play_game {"name":"Blocktionary","tag":"blocktionary","players":"1.."}
+function main:ui/prompt_play_game {"name":"Bridge","tag":"bridge","players":"2.."}
+function main:ui/prompt_play_game {"name":"Build Comp","tag":"build","players":"1.."}
+function main:ui/prompt_play_game {"name":"Chambers of Challenge","tag":"chambers","players":"2.."}
+function main:ui/prompt_play_game {"name":"Chunk Fight","tag":"chunk","players":"2.."}
+function main:ui/prompt_play_game {"name":"Dance of the Block","tag":"dance","players":"1.."}
+function main:ui/prompt_play_game {"name":"Delve","tag":"delve","players":"1.."}
+#function main:ui/prompt_play_game {"name":"Ewok Hunt","tag":"ewok","players":"3.."}
+function main:ui/prompt_play_game {"name":"Fine Dining","tag":"fine","players":"1.."}
+function main:ui/prompt_play_game {"name":"Flip Tag","tag":"fliptag","players":"2.."}
+function main:ui/prompt_play_game {"name":"FPS","tag":"fps","players":"2.."}
+function main:ui/prompt_play_game {"name":"Geokinesis","tag":"geo","players":"2.."}
+function main:ui/prompt_play_game {"name":"Gold Rush","tag":"goldrush","players":"3..10"}
+function main:ui/prompt_play_game {"name":"Hide and Seek","tag":"hideseek","players":"2.."}
+function main:ui/prompt_play_game {"name":"King of the Hill","tag":"kinghill","players":"2.."}
+function main:ui/prompt_play_game {"name":"Massacre on the Nightingale","tag":"massacre","players":"4..7"}
+function main:ui/prompt_play_game {"name":"Paul Heist","tag":"paulheist","players":"2.."}
+function main:ui/prompt_play_game {"name":"Prosperous Pillars","tag":"pillars","players":"2..4"}
+function main:ui/prompt_play_game {"name":"PvP Playground","tag":"pvp","players":"2.."}
+function main:ui/prompt_play_game {"name":"Shopping","tag":"shopping","players":"1.."}
+function main:ui/prompt_play_game {"name":"Small World","tag":"smallworld","players":"2.."}
+function main:ui/prompt_play_game {"name":"Slideout","tag":"slideout","players":"1.."}
+function main:ui/prompt_play_game {"name":"Surface Tension","tag":"surface","players":"2.."}
+function main:ui/prompt_play_game {"name":"Track Racing","tag":"trackracing","players":"2..4"}
+function main:ui/prompt_play_game {"name":"Trials","tag":"trials","players":"1.."}
+function main:ui/prompt_play_game {"name":"Warden's Dungeon","tag":"warden","players":"1.."}
+function main:ui/prompt_play_game {"name":"Witch Hunt","tag":"witchhunt","players":"2.."}
 
 
 tellraw @a {"text":"\nClick any of the games above to play!\n","color":"gray"}

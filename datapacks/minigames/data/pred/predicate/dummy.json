@@ -1,11 +1,22 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "area_effect_cloud",
-    "nbt": "{Tags:[\"dummy\"]}",
-    "location": {
-      "dimension": "minecraft:overworld"
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "area_effect_cloud",
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "isOGDummyEntity": 1
+      }
     }
-  }
+  ]
 }

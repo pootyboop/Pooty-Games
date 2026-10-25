@@ -37,7 +37,7 @@ title @a subtitle {"text":"Chef up mad flavors!"}
 function main:ui/descline
 tellraw @a {"text":"Fine Dining","color":"#DA7420"}
 tellraw @a {"text":"-Work with your team across the counter to prepare meals"}
-tellraw @a {"text":"-Diners craft, gather from the garden, and serve customers"}
+tellraw @a {"text":"-Waiters serve customers, craft, and farm"}
 tellraw @a {"text":"-Chefs cook and grab ingredients from the freezer and pantry"}
 function main:ui/descline
 

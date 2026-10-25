@@ -1,1 +1,1 @@
-execute positioned -600.0 60 -600.0 as @n[type=breeze,tag=dancebreeze,distance=..40] at @s run function dance:breeze/kill2
+execute positioned -600.0 60 -600.0 as @e[type=breeze,tag=dancebreeze,distance=..40] at @s run function dance:breeze/kill2

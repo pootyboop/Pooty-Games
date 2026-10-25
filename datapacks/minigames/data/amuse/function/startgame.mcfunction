@@ -21,13 +21,13 @@ scoreboard objectives modify minigamescore numberformat styled {"color":"gray"}
 scoreboard players set @a minigamescore 0
 scoreboard objectives setdisplay sidebar minigamescore
 
-function amuse:king_say {"say":"Amuse Me!","sound":"yes"}
+function amuse:king_say {"say":"Amuse Me","sound":"yes"}
 
-function main:gamestate/startgame/title {"text":"Amuse Me!"}
+function main:gamestate/startgame/title {"text":"Amuse Me"}
 title @a subtitle {"text":""}
 
 function main:ui/descline
-tellraw @a {"text":"Amuse Me!","color":"gold","bold":true}
+tellraw @a {"text":"Amuse Me","color":"gold","bold":true}
 tellraw @a {"text":"-Complete rapid-fire challenges to amuse the King!"}
 function main:ui/descline
 

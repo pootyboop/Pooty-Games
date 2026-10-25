@@ -5,6 +5,6 @@ execute positioned -608 59 -608 run function dance:floor/block/pick/1 with stora
 
 function dance:breeze/kill
 function setting:if_params {"tag":"dance","setting":"mode","value":"2"}
-execute if function setting:if_call run summon breeze -600.0 60 -600.0 {Tags:["dancebreeze"]}
+execute if function setting:if_call positioned -600.0 60 -600.0 run function dance:breeze/spawn
 
 function dance:count3

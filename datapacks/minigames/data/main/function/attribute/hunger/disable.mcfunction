@@ -1,1 +1,1 @@
-tag @n[predicate=pred:dummy] remove allowhunger
+tag @n[predicate=pred:dummy] remove allowHunger

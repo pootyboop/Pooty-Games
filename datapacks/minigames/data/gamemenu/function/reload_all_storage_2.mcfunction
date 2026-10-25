@@ -102,7 +102,7 @@ $$(1) mix.genre $(2) "Party Games"
 #AMUSE ME
 #$$(3) amuse
 $$(1) amuse.tag $(2) "amuse"
-$$(1) amuse.name $(2) "Amuse Me!"
+$$(1) amuse.name $(2) "Amuse Me"
 $$(1) amuse.color $(2) "#ffcc60"
 $$(1) amuse.item $(2) "player_head"
 $$(1) amuse.itemnbt $(2) ',profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQyM2RiZWVmNjY2MTVhMWNhMzhmZmUyYjc0NTY3ZDk2YTcwNmEzNWE3MTFmMzU1N2M4ZTE3ZWM1ZWRlODA4MSJ9fX0="}]}'
@@ -276,7 +276,7 @@ $$(1) fine.page $(2) "1"
 $$(1) fine.slot $(2) "13"
 $$(1) fine.desc1 $(2) "Work together to serve"
 $$(1) fine.desc2 $(2) "dishes as fast as you can!"
-$$(1) fine.playtime $(2) "3"
+$$(1) fine.playtime $(2) "5"
 $$(1) fine.players $(2) "1+"
 $$(1) fine.genre $(2) "Crafting"
 
@@ -482,7 +482,7 @@ $$(1) massacre.slot $(2) "2"
 $$(1) massacre.desc1 $(2) "Survive a lethal train ride"
 $$(1) massacre.desc2 $(2) "and catch the murderer!"
 $$(1) massacre.playtime $(2) "10"
-$$(1) massacre.players $(2) "4+"
+$$(1) massacre.players $(2) "4-7"
 $$(1) massacre.genre $(2) "Hidden Role"
 
 $$(1) massacre.settings.fx.toggle $(2) true

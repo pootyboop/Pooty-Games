@@ -1,5 +1,6 @@
 gamerule sendCommandFeedback false
 clear @a
+#function main:player/on_inventory_changed
 xp set @a 0
 xp set @a 0 levels
 effect clear @a

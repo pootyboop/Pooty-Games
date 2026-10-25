@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "c": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "main:player/inventory/on_changed"
+    }
+}

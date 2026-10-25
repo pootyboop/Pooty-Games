@@ -1,0 +1,1 @@
+$execute if score dummy playercount matches $(players) run tellraw @a {"text":"$(name)","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click to play ","color":"gray"},{"text":"$(name)","color":"aqua"},{"text":"!","color":"gray"}]},"clickEvent":{"action":"run_command","value":"/function $(tag):startgame"}}
