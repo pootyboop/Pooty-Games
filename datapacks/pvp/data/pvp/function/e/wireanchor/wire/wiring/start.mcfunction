@@ -1,6 +1,3 @@
-execute store result score @s wireanchor.yaw run data get entity @s Rotation[0] 10000
-execute store result score @s wireanchor.pitch run data get entity @s Rotation[1] 10000
-
 scoreboard players set .wire-length dummy 0
 scoreboard players operation temp.wireanchor.uuid dummy = @s owningUUID
 

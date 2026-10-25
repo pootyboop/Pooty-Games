@@ -1,11 +1,10 @@
 execute positioned ~ ~-1 ~ at @n[predicate=pvp:fighter,distance=..1] unless score @s uuid0 = @n[predicate=pvp:fighter] uuid0 run return run function pvp:e/wireanchor/wire/wiring/connected
 
-execute facing entity @n[tag=tempwireaim] feet run summon block_display ~ ~ ~ {shadow_radius:0f,glow_color_override:16772608,brightness:{sky:15,block:15},Tags:["wire","newwire","immovable"],view_range:3f,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-.5f,-.5f,-.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:yellow_stained_glass_pane"}}
+execute summon marker run function pvp:e/wireanchor/wire/wiring/get_rotation
 
-tp @n[type=block_display,tag=newwire] ~ ~ ~ facing entity @n[tag=tempwireaim] feet
-#tp @n[type=block_display,tag=newwire] ~ ~ ~ ~ ~
+execute facing entity @n[tag=tempwireaim] feet run summon block_display ~ ~ ~ {shadow_radius:0f,glow_color_override:16772608,brightness:{sky:15,block:15},Tags:["wire","newwire","immovable"],view_range:3f,transformation:{left_rotation:[0.7071068f,0f,0f,0.7071068f],right_rotation:[0f,0f,0f,1f],translation:[-.5f,.5f,-.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:yellow_stained_glass_pane"}}
+
 execute as @n[type=block_display,tag=newwire] at @s run function pvp:e/wireanchor/wire/wiring/main_wire
-
 execute if predicate pred:10percent run function pvp:e/wireanchor/wire/wiring/main_fx
 
 execute if entity @n[type=#pvp:wiretarget,distance=..1,tag=tempwireaim] run return fail

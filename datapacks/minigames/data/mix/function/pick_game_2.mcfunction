@@ -22,12 +22,12 @@ execute if score #mixGameID dummy matches 17 if score dummy playercount matches 
 execute if score #mixGameID dummy matches 18 if score dummy playercount matches 2.. run return run function bridge:startgame
 execute if score #mixGameID dummy matches 19 if score dummy playercount matches 2.. run return run function surface:startgame
 execute if score #mixGameID dummy matches 20 if score dummy playercount matches 1.. run return run function blockrun:startgame
-execute if score #mixGameID dummy matches 21 if score dummy playercount matches 2.. run return run function blockrun:startgame
+execute if score #mixGameID dummy matches 21 if score dummy playercount matches 2.. run return run function smallworld:startgame
 execute if score #mixGameID dummy matches 22 if score dummy playercount matches 2.. run return run function fine:startgame
 execute if score #mixGameID dummy matches 23 if score dummy playercount matches 4.. run return run function massacre:startgame
 execute if score #mixGameID dummy matches 24 if score dummy playercount matches 1.. run return run function blocktionary:startgame
 execute if score #mixGameID dummy matches 25 if score dummy playercount matches 1.. run return run function shopping:startgame
-execute if score #mixGameID dummy matches 26 if score dummy playercount matches 1.. run return run function chambers:startgame
+execute if score #mixGameID dummy matches 26 if score dummy playercount matches 2.. run return run function chambers:startgame
 
 # None found, try again
 function mix:pick_game_2

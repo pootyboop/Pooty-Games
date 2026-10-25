@@ -8,7 +8,7 @@ title @s subtitle [{"text":"Spectating ","color":"gray"},{"selector":"@p[tag=spe
 tellraw @a [{"selector":"@s","color":"light_purple"},{"text":" was found and killed!","color":"gray"}]
 
 function main:gamemode/set_silent {"gm":"spectator"}
-spectate @r[limit=1,tag=hunter]
+spectate @r[limit=1,tag=hunter,gamemode=!spectator]
 tag @p[tag=spectateThis] remove spectateThis
 
 execute at @n[type=#witchhunt:witch_entity,tag=currWitchChar] run playsound entity.witch.death master @a ~ ~ ~ 1 1 1

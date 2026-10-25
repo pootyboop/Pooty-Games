@@ -8228,5 +8228,17 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-10-25 15:40:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-10-25 15:46:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

@@ -6,9 +6,9 @@ tellraw @a {"text":""}
 
 
 
-execute if function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" player, you can play:"}]
-execute unless function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" players, you can play:"}]
-tellraw @a {"text":""}
+function main:player/count_all
+execute if function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" player, you can play:\n"}]
+execute unless function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" players, you can play:\n"}]
 
 
 
@@ -84,8 +84,6 @@ execute if score dummy playercount matches 2.. run tellraw @a {"text":"Witch Hun
 
 
 
-tellraw @a {"text":""}
-tellraw @a {"text":"Click any of the games above to play!","color":"white"}
-tellraw @a {"text":""}
+tellraw @a {"text":"\nClick any of the games above to play!\n","color":"gray"}
 function main:ui/descline
 tellraw @a {"text":""}

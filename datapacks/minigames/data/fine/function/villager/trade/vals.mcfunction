@@ -12,7 +12,7 @@ execute if score dummy dummy matches 5 run return run function fine:villager/tra
 execute if score dummy dummy matches 6 run return run function fine:villager/trade/set_item {"ID":"cooked_salmon","name":"Cooked Salmon"}
 execute if score dummy dummy matches 7 run return run function fine:villager/trade/set_item {"ID":"bread","name":"Bread"}
 
-execute if score dummy dummy matches 8 run data modify storage minigames:temp fine.trade.sell_count set value "3"
+execute if score dummy dummy matches 8 run data modify storage minigames:temp fine.trade.sell_count set value "5"
 execute if score dummy dummy matches 8 run return run function fine:villager/trade/set_item {"ID":"cake","name":"Cake"}
 
 execute if score dummy dummy matches 9 run data modify storage minigames:temp fine.trade.buy_count set value "3"
