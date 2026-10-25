@@ -5,9 +5,7 @@ tag @a remove ingame
 
 data remove storage delve:storage temp
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 scoreboard objectives setdisplay sidebar
 
 scoreboard objectives add delve.gold dummy

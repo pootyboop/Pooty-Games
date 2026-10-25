@@ -1,6 +1,5 @@
 execute unless entity @n[type=area_effect_cloud,tag=roomOriginal,tag=!chamberCompleted,tag=testPassed] run return run function chambers:endgame
-function main:player/count_all
-execute if score dummy playercount matches 1 run return run function chambers:endgame
+execute if function main:player/is_singleplayer run return run function chambers:endgame
 
 execute positioned -40103 60 0 run function chambers:party/scatter
 schedule function chambers:party/walk/start 1s

@@ -1,5 +1,5 @@
 clone 294 9 -595 310 14 -575 294 59 -595 replace force
-execute if score dummy playercount matches 1 run fill 302 60 -590 304 60 -590 air
+execute if function main:player/is_singleplayer run fill 302 60 -590 304 60 -590 air
 
 setblock 295 60 -579 light
 

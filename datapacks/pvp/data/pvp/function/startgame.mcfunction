@@ -63,9 +63,7 @@ execute as @a run function pvp:util/uuid/true
 
 scoreboard players set @a rightclicking 0
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 scoreboard objectives setdisplay sidebar minigamescore
 
 

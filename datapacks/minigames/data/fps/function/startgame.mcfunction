@@ -58,9 +58,7 @@ scoreboard objectives modify fpsKills numberformat styled {"color":"gray"}
 scoreboard players set @a fpsKills 0
 scoreboard objectives setdisplay sidebar fpsKills
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 
 function main:gamestate/startgame/title {"text":"FPS"}
 title @a subtitle {"text":"Kill other players!"}

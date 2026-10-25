@@ -3,9 +3,7 @@ scoreboard players set dummy gameID 28
 
 execute positioned 0 60 -10000 run function smallworld:setup
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 
 scoreboard objectives add smallworld.coinget minecraft.picked_up:minecraft.gold_nugget
 

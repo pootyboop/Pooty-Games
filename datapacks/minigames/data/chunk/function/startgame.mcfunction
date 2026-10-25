@@ -1,9 +1,7 @@
 function main:gamestate/startgame/setup {"tag":"chunk"}
 scoreboard players set dummy gameID 22
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 
 scoreboard objectives setdisplay sidebar
 

@@ -13,7 +13,7 @@ team modify hiders color green
 
 
 #if one player, just make them a hider
-execute if score dummy playercount matches 1 as @p run return run function hideseek:hider/join
+execute if function main:player/is_singleplayer as @p run return run function hideseek:hider/join
 
 #otherwise do proper teams
 execute unless entity @a[tag=seeker] as @r[tag=!hider] run function hideseek:seeker/join

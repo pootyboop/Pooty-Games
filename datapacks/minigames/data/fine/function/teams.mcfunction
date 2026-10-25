@@ -1,5 +1,4 @@
-function main:player/count_all
-execute if score dummy playercount matches 1 run return run function fine:team_join {"team":"Waiter","color":"dark_aqua"}
+execute if function main:player/is_singleplayer run return run function fine:team_join {"team":"Waiter","color":"dark_aqua"}
 
 # 1 Waiter, the rest Chefs
 #function fine:team_join {"team":"Waiter","color":"dark_aqua"}

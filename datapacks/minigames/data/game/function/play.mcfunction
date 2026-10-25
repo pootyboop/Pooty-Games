@@ -6,8 +6,8 @@ tellraw @a {"text":""}
 
 
 
-execute if score dummy playercount matches 1 run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" player, you can play:"}]
-execute unless score dummy playercount matches 1 run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" players, you can play:"}]
+execute if function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" player, you can play:"}]
+execute unless function main:player/is_singleplayer run tellraw @a [{"text":"With ","color":"white"},{"score":{"name":"dummy","objective":"playercount"},"color":"gold"},{"text":" players, you can play:"}]
 tellraw @a {"text":""}
 
 

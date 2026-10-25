@@ -3,9 +3,7 @@ scoreboard players set dummy gameID 20
 
 execute positioned -600.0 60 -600.0 run function dance:setup
 
-scoreboard objectives remove minigamescore
-scoreboard objectives add minigamescore dummy
-scoreboard players set @a minigamescore 0
+function main:score/reset
 
 scoreboard objectives setdisplay sidebar
 

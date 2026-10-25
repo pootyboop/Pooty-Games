@@ -20,7 +20,7 @@ function massacre:role/generate
 function massacre:room/generate
 
 function main:ui/descline
-execute if score #murdererCount dummy matches 0 run return run tellraw @a [{"text":"\n[!] ","color":"dark_aqua"},{"text":"You are the only player. Enjoy the ride!","color":"yellow"}]
+execute if function main:player/is_singleplayer run return run tellraw @a [{"text":"\n[!] ","color":"dark_aqua"},{"text":"You are the only player. Enjoy the ride!","color":"yellow"}]
 
 execute as @a at @s run playsound minecraft:ambient.cave master @s ~ ~ ~ .8 0 .8
 #effect clear @a darkness
