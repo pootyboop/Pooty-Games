@@ -3,7 +3,7 @@ time set 18000
 weather rain 99999999
 gamerule spectatorsGenerateChunks true
 
-forceload add -912 -100 -881 -500
+forceload add -945 -100 -855 -500
 
 setblock -900 61 -281 barrier
 setblock -900 61 -269 barrier

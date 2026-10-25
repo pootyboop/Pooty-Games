@@ -1,1 +1,2 @@
+$execute if entity @s[tag=forceSnow] run return run particle snowflake ~$(x) ~$(y) ~ ^ ^ ^1000000 0.0000025 0 force $(selector)
 $particle snowflake ~$(x) ~$(y) ~ ^ ^ ^1000000 0.0000025 0 normal $(selector)
