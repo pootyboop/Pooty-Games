@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=chainmover] run function pvp:c/chaingun/move/check_mover2

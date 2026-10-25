@@ -1,0 +1,1 @@
+$kill @e[type=item_display,tag=chainmover,scores={uuid0=$(owner)}]
