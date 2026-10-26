@@ -30,5 +30,7 @@ execute if score dummy lastPlayedGameID matches 27 run function blockrun:startga
 execute if score dummy lastPlayedGameID matches 28 run function smallworld:startgame
 execute if score dummy lastPlayedGameID matches 29 run function massacre:startgame
 execute if score dummy lastPlayedGameID matches 30 run function blocktionary:startgame
+execute if score dummy lastPlayedGameID matches 31 run function see:startgame
+execute if score dummy lastPlayedGameID matches 32 run function repairs:startgame
 execute if score dummy lastPlayedGameID matches 100 run function pvp:startgame
 execute if score dummy lastPlayedGameID matches 101 run function delve:startgame

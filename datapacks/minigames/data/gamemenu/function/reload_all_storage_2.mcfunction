@@ -1,9 +1,12 @@
 # Add minigames here
 
 # ============= ALSO ADD THEM TO THE FOLLOWING ============= #
+# Necessary:
 # gamemenu/games/list
-# game/play
 # main/play_last
+
+# To make public:
+# game/play
 # mix/pick_game_2
 # mix/select_id
 
@@ -196,6 +199,23 @@ $$(1) build.genre $(2) "Building"
 #$$(1) build.settings.mode.3.value $(2) "2"
 #$$(1) build.settings.mode.3.item $(2) "book"
 #$$(1) build.settings.mode.3.slot $(2) "14"
+
+
+
+#CHAMBERS OF CHALLENGE
+#$$(3) chambers
+$$(1) chambers.tag $(2) "chambers"
+$$(1) chambers.name $(2) "Chambers of Challenge"
+$$(1) chambers.color $(2) "#FCF5CF"
+$$(1) chambers.item $(2) "chain"
+$$(1) chambers.itemnbt $(2) ''
+$$(1) chambers.page $(2) "1"
+$$(1) chambers.slot $(2) "11"
+$$(1) chambers.desc1 $(2) "Build challenge chambers,"
+$$(1) chambers.desc2 $(2) "then race to complete them!"
+$$(1) chambers.playtime $(2) "15"
+$$(1) chambers.players $(2) "2+"
+$$(1) chambers.genre $(2) "Party Games, Building, Racing"
 
 
 
@@ -595,20 +615,37 @@ $$(1) pillars.settings.mode.2.slot $(2) "14"
 
 
 
-#CHAMBERS OF CHALLENGE
-#$$(3) chambers
-$$(1) chambers.tag $(2) "chambers"
-$$(1) chambers.name $(2) "Chambers of Challenge"
-$$(1) chambers.color $(2) "#FCF5CF"
-$$(1) chambers.item $(2) "chain"
-$$(1) chambers.itemnbt $(2) ''
-$$(1) chambers.page $(2) "1"
-$$(1) chambers.slot $(2) "11"
-$$(1) chambers.desc1 $(2) "Build challenge chambers,"
-$$(1) chambers.desc2 $(2) "then race to complete them!"
-$$(1) chambers.playtime $(2) "15"
-$$(1) chambers.players $(2) "2+"
-$$(1) chambers.genre $(2) "Party Games, Building, Racing"
+#RAPID REPAIRS
+#$$(3) repairs
+$$(1) repairs.tag $(2) "repairs"
+$$(1) repairs.name $(2) "Rapid Repairs"
+$$(1) repairs.color $(2) "#C2AD99"
+$$(1) repairs.item $(2) "creeper_head"
+$$(1) repairs.itemnbt $(2) ''
+#$$(1) repairs.page $(2) "2"
+#$$(1) repairs.slot $(2) "3"
+$$(1) repairs.desc1 $(2) "View a build, then recreate"
+$$(1) repairs.desc2 $(2) " it as fast as you can!"
+$$(1) repairs.playtime $(2) "5"
+$$(1) repairs.players $(2) "1+"
+$$(1) repairs.genre $(2) "Building"
+
+
+
+#SEE NO EVIL
+#$$(3) see
+$$(1) see.tag $(2) "see"
+$$(1) see.name $(2) "See No Evil"
+$$(1) see.color $(2) "#C2AD99"
+$$(1) see.item $(2) "player_head"
+$$(1) see.itemnbt $(2) ',profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ3ZTNiMTlhYzRmM2RlZTljNTY3N2MxMzUzMzNiOWQzNWE3ZjU2OGI2M2QxZWY0YWRhNGIwNjhiNWEyNSJ9fX0="}]}'
+#$$(1) see.page $(2) "2"
+#$$(1) see.slot $(2) "5"
+$$(1) see.desc1 $(2) "Move in silence, or risk"
+$$(1) see.desc2 $(2) "being eaten by the Spider!"
+$$(1) see.playtime $(2) "15"
+$$(1) see.players $(2) "2+"
+$$(1) see.genre $(2) "Horror, Stealth"
 
 
 
